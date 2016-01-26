@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- -*- coding: utf-8 -*- -->
+<html>
+    <head>
+        <title>swarm.hiveeyes.org</title>
+    </head>
+    <body>
+
+    <h1>Welcome to swarm.hiveeyes.org</h1>
+
+    <h2>About</h2>
+    <p>
+        swarm.hiveeyes.org is the data collection hub for the <a href="https://hiveeyes.org/">Hiveeyes</a>, <a href="http://open-hive.org/">Open Hive</a> and <a href="https://github.com/dazz/hivemonitor">Hive Monitor</a> Bienenmonitoring projects.
+        <i>Feel welcome to <a href="mailto:hiveeyes-devs@ideensyndikat.org">join us</a>.</i>
+        <br/><br/>
+
+        The platform has the primary role of a stable integration testbed during construction times and
+        will be continuously monitored and maintained to ensure it's always up and running to be
+        available to everybody working with it.
+        We also do nightly backups of the whole system.
+
+        If you experience any malfunction, please do not hesitate to contact us, our email address is in the footer of this page.
+
+        In order to join the maintenance team, just send your SSH public keys.
+    </p>
+
+    <h2>References</h2>
+    <ul>
+        <li>
+            <a href="https://swarm.hiveeyes.org/grafana/">Grafana</a>
+            <br/>
+            The credentials are:
+            hiveeyes / Efocmunk
+        </li>
+        <br/>
+        <li>
+            <a href="https://swarm.hiveeyes.org/docs/">Documentation</a>
+        </li>
+    </ul>
+
+    <h2>Quickstart</h2>
+    <pre style="font-size: x-large; display: inline">
+    # get hold of a MQTT client of your choice
+    aptitude install mosquitto-clients
+
+    # publish a measurement
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/1/message-json -m '{"temperature": 42.84}'
+    </pre>
+    <br/>
+
+    Go to the <a href="https://swarm.hiveeyes.org/grafana/dashboard/db/testdrive">Testdrive Dashboard</a> and see your measurements floating in.
+
+    <h2>Details</h2>
+    <p>
+
+        Let's have a look at the MQTT topic structure:
+        <ul>
+            <li>
+                "hiveeyes" is the designated root realm for all things Hiveeyes. You should prefix the topic name with this label when opting in for all features of the platform.
+                For other purposes, feel free to publish to any MQTT topic you like.
+            </li>
+            <br/>
+            <li>
+                "testdrive" is your personal realm. Choose anything you like or use an <a href="https://www.guidgenerator.com/">Online GUID Generator</a> to gain maximum uniqueness.
+            </li>
+            <br/>
+            <li>
+                "area-42" is your gateway identifier. Choose anything you like. This does not have to be very unique, so you might use labels having the names of sites. While you are the owner of this namespace hierarchy,
+                remember these labels might be visible on the collaborative ether, though.
+                So the best thing would be to give kind of nicknames to your sites which don't identify their location.
+            </li>
+            <br/>
+            <li>
+                "1" is your node identifier. Choose anything you like.
+                This usually gets transmitted from an embedded device.
+                Remember one node can carry multiple sensors, which is beyond the scope of the collection platform.
+            </li>
+        </ul>
+
+        Let's have a look at the MQTT message payload:
+        <ul>
+            <li>
+                It's really just a plain flat JSON object, mapping field names to measurement values.
+                Go ahead and send anything you like.
+            </li>
+            <br/>
+            <li>
+                We usually prefer bunches of multiple measurement values, but sending them discrete one by one
+                is perfectly fine as well.
+            </li>
+        </ul>
+        <br/>
+    </p>
+
+    <hr/>
+
+    Have fun!
+    <br/><br/>
+    -- <a href="mailto:hiveeyes-devs@ideensyndikat.org">The Hiveeyes Developers</a> (Karsten, Robert, Clemens, Richard, Martin, Andreas, Dazz), 2016-01-26
+
+    </body>
+</html>
