@@ -20,9 +20,23 @@
         We also do nightly backups of the whole system.
 
         If you experience any malfunction, please do not hesitate to contact us, our email address is in the footer of this page.
-
         In order to join the maintenance team, just send your SSH public keys.
     </p>
+
+    <h2>Quickstart</h2>
+    <pre style="font-size: x-large; display: inline">
+    # get hold of a MQTT client of your choice
+    aptitude install mosquitto-clients
+
+    # publish a single measurement
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/1/measure/temperature -m 42.84
+
+    # publish multiple measurements
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/1/message-json -m '{"temperature": 42.84, "humidity": 83}'
+    </pre>
+    <br/>
+
+    Go to the <a href="https://swarm.hiveeyes.org/grafana/dashboard/db/testdrive">Testdrive Dashboard</a> and see your measurements floating in.
 
     <h2>References</h2>
     <ul>
@@ -37,18 +51,6 @@
             <a href="https://swarm.hiveeyes.org/docs/">Documentation</a>
         </li>
     </ul>
-
-    <h2>Quickstart</h2>
-    <pre style="font-size: x-large; display: inline">
-    # get hold of a MQTT client of your choice
-    aptitude install mosquitto-clients
-
-    # publish a measurement
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/1/message-json -m '{"temperature": 42.84}'
-    </pre>
-    <br/>
-
-    Go to the <a href="https://swarm.hiveeyes.org/grafana/dashboard/db/testdrive">Testdrive Dashboard</a> and see your measurements floating in.
 
     <h2>Details</h2>
     <p>
@@ -89,14 +91,40 @@
                 is perfectly fine as well.
             </li>
         </ul>
+    </p>
+
+    <h2>Multi-tenancy and fair-use policy</h2>
+    <ul>
+        <li>
+            The platform is designed with multi-tenancy in mind. Just drop us an email to register
+            your own (sub-)domains with us, e.g. beehive-monitor.example.org.
+        </li>
         <br/>
+        <li>
+            Please regulate your measurement frequency to prevent overloading the platform.
+            We are storing data for the long run.
+            Taking one measurement per five minutes should be enough, don't go further than
+            one measurement per minute.
+            However, there is no throttling in place right now, so feel free to stress-test
+            the platform (moderately and not permanently) in the "testdrive" namespace.
+        </li>
+    </ul>
+
+    <h2>Disclaimer</h2>
+    <p>
+        swarm.hiveeyes.org is voluntarily operated by the Hiveeyes Developers.
+        While always striving for the best, systems may fail.
     </p>
 
     <hr/>
 
     Have fun!
     <br/><br/>
-    -- <a href="mailto:hiveeyes-devs@ideensyndikat.org">The Hiveeyes Developers</a> (Karsten, Robert, Clemens, Richard, Martin, Andreas, Dazz), 2016-01-26
+    -- <a href="mailto:hiveeyes-devs@ideensyndikat.org">The Hiveeyes Developers</a>, 2016-01-26
+    <br/><br/>
+    <small>
+        We are a group of beekeepers from Berlin meeting each wednesday to build this telemetry platform. We are Karsten, Robert, Clemens, Richard, Martin, Andreas and Dazz. If you would like to join, just drop us an email.
+    </small>
 
     </body>
 </html>
