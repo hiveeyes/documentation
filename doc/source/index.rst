@@ -3,14 +3,37 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to swarm.hiveeyes.org's documentation!
-==============================================
+Welcome to swarm.hiveeyes.org!
+==============================
 
-Contents:
+About
+-----
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 1
 
+    about
+    history
+
+
+Maintenance
+-----------
+
+.. toctree::
+    :maxdepth: 1
+
+    setup
+    operations
+
+
+Development
+-----------
+
+.. toctree::
+    :maxdepth: 1
+
+    README
+    tasks
 
 
 Indices and tables

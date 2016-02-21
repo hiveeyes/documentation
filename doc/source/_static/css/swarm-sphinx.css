@@ -1,0 +1,22 @@
+/*
+body, div.body {
+    background-color: #add8e6;
+}
+*/
+
+.wy-nav-content {
+    max-width: 80%;
+}
+
+.wy-side-nav-search > a img.logo {
+    display: inline-block;
+    margin: inherit;
+    vertical-align: middle;
+    width: 80px;
+}
+
+.wy-side-nav-search {
+    background-color: #A00000;
+    /* background-color: #add8e6; */
+    /* background-color: #83B929; */
+}

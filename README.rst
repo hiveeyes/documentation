@@ -1,6 +1,6 @@
-#########################
-swarm.hiveeyes.org README
-#########################
+######
+README
+######
 
 Build documentation
 ===================
