@@ -26,6 +26,7 @@ Platform
     - https://github.com/mozilla/Fira
     - http://mozilla.github.io/Fira/
     - http://www.carrois.com/fira-4-1/
+
 - Redesign topic namespace
 - Improve documentation
 
@@ -41,7 +42,7 @@ Platform
     scp ~/Backup/Desktop/2016-02-19/2016-02-12_hiveeyes-notification-xmpp.jpg root@ptrace.hiveeyes.org:/var/www/ptrace.hiveeyes.org/htdocs/
 
     # automatic
-    make upload-picture source=/tmp/grafana-ber-prototype-1.jpeg
+    make upload-ptrace source=/tmp/grafana-ber-prototype-1.jpeg
 
 
 

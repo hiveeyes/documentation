@@ -14,11 +14,21 @@ rasterize-dashboard-2:
 rasterize-all: rasterize-dashboard-1 rasterize-dashboard-2
 
 
-target := root@ptrace.hiveeyes.org:/var/www/ptrace.hiveeyes.org/htdocs
-upload-picture:
+ptrace_target := root@ptrace.hiveeyes.org:/var/www/ptrace.hiveeyes.org/htdocs/
+ptrace_http   := http://ptrace.hiveeyes.org/
+upload-ptrace:
 	$(eval prefix := $(shell date --iso-8601))
-	$(eval name := $(shell basename $(source)))
-	scp '$(source)' '$(target)/$(prefix)_$(name)'
+	$(eval name   := $(shell basename $(source)))
+	$(eval id     := $(prefix)_$(name))
+
+	@# debugging
+	@#echo "name: $(name)"
+	@#echo "id:   $(id)"
+
+	@scp '$(source)' '$(ptrace_target)$(id)'
+
+	$(eval url    := $(ptrace_http)$(id))
+	@echo "Access URL: $(url)"
 
 
 # ==========================================
@@ -51,3 +61,4 @@ rasterize:
 	$(phantom_js) --ignore-ssl-errors=true '$(rasterize_js)' '$(dashboard_url)' '$(output_image)' $(paper_format)
 	@# --debug=true
 	@# $(zoom_factor)
+
