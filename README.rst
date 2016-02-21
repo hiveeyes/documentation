@@ -8,17 +8,18 @@ Change documentation
 
     git clone git@git.elmyra.de:hiveeyes/swarm-hiveeyes-org.git
     cd swarm-hiveeyes-org
-    vim *.rst
+    <editor> *.rst
 
 Build local docs
 ----------------
 ::
-
+     
+    <package-manager> install python2-virtualenv
     make docs-html  
-    open doc/build/html/index.html 
+    <browser> doc/build/html/index.html # navigate to this path and click index.html
 
 Build global docs
 -----------------
 ::
 
-    git commit && git push # for public
+    git commit && git push # for global access
