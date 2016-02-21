@@ -54,7 +54,7 @@ upcoming
             :width: 320px
             :target: `DIY Antennenbau mit RFM69`_
 
-    - It is connected to the USB RFM69 receiver JeeLink through a SMA_ adapter:
+    - It is connected to the USB RFM69 receiver JeeLink through a SMA adapter:
 
         .. image:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/Jeelink%2BSMA.jpg
             :alt: hiveeyes-one receiver
