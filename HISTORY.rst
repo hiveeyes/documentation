@@ -47,12 +47,28 @@ upcoming
             :width: 320px
             :target: `DIY Antennenbau mit RFM69`_
 
-    - The receiver unit is approx. 120 meters away in line-of-sight distance through a single tree:
+    - The receiving antenna is approx. 120 meters away in line-of-sight distance through a single tree:
 
         .. image:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/BiQuad.jpg
             :alt: hiveeyes-one receiver
             :width: 320px
             :target: `DIY Antennenbau mit RFM69`_
+
+    - It is connected to the USB RFM69 receiver JeeLink through a SMA_ adapter:
+
+        .. image:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/Jeelink%2BSMA.jpg
+            :alt: hiveeyes-one receiver
+            :width: 320px
+            :target: `DIY Antennenbau mit RFM69`_
+
+    - The JeeLink RFM69 receivers is conveniently connected to a RaspberryPi SoC gateway machine:
+
+        .. image:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/GatewayRPI-Jeelink.jpg
+            :alt: Gateway with RaspberryPi
+            :width: 320px
+            :target: `DIY Antennenbau mit RFM69`_
+
+    - Todo: Give short insight into the MQTT ether using GraphViz.
 
     - The Grafana dashboard "BER prototype #1"
 
@@ -64,8 +80,12 @@ upcoming
 
 2016-01
 =======
-- Announce private beta of the `Hiveeyes platform`_ hosted on ``swarm.hiveeyes.org``
-- Work on bringing :ref:`HiveeyesOne` into production
+- Announce beta version of the `Hiveeyes platform`_ hosted on ``swarm.hiveeyes.org``
+- Work on bringing :ref:`HiveeyesOne` into production, the first measurements arrive in Grafana:
+
+    .. image:: http://ptrace.hiveeyes.org/2016-01-25_first-measurements-in-grafana.jpg
+        :alt: hiveeyes-one: first measurements in grafana
+        :width: 320px
 
 
 2015-11
@@ -142,7 +162,21 @@ upcoming
 
 2014-11
 =======
-- Start working on a sensor node based on Felix Rusu's LowPowerLab_ RFM69_ library
+- Start working on a sensor node based on Felix Rusu's LowPowerLab_ RFM12B_/RFM69_ libraries:
+
+    - Two nodes transmitting via RFM12B:
+
+        .. image:: https://hiveeyes.org/raw-attachment/blog/rfm12b%20soldering/IMG_20141130_230212.jpg
+            :alt: Two nodes transmitting via RFM12B
+            :width: 320px
+            :target: `Arduino with RFM12B`_
+
+    - The first characters transmitted via RFM69:
+
+        .. image:: https://hiveeyes.org/raw-attachment/blog/rfm12b%20soldering/IMG_20141130_230359.jpg
+            :alt: First characters transmitted via RFM69
+            :width: 320px
+            :target: `Arduino with RFM12B`_
 
 
 2014-09
