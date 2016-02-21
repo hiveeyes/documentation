@@ -1,6 +1,11 @@
 # ==========================================
 #               project tools
 # ==========================================
+
+
+# Rasterize some public Grafana dashboard snapshots
+rasterize-all: rasterize-dashboard-1 rasterize-dashboard-2
+
 rasterize-dashboard-1:
 	$(MAKE) rasterize \
 		dashboard_url=https://swarm.hiveeyes.org/grafana/dashboard/snapshot/Z9QBKYitgiOq53lrySWkbOSyWUk9rc92 \
@@ -11,9 +16,9 @@ rasterize-dashboard-2:
 		dashboard_url=https://swarm.hiveeyes.org/grafana/dashboard/snapshot/b87pjWd80DfENQXBa4JzTT5mSUt83Tsd \
 		output_image=./doc/source/_static/img/grafana-ber-prototype-2.jpeg
 
-rasterize-all: rasterize-dashboard-1 rasterize-dashboard-2
 
-
+# Don't commit media assets (screenshots, etc.) to the repository.
+# Instead, upload them to http://ptrace.hiveeyes.org/
 ptrace_target := root@ptrace.hiveeyes.org:/var/www/ptrace.hiveeyes.org/htdocs/
 ptrace_http   := http://ptrace.hiveeyes.org/
 upload-ptrace:
