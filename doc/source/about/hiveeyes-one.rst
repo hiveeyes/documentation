@@ -6,5 +6,5 @@ Blubb.
     :width: 320px
     :target: `HEnode Version 0.2.2`_
 
-.. _HEnode Version 0.2.2: https://hiveeyes.ideensyndikat.org/blog/einsiedlerkrebs-2016/02/11/my_topic
+.. _HEnode Version 0.2.2: https://hiveeyes.org/wiki/Hardware/Prototyping/node_v02 
 
