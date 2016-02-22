@@ -49,6 +49,7 @@
 .. _Arduino with RFM12B: https://hiveeyes.org/blog/rfm12b%20soldering
 .. _DIY antennas for RFM69: https://hiveeyes.org/blog/einsiedlerkrebs-2015/10/14/Antenna
 .. _BERadio: https://hiveeyes.org/docs/beradio/
+
 .. _BERadio specification: https://hiveeyes.org/docs/beradio/beradio.html
 .. _BERadio 0.4.4 changes: https://hiveeyes.org/docs/beradio/changes.html#beradio-0-4-4
 .. _Kotori: https://hiveeyes.org/docs/kotori/
@@ -56,6 +57,9 @@
 .. _HEnode: https://hiveeyes.org/blog/category/HEnode
 .. _HEnode version 0.1: https://hiveeyes.org/blog/rfm12b%20soldering
 .. _HEnode version 0.2.2: https://hiveeyes.org/blog/einsiedlerkrebs-2016/02/11/my_topic
+
+.. _Gateway-JeePi: https://hiveeyes.org/wiki/Hardware/Prototyping/gateway_v01-jeePi
+
 
 .. Hive Monitor
 .. _Hive Monitor: https://github.com/dazz/hivemonitor

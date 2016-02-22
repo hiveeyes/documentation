@@ -91,7 +91,7 @@ Hiveeyes radio receiver and sender
 
 Hiveeyes radio-to-mqtt gateway
 ------------------------------
-A JeeLink_ RFM69_ receiver is connected to a RaspberryPi_ SoC machine through USB,
+A JeeLink_ RFM69_ receiver is connected to the Gateway-JeePi_, a RaspberryPi_ SoC machine through USB,
 acting as gateway and used as development and integration system.
 This runs the BERadio_ gateway subsystem, a convenient serial-to-`MQTT`_ forwarder written in Python.
 Also, we compile Arduino_ code on this machine and reprogram the devices.
