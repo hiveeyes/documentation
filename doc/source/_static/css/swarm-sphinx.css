@@ -53,3 +53,13 @@ body, div.body {
     margin-left: 10%;
     width: 300px;
 }
+
+
+/* tune sphinx.ext.todo */
+#todo.section .admonition-todo {
+    margin-bottom: 0;
+}
+#todo.section .todo-source {
+    font-size: small;
+    text-align: right;
+}

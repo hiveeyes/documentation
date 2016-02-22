@@ -19,7 +19,7 @@ He engineered the RFM69_-based node communication hardware and software HEnode_.
     - `Arduino with RFM12B`_
     - `DIY antennas for RFM69`_
     - `HEnode version 0.2.2`_
-    - .. todo:: HEnode software
+    - .. todo:: Publish HEnode_ Arduino_ source code, currently still living in `arduino-playground`_
 
 as well as the message encapsulation in form of the:
 

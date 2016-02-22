@@ -27,6 +27,7 @@ History
 .. figure:: _static/img/mqtt-link.png
     :width: 75px
     :figclass: vertical-align-middle
+    :target: Kotori_
 
     mqttlink++
 
@@ -39,6 +40,11 @@ History
     Grafana dashboard "BER prototype #2"
 
 |clearfix|
+
+.. todo::
+
+    Get some pictures from the ESP8266_ actually transmitting telemetry data here.
+    Write some lines about the past and current setups at :ref:`OpenHive`.
 
 
 2016-02-12
@@ -73,6 +79,7 @@ Hiveeyes radio receiver and sender
 .. figure:: _static/img/radio-waves.svg
     :width: 75px
     :figclass: vertical-align-middle
+    :target: RFM69_
 
     radio link
 
@@ -119,10 +126,10 @@ Also, we compile Arduino_ code on this machine and reprogram the devices.
 
 Hiveeyes WAN and backend
 ------------------------
-The wide area communication, storage and visualization
-is performed by BERadio_, MQTT_, Kotori_, InfluxDB_ and Grafana_.
+The wide area communication, storage and visualization is performed
+by BERadio_, Mosquitto_, Kotori_, InfluxDB_ and Grafana_.
 
-.. todo:: GraphViz flow graphs for giving insight into the communication paths between these components
+.. todo:: GraphViz_ flow graphs for giving insight into the communication paths between these components
 
 .. figure:: http://ptrace.hiveeyes.org/2016-02-04_grafana-ber-prototype-1.jpeg
     :target: https://swarm.hiveeyes.org/grafana/dashboard/snapshot/Z9QBKYitgiOq53lrySWkbOSyWUk9rc92
@@ -165,8 +172,8 @@ payloads between the serial interface and the Mosquitto_ message broker.
 
 2015-11
 =======
-- Proof-of-concept telemetry platform based on InfluxDB_ and Grafana_ with Kotori_ 0.3.2 and BERadio_ 0.4.4.
-  See upstream changes:
+- Proof-of-concept telemetry platform based on Mosquitto_, InfluxDB_ and Grafana_
+  with Kotori_ 0.3.2 and BERadio_ 0.4.4. See upstream changes:
 
     - `Kotori 0.3.2 changes`_
     - `BERadio 0.4.4 changes`_
@@ -184,7 +191,7 @@ payloads between the serial interface and the Mosquitto_ message broker.
       protocol used for radio link communication. Throws Bencode_
       into the mix of the constrained environment of RFM69_ with Moteino_.
     - the BERadio_ Python library, for forwarding payloads between
-      a JeeLink_ receiving data payloads via RFM69_ on a serial interface
+      a JeeLink_ receiving data via RFM69_ on a serial interface
       of a RaspberryPi_ and the MQTT_ message broker Mosquitto_.
 
 - Investigate SPI-Flash & Dualoptiboot for over-the-air programming
@@ -225,7 +232,7 @@ payloads between the serial interface and the Mosquitto_ message broker.
 
 Open Hive Bee Scale
 -------------------
-The `Open Hive Bee Scale`_ is a low-cost weight module (prototype II)
+The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 
 .. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-0/p206x206/11188491_10204255677331817_1170125921095812284_n.jpg?oh=e86eff2ce77a3dfc2659cf7c29b438a2&oe=5755CAF2
     :target: `Open Hive Bee Scale`_
@@ -241,7 +248,7 @@ The `Open Hive Bee Scale`_ is a low-cost weight module (prototype II)
 =======
 - Spin up Trac_ instance as a `Wiki of the Hiveeyes project <Hiveeyes project_>`_
 
-`Open Hive`_ weight platform (prototype I)
+`Open Hive`_ load cell platform (prototype I)
 
 .. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-0/p206x206/1558384_10201453236632551_648198296_n.jpg?oh=4efa966bf4c5d966bb627ba9d795e659&oe=5757B42C
     :target: `CNC Machining Workshop`_

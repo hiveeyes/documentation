@@ -46,6 +46,8 @@
 .. Hiveeyes
 .. _Hiveeyes project: https://hiveeyes.org/
 .. _Hiveeyes platform: https://swarm.hiveeyes.org/
+.. _Hiveeyes system documentation: https://swarm.hiveeyes.org/docs/
+.. _Google translation of the "Hiveeyes system documentation" tasks: https://translate.google.com/translate?hl=en&sl=de&tl=en&u=https%3A%2F%2Fswarm.hiveeyes.org%2Fdocs%2Ftasks.html
 .. _Arduino with RFM12B: https://hiveeyes.org/blog/rfm12b%20soldering
 .. _DIY antennas for RFM69: https://hiveeyes.org/blog/einsiedlerkrebs-2015/10/14/Antenna
 .. _BERadio: https://hiveeyes.org/docs/beradio/
@@ -56,10 +58,11 @@
 .. _Kotori 0.3.2 changes: https://hiveeyes.org/docs/kotori/changes.html#proof-of-concept-for-vendor-vendor-hiveeyes
 .. _HEnode: https://hiveeyes.org/blog/category/HEnode
 .. _HEnode version 0.1: https://hiveeyes.org/blog/rfm12b%20soldering
-.. _HEnode version 0.2.2: https://hiveeyes.org/blog/einsiedlerkrebs-2016/02/11/my_topic
+.. _HEnode version 0.2.2: https://hiveeyes.org/wiki/Hardware/Prototyping/node_v02
 
 .. _Gateway-JeePi: https://hiveeyes.org/wiki/Hardware/Prototyping/gateway_v01-jeePi
 
+.. _Grafana dashboard "BER prototype #1": https://swarm.hiveeyes.org/grafana/dashboard/snapshot/Z9QBKYitgiOq53lrySWkbOSyWUk9rc92
 
 .. Hive Monitor
 .. _Hive Monitor: https://github.com/dazz/hivemonitor
@@ -90,7 +93,9 @@
 .. Project and platform tools
 .. _Trac: https://trac.edgewall.org/
 .. _Backupninja: https://labs.riseup.net/code/projects/backupninja
-
+.. _Pandoc: http://pandoc.org/
+.. _sphinxcontrib-images: https://pythonhosted.org/sphinxcontrib-images/
+.. _"Group images" feature of sphinxcontrib-images: https://pythonhosted.org/sphinxcontrib-images/#group-images
 
 
 .. Clearfix in reStructuredText

@@ -1,13 +1,176 @@
 ####
-TODO
+Todo
 ####
+
+List of collected ``.. todo::`` admonitions:
+
+.. todoList::
+
+----
+
+#####
+Ideas
+#####
+
+As this is our brainstorming area, lots of content is in german, sorry.
+You might want to try the `Google translation of the "Hiveeyes system documentation" tasks`_.
 
 ****
 2016
 ****
 
+
+2016-02-22 Richard, Andreas
+===========================
+- [o] Datenimport und -export über CSV
+- [o] Tabellarische Daten über datatable_
+- Naming things: Will *HiveFive* be a proper name for the convenience kit?
+
+
+2016-02-22 Clemens, Andreas
+===========================
+- [o] Kotori_ should be able to talk FTP (e.g. for batch-mode transmission of CSV data)
+
+  .. todo:: Link to GPRS module capable of talking FTP
+
+- [o] There should be a PHP script which is API-compatible to a future CoAP_ interface of Kotori_
+  to smooth the learning curve and lower the bar.
+
+  .. todo:: Research whether there already is a convenient PHP library talking CoAP_
+
+- [o] This PHP script could also be used as a generic WebHook_ receiver
+  when Kotori_ is dispatching messages to different receivers. mqttwarn_ might help.
+
+- [o] Add first steps of Bienenmonitoring [2013] to project history
+- [o] Fix image links re. ESP8266
+
+
+2016-02-21 Andreas
+==================
+Documentation updates
+
+- [x] Add stub "About Open Hive"
+- [x] Write text about :ref:`HiveeyesOne`
+- [x] Write text about :ref:`OpenHive`
+- [x] Auf Kotori 0.3.2 and BERadio 0.4.4 CHANGELOG verlinken
+- [x] Richards neue Bilder reintun
+- [o] Tag swarm-hiveeyes-org @ 0.1.0
+- [o] Add bumpversion
+- [o] Use the `"Group images" feature of sphinxcontrib-images`_ of the fine `sphinxcontrib-images`_ Sphinx_ module
+
+
+2016-02-20 Andreas
+==================
+
+Milestone 1
+-----------
+- Kotori
+
+    - Arbeit an der Dokumentation, siehe commits von gestern
+    - Vorbereitung des Release 0.6.0 im aktuellen Zustand mit den Doku Updates (die 0.5.1 ist vom 26. November)
+    - Release eines einigermaßen sauberen bzw. benutzbaren Debian Pakets
+
+- BERadio
+
+    - Arbeit an der Dokumentation
+    - Vorbereitung des Release 0.5.0 im aktuellen Zustand mit den Doku Updates (die 0.4.4 ist vom 27. Oktober)
+    - Release per Python source Paket (egg), wie gehabt
+
+- swarm.hiveeyes.org
+
+    - [x] Anlegen der Sphinx Doku, Bilder!
+    - [x] Vollautomatisierung der Sphinx_ Doku Publikation als `Hiveeyes system documentation`_ auf ``swarm.hiveeyes.org``
+    - [x] Erste Inhalte, Projekthistorie
+    - [o] Ein paar einleitende Worte zum Gesamtprojekt in einer ``about.rst``
+    - [o] Verlagerung der technischen Details vom derzeitigen Splashscreen der `Hiveeyes platform`_
+      in die Sphinx_ Doku der `Hiveeyes system documentation`_
+    - [o] Übertragung von Richards Inhalten aus `grafana_about.md`_ sowie `sensor_setup.md`_
+      in die Sphinx_ Doku als reStructuredText_, Konvertierung per Pandoc_
+    - [o] Halbautomatisierung der Rückkonvertierung von reStructuredText_ zu Markdown_ per Pandoc_
+      zur Weiterverwendung innerhalb von Grafana_ Textpanels wie z.B. `Grafana dashboard "BER prototype #1"`_
+    - [o] Die nach reStructuredText_ umgewandelten Inhalte aus `grafana_about.md`_ und `sensor_setup.md`_
+      auch in die Sphinx Doku von BERadio_ und Kotori_ einbauen und/oder verlinken
+
+.. _grafana_about.md: https://git.elmyra.de/hiveeyes/arduino-playground/blob/master/doc/grafana_about.md
+.. _sensor_setup.md:  https://git.elmyra.de/hiveeyes/arduino-playground/blob/master/doc/sensor_setup.md
+
+
+Milestone 2
+-----------
+
+.. tip:: Ab jetzt möglichst auch mit feature branches in den code repositories arbeiten.
+
+- Kotori 0.7.0
+
+    - Reguläres refactoring
+
+    - MQTT Topic
+
+        - Implementierung der "Content Type" Signalisierung über pseudo-Dateiendungen wie geplant
+          (Inspired by Nick O’Leary and Jan-Piet Mens; Acked by Clemens and Richard)::
+
+                hiveeyes/testdrive/area42/hive3/temperature vs. hiveeyes/testdrive/area42/hive3.json
+
+          Weitere Diskussion und Implementierung der "Direction" Signalisierung (Inspired by computourist, Pushed by Richard)
+          Proposal::
+
+                .../node3/{direction}/{sensor}.foo
+
+        - Generalisierung der BERadioNetworkApplication / HiveeyesApplication vendor Architektur
+        - Verbesserung der service-in-service Infrastruktur mit nativen Twisted service containern
+        - Flexiblere Anwendungsfälle ähnlich dem von Hiveeyes ermöglichen: mqtt topic first-level segment "hiveeyes/"
+          (the "realm") per Konfigurationsdatei bestimmen (Wunsch von Dazz)
+        - Einführung von Softwaretests
+
+- BERadio 0.6.0
+
+    - Generalisierung der Funktionalität, Stichwort "mqttkit"
+    - Verbesserung der Dokumentation
+
+- swarm.hiveeyes.org
+
+    - Prototypische Einbindung von mqttwarn_ in unser Gesamtsystem :-)
+
+
+
+Research (unabhängig davon)
+---------------------------
+Mit ein paar Dingen müssen wir uns noch stärker beschäftigen.
+
+- InfluxDB
+
+    - Wie geht man am besten mit InfluxDB-nativen Tags in unserem Kontext um?
+      Bemerkung: Vielleicht war die Trennung auf Datenbank/Tableebene die falsche Strategie
+      bzw. es gibt noch weitere, die orthogonal davon zusätzlich oder alternativ sinnvoll sind.
+
+- Grafana
+
+    - Wie kann man hier die Tags aus InfluxDB am besten verarbeiten und in den Dashboards praktisch nutzen?
+    - Wie funktionieren Annotations mit InfluxDB?
+
+- Gesamtsystem
+
+    - Auch hier wird im Zusammenspiel der Komponenten noch viel geschwummst werden müssen.
+      Ausblick: mqttwarn_ besser mit Kotori integrieren (via API)
+      und als universeller Nachrichtenvermittler auf ``swarm.hiveeyes.org`` betreiben.
+
+
+2016-02-15 Andreas
+==================
+
+Audio analysis
+--------------
+- https://academo.org/demos/spectrum-analyzer/
+- https://github.com/borismus/spectrogram
+- https://news.ycombinator.com/item?id=11033290
+
+
+
+2016-02-12 Richard, Andreas
+===========================
+
 Platform
-========
+--------
 - Zuordnung/Verdrahtung von Sensoren zu Hardware Ports zu measurement fields zu Grafana dashboard/panel [Richard]
 
     - Beschäftigung mit InfluxDB Tags und deren Benutzung in Grafana
@@ -45,11 +208,9 @@ Platform
     make ptrace-hiveeyes source=/tmp/grafana-ber-prototype-1.jpeg
 
 
-
-
 BERadio
-=======
-- Add SMILE and UBJSON to `BERadio serialization format comparison <https://hiveeyes.org/docs/beradio/test/comparison.html>`_
+-------
+- Add SMILE_ and UBJSON_ to `BERadio serialization format comparison <https://hiveeyes.org/docs/beradio/test/comparison.html>`_
 
     - https://en.wikipedia.org/wiki/Smile_%28data_interchange_format%29
     - https://en.wikipedia.org/wiki/UBJSON
@@ -60,9 +221,11 @@ BERadio
 - Add computourist and others: https://hiveeyes.org/docs/beradio/research/prior-art.html
 - Work on https://git.elmyra.de/hiveeyes/beradio/blob/master/src/cpp/examples/simple_message.cpp
 
+
 Kotori
-======
+------
 - Add more protocols
+
     - CoAP
     - CSV over UDP
     - HTTP/REST
@@ -70,8 +233,9 @@ Kotori
         - CSV
         - Single values via x-www-form-urlencoded
         - Bunch of JSON
+
 - Add software tests
-- Log file rotation for /var/log/kotori/kotori.log
+- Log file rotation for ``/var/log/kotori/kotori.log``
 
 ::
 
@@ -81,17 +245,10 @@ Kotori
     2016-02-15T12:48:38+0100 [mqtt.client.factory.MQTTFactory  ] INFO: Stopping factory <mqtt.client.factory.MQTTFactory instance at 0x7f347c5b9a28>
 
 
-Audio analysis
-==============
-- https://academo.org/demos/spectrum-analyzer/
-- https://github.com/borismus/spectrogram
-- https://news.ycombinator.com/item?id=11033290
 
-
-
-****
-2015
-****
+*************
+2015 December
+*************
 
 Platform
 ========
@@ -99,15 +256,15 @@ Platform
 Prio 1
 ------
 - [x] Close sensitive ports
-- [x] Backupninja handler for InfluxDB
-- [x] Run with non-admin Grafana account
+- [x] Backupninja_ handler for InfluxDB_
+- [x] Run with non-admin Grafana_ account
 - [x] Make system reboot-safe
-- [o] Run with non-admin InfluxDB account
+- [o] Run with non-admin InfluxDB_ account
 
 Prio 2
 ------
 - [x] map domains
-- [x] change url in beradio
+- [x] change url in BERadio_
 - [x] make application/index
 - [x] enhance 04-hiveeyes
 - [o] graph-screenshot for splash screen
@@ -117,12 +274,11 @@ Prio 2
 
     - [o] Sending field names with underscore prefixes
     - [o] Sending timestamps
-- [x] Republish / link to more technical information from BERadio and Kotori
+- [x] Republish / link to more technical information from BERadio_ and Kotori_
 
 
 Software
 ========
-
 - [o] Send measurements via Javascript from https://swarm.hiveeyes.org/
-- [o] Extract essential boilerplate code from "beradio" and publish as "mqttkit"
-- [o] Publish Kotori repository
+- [o] Extract essential boilerplate code from BERadio_ and publish as mqttkit_
+- [o] Publish Kotori_ repository
