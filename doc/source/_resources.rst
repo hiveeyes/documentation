@@ -42,6 +42,7 @@
 .. _Arduino with RFM12B: https://hiveeyes.org/blog/rfm12b%20soldering
 .. _Kotori: https://hiveeyes.org/docs/kotori/
 .. _BERadio: https://hiveeyes.org/docs/beradio/
+.. _Gateway-JeePi: https://hiveeyes.org/wiki/Hardware/Prototyping/gateway_v01-jeePi
 
 .. mqttwarn
 .. _mqttwarn: https://github.com/jpmens/mqttwarn/

@@ -61,7 +61,7 @@ upcoming
             :width: 320px
             :target: `DIY Antennenbau mit RFM69`_
 
-    - The JeeLink RFM69 receivers is conveniently connected to a RaspberryPi SoC gateway machine:
+    - The Gateway-JeePi_ , a JeeLink RFM69 receiver, which is conveniently connected to a RaspberryPi SoC gateway machine:
 
         .. image:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/GatewayRPI-Jeelink.jpg
             :alt: Gateway with RaspberryPi
