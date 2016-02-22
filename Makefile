@@ -93,7 +93,7 @@ rasterize:
 #
 
 bumpversion:
-	bumpversion $(bump)
+	.venv/bin/bumpversion $(bump)
 
 push:
 	git push && git push --tags
