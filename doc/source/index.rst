@@ -1,3 +1,5 @@
+.. include:: _resources.rst
+
 .. swarm.hiveeyes.org documentation master file, created by
    sphinx-quickstart on Tue Jan 26 00:00:38 2016.
    You can adapt this file completely to your liking, but it should at least
@@ -19,24 +21,30 @@ About
     history
 
 
-Maintenance
------------
+Contributions are welcome!
+--------------------------
+
+.. toctree::
+    :maxdepth: 1
+
+    README
+    changes
+    tasks
+
+
+Embedded software
+-----------------
+.. todo:: Describe how to get the Arduino_ source code for the micro controllers
+
+
+Backend software
+----------------
 
 .. toctree::
     :maxdepth: 1
 
     setup
     operations
-
-
-Development
------------
-
-.. toctree::
-    :maxdepth: 1
-
-    README
-    tasks
 
 
 Indices and tables

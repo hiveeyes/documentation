@@ -1,8 +1,8 @@
 .. include:: _resources.rst
 
-###################
-Platform operations
-###################
+##########
+Operations
+##########
 
 ******
 Backup

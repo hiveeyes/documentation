@@ -4,16 +4,6 @@
 
 ----
 
-####
-Todo
-####
-
-List of collected ``.. todo::`` admonitions:
-
-.. todoList::
-
-----
-
 #####
 Ideas
 #####
@@ -321,3 +311,15 @@ Software
 - [o] Send measurements via Javascript from https://swarm.hiveeyes.org/
 - [o] Extract essential boilerplate code from BERadio_ and publish as mqttkit_
 - [o] Publish Kotori_ repository
+
+
+----
+
+
+####
+Todo
+####
+
+List of collected ``.. todo::`` admonitions:
+
+.. todoList::

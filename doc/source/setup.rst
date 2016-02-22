@@ -1,8 +1,8 @@
 .. include:: _resources.rst
 
-##############
-Platform setup
-##############
+#####
+Setup
+#####
 
 ***************
 Setup on Debian
