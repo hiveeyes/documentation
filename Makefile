@@ -67,3 +67,35 @@ rasterize:
 	@# --debug=true
 	@# $(zoom_factor)
 
+
+# ==========================================
+#                 releasing
+# ==========================================
+#
+# Release targets for convenient release cutting.
+#
+# Synopsis::
+#
+#    make release bump={patch,minor,major}
+#
+# Setup:
+#
+#    - Make sure you have e.g. ``bumpversion==0.5.3`` in your ``requirements.txt``
+#    - Add a ``.bumpversion.cfg`` to your project root properly reflecting
+#      the current version and the list of files to bump versions in. Example::
+#
+#        [bumpversion]
+#        current_version = 0.1.0
+#        files = doc/source/conf.py
+#        commit = True
+#        tag = True
+#        tag_name = {new_version}
+#
+
+bumpversion:
+	bumpversion $(bump)
+
+push:
+	git push && git push --tags
+
+release: virtualenv bumpversion push
