@@ -21,7 +21,7 @@ rasterize-dashboard-2:
 # Instead, upload them to http://ptrace.hiveeyes.org/
 ptrace_target := root@ptrace.hiveeyes.org:/var/www/ptrace.hiveeyes.org/htdocs/
 ptrace_http   := http://ptrace.hiveeyes.org/
-upload-ptrace:
+ptrace-hiveeyes:
 	$(eval prefix := $(shell date --iso-8601))
 	$(eval name   := $(shell basename $(source)))
 	$(eval id     := $(prefix)_$(name))

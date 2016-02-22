@@ -42,7 +42,8 @@ Platform
     scp ~/Backup/Desktop/2016-02-19/2016-02-12_hiveeyes-notification-xmpp.jpg root@ptrace.hiveeyes.org:/var/www/ptrace.hiveeyes.org/htdocs/
 
     # automatic
-    make upload-ptrace source=/tmp/grafana-ber-prototype-1.jpeg
+    make ptrace-hiveeyes source=/tmp/grafana-ber-prototype-1.jpeg
+
 
 
 
