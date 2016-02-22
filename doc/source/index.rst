@@ -12,7 +12,8 @@ About
 .. toctree::
     :maxdepth: 1
 
-    about
+    vendor/open-hive/index
+    vendor/hiveeyes-one/index
     history
 
 

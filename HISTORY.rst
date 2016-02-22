@@ -1,106 +1,192 @@
 #######
-HISTORY
+History
 #######
 
-upcoming
-========
+.. contents::
+   :local:
+   :depth: 1
+
+----
+
+****
+2016
+****
 
 2016-02-16
 ==========
-- `Open Hive`_ starts transmitting data.
+:ref:`open-hive` starts transmitting data. Cheers!
 
-    - The second sensor node is sending data from the workbench:
+.. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-0/p240x240/11693953_10204755930037822_8992406508094252562_n.jpg?oh=2391a5f426494a2b09cdb1b92be59fd8&oe=572C042A
+    :target: `Open Hive Shields`_
+    :alt: hiveeyes-two sender
+    :width: 320px
+    :align: left
 
-        .. image:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-0/p240x240/11693953_10204755930037822_8992406508094252562_n.jpg?oh=2391a5f426494a2b09cdb1b92be59fd8&oe=572C042A
-            :alt: hiveeyes-two sender
-            :width: 320px
-            :target: `Open Hive Shields`_
+    Sensor node sending data from the workbench
 
-    - The Grafana dashboard "BER prototype #2"
+.. figure:: _static/img/mqtt-link.png
+    :width: 75px
+    :figclass: vertical-align-middle
 
-        .. image:: http://ptrace.hiveeyes.org/2016-02-16_grafana-ber-prototype-2.jpeg
-            :alt: hiveeyes-two dashboard
-            :width: 320px
-            :target: https://swarm.hiveeyes.org/grafana/dashboard/snapshot/b87pjWd80DfENQXBa4JzTT5mSUt83Tsd
+    mqttlink++
+
+.. figure:: http://ptrace.hiveeyes.org/2016-02-16_grafana-ber-prototype-2.jpeg
+    :target: https://swarm.hiveeyes.org/grafana/dashboard/snapshot/b87pjWd80DfENQXBa4JzTT5mSUt83Tsd
+    :alt: hiveeyes-two dashboard
+    :width: 320px
+    :align: right
+
+    Grafana dashboard "BER prototype #2"
+
+|clearfix|
 
 
 2016-02-12
 ==========
-- Start integrating with mqttwarn_: Add `feature "dynamic topic targets"`_ to `incorporate topic names into topic targets`_
-- Receive messages from MQTT_ bus and republish to XMPP_:
+Start integrating with mqttwarn_: Add `feature "dynamic topic targets"`_ to `incorporate topic names into topic targets`_.
 
-    .. image:: http://ptrace.hiveeyes.org/2016-02-12_hiveeyes-notification-xmpp.jpg
-        :alt: xmpp messages from mqttwarn
-        :width: 320px
+.. figure:: http://ptrace.hiveeyes.org/2016-02-12_hiveeyes-notification-xmpp.jpg
+    :alt: xmpp messages from mqttwarn
+    :width: 320px
 
+    Receive messages from MQTT_ and republish to XMPP_
 
 
 
 2016-02-04
 ==========
-- :ref:`hiveeyes-one` starts transmitting data, cheers!
+:ref:`hiveeyes-one` starts transmitting data. Cheers!
 
-    - The first sensor node is deployed to a hive:
+Hiveeyes radio receiver and sender
+----------------------------------
+.. figure:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/BiQuad.jpg
+    :target: `DIY antennas for RFM69`_
+    :alt: hiveeyes-one receiver
+    :figclass: caption-narrow rotated
+    :width: 320px
+    :class: rotate-right
+    :align: left
 
-        .. image:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/Distanz.jpg
-            :alt: hiveeyes-one sender
-            :width: 320px
-            :target: `DIY Antennenbau mit RFM69`_
+    The receiving antenna, see also `DIY antennas for RFM69`_
 
-    - The receiving antenna is approx. 120 meters away in line-of-sight distance through a single tree:
+.. from: http://all-free-download.com/free-vector/download/antenna_and_radio_waves_clip_art_9501.html
+.. figure:: _static/img/radio-waves.svg
+    :width: 75px
+    :figclass: vertical-align-middle
 
-        .. image:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/BiQuad.jpg
-            :alt: hiveeyes-one receiver
-            :width: 320px
-            :target: `DIY Antennenbau mit RFM69`_
+    radio link
 
-    - It is connected to the USB RFM69 receiver JeeLink through a SMA_ adapter:
+.. figure:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/Distanz.jpg
+    :target: `DIY antennas for RFM69`_
+    :alt: hiveeyes-one sender
+    :figclass: caption-narrow
+    :width: 320px
+    :align: right
 
-        .. image:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/Jeelink%2BSMA.jpg
-            :alt: hiveeyes-one receiver
-            :width: 320px
-            :target: `DIY Antennenbau mit RFM69`_
+    The first "HEnode_" sensor node sits in a hive approx. 120 meters away
+    in line-of-sight distance through a single tree
 
-    - The JeeLink RFM69 receivers is conveniently connected to a RaspberryPi SoC gateway machine:
-
-        .. image:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/GatewayRPI-Jeelink.jpg
-            :alt: Gateway with RaspberryPi
-            :width: 320px
-            :target: `DIY Antennenbau mit RFM69`_
-
-    - Todo: Give short insight into the MQTT ether using GraphViz.
-
-    - The Grafana dashboard "BER prototype #1"
-
-        .. image:: http://ptrace.hiveeyes.org/2016-02-04_grafana-ber-prototype-1.jpeg
-            :alt: hiveeyes-one dashboard
-            :width: 320px
-            :target: https://swarm.hiveeyes.org/grafana/dashboard/snapshot/Z9QBKYitgiOq53lrySWkbOSyWUk9rc92
+|clearfix|
 
 
-2016-01
-=======
+Hiveeyes radio-to-mqtt gateway
+------------------------------
+A JeeLink_ RFM69_ receiver is connected to a RaspberryPi_ SoC machine through USB,
+acting as gateway and used as development and integration system.
+This runs the BERadio_ gateway subsystem, a convenient serial-to-`MQTT`_ forwarder written in Python.
+Also, we compile Arduino_ code on this machine and reprogram the devices.
+
+.. figure:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/Jeelink%2BSMA.jpg
+    :target: `DIY antennas for RFM69`_
+    :alt: hiveeyes-one receiver
+    :width: 320px
+    :figclass: caption-narrow
+    :align: left
+
+    The antenna is connected to the USB RFM69_ receiver JeeLink_ through a SMA connector
+
+.. figure:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/GatewayRPI-Jeelink.jpg
+    :target: `DIY antennas for RFM69`_
+    :alt: Gateway with RaspberryPi and JeeLink
+    :width: 320px
+    :figclass: caption-narrow
+    :align: right
+
+    Gateway with RaspberryPi_ and JeeLink_
+
+|clearfix|
+
+
+Hiveeyes WAN and backend
+------------------------
+The wide area communication, storage and visualization
+is performed by BERadio_, MQTT_, Kotori_, InfluxDB_ and Grafana_.
+
+.. todo:: GraphViz flow graphs for giving insight into the communication paths between these components
+
+.. figure:: http://ptrace.hiveeyes.org/2016-02-04_grafana-ber-prototype-1.jpeg
+    :target: https://swarm.hiveeyes.org/grafana/dashboard/snapshot/Z9QBKYitgiOq53lrySWkbOSyWUk9rc92
+    :alt: hiveeyes-one dashboard
+    :width: 320px
+    :align: right
+
+    Grafana dashboard "BER prototype #1"
+
+|clearfix|
+
+
+2016-01-29
+==========
 - Announce beta version of the `Hiveeyes platform`_ hosted on ``swarm.hiveeyes.org``
-- Work on bringing :ref:`HiveeyesOne` into production, the first measurements arrive in Grafana:
 
-    .. image:: http://ptrace.hiveeyes.org/2016-01-25_first-measurements-in-grafana.jpg
-        :alt: hiveeyes-one: first measurements in grafana
-        :width: 320px
+
+2016-01-25
+==========
+Work on bringing :ref:`HiveeyesOne` into the field
+
+.. figure:: http://ptrace.hiveeyes.org/2016-01-25_first-measurements-in-grafana.jpg
+    :alt: hiveeyes-one: first measurements in grafana
+    :width: 320px
+
+    The first measurements arrive in Grafana
+
+
+2016-01-03
+==========
+Start the `Hive Monitor`_ project featuring the `Hive Monitor Vagrant VM`_
+and some `Hive Monitor Python scripts`_ for playing around with MQTT_ and forwarding
+payloads between the serial interface and the Mosquitto_ message broker.
+
+
+****
+2015
+****
 
 
 2015-11
 =======
-- Proof-of-concept telemetry platform based on InfluxDB_ and Grafana_ with Kotori_ 0.3.2 and BERadio_ 0.4.4
-- Further improve :ref:`HiveeyesOne`
+- Proof-of-concept telemetry platform based on InfluxDB_ and Grafana_ with Kotori_ 0.3.2 and BERadio_ 0.4.4.
+  See upstream changes:
+
+    - `Kotori 0.3.2 changes`_
+    - `BERadio 0.4.4 changes`_
+
+- Further improve :ref:`HiveeyesOne` hardware and software
 
 
 2015-10
 =======
 - `Open Hive`_ is at the `Maker Faire Berlin`_ from 2015-10-03 to 2015-10-05
 - Continue working on :ref:`HiveeyesOne`
-- Conceive `serial-to-mqtt`_ and BERadio_
-- BERadio_ specification v1
-- BERadio_ specification v2
+- Build upon `serial-to-mqtt`_ by `Andy Piper`_ and `Didier Donsez`_ and iterate into
+
+    - the `BERadio specification`_, an efficient ether transport
+      protocol used for radio link communication. Throws Bencode_
+      into the mix of the constrained environment of RFM69_ with Moteino_.
+    - the BERadio_ Python library, for forwarding payloads between
+      a JeeLink_ receiving data payloads via RFM69_ on a serial interface
+      of a RaspberryPi_ and the MQTT_ message broker Mosquitto_.
+
 - Investigate SPI-Flash & Dualoptiboot for over-the-air programming
 
 
@@ -112,32 +198,39 @@ upcoming
 
 2015-07
 =======
-- `Open Hive Shields`_ prototypes for Seeeduino Stalker (3.3 V) and Arduino Yun / Uno (5 V)
+`Open Hive Shields`_ prototypes for Seeeduino Stalker (3.3 V) and Arduino Yun / Uno (5 V)
 
-    - Open Hive Seeeduino Stalker:
+.. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-0/p240x240/11693953_10204755930037822_8992406508094252562_n.jpg?oh=2391a5f426494a2b09cdb1b92be59fd8&oe=572C042A
+    :target: `Open Hive Shields`_
+    :alt: Open Hive Seeeduino Stalker
+    :width: 320px
+    :align: left
 
-        .. image:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-0/p240x240/11693953_10204755930037822_8992406508094252562_n.jpg?oh=2391a5f426494a2b09cdb1b92be59fd8&oe=572C042A
-            :alt: Open Hive Seeeduino Stalker
-            :width: 320px
-            :target: `Open Hive Shields`_
+    Open Hive Seeeduino Stalker
 
-    - Open Hive Arduino Yun / Uno:
+.. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-0/q83/p206x206/11703029_10204755930917844_5574703060967955722_n.jpg?oh=86d2c0d42dade1deda0b90675de983a5&oe=57604B2B
+    :target: `Open Hive Shields`_
+    :alt: Open Hive Arduino Yun / Uno
+    :width: 320px
+    :align: right
 
-        .. image:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-0/q83/p206x206/11703029_10204755930917844_5574703060967955722_n.jpg?oh=86d2c0d42dade1deda0b90675de983a5&oe=57604B2B
-            :alt: Open Hive Arduino Yun / Uno
-            :width: 320px
-            :target: `Open Hive Shields`_
+    Open Hive Arduino Yun / Uno
+
+|clearfix|
 
 
 2015-04
 =======
 - Setup ``elbanco.hiveeyes.org`` as an integration server, we are running Debian 8.3 (jessie)
-- Weight Platform Prototype II: `Bee Scale Prototype 2`_, the low cost weight module of the `Open Hive`_ scale
 
-    .. image:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-0/p206x206/11188491_10204255677331817_1170125921095812284_n.jpg?oh=e86eff2ce77a3dfc2659cf7c29b438a2&oe=5755CAF2
-        :alt: Open Hive Bee Scale
-        :width: 320px
-        :target: `Bee Scale Prototype 2`_
+Open Hive Bee Scale
+-------------------
+The `Open Hive Bee Scale`_ is a low-cost weight module (prototype II)
+
+.. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-0/p206x206/11188491_10204255677331817_1170125921095812284_n.jpg?oh=e86eff2ce77a3dfc2659cf7c29b438a2&oe=5755CAF2
+    :target: `Open Hive Bee Scale`_
+    :alt: Open Hive Bee Scale
+    :width: 320px
 
 
 2015-02
@@ -147,12 +240,20 @@ upcoming
 2015-01
 =======
 - Spin up Trac_ instance as a `Wiki of the Hiveeyes project <Hiveeyes project_>`_
-- Weight Platform Prototype I: `CNC Machining Workshop`_  at `FabLab Berlin`_
 
-    .. image:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-0/p206x206/1558384_10201453236632551_648198296_n.jpg?oh=4efa966bf4c5d966bb627ba9d795e659&oe=5757B42C
-        :alt: Open Hive CNC Machining
-        :width: 320px
-        :target: `CNC Machining Workshop`_
+`Open Hive`_ weight platform (prototype I)
+
+.. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-0/p206x206/1558384_10201453236632551_648198296_n.jpg?oh=4efa966bf4c5d966bb627ba9d795e659&oe=5757B42C
+    :target: `CNC Machining Workshop`_
+    :alt: Open Hive CNC Machining Workshop
+    :width: 320px
+
+    `CNC Machining Workshop`_  at `FabLab Berlin`_
+
+
+****
+2014
+****
 
 2014-12
 =======
@@ -162,26 +263,30 @@ upcoming
 
 2014-11
 =======
-- Start working on a sensor node based on Felix Rusu's LowPowerLab_ RFM12B_/RFM69_ libraries:
+Start working on a sensor node network based on Felix Rusu's LowPowerLab_ RFM12B_/RFM69_ libraries.
 
-    - Two nodes transmitting via RFM12B:
+.. figure:: https://hiveeyes.org/raw-attachment/blog/rfm12b%20soldering/IMG_20141130_230212.jpg
+    :target: `Arduino with RFM12B`_
+    :alt: Two nodes transmitting via RFM12B
+    :width: 320px
+    :align: left
 
-        .. image:: https://hiveeyes.org/raw-attachment/blog/rfm12b%20soldering/IMG_20141130_230212.jpg
-            :alt: Two nodes transmitting via RFM12B
-            :width: 320px
-            :target: `Arduino with RFM12B`_
+    Two nodes transmitting via RFM12B_
 
-    - The first characters transmitted via RFM69:
+.. figure:: https://hiveeyes.org/raw-attachment/blog/rfm12b%20soldering/IMG_20141130_230359.jpg
+    :target: `Arduino with RFM12B`_
+    :alt: The first characters transmitted
+    :width: 320px
+    :align: right
 
-        .. image:: https://hiveeyes.org/raw-attachment/blog/rfm12b%20soldering/IMG_20141130_230359.jpg
-            :alt: First characters transmitted via RFM69
-            :width: 320px
-            :target: `Arduino with RFM12B`_
+    The first characters transmitted
+
+|clearfix|
 
 
 2014-09
 =======
-- `workshop digitales bienenmonitoring`_ at `mauergarten e.V.`_ on 2014-09-21
+- `Workshop digitales Bienenmonitoring`_ at `mauergarten e.V.`_ on 2014-09-21
 
 
 2014

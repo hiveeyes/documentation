@@ -20,3 +20,36 @@ body, div.body {
     /* background-color: #add8e6; */
     /* background-color: #83B929; */
 }
+
+/* clearfix after aligning left/right  */
+.clearfix {
+    clear: both;
+}
+
+
+/* limit caption text of images */
+.caption-narrow .caption {
+    width: 320px;
+}
+
+.vertical-align-middle {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.align-left {
+    text-align: left;
+}
+
+
+/* compensate against image rotation */
+.rotate-right {
+    transform: rotate(90deg);
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.caption-narrow.rotated .caption {
+    margin-left: 10%;
+    width: 300px;
+}
