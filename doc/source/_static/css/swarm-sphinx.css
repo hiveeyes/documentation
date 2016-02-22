@@ -21,27 +21,29 @@ body, div.body {
     /* background-color: #83B929; */
 }
 
+/* general helpers */
+.align-left {
+    text-align: left;
+}
+.align-center {
+    text-align: center;
+}
+
+
 /* clearfix after aligning left/right  */
 .clearfix {
     clear: both;
 }
 
+/* tune caption alignment */
+.caption-center .caption {
+    text-align: center;
+}
 
-/* limit caption text of images */
+/* limit caption text width */
 .caption-narrow .caption {
     width: 320px;
 }
-
-.vertical-align-middle {
-    display: inline-block;
-    margin-left: 5%;
-    margin-top: 15%;
-}
-
-.align-left {
-    text-align: left;
-}
-
 
 /* compensate against image rotation */
 .rotate-right {
@@ -52,6 +54,13 @@ body, div.body {
 .caption-narrow.rotated .caption {
     margin-left: 10%;
     width: 300px;
+}
+
+/* hack to align stuff on the vertical */
+.vertical-align-middle {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top:  5%;
 }
 
 

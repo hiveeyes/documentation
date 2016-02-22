@@ -12,6 +12,8 @@
 .. _JeeLink: http://www.digitalsmarties.net/products/jeelink
 .. _RaspberryPi: https://www.raspberrypi.org/products/raspberry-pi-2-model-b/
 .. _Bosche Wägezelle H30A: http://www.bosche.eu/produkte/waegezellen/plattform-waegezellen-h30a
+.. _ESP8266: http://espressif.com/products/hardware/esp8266ex/overview
+
 
 .. Protocols
 .. _MQTT: http://mqtt.org/

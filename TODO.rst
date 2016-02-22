@@ -1,3 +1,9 @@
+.. contents:: Sections on this page
+   :local:
+   :depth: 1
+
+----
+
 ####
 Todo
 ####
@@ -29,6 +35,35 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 
 2016-02-22 Clemens, Andreas
 ===========================
+
+Improvements
+------------
+- [o] Fix image links re. ESP8266
+- [o] Add Stückliste
+- [o] Add first steps of Bienenmonitoring [2013] to project history
+
+    - http://www.euse.de/wp/blog/2014/04/durchbruch-bienenwaage/
+    - http://www.euse.de/wp/blog/2014/06/bienenwaage-testbetrieb/
+
+- [o] Add section about collaboration with other bee monitoring projects
+
+    - Germany
+
+        - http://www.euse.de/wp/blog/tag/bienenwaage/
+        - https://www.imker-nettetal.de/tag/stockwaage/
+        - http://www.imker-stockwaage.de/
+        - http://beelogger.de/
+
+    - International
+
+        - http://opensourcebeehives.net/
+        - sensor platform
+          http://docs.opensourcebeehives.net/docs/alpha-sensor-kit
+        - discussion board
+          http://community.opensourcebeehives.net/
+
+Features
+--------
 - [o] Kotori_ should be able to talk FTP (e.g. for batch-mode transmission of CSV data)
 
   .. todo:: Link to GPRS module capable of talking FTP
@@ -41,9 +76,6 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 - [o] This PHP script could also be used as a generic WebHook_ receiver
   when Kotori_ is dispatching messages to different receivers. mqttwarn_ might help.
 
-- [o] Add first steps of Bienenmonitoring [2013] to project history
-- [o] Fix image links re. ESP8266
-
 
 2016-02-21 Andreas
 ==================
@@ -54,7 +86,14 @@ Documentation updates
 - [x] Write text about :ref:`OpenHive`
 - [x] Auf Kotori 0.3.2 and BERadio 0.4.4 CHANGELOG verlinken
 - [x] Richards neue Bilder reintun
+- [x] This and that
 - [o] Tag swarm-hiveeyes-org @ 0.1.0
+- [o] Improve Kotori_ and BERadio_ docs
+
+    - Migrate use-case scenarios from BERadio_
+    - Migrate Hiveeyes wishlist from Kotori_
+    - Add reference to RFM69_ to Intro of BERadio_
+
 - [o] Add bumpversion
 - [o] Use the `"Group images" feature of sphinxcontrib-images`_ of the fine `sphinxcontrib-images`_ Sphinx_ module
 
@@ -133,9 +172,9 @@ Milestone 2
 
 
 
-Research (unabhängig davon)
----------------------------
-Mit ein paar Dingen müssen wir uns noch stärker beschäftigen.
+Research
+--------
+Mit ein paar Dingen müssen wir uns bei Gelegenheit stärker beschäftigen.
 
 - InfluxDB
 

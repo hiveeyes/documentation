@@ -14,26 +14,28 @@ History
 
 2016-02-16
 ==========
-:ref:`open-hive` starts transmitting data. Cheers!
+:ref:`OpenHive` starts transmitting data. Cheers!
 
-.. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-0/p240x240/11693953_10204755930037822_8992406508094252562_n.jpg?oh=2391a5f426494a2b09cdb1b92be59fd8&oe=572C042A
+.. figure:: http://ptrace.hiveeyes.org/2016-02-22_ESP8266_size.jpg
     :target: `Open Hive Shields`_
-    :alt: hiveeyes-two sender
+    :alt: Open Hive ESP8266
     :width: 320px
+    :figclass: caption-narrow
     :align: left
 
-    Sensor node sending data from the workbench
+    ESP8266_-based sensor node transmitting data from the workbench
 
-.. figure:: _static/img/mqtt-link.png
-    :width: 75px
-    :figclass: vertical-align-middle
+.. figure:: _static/img/kotori-logo.png
     :target: Kotori_
+    :alt: Kotori
+    :width: 75px
+    :figclass: vertical-align-middle caption-center
 
-    mqttlink++
+    Kotori_
 
 .. figure:: http://ptrace.hiveeyes.org/2016-02-16_grafana-ber-prototype-2.jpeg
     :target: https://swarm.hiveeyes.org/grafana/dashboard/snapshot/b87pjWd80DfENQXBa4JzTT5mSUt83Tsd
-    :alt: hiveeyes-two dashboard
+    :alt: Open Hive Grafana dashboard
     :width: 320px
     :align: right
 
@@ -77,11 +79,18 @@ Hiveeyes radio receiver and sender
 
 .. from: http://all-free-download.com/free-vector/download/antenna_and_radio_waves_clip_art_9501.html
 .. figure:: _static/img/radio-waves.svg
-    :width: 75px
-    :figclass: vertical-align-middle
     :target: RFM69_
+    :width: 75px
+    :figclass: vertical-align-middle caption-center
 
-    radio link
+    RFM69_
+
+    .. figure:: _static/img/beradio-logo.png
+        :target: BERadio_
+        :width: 75px
+        :figclass: vertical-align-middle caption-center
+
+        BERadio_
 
 .. figure:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/Distanz.jpg
     :target: `DIY antennas for RFM69`_
@@ -123,6 +132,13 @@ Also, we compile Arduino_ code on this machine and reprogram the devices.
 
 |clearfix|
 
+.. figure:: _static/img/kotori-logo.png
+    :target: Kotori_
+    :alt: Kotori
+    :width: 75px
+    :align: center
+
+    Kotori_
 
 Hiveeyes WAN and backend
 ------------------------
