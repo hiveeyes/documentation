@@ -68,11 +68,15 @@ So we have::
 
     realm / network / domain / gateway / node
 
-``domain`` should be used as the *network domain* by all subsystems as of 2016M04, like:
+``domain`` should be used as the *network domain* by all subsystems as of 2016M04,
+it should be a list of fixed identifiers, like:
 
-- sensor
-- data
-- human
+    - sensor
+    - command
+    - data
+    - human
+
+.. todo:: Discuss wording and describe use cases of *network domain* identifiers
 
 
 Version 0.1
