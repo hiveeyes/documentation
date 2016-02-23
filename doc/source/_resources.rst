@@ -52,12 +52,10 @@
 .. _Google translation of the "Hiveeyes system documentation" tasks: https://translate.google.com/translate?hl=en&sl=de&tl=en&u=https%3A%2F%2Fswarm.hiveeyes.org%2Fdocs%2Ftasks.html
 .. _Arduino with RFM12B: https://hiveeyes.org/blog/rfm12b%20soldering
 .. _DIY antennas for RFM69: https://hiveeyes.org/blog/einsiedlerkrebs-2015/10/14/Antenna
-.. _BERadio: https://hiveeyes.org/docs/beradio/
 
-.. _BERadio specification: https://hiveeyes.org/docs/beradio/beradio.html
-.. _BERadio 0.4.4 changes: https://hiveeyes.org/docs/beradio/changes.html#beradio-0-4-4
+.. _BERadio: https://hiveeyes.org/docs/beradio/
 .. _Kotori: https://hiveeyes.org/docs/kotori/
-.. _Kotori 0.3.2 changes: https://hiveeyes.org/docs/kotori/changes.html#proof-of-concept-for-vendor-vendor-hiveeyes
+
 .. _HEnode: https://hiveeyes.org/blog/category/HEnode
 .. _HEnode version 0.1: https://hiveeyes.org/blog/rfm12b%20soldering
 .. _HEnode version 0.2.2: https://hiveeyes.org/wiki/Hardware/Prototyping/node_v02
@@ -65,6 +63,13 @@
 .. _Gateway-JeePi: https://hiveeyes.org/wiki/Hardware/Prototyping/gateway_v01-jeePi
 
 .. _Grafana dashboard "BER prototype #1": https://swarm.hiveeyes.org/grafana/dashboard/snapshot/Z9QBKYitgiOq53lrySWkbOSyWUk9rc92
+
+
+.. Deprecated?
+.. _BERadio 0.4.4 changes: https://hiveeyes.org/docs/beradio/changes.html#beradio-0-4-4
+.. _Kotori 0.3.2 changes: https://hiveeyes.org/docs/kotori/changes.html#proof-of-concept-for-vendor-vendor-hiveeyes
+
+
 
 .. Hive Monitor
 .. _Hive Monitor: https://github.com/dazz/hivemonitor
@@ -98,6 +103,7 @@
 .. _Pandoc: http://pandoc.org/
 .. _sphinxcontrib-images: https://pythonhosted.org/sphinxcontrib-images/
 .. _"Group images" feature of sphinxcontrib-images: https://pythonhosted.org/sphinxcontrib-images/#group-images
+.. _Graphviz: http://www.graphviz.org/
 
 
 .. Clearfix in reStructuredText

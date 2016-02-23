@@ -7,13 +7,21 @@
     <body>
 
     <h1>Welcome to swarm.hiveeyes.org</h1>
+    swarm.hiveeyes.org is a bee monitoring data collection platform voluntarily
+    operated by the beekeeper community. It runs on open source software.
 
     <h2>About</h2>
     <p>
-        swarm.hiveeyes.org is the data collection hub for the <a href="https://hiveeyes.org/">Hiveeyes</a>,
-        <a href="http://open-hive.org/">Open Hive</a> and
-        <a href="https://github.com/dazz/hivemonitor">Hive Monitor</a> Bienenmonitoring projects.
-        <i>Feel welcome to <a href="mailto:hiveeyes-dev [ät] ideensyndikat.org">join us</a>.</i>
+        swarm.hiveeyes.org is the data collection hub for the independent
+        <a href="http://open-hive.org/">Open Hive</a>,
+        <a href="https://hiveeyes.org/">Hiveeyes</a> and
+        <a href="https://github.com/dazz/hivemonitor">Hive Monitor</a>
+        bee monitoring projects.
+
+        Our shared
+        <a href="https://swarm.hiveeyes.org/docs/">Hiveeyes system documentation</a>
+        environment is trying to keep up with our work.
+        <i>Feel welcome to <a href="mailto:hiveeyes-dev [aet] ideensyndikat.org">join us</a>.</i>
         <br/><br/>
 
         The platform has the primary role of a stable integration testbed during construction times and
@@ -25,90 +33,120 @@
         In order to join the maintenance team, just send your SSH public keys.
     </p>
 
-    <h2>Quickstart</h2>
-    <pre style="font-size: x-large; display: inline">
-    # get hold of a MQTT client of your choice
-    aptitude install mosquitto-clients
 
-    # publish a single measurement
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/1/measure/temperature -m 42.84
-
-    # publish multiple measurements
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/1/message-json -m '{"temperature": 42.84, "humidity": 83}'
-    </pre>
-    <br/>
-
-    Go to the <a href="https://swarm.hiveeyes.org/grafana/dashboard/db/testdrive">Testdrive Dashboard</a> and see your measurements floating in.
-    We also took
-    <a href="https://swarm.hiveeyes.org/grafana/dashboard/snapshot/8EPe9CHGVqIoNrXK8gSWvoaXa6VeLCTD">some</a>
-    <a href="https://swarm.hiveeyes.org/grafana/dashboard/snapshot/2a33M5IsKhX1z0m1k92gA3hXToVSP8v6">snapshots</a>
-    for demonstration purposes.
-
-    <h2>References</h2>
+    <h2>Demo</h2>
+    Hand-crafted Grafana dashboards for demonstration purposes
     <ul>
         <li>
-            <a href="https://swarm.hiveeyes.org/grafana/">Grafana</a>
-            <br/>
-            The credentials are:
-            hiveeyes / Efocmunk
+            <a href="https://swarm.hiveeyes.org/grafana/dashboard/snapshot/Z9QBKYitgiOq53lrySWkbOSyWUk9rc92">BER prototype #1</a>
+        </li>
+        <li>
+            <a href="https://swarm.hiveeyes.org/grafana/dashboard/snapshot/b87pjWd80DfENQXBa4JzTT5mSUt83Tsd">BER prototype #2</a>
         </li>
     </ul>
+
+
+    <h2>Services</h2>
+    The systems are offering these services to the public:
+    <blockquote>
+        mqtt://swarm.hiveeyes.org
+        <br/>
+        <a href="https://swarm.hiveeyes.org/grafana/">https://swarm.hiveeyes.org/grafana/</a>
+    </blockquote>
+
+    The credentials for accessing Grafana are:
+    <blockquote>
+        username: hiveeyes<br/>
+        password: Efocmunk
+    </blockquote>
+
+    Accessing the MQTT bus is not secured and unrestricted during beta.
+
+
+    <h2>Synopsis</h2>
+    <pre style="font-size: large">
+# get hold of a MQTT client of your choice
+aptitude install mosquitto-clients
+
+# publish measurements
+mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/1/message-json -m '{"temperature": 42.84, "humidity": 83}'
+    </pre>
+
+    <h2>Details</h2>
+    <ul>
+        <li>
+            MQTT topic
+            <ul>
+                <li>
+                    If you're in a hurry, just go to
+                    <a href="https://swarm.hiveeyes.org/docs/vendor/hiveeyes-one/topology.html#topology-spec-0-1-example">more examples v0.1</a>
+                    or
+                    <a href="https://swarm.hiveeyes.org/docs/vendor/hiveeyes-one/topology.html#topology-spec-0-2-example">more examples v0.2</a>
+                </li>
+                <li>
+                    The
+                    <a href="https://swarm.hiveeyes.org/docs/vendor/hiveeyes-one/topology.html#rationale">
+                        rationale of the topology</a>
+                    tells you how the MQTT topic looks like and tries to explain why it is designed this way
+                </li>
+                <li>
+                    You can even peek at the
+                    <a href="https://swarm.hiveeyes.org/docs/vendor/hiveeyes-one/topology.html#by-implementation">topic decoder implementation</a>
+                </li>
+            </ul>
+        </li>
+        <br/>
+        <li>
+            MQTT message
+            <ul>
+                <li>
+                    If you're in a hurry, just go to
+                    <a href="https://swarm.hiveeyes.org/docs/vendor/hiveeyes-one/topology.html#topology-spec-0-1-example">more examples</a>
+                </li>
+                <li>
+                    It's really just a plain flat JSON object, mapping field names to measurement values.
+                    Go ahead and send anything you like.
+                </li>
+                <li>
+                    We usually prefer bunches of multiple measurement values, but sending them discrete one by one
+                    is perfectly fine as well.
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <h2>Quickstart</h2>
+    <ul>
+        <li>
+            <a href="https://swarm.hiveeyes.org/docs/vendor/hiveeyes-one/topology.html#by-example">
+                Hiveeyes One topology by example</a>
+            tells you how to send measurement values to the "testdrive" channel
+        </li>
+        <li>
+            Go to the
+            <a href="https://swarm.hiveeyes.org/grafana/dashboard/db/testdrive">testdrive dashboard</a>
+            to watch measurements floating into Grafana
+        </li>
+    </ul>
+
 
     <h2>Documentation</h2>
     <ul>
         <li>
-            <a href="https://swarm.hiveeyes.org/docs/">Platform</a>: The HiveEyes platform
-        </li>
-        <li>
-            <a href="https://hiveeyes.org/docs/kotori/">Kotori</a>: Data acquisition and graphing toolkit
+            <a href="https://swarm.hiveeyes.org/docs/">Hiveeyes system</a>: The Hiveeyes system documentation
         </li>
         <li>
             <a href="https://hiveeyes.org/docs/beradio/">BERadio</a>: An efficient ether transport protocol for radio link communication
         </li>
+        <li>
+            <a href="https://hiveeyes.org/docs/kotori/">Kotori</a>: Data acquisition and graphing toolkit
+        </li>
     </ul>
 
-    <h2>Details</h2>
-    <p>
 
-        Let's have a look at the MQTT topic structure:
-        <ul>
-            <li>
-                "hiveeyes" is the designated root realm for all things Hiveeyes. You should prefix the topic name with this label when opting in for all features of the platform.
-                For other purposes, feel free to publish to any MQTT topic you like.
-            </li>
-            <br/>
-            <li>
-                "testdrive" is your personal realm. Choose anything you like or use an <a href="https://www.guidgenerator.com/">Online GUID Generator</a> to gain maximum uniqueness.
-            </li>
-            <br/>
-            <li>
-                "area-42" is your gateway identifier. Choose anything you like. This does not have to be very unique, so you might use labels having the names of sites. While you are the owner of this namespace hierarchy,
-                remember these labels might be visible on the collaborative ether, though.
-                So the best thing would be to give kind of nicknames to your sites which don't identify their location.
-            </li>
-            <br/>
-            <li>
-                "1" is your node identifier. Choose anything you like.
-                This usually gets transmitted from an embedded device.
-                Remember one node can carry multiple sensors, which is beyond the scope of the collection platform.
-            </li>
-        </ul>
-
-        Let's have a look at the MQTT message payload:
-        <ul>
-            <li>
-                It's really just a plain flat JSON object, mapping field names to measurement values.
-                Go ahead and send anything you like.
-            </li>
-            <br/>
-            <li>
-                We usually prefer bunches of multiple measurement values, but sending them discrete one by one
-                is perfectly fine as well.
-            </li>
-        </ul>
-    </p>
-
-    <h2>Multi-tenancy and fair-use policy</h2>
+    <h2>Policy</h2>
+    Multi-tenancy and fair-use
     <ul>
         <li>
             The platform is designed with multi-tenancy in mind. Just drop us an email to register
@@ -125,17 +163,43 @@
         </li>
     </ul>
 
+
     <h2>Disclaimer</h2>
     <p>
         swarm.hiveeyes.org is voluntarily operated by the Hiveeyes Developers.
         While always striving for the best, systems may fail.
     </p>
+    <hr/>
 
+
+    <small>
+    <h2>Todo</h2>
+    <ul>
+        <li>
+            Send measurement values from the website
+        </li>
+        <li>
+            Provide a HTTP-based data sink
+        </li>
+        <li>
+            Write tutorial about how to actually get started with own hardware.
+            <br/>
+            List some of the embedded components we build upon.
+            Describe the software interfaces in detail.
+            <br/>
+            <small>
+                In the meanwhile, please have a look at the
+                <a href="https://swarm.hiveeyes.org/docs/">Hiveeyes system documentation</a>
+                or send us an email.
+            </small>
+        </li>
+    </ul>
+    </small>
     <hr/>
 
     Have fun!
     <br/><br/>
-    -- <a href="mailto:hiveeyes-devs(correct me)ideensyndikat.org">The Hiveeyes Developers</a>, 2016-01-26
+    -- <a href="mailto:hiveeyes-devs(correct me)ideensyndikat.org">The Hiveeyes Developers</a> in winter 2015/2016
     <br/><br/>
     <small>
         We are a group of beekeepers from Berlin meeting each wednesday to build this telemetry platform.

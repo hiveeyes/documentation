@@ -23,7 +23,7 @@ History
     :figclass: caption-narrow
     :align: left
 
-    ESP8266_-based sensor node transmitting data from the workbench
+    ESP8266_-based sensor node transmits MQTT_ messages from the workbench
 
 .. figure:: _static/img/kotori-logo.png
     :target: Kotori_
@@ -31,7 +31,7 @@ History
     :width: 75px
     :figclass: vertical-align-middle caption-center
 
-    Kotori_
+    mqttlink++
 
 .. figure:: http://ptrace.hiveeyes.org/2016-02-16_grafana-ber-prototype-2.jpeg
     :target: https://swarm.hiveeyes.org/grafana/dashboard/snapshot/b87pjWd80DfENQXBa4JzTT5mSUt83Tsd
@@ -67,6 +67,15 @@ Start integrating with mqttwarn_: Add `feature "dynamic topic targets"`_ to `inc
 
 Hiveeyes radio receiver and sender
 ----------------------------------
+Two Arduino_-based nodes talk to each other using RFM69_.
+We use the BERadio_ encoding for efficiently sending multiple
+measurement values over a 7-bit-clean communication link.
+
+It's a harsh environment: The maximum payload size is 62 bytes.
+To keep battery drain at its lowest, we want to squeeze as much
+data into the payload as possible to reduce the number of radio
+beams required to transmit collected telemetry data.
+
 .. figure:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/BiQuad.jpg
     :target: `DIY antennas for RFM69`_
     :alt: hiveeyes-one receiver
@@ -99,8 +108,9 @@ Hiveeyes radio receiver and sender
     :width: 320px
     :align: right
 
-    The first "HEnode_" sensor node sits in a hive approx. 120 meters away
-    in line-of-sight distance through a single tree
+    The first HEnode_ sensor node sits in a hive approx. 120 meters away
+    in line-of-sight distance through a single tree. Transmits telemetry
+    data over radio link.
 
 |clearfix|
 
@@ -132,18 +142,29 @@ Also, we compile Arduino_ code on this machine and reprogram the devices.
 
 |clearfix|
 
-.. figure:: _static/img/kotori-logo.png
-    :target: Kotori_
-    :alt: Kotori
-    :width: 75px
-    :align: center
 
-    Kotori_
+.. container:: container-center narrow
 
-Hiveeyes WAN and backend
-------------------------
-The wide area communication, storage and visualization is performed
-by BERadio_, Mosquitto_, Kotori_, InfluxDB_ and Grafana_.
+    .. figure:: _static/img/beradio-logo.png
+        :target: BERadio_
+        :width: 75px
+        :align: left
+
+        BERadio_
+
+    .. figure:: _static/img/kotori-logo.png
+        :target: Kotori_
+        :alt: Kotori
+        :width: 75px
+        :align: right
+
+        mqttlink++
+
+|clearfix|
+
+
+Hiveeyes backend
+----------------
 
 .. todo:: GraphViz_ flow graphs for giving insight into the communication paths between these components
 
@@ -191,8 +212,8 @@ payloads between the serial interface and the Mosquitto_ message broker.
 - Proof-of-concept telemetry platform based on Mosquitto_, InfluxDB_ and Grafana_
   with Kotori_ 0.3.2 and BERadio_ 0.4.4. See upstream changes:
 
-    - `Kotori 0.3.2 changes`_
-    - `BERadio 0.4.4 changes`_
+    - `Kotori 0.3.2 changes`_ aka. :ref:`Kotori 0.3.2` for :ref:`vendor Hiveeyes <vendor-hiveeyes>`
+    - `BERadio 0.4.4 changes`_ aka. :ref:`BERadio 0.4.4`
 
 - Further improve :ref:`HiveeyesOne` hardware and software
 
@@ -203,7 +224,7 @@ payloads between the serial interface and the Mosquitto_ message broker.
 - Continue working on :ref:`HiveeyesOne`
 - Build upon `serial-to-mqtt`_ by `Andy Piper`_ and `Didier Donsez`_ and iterate into
 
-    - the `BERadio specification`_, an efficient ether transport
+    - the :ref:`beradio-spec`, an efficient ether transport
       protocol used for radio link communication. Throws Bencode_
       into the mix of the constrained environment of RFM69_ with Moteino_.
     - the BERadio_ Python library, for forwarding payloads between

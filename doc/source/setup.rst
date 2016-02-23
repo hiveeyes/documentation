@@ -8,7 +8,7 @@ Setup
 Setup on Debian
 ***************
 
-.. seealso:: https://hiveeyes.org/docs/kotori/setup/debian-amd64.html
+.. seealso:: Setup :ref:`Kotori on Debian AMD64 <kotori:setup-debian>`, with all requirements
 
 Infrastructure
 ==============

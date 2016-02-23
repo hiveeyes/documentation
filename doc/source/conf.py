@@ -32,6 +32,7 @@ import shlex
 extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.todo',
+    'sphinx.ext.intersphinx',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -289,8 +290,41 @@ texinfo_documents = [
 
 # -- Custom options -------------------------------------------
 
+# Layout
 html_logo = '_static/img/hiveeyes-logo.png'
+
+
+# Disable TLS certificate verification
+# https://www.python.org/dev/peps/pep-0476/
+import ssl
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    # Legacy Python that doesn't verify HTTPS certificates by default
+    pass
+else:
+    # Handle target environment that doesn't support HTTPS verification
+    ssl._create_default_https_context = _create_unverified_https_context
+
+# Activate more functionality
 def setup(app):
+
     # https://github.com/snide/sphinx_rtd_theme/issues/117#issuecomment-41571653
     #app.add_javascript("custom.js")
     app.add_stylesheet("css/swarm-sphinx.css")
+
+    # tell Sphinx about the intersphinx target's custom role
+    # http://stackoverflow.com/questions/13387125/how-to-link-with-intersphinx-to-django-specific-constructs-like-settings/13663325#13663325
+    """
+    app.add_crossref_type(
+        directivename = "beradio",
+        rolename = "beradio",
+        indextemplate = "pair: %s; beradio",
+    )
+    """
+
+# Link with Kotori and BERadio projects
+intersphinx_mapping = {
+    'beradio': ('https://hiveeyes.org/docs/beradio/', None),
+    'kotori': ('https://hiveeyes.org/docs/kotori/', None),
+}

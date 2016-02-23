@@ -60,7 +60,7 @@ He engineered the `Open Hive Bee Scale`_ and `Open Hive Shields`_.
 Details
 *******
 
-.. attention::
+.. todo::
 
     This section is just a stub. Please help.
 

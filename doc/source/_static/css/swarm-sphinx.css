@@ -72,3 +72,14 @@ body, div.body {
     font-size: small;
     text-align: right;
 }
+
+/* center a container horizontally */
+.container-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* container with less width */
+.narrow {
+    width: 15em;
+}

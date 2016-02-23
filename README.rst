@@ -23,3 +23,14 @@ Build global docs
 ::
 
     git commit && git push # for global access
+
+
+
+Write reStructuredText
+======================
+
+How to link to BERadio_ and Kotori_ project documentation?::
+
+  :ref:`beradio-spec`
+  :ref:`beradio:beradio-spec`
+  :ref:`beradio spec <beradio:beradio-spec>`

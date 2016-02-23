@@ -23,7 +23,7 @@ He engineered the RFM69_-based node communication hardware and software HEnode_.
 
 as well as the message encapsulation in form of the:
 
-    - `BERadio specification`_, an efficient ether transport protocol used for radio link communication
+    - :ref:`beradio-spec`, an efficient ether transport protocol used for radio link communication
 
 
 **********
@@ -42,6 +42,15 @@ Details
 .. attention::
 
     This section is just a stub. Please help.
+
+Overview
+========
+.. toctree::
+    :maxdepth: 1
+
+    architecture
+    topology
+    notifications
 
 
 Unassembled

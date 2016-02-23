@@ -16,20 +16,41 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 
 
-2016-02-22 Richard, Andreas
-===========================
+2016-02-23 jho, rpo, amo
+========================
+- [o] Get into Mosquitto store-and-forward mechanism. Does it actually have it?
+- [o] Check out improved "Annotations" feature of Grafana
+
+    .. figure:: https://cloud.githubusercontent.com/assets/10999/13244830/928ab8a0-da09-11e5-8ce9-676ee55bcce8.gif
+        :target: https://github.com/grafana/grafana/issues/1588
+        :alt: Annotations: Click links and select text from annotation popover
+        :width: 640px
+
+        Annotations: Click links and select text from annotation popover
+
+- [o] Setup Grafana HEAD from git repository at beta.hiveeyes.org for having a look at new features
+
+
+2016-02-23 amo
+==============
+- [o] link to recent discussion about payload serialization formats
+- [o] blubb
+
+
+2016-02-22 rpo, amo
+===================
 - [o] Datenimport und -export über CSV
 - [o] Tabellarische Daten über datatable_
 - Naming things: Will *HiveFive* be a proper name for the convenience kit?
 
 
-2016-02-22 Clemens, Andreas
-===========================
+2016-02-22 cgr, amo
+===================
 
 Improvements
 ------------
 - [o] Fix image links re. ESP8266
-- [o] Add Stückliste
+- [o] Add Stückliste (via Excel file)
 - [o] Add first steps of Bienenmonitoring [2013] to project history
 
     - http://www.euse.de/wp/blog/2014/04/durchbruch-bienenwaage/
@@ -67,32 +88,38 @@ Features
   when Kotori_ is dispatching messages to different receivers. mqttwarn_ might help.
 
 
-2016-02-21 Andreas
-==================
+2016-02-22 amo
+==============
+Documentation updates
+
+- [o] Use the `"Group images" feature of sphinxcontrib-images`_ of the fine `sphinxcontrib-images`_ Sphinx_ module
+- [o] Proper certificates for hiveeyes.org and ptrace.hiveeyes.org
+- [o] Add topology 0.2.0 proposals from :ref:`Hiveeyes One Topology 0.2.0 proposal <topology-0.2.0-proposal-todo>`
+
+
+2016-02-21 amo
+==============
 Documentation updates
 
 - [x] Add stub "About Open Hive"
 - [x] Write text about :ref:`HiveeyesOne`
 - [x] Write text about :ref:`OpenHive`
 - [x] Auf Kotori 0.3.2 and BERadio 0.4.4 CHANGELOG verlinken
-- [x] Richards neue Bilder reintun
+- [x] rpos neue Bilder reintun
 - [x] This and that
-- [o] Tag swarm-hiveeyes-org @ 0.1.0
-- [o] Improve Kotori_ and BERadio_ docs
+- [x] Tag swarm-hiveeyes-org @ 0.1.0
+- [x] Add bumpversion
+- [x] Improve Kotori_ and BERadio_ docs
 
-    - Migrate use-case scenarios from BERadio_
-    - Migrate Hiveeyes wishlist from Kotori_
-    - Add reference to RFM69_ to Intro of BERadio_
-
-- [o] Add bumpversion
-- [o] Use the `"Group images" feature of sphinxcontrib-images`_ of the fine `sphinxcontrib-images`_ Sphinx_ module
+    - [x] Migrate use-case scenarios from BERadio_
+    - [x] Migrate Hiveeyes wishlist from Kotori_
 
 
-2016-02-20 Andreas
-==================
+2016-02-20 amo
+==============
 
-Milestone 1
------------
+MS 1
+----
 - Kotori
 
     - Arbeit an der Dokumentation, siehe commits von gestern
@@ -113,7 +140,7 @@ Milestone 1
     - [o] Ein paar einleitende Worte zum Gesamtprojekt in einer ``about.rst``
     - [o] Verlagerung der technischen Details vom derzeitigen Splashscreen der `Hiveeyes platform`_
       in die Sphinx_ Doku der `Hiveeyes system documentation`_
-    - [o] Übertragung von Richards Inhalten aus `grafana_about.md`_ sowie `sensor_setup.md`_
+    - [o] Übertragung von rpos Inhalten aus `grafana_about.md`_ sowie `sensor_setup.md`_
       in die Sphinx_ Doku als reStructuredText_, Konvertierung per Pandoc_
     - [o] Halbautomatisierung der Rückkonvertierung von reStructuredText_ zu Markdown_ per Pandoc_
       zur Weiterverwendung innerhalb von Grafana_ Textpanels wie z.B. `Grafana dashboard "BER prototype #1"`_
@@ -124,10 +151,12 @@ Milestone 1
 .. _sensor_setup.md:  https://git.elmyra.de/hiveeyes/arduino-playground/blob/master/doc/sensor_setup.md
 
 
-Milestone 2
------------
+MS 2
+----
 
 .. tip:: Ab jetzt möglichst auch mit feature branches in den code repositories arbeiten.
+
+.. _topology-0.2.0-proposal-todo:
 
 - Kotori 0.7.0
 
@@ -136,11 +165,11 @@ Milestone 2
     - MQTT Topic
 
         - Implementierung der "Content Type" Signalisierung über pseudo-Dateiendungen wie geplant
-          (Inspired by Nick O’Leary and Jan-Piet Mens; Acked by Clemens and Richard)::
+          (Inspired by Nick O’Leary and Jan-Piet Mens; Acked by cgr and rpo)::
 
                 hiveeyes/testdrive/area42/hive3/temperature vs. hiveeyes/testdrive/area42/hive3.json
 
-          Weitere Diskussion und Implementierung der "Direction" Signalisierung (Inspired by computourist, Pushed by Richard)
+          Weitere Diskussion und Implementierung der "Direction" Signalisierung (Inspired by computourist, Pushed by rpo)
           Proposal::
 
                 .../node3/{direction}/{sensor}.foo
@@ -184,8 +213,8 @@ Mit ein paar Dingen müssen wir uns bei Gelegenheit stärker beschäftigen.
       und als universeller Nachrichtenvermittler auf ``swarm.hiveeyes.org`` betreiben.
 
 
-2016-02-15 Andreas
-==================
+2016-02-15 amo
+==============
 
 Audio analysis
 --------------
@@ -195,12 +224,12 @@ Audio analysis
 
 
 
-2016-02-12 Richard, Andreas
-===========================
+2016-02-12 rpo, amo
+===================
 
 Platform
 --------
-- Zuordnung/Verdrahtung von Sensoren zu Hardware Ports zu measurement fields zu Grafana dashboard/panel [Richard]
+- Zuordnung/Verdrahtung von Sensoren zu Hardware Ports zu measurement fields zu Grafana dashboard/panel [rpo]
 
     - Beschäftigung mit InfluxDB Tags und deren Benutzung in Grafana
 
@@ -311,6 +340,34 @@ Software
 - [o] Send measurements via Javascript from https://swarm.hiveeyes.org/
 - [o] Extract essential boilerplate code from BERadio_ and publish as mqttkit_
 - [o] Publish Kotori_ repository
+
+
+*************
+2015 November
+*************
+
+2015-11-06 rpo, amo
+===================
+
+.. _hiveeyes-one-wishlist:
+
+Wishlist
+--------
+- Aggregate measurements over time ranges (e.g. daily) and republish summary to MQTT
+
+    - Provide reasonable "delta" values in relation to the point of last summary
+    - Proposal for summary topics: hiveeyes/username/summary/foo/daily/bar
+    - Schedule at: Morning, Noon, Evening
+
+- Threshold alerting
+- :ref:`weather-information-publishing`
+- "Stockkarte" subsystem
+
+    - marking point in graphs and filling the Stockkarte questioning
+    - https://github.com/Dieterbe/anthracite/
+    - https://twitter.github.io/labella.js/
+
+- Timeseries anomaly detection using machine learning
 
 
 ----
