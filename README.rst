@@ -25,6 +25,14 @@ Build global docs
     git commit && git push # for global access
 
 
+Deploy splash screen
+====================
+To deploy the splash screen ``src/htdocs/index.html``::
+
+    ssh root@elbanco.hiveeyes.org
+    cd /opt/swarm-hiveeyes-org/
+    git pull
+
 
 Write reStructuredText
 ======================
