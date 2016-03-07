@@ -16,6 +16,29 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 
 
+2016-03-06 amo
+==============
+- [x] Get proper trusted certificates from Let's Encrypt for hiveeyes.org
+- [o] Improve docs
+
+    - foundation (more pointers)
+    - hiveeyes-one (more pointers)
+
+
+2016-02-27 amo
+==============
+- [o] Consider using the upcoming Raspberry Pi 3 as a flexible and universal gateway
+
+
+2016-02-25 rgu, cgr, rpo, msw, amo
+==================================
+- [o] BERadio Lua implementation for OpenWrt
+- [o] Get Vagrant going for Windows users
+- [o] Consider LoRaWAN
+- [o] Rephrase wording on splash screen
+- [o] How to do store-and-forward if Mosquitto doesn't have it? Use DTN finally?
+
+
 2016-02-23 jho, rpo, amo
 ========================
 - [o] Get into Mosquitto store-and-forward mechanism. Does it actually have it?
@@ -34,7 +57,6 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 2016-02-23 amo
 ==============
 - [o] link to recent discussion about payload serialization formats
-- [o] blubb
 
 
 2016-02-22 rpo, amo
@@ -278,6 +300,14 @@ BERadio
 - Improve formatting: https://hiveeyes.org/docs/beradio/research/binary-sizes.html
 - Add computourist and others: https://hiveeyes.org/docs/beradio/research/prior-art.html
 - Work on https://git.elmyra.de/hiveeyes/beradio/blob/master/src/cpp/examples/simple_message.cpp
+
+- Add SenML_ serialization
+    - http://wiki.1248.io/doku.php?id=senml
+    - https://github.com/fluffy/senml-spec
+    - https://tools.ietf.org/html/draft-jennings-senml-08
+    - https://datatracker.ietf.org/doc/draft-jennings-core-senml/
+    - via: http://www.earth.org.uk/note-on-IoT-comms-backhaul.html
+    - via: http://opentrv.org.uk/
 
 
 Kotori

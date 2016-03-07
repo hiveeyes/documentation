@@ -5,6 +5,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. _hiveeyes:
+
 The Hiveeyes system documentation
 =================================
 
@@ -18,6 +20,7 @@ About
 
     vendor/open-hive/index
     vendor/hiveeyes-one/index
+    foundation
     history
 
 
@@ -30,6 +33,7 @@ Contributions are welcome!
     README
     changes
     tasks
+    research
 
 
 Embedded software

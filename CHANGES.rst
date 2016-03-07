@@ -4,17 +4,22 @@ CHANGES
 
 in-motion
 =========
-- improve project history
-- add intersphinx connections to BERadio_ and Kotori_
-  and start interlinking documentation
-- migrate information from splash screen into system docs
-- update splash screen
+
+2016-03-07 0.2.0
+================
+- Improve project history
+- Add intersphinx connections to BERadio_ and Kotori_
+  and start interlinking documentation between associated projects
+- Migrate information from splash screen into system docs
+- Update splash screen
+- Add infos about technology foundation and research notepad
+- Update designated InfluxDB version to 0.10.2
 
 2016-02-22 0.1.1
 ================
-- add bumpversion for convenient version bumping
-- add CHANGES.rst
-- improve main index page and wording
+- Add bumpversion for convenient version bumping
+- Add CHANGES.rst
+- Improve main index page and wording
 
 2016-02-22 0.1.0
 ================

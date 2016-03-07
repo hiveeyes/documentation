@@ -148,21 +148,21 @@ On the workbench
 
 In the field
 ============
-.. figure:: http://ptrace.hiveeyes.org/2016-02-18_HEnode-field-01.jpg
+.. figure:: https://ptrace.hiveeyes.org/2016-02-18_HEnode-field-01.jpg
     :alt: HEnode version 0.2.2 in the field
     :width: 320px
     :align: left
 
     HEnode_ :ref:`hiveeyes-one` in a case - top
 
-.. figure:: http://ptrace.hiveeyes.org/2016-02-18_HEnode-field-02.jpg
+.. figure:: https://ptrace.hiveeyes.org/2016-02-18_HEnode-field-02.jpg
     :alt: HEnode version 0.2.2 in the field
     :width: 320px
     :align: right
 
     HEnode_ :ref:`hiveeyes-one` in a case - bottom
 
-.. figure:: http://ptrace.hiveeyes.org/2016-02-18_HEnode-field-03.jpg
+.. figure:: https://ptrace.hiveeyes.org/2016-02-18_HEnode-field-03.jpg
     :alt: HEnode version 0.2.2 in the field
     :width: 320px
     :align: left

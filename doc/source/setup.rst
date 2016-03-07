@@ -23,8 +23,8 @@ InfluxDB
 --------
 ::
 
-    wget https://s3.amazonaws.com/influxdb/influxdb_0.10.1-1_amd64.deb
-    dpkg --install influxdb_0.10.1-1_amd64.deb
+    wget https://s3.amazonaws.com/influxdb/influxdb_0.10.2-1_amd64.deb
+    dpkg --install influxdb_0.10.2-1_amd64.deb
 
 Grafana
 -------

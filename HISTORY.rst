@@ -16,7 +16,7 @@ History
 ==========
 :ref:`OpenHive` starts transmitting data. Cheers!
 
-.. figure:: http://ptrace.hiveeyes.org/2016-02-22_ESP8266_size.jpg
+.. figure:: https://ptrace.hiveeyes.org/2016-02-22_ESP8266_size.jpg
     :target: `Open Hive Shields`_
     :alt: Open Hive ESP8266
     :width: 320px
@@ -33,7 +33,7 @@ History
 
     mqttlink++
 
-.. figure:: http://ptrace.hiveeyes.org/2016-02-16_grafana-ber-prototype-2.jpeg
+.. figure:: https://ptrace.hiveeyes.org/2016-02-16_grafana-ber-prototype-2.jpeg
     :target: https://swarm.hiveeyes.org/grafana/dashboard/snapshot/b87pjWd80DfENQXBa4JzTT5mSUt83Tsd
     :alt: Open Hive Grafana dashboard
     :width: 320px
@@ -53,7 +53,7 @@ History
 ==========
 Start integrating with mqttwarn_: Add `feature "dynamic topic targets"`_ to `incorporate topic names into topic targets`_.
 
-.. figure:: http://ptrace.hiveeyes.org/2016-02-12_hiveeyes-notification-xmpp.jpg
+.. figure:: https://ptrace.hiveeyes.org/2016-02-12_hiveeyes-notification-xmpp.jpg
     :alt: xmpp messages from mqttwarn
     :width: 320px
 
@@ -168,7 +168,7 @@ Hiveeyes backend
 
 .. todo:: GraphViz_ flow graphs for giving insight into the communication paths between these components
 
-.. figure:: http://ptrace.hiveeyes.org/2016-02-04_grafana-ber-prototype-1.jpeg
+.. figure:: https://ptrace.hiveeyes.org/2016-02-04_grafana-ber-prototype-1.jpeg
     :target: https://swarm.hiveeyes.org/grafana/dashboard/snapshot/Z9QBKYitgiOq53lrySWkbOSyWUk9rc92
     :alt: hiveeyes-one dashboard
     :width: 320px
@@ -188,7 +188,7 @@ Hiveeyes backend
 ==========
 Work on bringing :ref:`HiveeyesOne` into the field
 
-.. figure:: http://ptrace.hiveeyes.org/2016-01-25_first-measurements-in-grafana.jpg
+.. figure:: https://ptrace.hiveeyes.org/2016-01-25_first-measurements-in-grafana.jpg
     :alt: hiveeyes-one: first measurements in grafana
     :width: 320px
 
