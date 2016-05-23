@@ -1,76 +1,103 @@
 .. include:: _resources.rst
 
-#####
-Setup
-#####
+##############
+Platform setup
+##############
+
 
 ***************
 Setup on Debian
 ***************
 
-.. seealso:: Setup :ref:`Kotori on Debian AMD64 <kotori:setup-debian>`, with all requirements
+Install the whole stack on a Debian-based system.
+The package repository supports architectures amd64 and armhf as of 2016-05-23.
 
-Infrastructure
-==============
+It is currently made of these free and open source software components:
 
-Mosquitto
----------
-::
+- Mosquitto_, a MQTT message broker
+- InfluxDB_, a time-series database
+- Grafana_, a graph and dashboard builder for visualizing time series metrics
+- :ref:`Kotori`, a data acquisition, graphing and telemetry toolkit
 
-    aptitude install mosquitto mosquitto-clients
 
-InfluxDB
---------
-::
+Prerequisites
+=============
 
-    wget https://s3.amazonaws.com/influxdb/influxdb_0.10.2-1_amd64.deb
-    dpkg --install influxdb_0.10.2-1_amd64.deb
+Add GPG key for checking package signatures::
 
-Grafana
--------
-Setup package repository::
+    wget -qO - https://packages.hiveeyes.org/hiveeyes/foss/debian/pubkey.txt | apt-key add -
 
-    aptitude install apt-transport-https curl
-    curl https://packagecloud.io/gpg.key | apt-key add -
-    echo 'deb https://packagecloud.io/grafana/stable/debian/ wheezy main' > /etc/apt/sources.list.d/grafana.list
+Add https addon for apt::
+
+    aptitude install apt-transport-https
+
+
+Register with package repository
+================================
+
+Add source for "testing" distribution (e.g. append to /etc/apt/sources.list)::
+
+    deb https://packages.hiveeyes.org/hiveeyes/foss/debian/ testing main foundation
+
+Reindex package database::
+
     aptitude update
 
-Install package::
 
-    aptitude install grafana
-
-Enable and start system service::
-
-    systemctl enable grafana-server
-    systemctl start  grafana-server
-
-
-Kotori
-======
-
-Setup
------
+Setup the whole software stack
+==============================
 ::
 
-    wget https://packages.elmyra.de/hiveeyes/debian/kotori_0.6.0-1_amd64.deb
-    dpkg --install kotori_0.6.0-1_amd64.deb
-    tail -F /var/log/kotori/*.log
+    aptitude install chrony mosquitto mosquitto-clients influxdb grafana kotori
+    systemctl start influxdb
 
 
-Check services
+***************
+Getting started
+***************
+
+Access Grafana
 ==============
+
+- Go to http://hiveeyes.example.org:3000/
+- Login with admin / admin.
+
+
+Configure Kotori vendor
+=======================
+
+- ::
+
+    cp /etc/kotori/examples/vendor-hiveeyes.ini /etc/kotori/apps-available/
+
+- Activate::
+
+    ln -s /etc/kotori/apps-available/vendor-hiveeyes.ini /etc/kotori/apps-enabled/
+
+- Watch Kotori logfile::
+
+    tail -F /var/log/kotori/kotori.log
+
+- Restart Kotori::
+
+    systemctl restart kotori
+
+
+Send sample telemetry packet
+============================
 ::
 
-    systemctl status mosquitto influxdb grafana-server kotori
+    mosquitto_pub -t hiveeyes/berlin/wedding/henode-one/message-json -m '{"temperature": 42.84, "humidity": 94}'
 
-When rebooting the system, these four services should signal readyness::
 
-             Starting Kotori is a multi-channel, multi-protocol d...hing toolkit...
-    [  OK  ] Started Kotori is a multi-channel, multi-protocol da...aphing toolkit.
-             Starting Starts and stops a single grafana instance on this system...
-    [  OK  ] Started Starts and stops a single grafana instance on this system.
-             Starting Regular background program processing daemon...
-    [  OK  ] Started Regular background program processing daemon.
-             Starting A high performance web server and a reverse proxy server...
-             Starting InfluxDB is an open-source, distributed, ti...ies database...
-    [  OK  ] Started InfluxDB is an open-source, distributed, time series database.
+Watch telemetry data
+====================
+- Navigate to http://hiveeyes.example.org:3000/dashboard/db/berlin
+
+
+********
+Appendix
+********
+
+.. seealso:: This is the Hiveeyes version of :ref:`Kotori on Debian <kotori:setup-debian>`, with all dependencies.
+

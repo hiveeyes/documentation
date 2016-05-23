@@ -11,6 +11,23 @@ Research
 2016
 ****
 
+
+2016-04-12
+==========
+- https://en.wikipedia.org/wiki/Akbil_%28smart_ticket%29
+
+
+2016-04-10
+==========
+- https://github.com/sparkfun/OpenScale
+
+
+2016-03-27
+==========
+- https://blog.cesanta.com/esp8266-superfast-flashing-flash-esp-in-5-seconds
+    - https://news.ycombinator.com/item?id=11342958
+
+
 2016-03-06
 ==========
 
@@ -248,3 +265,12 @@ Xtensa
 - http://ip.cadence.com/ipportfolio/tensilica-ip
 - https://github.com/jcmvbkbc/gcc-xtensa
 - https://gcc.gnu.org/onlinedocs/gcc-4.8.1/gcc/Xtensa-Options.html
+
+
+2015-09
+=======
+- http://makezine.com/projects/bees-sensors-monitor-hive-health/
+- https://data.sparkfun.com/streams/wpbq2p0N1rig8WJZRWpO
+- https://analog.io/#/s8Q
+- https://github.com/sparkfun/Load_Sensor_Combinator
+- https://github.com/sparkfun/OpenScale

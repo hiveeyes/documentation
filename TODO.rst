@@ -15,6 +15,24 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 2016
 ****
 
+2016-04-24
+==========
+- http://blog.durablescope.com/2015/03/build-speed-camera-and-traffic-logger.html
+- https://github.com/tonbut/rpi-traffic-radar/blob/master/radar.pysmart
+
+
+2016-04-12
+==========
+- Homepage blueprint: http://opendesk.github.io/smartdesk/
+- Neues Material
+
+    - https://vimeo.com/69973637
+    - https://www.ixds.com/events/pre-work-talk-7
+    - http://open-hive.org/prototype-sound_2013-06/
+    - http://www.euse.de/wp/blog/2014/04/durchbruch-bienenwaage/
+    - http://www.euse.de/honig/beescale/graph.php
+    -
+
 
 2016-03-06 amo
 ==============
@@ -78,6 +96,10 @@ Improvements
     - http://www.euse.de/wp/blog/2014/04/durchbruch-bienenwaage/
     - http://www.euse.de/wp/blog/2014/06/bienenwaage-testbetrieb/
 
+- [o] Add pictures of ESP8266 spike
+
+    - https://www.facebook.com/photo.php?fbid=10205861763442966&set=pb.1224510416.-2207520000.1454976667.&type=3&size=960%2C541&_fb_noscript=1
+
 - [o] Add section about collaboration with other bee monitoring projects
 
     - Germany
@@ -94,6 +116,13 @@ Improvements
           http://docs.opensourcebeehives.net/docs/alpha-sensor-kit
         - discussion board
           http://community.opensourcebeehives.net/
+
+- [o] Improve documentation of HiveeyesOne_
+
+    - Foundation libraries
+    - Text from Grafana reference dashboard
+    - Pictures
+
 
 Features
 --------
@@ -266,9 +295,9 @@ Platform
 - Improve splash page
 
     - http://bulma.io/
-    - https://github.com/mozilla/Fira
-    - http://mozilla.github.io/Fira/
     - http://www.carrois.com/fira-4-1/
+    - http://mozilla.github.io/Fira/
+    - https://github.com/mozilla/Fira
 
 - Redesign topic namespace
 - Improve documentation
