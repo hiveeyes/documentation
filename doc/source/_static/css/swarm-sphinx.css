@@ -4,8 +4,12 @@ body, div.body {
 }
 */
 
+.width-800 {
+    width: 800px;
+}
+
 .wy-nav-content {
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .wy-side-nav-search > a img.logo {

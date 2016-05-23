@@ -54,7 +54,7 @@
 .. _DIY antennas for RFM69: https://hiveeyes.org/blog/einsiedlerkrebs-2015/10/14/Antenna
 
 .. _BERadio: https://hiveeyes.org/docs/beradio/
-.. _Kotori: https://hiveeyes.org/docs/kotori/
+.. _Kotori: https://getkotori.org/docs/
 
 .. _HEnode: https://hiveeyes.org/blog/category/HEnode
 .. _HEnode version 0.1: https://hiveeyes.org/blog/rfm12b%20soldering
@@ -67,7 +67,7 @@
 
 .. Deprecated?
 .. _BERadio 0.4.4 changes: https://hiveeyes.org/docs/beradio/changes.html#beradio-0-4-4
-.. _Kotori 0.3.2 changes: https://hiveeyes.org/docs/kotori/changes.html#proof-of-concept-for-vendor-vendor-hiveeyes
+.. _Kotori 0.3.2 changes: https://getkotori.org/docs/changes.html#proof-of-concept-for-vendor-vendor-hiveeyes
 
 
 
