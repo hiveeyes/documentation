@@ -128,7 +128,7 @@ On the workbench
 ================
 
 .. figure:: https://hiveeyes.org/raw-attachment/blog/rfm12b%20soldering/IMG_20141130_230212.jpg
-    :target: `Arduino with RFM12B`_
+    :target: `RFM Breakout-Board soldering`_
     :alt: Two nodes transmitting via RFM12B
     :width: 320px
     :align: left
@@ -136,7 +136,7 @@ On the workbench
     Two `HEnode version 0.1`_ nodes transmitting via RFM12B_
 
 .. figure:: https://hiveeyes.org/raw-attachment/blog/rfm12b%20soldering/IMG_20141130_230359.jpg
-    :target: `Arduino with RFM12B`_
+    :target: `RFM Breakout-Board soldering`_
     :alt: The first characters transmitted
     :width: 320px
     :align: right

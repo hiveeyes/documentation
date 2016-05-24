@@ -17,6 +17,7 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 2016
 ****
 
+
 2016-05-24
 ==========
 - [o] Publish at hiveeyes.org/docs, redirect from swarm.hiveeyes.org
@@ -26,6 +27,13 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 - [o] Write tutorial about how to actually get started with own hardware.
 - [o] List some of the embedded components we build upon.
 - [o] Describe the software interfaces in detail.
+- [o] Refactor main index.rst
+- [o] Add docs/why-hiveeyes
+
+
+2016-05-20 rpo, amo
+===================
+- [o] Use both raw and effective sensor values. Effective sensor values are modified by a specific delta.
 
 
 2016-04-24

@@ -62,7 +62,7 @@ We currently have two different sensor kits in the making:
 
 Software
 ========
-- `Hiveeyes Arduino`_ Sensors: Atmel AVR MCU code for sensor reading and telemetry data transmission
+- `Hiveeyes Arduino`_ Sensors: Atmel AVR MCU code for sensor reading and telemetry data transmission.
 
 - BERadio_ Gateway (optional): The RFM69_ to MQTT_ gateway used with the :ref:`hiveeyes-one` setup
   is a convenient and versatile serial-to-mqtt forwarder implementing some specific details of the
@@ -71,12 +71,7 @@ Software
 - Kotori_ Backend: The backend platform is completely open and driven by
   a multi-channel, multi-protocol data acquisition and graphing
   toolkit in turn based on Grafana_, InfluxDB_ and Mosquitto_.
-
-  Most data link communication paths are MQTT_-driven and completely
-  transparent to all bus subscribers.
-
-    - :ref:`platform-setup`
-    - :ref:`platform-operations`
+  Read :ref:`platform-setup` about how to setup an instance on your machine.
 
 
 .. _hiveeyes-platform:
@@ -88,7 +83,7 @@ Platform
 Intro
 =====
 The `Hiveeyes platform`_ is operated on "swarm.hiveeyes.org" and has the primary role
-of a stable integration testbed.
+of a stable integration testbed for the offered :ref:`hiveeyes-platform-services`.
 
 Feel free to use the system to your own needs in beehive monitoring, no matter which sensor
 hardware is in use at your site. Just `drop us an email <Hiveeyes email_>`_ about custom
@@ -98,30 +93,10 @@ already using in the field.
 We are working closely with the developers of upstream software fitted for the purpose
 of our platform.
 
-
-Services
-========
-The `Hiveeyes platform`_ offers these services to the public:
-
-- mqtt://swarm.hiveeyes.org
-- https://swarm.hiveeyes.org/grafana/
-
-The credentials for signing in to Grafana are::
-
-    username: hiveeyes
-    password: Efocmunk
-
-Accessing the MQTT bus is not secured and currently unrestricted during beta.
-
-Multi-tenancy
--------------
-The platform is designed with multi-tenancy in mind. Just `drop us an email <Hiveeyes email_>`_
-to register your own (sub-)domains with us, e.g. beehive-monitor.example.org.
-
-
 Getting started
 ===============
-#. Send measurement values / telemetry data to the "testdrive" channel by publishing it to the MQTT bus as JSON::
+#. Send measurement values / telemetry data to the "testdrive" channel
+   by publishing it to the MQTT bus as JSON message::
 
     # get hold of a MQTT client of your choice
     aptitude install mosquitto-clients
@@ -129,33 +104,8 @@ Getting started
     # publish measurements
     mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/1/message-json -m '{"temperature": 42.84, "humidity": 83}'
 
-#. Navigate to the automatically populated `testdrive dashboard <https://swarm.hiveeyes.org/grafana/dashboard/db/testdrive>`
+#. Navigate to the automatically populated `testdrive dashboard <https://swarm.hiveeyes.org/grafana/dashboard/db/testdrive>`_
    to watch measurements floating into Grafana.
-
-Terms
-=====
-
-Operations
-----------
-The platform will be continuously monitored and maintained by a bunch of experienced
-system administrators to ensure it's always up and running to be available to everybody
-using it. We also perform nightly backups of the whole system. Your data should be safe.
-If you experience any malfunction or have suggestions for further improvements,
-please do not hesitate to `contact us <Hiveeyes email_>`_.
-
-Disclaimer
-----------
-When using our public services, the terms and conditions
-of the :ref:`hiveeyes-liability-disclaimer` apply.
-
-Fair-use policy
----------------
-Please regulate your measurement frequency to prevent overloading the platform.
-We are storing data for the long run.
-Taking one measurement per five minutes should be enough, don't go further than
-one measurement per minute.
-However, there is no throttling in place right now, so feel free to stress-test
-the platform (moderately and not permanently) in the "testdrive" namespace.
 
 
 
@@ -182,16 +132,18 @@ Intro
 Data currently is measured and collected at intervals of about 15 minutes from a beehive located in Berlin Wedding.
 The `full dashboard <https://swarm.hiveeyes.org/grafana/dashboard/db/1-prototype-wip-amo>`_ is also available.
 
+Legend for *Load cell* panel:
+
+- Turquoise: Weight of the hive
+- Blue:      Temperature sensor inside the hive
+- Yellow:    Temperature sensor at the air hole, mostly in direct sunlight
+
+
 Last 30 days
 ============
 .. raw:: html
 
     <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=5&fullscreen&from=now-30d&to=now" width="100%" height="400" frameborder="0"></iframe>
-    <p>
-        The weight of the hive is shown with the light blue line.
-        The temperature sensor inside the hive is shown in dark blue and
-        the sensor at the air hole, which is in the sun most times, is yellow.
-    </p>
 
 .. raw:: html
 
@@ -205,11 +157,6 @@ Last 7 days
 .. raw:: html
 
     <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=5&fullscreen&from=now-7d&to=now" width="100%" height="400" frameborder="0"></iframe>
-    <p>
-        The weight of the hive is shown with the light blue line.
-        The temperature sensor inside the hive is shown in dark blue and
-        the sensor at the air hole, which is in the sun most times, is yellow.
-    </p>
 
 .. raw:: html
 
@@ -223,17 +170,45 @@ Last 24 hours
 .. raw:: html
 
     <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=5&fullscreen&from=now-24h&to=now" width="100%" height="400" frameborder="0"></iframe>
-    <p>
-        The weight of the hive is shown with the light blue line.
-        The temperature sensor inside the hive is shown in dark blue and
-        the sensor at the air hole, which is in the sun most times, is yellow.
-    </p>
 
 .. raw:: html
 
     <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=1&fullscreen&from=now-24h&to=now" width="100%" height="400" frameborder="0"></iframe>
 
 |clearfix|
+
+
+*****
+Terms
+*****
+Please read this information when using the public services offered by Hiveeyes.
+
+
+Disclaimer
+==========
+When using our public services, the terms and conditions
+of the :ref:`hiveeyes-liability-disclaimer` apply.
+
+
+Operations
+==========
+The platform will be continuously monitored and maintained to ensure maximum
+availability. We also perform nightly backups of the whole system, so data
+stored in the system should be reasonably safe.
+If you experience any malfunction or have suggestions for further improvements,
+please do not hesitate to `contact us <Hiveeyes email_>`_.
+
+Read :ref:`platform-operations` to gain insight about how the platform is operated.
+
+
+Fair-use policy
+===============
+Please regulate your measurement frequency to prevent overloading the platform.
+We are storing data for the long run.
+Taking one measurement per five minutes should be enough, don't go further than
+one measurement per minute.
+However, there is no throttling in place right now, so feel free to stress-test
+the platform (moderately and not permanently) in the "testdrive" namespace.
 
 
 Indices and tables
