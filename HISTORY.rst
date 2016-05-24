@@ -13,11 +13,16 @@ History
 ****
 
 
-2016-05-23 Nightly drop of temperature
-======================================
+2016-05-23 Weight gain at night, it's raining
+=============================================
 .. raw:: html
 
     <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=5&fullscreen&from=1464020765066&to=1464054310642" width="800" height="400" frameborder="0"></iframe>
+
+.. container:: width-800
+
+    It started raining at 23 hours, so the hive probably gained some weight through water
+    (48 kg to 49 kg between 23:00 and 23:30 hours, reaching 50 kg at 01:00 hours).
 
 |clearfix|
 
@@ -27,6 +32,13 @@ History
 .. raw:: html
 
     <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=5&fullscreen&from=1463906422908&to=1463948547357" width="800" height="400" frameborder="0"></iframe>
+
+.. container:: width-800
+
+    Robinia blossom time ahead. Richard and Laura want to make genuine
+    Robinia honey, so they harvested the honey which is currently in the hive.
+
+    You can recognize the two spots at 14:00 hours and ~20:00 hours.
 
 |clearfix|
 
@@ -299,7 +311,7 @@ Work on bringing :ref:`HiveeyesOne` into the field
 
 2016-01-03
 ==========
-Start the `Hive Monitor`_ project featuring the `Hive Monitor Vagrant VM`_
+Dazz starts the `Hive Monitor`_ project featuring the `Hive Monitor Vagrant VM`_
 and some `Hive Monitor Python scripts`_ for playing around with MQTT_ and forwarding
 payloads between the serial interface and the Mosquitto_ message broker.
 
@@ -412,7 +424,7 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 
 2014-11
 =======
-Start working on a sensor node network based on Felix Rusu's LowPowerLab_ RFM12B_/RFM69_ libraries.
+- Start working on a sensor node network based on Felix Rusu's LowPowerLab_ RFM12B_/RFM69_ libraries.
 
 .. figure:: https://hiveeyes.org/raw-attachment/blog/rfm12b%20soldering/IMG_20141130_230212.jpg
     :target: `Arduino with RFM12B`_
@@ -437,17 +449,20 @@ Start working on a sensor node network based on Felix Rusu's LowPowerLab_ RFM12B
   http://www.euse.de/wp/blog/2014/11/voltaic-solar-charger-in-action/
 
 
+2014-10
+=======
+- Start ...
+
+    - organizing regular get-togethers
+    - hardware evaluation and prototyping
+    - architecture, concept and design
+
+
 2014-09
 =======
 - `Workshop digitales Bienenmonitoring`_ at `mauergarten e.V.`_ on 2014-09-21
 
 
-2014
-====
-- Start the `Open Hive`_ open source beehive monitoring project
-- Start organizing regular get-togethers
-- Hardware evaluation and prototyping
-- Architecture, concept and design
 2014-04
 =======
 Markus Euskirchen und Clemens Gruber bauen eine elektronische Bienenwaage:

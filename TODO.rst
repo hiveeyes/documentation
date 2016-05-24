@@ -29,6 +29,12 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 - [o] Describe the software interfaces in detail.
 - [o] Refactor main index.rst
 - [o] Add docs/why-hiveeyes
+- [o] Add to docs: http://open-hive.org/apiary/index.html?user=clemens&hive=1
+
+
+2016-05-23
+==========
+- [o] Schwarmalarm v1, HiveeyesDaily
 
 
 2016-05-20 rpo, amo
@@ -36,23 +42,23 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 - [o] Use both raw and effective sensor values. Effective sensor values are modified by a specific delta.
 
 
+2016-05-14 rpo, amo
+===================
+- [o] Add Homepage. Some blueprints:
+
+* https://wordpress.com/
+* https://www.cesanta.com/products/smart-js
+* https://www.docker.com/products/docker-compose
+* http://www.jyt.io/
+* https://gortool.com/
+* https://panopticon.re/
+* http://opendesk.github.io/smartdesk/
+
+
 2016-04-24
 ==========
 - http://blog.durablescope.com/2015/03/build-speed-camera-and-traffic-logger.html
 - https://github.com/tonbut/rpi-traffic-radar/blob/master/radar.pysmart
-
-
-2016-04-12
-==========
-- Homepage blueprint: http://opendesk.github.io/smartdesk/
-- Neues Material
-
-    - https://vimeo.com/69973637
-    - https://www.ixds.com/events/pre-work-talk-7
-    - http://open-hive.org/prototype-sound_2013-06/
-    - http://www.euse.de/wp/blog/2014/04/durchbruch-bienenwaage/
-    - http://www.euse.de/honig/beescale/graph.php
-    -
 
 
 2016-03-06 amo
@@ -110,22 +116,12 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 
 Improvements
 ------------
-- [o] Fix image links re. ESP8266
+- [o] Open Hive: Add Fritzing schema for ESP8266
 - [o] Add Stückliste (via Excel file)
-- [o] Add first steps of Bienenmonitoring [2013] to project history
-
-    - http://www.euse.de/wp/blog/2014/04/durchbruch-bienenwaage/
-    - http://www.euse.de/wp/blog/2014/06/bienenwaage-testbetrieb/
-
-- [o] Add pictures of ESP8266 spike
-
-    - https://www.facebook.com/photo.php?fbid=10205861763442966&set=pb.1224510416.-2207520000.1454976667.&type=3&size=960%2C541&_fb_noscript=1
-
 - [o] Add section about collaboration with other bee monitoring projects
 
     - Germany
 
-        - http://www.euse.de/wp/blog/tag/bienenwaage/
         - https://www.imker-nettetal.de/tag/stockwaage/
         - http://www.imker-stockwaage.de/
         - http://beelogger.de/
