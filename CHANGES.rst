@@ -13,6 +13,7 @@ in-progress
 - Add liability disclaimer for offered public services
 - Add embedded Graphs to History displaying harvesting and temperature-drop events
 - Fix image links to Clemens' Open Hive Adafruit HUZZAH
+- Add information about “Bienenkisten-Monitoring” by Markus Euskirchen
 
 2016-05-23 0.3.0
 ================

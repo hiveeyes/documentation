@@ -396,6 +396,9 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 
     `CNC Machining Workshop`_  at `FabLab Berlin`_
 
+- News from Markus:
+  http://www.euse.de/wp/blog/2015/01/bienenwaage-reloaded/
+
 
 ****
 2014
@@ -430,6 +433,10 @@ Start working on a sensor node network based on Felix Rusu's LowPowerLab_ RFM12B
 |clearfix|
 
 
+- News from Markus:
+  http://www.euse.de/wp/blog/2014/11/voltaic-solar-charger-in-action/
+
+
 2014-09
 =======
 - `Workshop digitales Bienenmonitoring`_ at `mauergarten e.V.`_ on 2014-09-21
@@ -441,3 +448,41 @@ Start working on a sensor node network based on Felix Rusu's LowPowerLab_ RFM12B
 - Start organizing regular get-togethers
 - Hardware evaluation and prototyping
 - Architecture, concept and design
+2014-04
+=======
+Markus Euskirchen und Clemens Gruber bauen eine elektronische Bienenwaage:
+
+- http://www.euse.de/wp/blog/2014/04/durchbruch-bienenwaage/
+- http://www.euse.de/wp/blog/2014/06/bienenwaage-testbetrieb/
+- http://www.euse.de/wp/blog/2014/07/bienenstockwaage-wireless/
+- http://www.euse.de/wp/blog/2014/07/bienenwaage-todo-2/
+- Bienenstockwaage - Bee Hive Scale: http://www.euse.de/honig/beescale/graph.php
+- All articles: http://www.euse.de/wp/blog/tag/bienenwaage/
+
+
+
+****
+2012
+****
+
+2012-07
+=======
+- Arduino Forum "Topic: `Measuring the weight of a beehive <http://forum.arduino.cc/index.php?topic=113534.0>`_".
+- News from Markus: http://www.euse.de/wp/blog/2012/07/ulengewicht/
+
+2012-05
+=======
+News from Markus:
+
+- http://www.euse.de/wp/blog/2012/03/solarladegerat-fertig/
+- http://www.euse.de/wp/blog/2012/05/bienengewicht/
+
+
+****
+2011
+****
+Markus Euskirchen starts the project „Bienenkisten-Monitoring“.
+
+- http://www.euse.de/wp/blog/2011/12/lauschen-statt-wiegen/
+- http://www.euse.de/wp/blog/2011/12/teileliste/
+
