@@ -14,6 +14,7 @@ in-progress
 - Add embedded Graphs to History displaying harvesting and temperature-drop events
 - Fix image links to Clemens' Open Hive Adafruit HUZZAH
 - Add information about “Bienenkisten-Monitoring” by Markus Euskirchen
+- Add history information about the "Open Hive" project by Clemens Gruber
 
 2016-05-23 0.3.0
 ================

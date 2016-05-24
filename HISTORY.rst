@@ -459,6 +459,49 @@ Markus Euskirchen und Clemens Gruber bauen eine elektronische Bienenwaage:
 - Bienenstockwaage - Bee Hive Scale: http://www.euse.de/honig/beescale/graph.php
 - All articles: http://www.euse.de/wp/blog/tag/bienenwaage/
 
+More:
+
+- Clemens Gruber starts the `Open Hive`_ open source beehive monitoring project
+
+
+****
+2013
+****
+
+2013-07
+=======
+.. raw:: html
+
+    <iframe src="https://player.vimeo.com/video/69973637?color=c9ff23&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+.. container:: width-800
+
+    In his talk "Bees Dance" Tim Landgraf reveals how robotics are involved with bees,
+    Yair Kira presents his project "Bees Armchair" and beekeeper Clemens Gruber (of
+    "Open Hive") shares how he gets insights from his beehive through computer based
+    monitoring. Clemens starts talking at 26:00.
+
+    Enjoy!
+
+    .. raw:: html
+
+        <p><a href="https://vimeo.com/69973637">Pre-Work Talk #7 &mdash; Bees</a> from <a href="https://vimeo.com/user17912812">IXDS</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+|clearfix|
+
+
+2013-06
+=======
+.. raw:: html
+
+    <iframe src="http://open-hive.org/prototype-sound_2013-06/" width="1024" height="768" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+.. container:: width-800
+
+    `Result Dataset 2013/06 Day 08-17 <http://open-hive.org/prototype-sound_2013-06/>`_ from Clemens
+    Gruber displaying different hive temperatures, humidity, brightness, pressure and audio fft.
+
+|clearfix|
 
 
 ****
