@@ -11,6 +11,7 @@ in-progress
 - Improve index page by using information from former splash screen
   and by embedding live data from our lab hive in Berlin Wedding
 - Add liability disclaimer for offered public services
+- Add embedded Graphs to History displaying harvesting and temperature-drop events
 
 2016-05-23 0.3.0
 ================

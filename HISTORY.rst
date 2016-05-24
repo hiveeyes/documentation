@@ -13,6 +13,24 @@ History
 ****
 
 
+2016-05-23 Nightly drop of temperature
+======================================
+.. raw:: html
+
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=5&fullscreen&from=1464020765066&to=1464054310642" width="800" height="400" frameborder="0"></iframe>
+
+|clearfix|
+
+
+2016-05-22 Harvesting
+=====================
+.. raw:: html
+
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=5&fullscreen&from=1463906422908&to=1463948547357" width="800" height="400" frameborder="0"></iframe>
+
+|clearfix|
+
+
 2016-05-20 Schwarmalarm
 =======================
 .. raw:: html
@@ -60,7 +78,7 @@ April/May 2016
 .. container:: width-800
 
     Let's look at the data. During the cold period at the end of April the beehive loses absolute weight
-    because the bees have to live on their reserves. In contrast, the following two weeks were amazingly warm in May,
+    because the bees have to live off their reserves. In contrast, the following two weeks were amazingly warm in May,
     so the worker bees are getting extremely busy.
 
     From April 29 until May 13, the weight has increased by almost 14 Kg.
