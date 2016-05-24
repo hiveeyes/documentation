@@ -1,11 +1,15 @@
+.. _hiveeyes-changes:
+
 #######
 CHANGES
 #######
 
-in-motion
-=========
+in-progress
+===========
 - Embed live Grafana dashboard into project history
 - Update Kotori link, Improve wording, Add GitHub link to Arduino MCU code
+- Improve index page by using information from former splash screen
+  and by embedding live data from our lab hive in Berlin Wedding
 
 2016-05-23 0.3.0
 ================

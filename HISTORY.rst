@@ -18,9 +18,10 @@ History
 .. raw:: html
 
     <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=5&fullscreen&from=1463633560600&to=1463680184231" width="800" height="400" frameborder="0"></iframe>
-    <div style="width: 800px">
-        Bam.
-    </div>
+
+.. container:: width-800
+
+    Bam.
 
 |clearfix|
 
@@ -258,17 +259,6 @@ Hiveeyes backend
     :align: right
 
     Grafana dashboard "BER prototype #1"
-
-|clearfix|
-
-
-Live data
----------
-Data collected from :ref:`HiveeyesOne`, displaying last 30 days of sensor data.
-
-.. raw:: html
-
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard/db/1-prototype-wip-amo?from=1461387300215&to=now" width="1024" height="768" frameborder="0"></iframe>
 
 |clearfix|
 

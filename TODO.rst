@@ -4,6 +4,8 @@
 
 ----
 
+.. _hiveeyes-ideas:
+
 #####
 Ideas
 #####
@@ -14,6 +16,17 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 2016
 ****
+
+2016-05-24
+==========
+- [o] Publish at hiveeyes.org/docs, redirect from swarm.hiveeyes.org
+- [o] Add documentation license
+- [o] Send measurement values from the website
+- [o] Provide a HTTP-based data sink
+- [o] Write tutorial about how to actually get started with own hardware.
+- [o] List some of the embedded components we build upon.
+- [o] Describe the software interfaces in detail.
+
 
 2016-04-24
 ==========
@@ -431,6 +444,7 @@ Wishlist
 
 ----
 
+.. _hiveeyes-todo:
 
 ####
 Todo

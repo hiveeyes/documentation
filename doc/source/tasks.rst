@@ -2,6 +2,4 @@
 
 .. default-role:: any
 
-.. _tasks:
-
 .. include:: ../../TODO.rst

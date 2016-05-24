@@ -1,9 +1,13 @@
+.. include:: _resources.rst
+
+.. _hiveeyes-readme:
+
 ######
 README
 ######
 
 Change documentation
-===================
+====================
 ::
 
     git clone git@git.elmyra.de:hiveeyes/swarm-hiveeyes-org.git

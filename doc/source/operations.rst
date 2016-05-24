@@ -1,5 +1,7 @@
 .. include:: _resources.rst
 
+.. _platform-operations:
+
 ##########
 Operations
 ##########

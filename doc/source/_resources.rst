@@ -47,6 +47,7 @@
 
 .. Hiveeyes
 .. _Hiveeyes project: https://hiveeyes.org/
+.. _Hiveeyes email: mailto:hiveeyes-devs [aet] ideensyndikat.org
 .. _Hiveeyes platform: https://swarm.hiveeyes.org/
 .. _Hiveeyes system documentation: https://swarm.hiveeyes.org/docs/
 .. _Google translation of the "Hiveeyes system documentation" tasks: https://translate.google.com/translate?hl=en&sl=de&tl=en&u=https%3A%2F%2Fswarm.hiveeyes.org%2Fdocs%2Ftasks.html
