@@ -50,9 +50,10 @@
 .. _Hiveeyes platform: https://swarm.hiveeyes.org/
 .. _Hiveeyes system documentation: https://swarm.hiveeyes.org/docs/
 .. _Google translation of the "Hiveeyes system documentation" tasks: https://translate.google.com/translate?hl=en&sl=de&tl=en&u=https%3A%2F%2Fswarm.hiveeyes.org%2Fdocs%2Ftasks.html
-.. _Arduino with RFM12B: https://hiveeyes.org/blog/rfm12b%20soldering
+.. _RFM Breakout-Board soldering: https://hiveeyes.org/blog/rfm12b%20soldering
 .. _DIY antennas for RFM69: https://hiveeyes.org/blog/einsiedlerkrebs-2015/10/14/Antenna
 
+.. _Hiveeyes Arduino: https://github.com/hiveeyes/arduino
 .. _BERadio: https://hiveeyes.org/docs/beradio/
 .. _Kotori: https://getkotori.org/docs/
 

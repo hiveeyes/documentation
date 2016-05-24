@@ -16,10 +16,10 @@ Introduction
 Richard is working on the `Hiveeyes project`_, an open source / open hardware beehive monitoring stack.
 He engineered the RFM69_-based node communication hardware and software HEnode_.
 
-    - `Arduino with RFM12B`_
-    - `DIY antennas for RFM69`_
-    - `HEnode version 0.2.2`_
-    - .. todo:: Publish HEnode_ Arduino_ source code, currently still living in `arduino-playground`_
+    - Hardware: `RFM Breakout-Board soldering`_
+    - Hardware: `DIY antennas for RFM69`_
+    - Hardware: `HEnode version 0.2.2`_
+    - Software: `Hiveeyes Arduino`_ Atmel AVR MCU code
 
 as well as the message encapsulation in form of the:
 

@@ -19,7 +19,7 @@ Open source software
 - `InfluxDB <https://influxdb.com/>`__, an open-source distributed time series database.
 - `Grafana <http://grafana.org/>`__, the leading graph and dashboard builder for visualizing time series metrics.
 - `RFM69 library <https://github.com/LowPowerLab/RFM69>`__, a paramount RFM69 radio link library for RFM69W and RFM69HW on Arduino.
-- `Kotori DAQ <https://docs.elmyra.de/isar-engineering/kotori-daq/>`__, a multi-channel, multi-protocol data acquisition and graphing toolkit.
+- `Kotori <https://getkotori.org/>`__, a multi-channel, multi-protocol data acquisition and graphing toolkit.
 
     - `Twisted <https://twistedmatrix.com/>`__, an event-driven networking framework.
     - `Autobahn <http://autobahn.ws/>`__, an open-source real-time framework for Web, Mobile & Internet of Things.

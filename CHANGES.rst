@@ -4,6 +4,8 @@ CHANGES
 
 in-motion
 =========
+- Embed live Grafana dashboard into project history
+- Update Kotori link, Improve wording, Add GitHub link to Arduino MCU code
 
 2016-05-23 0.3.0
 ================
