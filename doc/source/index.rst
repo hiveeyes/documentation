@@ -143,6 +143,11 @@ using it. We also perform nightly backups of the whole system. Your data should 
 If you experience any malfunction or have suggestions for further improvements,
 please do not hesitate to `contact us <Hiveeyes email_>`_.
 
+Disclaimer
+----------
+When using our public services, the terms and conditions
+of the :ref:`hiveeyes-liability-disclaimer` apply.
+
 Fair-use policy
 ---------------
 Please regulate your measurement frequency to prevent overloading the platform.
