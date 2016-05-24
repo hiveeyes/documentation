@@ -12,6 +12,7 @@ in-progress
   and by embedding live data from our lab hive in Berlin Wedding
 - Add liability disclaimer for offered public services
 - Add embedded Graphs to History displaying harvesting and temperature-drop events
+- Fix image links to Clemens' Open Hive Adafruit HUZZAH
 
 2016-05-23 0.3.0
 ================

@@ -118,10 +118,10 @@ April/May 2016
 ==========
 :ref:`OpenHive` starts transmitting data. Cheers!
 
-.. figure:: https://ptrace.hiveeyes.org/2016-02-22_ESP8266_size.jpg
-    :target: `Open Hive Shields`_
+.. figure:: https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/12647035_10205861763442966_6589427078704744972_n.jpg?oh=ad00e82e9144d02b0a253905e4b739d5&oe=57E3B918
+    :target: https://www.facebook.com/photo.php?fbid=10205861763442966&set=pb.1224510416.-2207520000.1454976667.&type=3&theater
     :alt: Open Hive ESP8266
-    :width: 320px
+    :width: 440px
     :figclass: caption-narrow
     :align: left
 
@@ -346,7 +346,7 @@ payloads between the serial interface and the Mosquitto_ message broker.
 =======
 `Open Hive Shields`_ prototypes for Seeeduino Stalker (3.3 V) and Arduino Yun / Uno (5 V)
 
-.. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-0/p240x240/11693953_10204755930037822_8992406508094252562_n.jpg?oh=2391a5f426494a2b09cdb1b92be59fd8&oe=572C042A
+.. figure:: https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/11143664_10204755930037822_8992406508094252562_o.jpg
     :target: `Open Hive Shields`_
     :alt: Open Hive Seeeduino Stalker
     :width: 320px
