@@ -16,7 +16,8 @@ in-progress
 - Add information about “Bienenkisten-Monitoring” by Markus Euskirchen
 - Add history information about the "Open Hive" project by Clemens Gruber
 - Rename referenced Grafana dashboard to “hiveeyes-lab-wedding”,
-  remove “fullscreen” query parameter for Grafana 3.0 compatibility.
+  remove “fullscreen” query parameter for Grafana 3.0 compatibility
+- Improve “ptrace” make target: Proper filename shell- and url-escaping
 
 2016-05-23 0.3.0
 ================
