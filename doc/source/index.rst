@@ -129,7 +129,7 @@ Live data
 Intro
 =====
 Data currently is measured and collected at intervals of about 15 minutes from a beehive located in Berlin Wedding.
-The `full dashboard <https://swarm.hiveeyes.org/grafana/dashboard/db/1-prototype-wip-amo>`_ is also available.
+The `full dashboard <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-lab-wedding>`_ is also available.
 
 Legend for *Load cell* panel:
 
@@ -142,11 +142,11 @@ Last 30 days
 ============
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=5&fullscreen&from=now-30d&to=now" width="100%" height="400" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-lab-wedding?panelId=5&from=now-30d&to=now" width="800" height="425" frameborder="0"></iframe>
 
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=1&fullscreen&from=now-30d&to=now" width="100%" height="400" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-lab-wedding?panelId=1&from=now-30d&to=now" width="800" height="425" frameborder="0"></iframe>
 
 |clearfix|
 
@@ -155,11 +155,11 @@ Last 7 days
 ===========
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=5&fullscreen&from=now-7d&to=now" width="100%" height="400" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-lab-wedding?panelId=5&from=now-7d&to=now" width="100%" height="425" frameborder="0"></iframe>
 
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=1&fullscreen&from=now-7d&to=now" width="100%" height="400" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-lab-wedding?panelId=1&from=now-7d&to=now" width="100%" height="425" frameborder="0"></iframe>
 
 |clearfix|
 
@@ -168,11 +168,11 @@ Last 24 hours
 =============
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=5&fullscreen&from=now-24h&to=now" width="100%" height="400" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-lab-wedding?panelId=5&from=now-24h&to=now" width="100%" height="425" frameborder="0"></iframe>
 
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo?panelId=1&fullscreen&from=now-24h&to=now" width="100%" height="400" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-lab-wedding?panelId=1&from=now-24h&to=now" width="100%" height="425" frameborder="0"></iframe>
 
 |clearfix|
 
