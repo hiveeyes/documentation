@@ -15,6 +15,7 @@
 .. _LowPowerLab: http://lowpowerlab.com/
 .. _JeeLink: http://www.digitalsmarties.net/products/jeelink
 .. _RaspberryPi: https://www.raspberrypi.org/products/raspberry-pi-2-model-b/
+.. _Intel NUC: https://www-ssl.intel.com/content/www/us/en/nuc/overview.html
 
 .. _Bosche H30A single point load cell: http://www.bosche.eu/en/products/load-cells/single-point-load-cell-h30a
 .. _Bosche Wägezelle H30A: http://www.bosche.eu/produkte/waegezellen/plattform-waegezellen-h30a
@@ -77,7 +78,8 @@
 .. _Hiveeyes blog: https://hiveeyes.org/
 .. _Hiveeyes email: mailto:hiveeyes-devs [aet] ideensyndikat.org
 .. _Hiveeyes platform: https://swarm.hiveeyes.org/
-.. _Hiveeyes system documentation: https://swarm.hiveeyes.org/docs/
+.. _Hiveeyes system documentation: https://hiveeyes.org/docs/system/
+.. _Hiveeyes Debian package repository: https://packages.hiveeyes.org/hiveeyes/foss/debian/
 .. _Google translation of the "Hiveeyes system documentation" tasks: https://translate.google.com/translate?hl=en&sl=de&tl=en&u=https%3A%2F%2Fswarm.hiveeyes.org%2Fdocs%2Ftasks.html
 .. _RFM Breakout-Board soldering: https://hiveeyes.org/blog/rfm12b%20soldering
 .. _DIY antennas for RFM69: https://hiveeyes.org/blog/einsiedlerkrebs-2015/10/14/Antenna

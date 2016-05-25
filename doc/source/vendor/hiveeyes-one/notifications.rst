@@ -1,6 +1,6 @@
 .. include:: ../../_resources.rst
 
-.. _hiveeyes-one-topology:
+.. _hiveeyes-one-notifications:
 
 ##########################
 Hiveeyes One notifications

@@ -23,6 +23,7 @@ Welcome to the jungle.
     tasks
     research
     changes
+    people
 
 
 *****
@@ -120,6 +121,7 @@ Getting started
 #. Navigate to the automatically populated Grafana `testdrive dashboard <https://swarm.hiveeyes.org/grafana/dashboard/db/testdrive>`_
    to watch measurement values floating in.
 
+.. note:: Find more details at the :ref:`hiveeyes-architecture` documentation.
 
 
 ***********

@@ -19,10 +19,11 @@ in-progress
   remove “fullscreen” query parameter for Grafana 3.0 compatibility
 - Improve “ptrace” make target: Proper filename shell- and url-escaping
 - Significant updates to main, hiveeyes-one and open-hive index pages and HISTORY
+- Add :ref:`hiveeyes-people`
 
 2016-05-23 0.3.0
 ================
-- Update :ref:`platform-setup` re. Debian package repository at https://packages.hiveeyes.org/hiveeyes/foss/debian/
+- Update :ref:`platform-setup` re. `Hiveeyes Debian package repository`_
 - Update project history
 
 2016-03-07 0.2.0

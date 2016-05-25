@@ -470,7 +470,7 @@ Open Hive
         Excerpt from the article «The Very First Maker Faire Berlin Doesn’t Miss a Beat«
         published in `Make magazine`_ by Donald Bell, October 5, 2015.
 
-- :ref:`Open Hive temperature array` prototype
+- :ref:`openhive-temperature-array` prototype
 
     .. figure:: https://ptrace.hiveeyes.org/2016-05-25_openhive-temperature-array.jpg
         :alt: Open Hive temperature array prototype
