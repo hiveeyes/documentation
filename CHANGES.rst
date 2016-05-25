@@ -11,6 +11,10 @@ CHANGES
 
 in-progress
 ===========
+
+
+2016-05-26 0.4.0
+================
 - Embed live Grafana dashboard into :ref:`history`
 - Update link to Kotori_
 - Add link to `Hiveeyes Arduino`_ Atmel AVR MCU code on GitHub
