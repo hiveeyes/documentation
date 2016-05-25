@@ -106,11 +106,11 @@ Live data
 =========
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-lab-wedding?panelId=5&from=now-7d&to=now" width="100%" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=now-7d&to=now" width="100%" height="425" frameborder="0"></iframe>
 
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-lab-wedding?panelId=1&from=now-7d&to=now" width="100%" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=1&from=now-7d&to=now" width="100%" height="425" frameborder="0"></iframe>
 
 |clearfix|
 

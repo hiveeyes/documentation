@@ -15,7 +15,7 @@ in-progress
 - Fix image links to Clemens' Open Hive Adafruit HUZZAH
 - Add information about “Bienenkisten-Monitoring” by Markus Euskirchen
 - Add history information about the "Open Hive" project by Clemens Gruber
-- Rename referenced Grafana dashboard to “hiveeyes-lab-wedding”,
+- Rename referenced Grafana dashboard to “hiveeyes-labs-wedding”,
   remove “fullscreen” query parameter for Grafana 3.0 compatibility
 - Improve “ptrace” make target: Proper filename shell- and url-escaping
 - Significant updates to main, hiveeyes-one and open-hive index pages and HISTORY
