@@ -1,6 +1,6 @@
 .. include:: _resources.rst
 
-.. _hiveeyes-people:
+.. _people:
 
 ######
 People

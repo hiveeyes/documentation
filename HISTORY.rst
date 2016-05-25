@@ -22,16 +22,18 @@ The upgrade worked without any issues.
 Now we're running:
 
 - Mosquitto 1.4.8
-- InfluxDB 0.13.0 (from 0.10.0)
-- Grafana 3.0.2 (from 2.6)
-- Kotori 0.7.1 (from 0.5.1)
+- InfluxDB 0.13.0 (up from 0.10.0)
+- Grafana 3.0.2 (up from 2.6)
+- Kotori 0.7.1 (up from 0.5.1)
 
 When upgrading InfluxDB, some database migration steps were required:
 
 - https://docs.influxdata.com/influxdb/v0.13/administration/upgrading/#upgrading-from-0-10-or-0-11-to-0-13
 
 
-2016-05-23 Weight gain at night, it's raining
+.. _labs-event-20160523-nightly-weight-gain:
+
+2016-05-23 Nightly weight gain? It's raining!
 =============================================
 .. raw:: html
 
@@ -44,6 +46,8 @@ When upgrading InfluxDB, some database migration steps were required:
 
 |clearfix|
 
+
+.. _labs-event-20160522-harvesting:
 
 2016-05-22 Harvesting
 =====================
@@ -61,6 +65,9 @@ When upgrading InfluxDB, some database migration steps were required:
 |clearfix|
 
 
+.. _hiveeyes-schwarmalarm-2016-05-20:
+.. _labs-event-20160520-schwarmalarm:
+
 2016-05-20 Schwarmalarm
 =======================
 .. raw:: html
@@ -70,6 +77,14 @@ When upgrading InfluxDB, some database migration steps were required:
 .. container:: width-800
 
     Bam.
+
+    This is a weight-loss event from :ref:`hiveeyes-scale-beutenkarl`
+    recorded on 2016-05-20 between 10:11 and 10:26 hours CEST after a
+    bee colony started swarming at the Hiveeyes Labs Beehive in Berlin Wedding.
+
+    There's another story about catching the colony from a
+    Robinia tree in our neighbourhood. More on that later.
+
 
 |clearfix|
 
@@ -92,6 +107,8 @@ When upgrading InfluxDB, some database migration steps were required:
 |clearfix|
 
 
+.. _labs-event-20160518-spring-time:
+
 2016-05-18 Spring time
 ======================
 
@@ -112,7 +129,7 @@ April/May 2016
 
 .. container:: width-800
 
-    Let's look at the data. During the cold period at the end of April the beehive loses absolute weight
+    Let's have a look at the data. During the cold period at the end of April the beehive loses absolute weight
     because the bees have to live off their reserves. In contrast, the following two weeks were amazingly warm in May,
     so the worker bees are getting extremely busy.
 
@@ -185,6 +202,8 @@ the documentary will be aired on 2016-05-19.
 |clearfix|
 
 
+.. _history-beutenkarl-mounted:
+
 2016-04-14
 ==========
 Rigging up the scale frame "Beutenkarl" at the Hiveeyes Lab Beehive in Berlin Wedding.
@@ -195,7 +214,7 @@ Rigging up the scale frame "Beutenkarl" at the Hiveeyes Lab Beehive in Berlin We
     :figclass: caption-narrow
     :align: left
 
-    Scale Frame "Beutenkarl" carrying a `Bosche H30A single point load cell`_
+    Scale frame "Beutenkarl" carrying a `Bosche H30A single point load cell`_
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2002%20-%20Rigging.jpg
     :alt: Karsten at work
@@ -294,6 +313,7 @@ Start integrating with mqttwarn_: Add `feature "dynamic topic targets"`_ to `inc
 
 
 .. _history-2016-02-04:
+.. _history-hiveeyes-one-online:
 
 2016-02-04
 ==========
@@ -457,8 +477,9 @@ payloads between the serial interface and the Mosquitto_ message broker.
 
 Open Hive
 ---------
-- `Open Hive`_ is at the `Maker Faire Berlin`_ from 2015-10-03 to 2015-10-05.
-  Donald Bell covered Clemens' "Open Hive" project in his summary `Maker Faire Berlin 2015`_:
+- `Open Hive`_ is at the `Maker Faire Berlin`_ 2015 from 2015-10-03 to 2015-10-05.
+  Clemens Grubers "Open Hive" project was covered in `The Very First Maker Faire Berlin Doesn’t Miss a Beat <Maker Faire Berlin 2015_>`_
+  by Donald Bell. Enjoy reading:
 
     .. figure:: https://ptrace.hiveeyes.org/2016-05-25_openhive-maker-faire-berlin-2015-article.png
         :alt: Open Hive at Maker Faire Berlin 2015
@@ -609,7 +630,7 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 
 2014-04
 =======
-- Markus Euskirchen und Clemens Gruber bauen eine elektronische Bienenwaage:
+- Markus Euskirchen of `Open Bee Hive`_ has some news:
 
     - http://www.euse.de/wp/blog/2014/04/durchbruch-bienenwaage/
     - http://www.euse.de/wp/blog/2014/06/bienenwaage-testbetrieb/
@@ -624,7 +645,6 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 
     - http://www.euse.de/wp/blog/2014/07/bienenwaage-todo-2/
     - Bee Hive Scale Graph: http://www.euse.de/honig/beescale/graph.php
-    - All articles: http://www.euse.de/wp/blog/tag/bienenwaage/
 
 - Clemens Gruber starts the `Open Hive`_ open source beehive monitoring project
 - Dazz starts collecting information about building an apidoctor: https://gist.github.com/dazz/11309904
@@ -686,7 +706,7 @@ Open Hive :ref:`openhive-cnc-machining-workshop-2014`
 
 2012-07
 =======
-- The canonical Arduino Forum thread `Measuring the weight of a beehive <http://forum.arduino.cc/index.php?topic=113534.0>`_
+- The canonical Arduino Forum thread `Measuring the weight of a beehive`_ gets started
 - News from Markus: http://www.euse.de/wp/blog/2012/07/ulengewicht/
 
 2012-05
@@ -700,8 +720,13 @@ News from Markus:
 ****
 2011
 ****
-Markus Euskirchen starts the project „Bienenkisten-Monitoring“.
+Markus Euskirchen of `Open Bee Hive`_ starts the „Bienenkisten-Monitoring“
+open source beehive monitoring project:
 
+- http://www.euse.de/wp/blog/2011/11/bienen-ueberwachen/
 - http://www.euse.de/wp/blog/2011/12/lauschen-statt-wiegen/
 - http://www.euse.de/wp/blog/2011/12/teileliste/
+
+He gets in touch with Clemens Gruber of `Open Hive`_ over the
+Arduino Forum thread `Measuring the weight of a beehive`_.
 

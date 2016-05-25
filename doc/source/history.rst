@@ -2,6 +2,6 @@
 
 .. default-role:: any
 
-.. _hiveeyes-history:
+.. _history:
 
 .. include:: ../../HISTORY.rst

@@ -23,6 +23,13 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 - [o] Add pictures of hive locations, like
   https://www.facebook.com/photo.php?fbid=10204054704427620&set=pb.1224510416.-2207520000.1454976667.&type=3&theater
 - [o] Write about technical specs in detail
+- [o] Grafana's "dashboard-solo" should
+
+    - display current datetime range
+    - allow zooming out
+
+- [o] Check https://packages.elmyra.de/hiveeyes/python/eggs/ at https://hiveeyes.org/docs/beradio/setup.html
+
 
 2016-05-24
 ==========

@@ -5,6 +5,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. _hiveeyes-system:
+
 #################################
 The Hiveeyes system documentation
 #################################
@@ -18,124 +20,133 @@ Welcome to the jungle.
     :hidden:
 
     history
-    vendor/hiveeyes-one/index
-    vendor/open-hive/index
-    tasks
-    research
+    handbook
+    do-it-yourself
+
+    goals
+    development
     changes
     people
+    labhive-one
+    terms
 
 
 *****
 About
 *****
+
+In a nutshell
+=============
 Hiveeyes is a data collection platform for beehive monitoring voluntarily
-operated by the beekeeper community.
-It uses low-cost, low-power hardware and runs completely on open source software.
+operated by the beekeeper community. We aim at making non-invasive beekeeping
+as affordable and comfortable as possible.
+The project uses low-cost, low-power hardware and is built completely with
+open source software.
+For further details, please see the projects' :ref:`goals`.
 
-The roots of this project are in the independent `Open Hive`_,
-`Hiveeyes <Hiveeyes project_>`_ and `Hive Monitor`_ bee monitoring projects.
-Please have a look at our shared project :ref:`hiveeyes-history`.
-
+Who is behind Hiveeyes?
+=======================
 We are a group of beekeepers from Berlin regularly meeting on
 wednesdays to build a telemetry platform for beehive monitoring.
 We are Karsten, Robert, Clemens, Richard, Martin, Andreas and Dazz.
 Feel welcome to `join us <Hiveeyes email_>`_.
 
-
-.. _hiveeyes-components:
-
-**********
-Components
-**********
-All hardware and software components are developed completely in the open,
-so you are always free to build and operate your own monitoring infrastructure
-based on these technologies.
-
-About technologies, standards, protocols and software components in use.
-We are standing on the shoulders of giants.
-
-Hardware
-========
-We currently have two different sensor kits in the making:
-
-- :ref:`hiveeyes-one` uses RF for transmitting telemetry data
-- :ref:`open-hive` is aiming at GPRS and WiFi for connectivity
-
-Software
-========
-- `Hiveeyes Arduino`_ Sensors: Atmel AVR MCU code for sensor reading and telemetry data transmission.
-
-- BERadio_ Gateway (optional): The RFM69_ to MQTT_ gateway used with the :ref:`hiveeyes-one` setup
-  is a convenient and versatile serial-to-mqtt forwarder implementing some specific details of the
-  Bencode_-based communication protocol.
-
-- Kotori_ Backend: The backend platform is completely open and driven by
-  a multi-channel, multi-protocol data acquisition and graphing
-  toolkit in turn based on Grafana_, InfluxDB_ and Mosquitto_.
-  Read :ref:`platform-setup` about how to setup an instance on your machine.
-
-.. note::
-
-    While the whole backend software stack (Grafana_, InfluxDB_, Mosquitto_
-    and Kotori_) can be installed on your own machine, we encourage using our
-    collaborative and open Hiveeyes :ref:`hiveeyes-platform` giving you an
-    instant-on experience for data collection and visualization. We always run
-    the most recent stable releases of each software component, while making
-    sure all parts fit together. Enjoy having all upstream changes and new
-    features available on the platform without thinking about backup,
-    maintenance and upgrade procedures, :ref:`read more <hiveeyes-platform>`.
+History
+=======
+The roots of this project are in the independent `Open Bee Hive`_, `Open Hive`_,
+`Hiveeyes <Hiveeyes project_>`_ and `Hive Monitor`_ bee monitoring projects.
+It is one of many spin-offs of the popular Arduino Forum thread
+`Measuring the weight of a beehive`_.
+Please have a look at our detailed shared project :ref:`history`.
 
 
-.. _hiveeyes-platform:
+***************
+Getting started
+***************
+For sending data to a self-operated Hiveeyes backend or our
+open Hiveeyes platform ``swarm.hiveeyes.org``,
+please read the :ref:`platform-services` and
+:ref:`data-acquisition` documentation pages.
+
+
+.. _platform:
 
 ********
 Platform
 ********
+The open Hiveeyes platform ``swarm.hiveeyes.org`` provides an
+instant-on experience for data collection and visualization.
+It always runs the most recent stable releases of each software
+component while making sure all parts fit together well.
+The backend is currently composed of Grafana_, InfluxDB_,
+Mosquitto_ and Kotori_.
 
-Intro
-=====
-The `Hiveeyes platform`_ is operated on ``swarm.hiveeyes.org`` and has the primary role
-of a stable integration testbed for the offered :ref:`hiveeyes-platform-services`.
+All collaborative efforts integrated into the platform
+will be available to all of its users.
+Enjoy having all upstream changes and new features available
+without thinking about backup, maintenance and upgrade procedures.
 
-Feel free to use the system to your own needs in beehive monitoring, no matter which sensor
-hardware is in use at your site. Just `drop us an email <Hiveeyes email_>`_ about custom
-requirements for data adapters, we are happy to support any protocol you are
-already using in the field.
 
-We are working closely with the developers of upstream software fitted for the purpose
-of our platform.
 
-Getting started
-===============
-#. Send measurement values / telemetry data to the "testdrive" channel
-   by publishing it to the MQTT bus as JSON message::
+**************
+Do it yourself
+**************
+All hardware and software components are developed completely in the open,
+so you are always free to build and operate your own monitoring infrastructure
+based on these technologies.
 
-    # get hold of a MQTT client of your choice
-    aptitude install mosquitto-clients
+For getting into doing that, please read the :ref:`do-it-yourself`
+page or `get in touch with us <Hiveeyes email_>`_. We are still
+working on the documentation and happy to get any feedback.
 
-    # publish measurements
-    export DEVICE_TOPIC=hiveeyes/testdrive/area-42/1
-    mosquitto_pub -h swarm.hiveeyes.org -t $DEVICE_TOPIC/message-json -m '{"temperature": 42.84, "humidity": 83}'
+Feel free to use the system to your own needs in beehive monitoring, no
+matter which sensor hardware is in use at your site.
+Just `drop us an email <Hiveeyes email_>`_ about custom requirements for
+data adapters, we are closely working together with the developers of
+upstream software and happy to support any protocol or serialization
+format you are already using in the field.
 
-#. Navigate to the automatically populated Grafana `testdrive dashboard <https://swarm.hiveeyes.org/grafana/dashboard/db/testdrive>`_
-   to watch measurement values floating in.
+.. figure:: https://ptrace.hiveeyes.org/2016-02-18_HEnode-field-01.jpg
+    :alt: HEnode version 0.2.2 in the field
+    :width: 275px
+    :align: left
 
-.. note:: Find more details at the :ref:`hiveeyes-architecture` documentation.
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2001%20-%20Beutenkarl.jpg
+    :alt: Scale Frame "Beutenkarl"
+    :width: 275px
+    :align: left
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2005%20-%20Ready%2C%20Back.jpg
+    :alt: Scale frame is mounted. Rear view.
+    :width: 275px
+    :align: left
+
+|clearfix|
+
 
 
 ***********
 Development
 ***********
+We are a small group of beekeepers doing this in their spare time,
+so we are always happy getting helping hands on this project in
+every area of development.
+For getting a feeling about what is currently going on, please
+have a look at the :ref:`changelog <changes>`.
+For digging deeper, we encourage reading
+the :ref:`development` documents.
 
-Contributions are welcome!
-==========================
+.. todo:: There are other projects like ... We are loosely in touch with them using ...
 
-- :ref:`hiveeyes-ideas`
-- :ref:`hiveeyes-todo`
-- :ref:`hiveeyes-research`
-- :ref:`hiveeyes-changes`
+We aim at providing the beekeeper community with a universal infrastructure
+for data collection to make the raw data acquisition part a no-brainer when
+developing individual solutions.
+Our hardware and software is available under free software or similar
+licenses to encourage the growth of an open ecosystem.
 
+
+
+.. _live-data:
 
 *********
 Live data
@@ -143,8 +154,8 @@ Live data
 
 Intro
 =====
-Data currently is measured and collected at intervals of about 15 minutes from a beehive located in Berlin Wedding.
-The `full dashboard <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-labs-wedding>`_ is also available.
+Data currently is measured and collected at intervals of
+about 15 minutes from our labs beehive located in Berlin Wedding.
 
 Legend for *Load cell* panel:
 
@@ -157,11 +168,11 @@ Last 30 days
 ============
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=now-30d&to=now" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=now-30d&to=now" width="100%" height="425" frameborder="0"></iframe>
 
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=1&from=now-30d&to=now" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=1&from=now-30d&to=now" width="100%" height="425" frameborder="0"></iframe>
 
 |clearfix|
 
@@ -192,43 +203,11 @@ Last 24 hours
 |clearfix|
 
 
+.. tip:: The `full dashboard #hiveeyes-labs-wedding <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-labs-wedding>`_ is also available.
+
+
 *****
 Terms
 *****
-Please read this information when using the public services offered by Hiveeyes.
-
-
-Disclaimer
-==========
-When using our public services, the terms and conditions
-of the :ref:`hiveeyes-liability-disclaimer` apply.
-
-
-Operations
-==========
-The platform will be continuously monitored and maintained to ensure maximum
-availability. We also perform nightly backups of the whole system, so data
-stored in the system should be reasonably safe.
-If you experience any malfunction or have suggestions for further improvements,
-please do not hesitate to `contact us <Hiveeyes email_>`_.
-
-Read :ref:`platform-operations` to gain insight about how the platform is operated.
-
-
-Fair-use policy
-===============
-Please regulate your measurement frequency to prevent overloading the platform.
-We are storing data for the long run.
-Taking one measurement per five minutes should be enough, don't go further than
-one measurement per minute.
-However, there is no throttling in place right now, so feel free to stress-test
-the platform (moderately and not permanently) in the "testdrive" namespace.
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Please read the :ref:`terms` when using the Hiveeyes public services.
 

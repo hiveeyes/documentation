@@ -65,6 +65,8 @@ HEnode
 |clearfix|
 
 
+.. _hiveeyes-scale-beutenkarl:
+
 Scale frame "Beutenkarl"
 ========================
 
@@ -252,14 +254,9 @@ Backend
 
 .. note::
 
-    While the whole backend software stack (Grafana_, InfluxDB_, Mosquitto_
-    and Kotori_) can be installed on your own machine, we encourage using our
-    collaborative and open Hiveeyes :ref:`hiveeyes-platform` giving you an
-    instant-on experience for data collection and visualization. We always run
-    the most recent stable releases of each software component, while making
-    sure all parts fit together. Enjoy having all upstream changes and new
-    features available on the platform without thinking about backup,
-    maintenance and upgrade procedures, :ref:`read more <hiveeyes-platform>`.
+    While the whole backend software stack can be installed on your own machine,
+    we encourage using our collaborative and open Hiveeyes :ref:`platform`.
+
 
 
 Parts-list

@@ -49,6 +49,10 @@
 .. _EmBencode: https://github.com/jcw/embencode
 
 
+.. Intercom
+.. _Measuring the weight of a beehive: http://forum.arduino.cc/index.php?topic=113534.0
+
+
 .. Links to our own resources
 
 .. People
@@ -56,6 +60,7 @@
 .. _Clemens Gruber: http://open-hive.org/
 
 .. Open Bee Hive
+.. _Open Bee Hive: http://www.euse.de/wp/blog/tag/bienenwaage/
 .. _RedFly-Shield: https://github.com/watterott/Arduino-Libs/tree/master/RedFly
 .. _Watterott: http://www.watterott.com/
 
@@ -84,7 +89,11 @@
 .. _RFM Breakout-Board soldering: https://hiveeyes.org/blog/rfm12b%20soldering
 .. _DIY antennas for RFM69: https://hiveeyes.org/blog/einsiedlerkrebs-2015/10/14/Antenna
 
+.. _Hiveeyes Labs Wedding Dashboard: https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-labs-wedding
+
+.. _Hiveeyes GitHub: https://github.com/hiveeyes
 .. _Hiveeyes Arduino: https://github.com/hiveeyes/arduino
+.. _Hiveeyes Arduino changelog: https://github.com/hiveeyes/arduino/blob/master/CHANGES.rst
 .. _node-rfm69-beradio.ino: https://github.com/hiveeyes/arduino/blob/master/node-rfm69-beradio/src/node-rfm69-beradio.ino
 .. _gateway-rfm69-beradio.ino: https://github.com/hiveeyes/arduino/blob/master/gateway-rfm69-beradio/src/gateway-rfm69-beradio.ino
 .. _BERadio: https://hiveeyes.org/docs/beradio/

@@ -1,10 +1,10 @@
 .. include:: _resources.rst
 
-.. _hiveeyes-platform-services:
+.. _platform-services:
 
 Platform services
 =================
-The `Hiveeyes platform`_ offers these services to the public:
+The `Hiveeyes platform`_ provides these services to the public:
 
 
 MQTT

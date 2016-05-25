@@ -326,5 +326,5 @@ def setup(app):
 # Link with Kotori and BERadio projects
 intersphinx_mapping = {
     'beradio': ('https://hiveeyes.org/docs/beradio/', None),
-    'kotori': ('https://getkotori.org/docs/', None),
+    'kotori':  ('https://getkotori.org/docs/', None),
 }

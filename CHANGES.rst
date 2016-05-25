@@ -8,6 +8,7 @@ CHANGES
     `Hiveeyes Arduino changelog`_, :ref:`BERadio changelog <beradio:changes>`
     and :ref:`Kotori changelog <kotori:changes>`.
 
+
 in-progress
 ===========
 - Embed live Grafana dashboard into :ref:`history`
@@ -32,11 +33,19 @@ in-progress
 - Add :ref:`people` page
 - Replace unix times (epoch) by human-readable time format
   (UTC string) in links to Grafana reference dashboard
+- Tweak and polish documentation
+- Improve coherency and interlinking between resources
+- Add important details
+- Start and refactor content into new pages
+  :ref:`handbook`, :ref:`do-it-yourself`, :ref:`goals`,
+  :ref:`development`, :ref:`labhive-one` and :ref:`terms`
+
 
 2016-05-23 0.3.0
 ================
 - Update :ref:`platform-setup` re. `Hiveeyes Debian package repository`_
 - Update project history
+
 
 2016-03-07 0.2.0
 ================
@@ -48,11 +57,13 @@ in-progress
 - Add infos about technology foundation and research notepad
 - Update designated InfluxDB version to 0.10.2
 
+
 2016-02-22 0.1.1
 ================
 - Add bumpversion for convenient version bumping
 - Add CHANGES.rst
 - Improve main index page and wording
+
 
 2016-02-22 0.1.0
 ================
