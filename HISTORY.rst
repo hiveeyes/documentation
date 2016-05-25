@@ -35,7 +35,7 @@ When upgrading InfluxDB, some database migration steps were required:
 =============================================
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=1464020765066&to=1464054310642" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-lab-wedding?panelId=5&from=20160523T162500&to=20160524T014500" width="800" height="425" frameborder="0"></iframe>
 
 .. container:: width-800
 
@@ -49,7 +49,7 @@ When upgrading InfluxDB, some database migration steps were required:
 =====================
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=1463906422908&to=1463948547357" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160522T090500&to=20160522T200500" width="800" height="425" frameborder="0"></iframe>
 
 .. container:: width-800
 
@@ -65,7 +65,7 @@ When upgrading InfluxDB, some database migration steps were required:
 =======================
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=1463633560600&to=1463680184231" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160519T040000&to=20160519T170000" width="800" height="425" frameborder="0"></iframe>
 
 .. container:: width-800
 
@@ -108,7 +108,7 @@ April/May 2016
 --------------
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=1461013134375&to=1463588387784" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160418T200000&to=20160518T160000" width="800" height="425" frameborder="0"></iframe>
 
 .. container:: width-800
 
@@ -128,7 +128,7 @@ April/May 2016
 -------
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=1462023385549&to=1462248704801" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160430T130000&to=20160503T040000" width="800" height="425" frameborder="0"></iframe>
 
 .. container:: width-800
 

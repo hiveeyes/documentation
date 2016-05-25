@@ -30,6 +30,8 @@ in-progress
 - Significant updates to :ref:`hiveeyes-system`,
   :ref:`hiveeyes-one`, :ref:`open-hive` and :ref:`history` pages
 - Add :ref:`people` page
+- Replace unix times (epoch) by human-readable time format
+  (UTC string) in links to Grafana reference dashboard
 
 2016-05-23 0.3.0
 ================
