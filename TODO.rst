@@ -17,6 +17,12 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 2016
 ****
 
+2016-05-25
+==========
+- [o] Is it clear how to download, setup, configure and run BERadio_ yet?
+- [o] Add pictures of hive locations, like
+  https://www.facebook.com/photo.php?fbid=10204054704427620&set=pb.1224510416.-2207520000.1454976667.&type=3&theater
+- [o] Write about technical specs in detail
 
 2016-05-24
 ==========
@@ -30,6 +36,7 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 - [o] Refactor main index.rst
 - [o] Add docs/why-hiveeyes
 - [o] Add to docs: http://open-hive.org/apiary/index.html?user=clemens&hive=1
+- [o] Add to docs: http://www.projektwerkstaetten.tu-berlin.de/menue/laufende_projektwerkstaetten_und_tu_projects/soziodiversitaet/
 
 
 2016-05-23

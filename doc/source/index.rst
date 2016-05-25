@@ -5,11 +5,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. _hiveeyes:
-
 #################################
 The Hiveeyes system documentation
 #################################
+
+.. highlight:: bash
 
 Welcome to the jungle.
 
@@ -20,6 +20,8 @@ Welcome to the jungle.
     history
     vendor/hiveeyes-one/index
     vendor/open-hive/index
+    tasks
+    research
     changes
 
 
@@ -57,7 +59,7 @@ Hardware
 We currently have two different sensor kits in the making:
 
 - :ref:`hiveeyes-one` uses RF for transmitting telemetry data
-- :ref:`open-hive` is aiming at GSM and WiFi for connectivity
+- :ref:`open-hive` is aiming at GPRS and WiFi for connectivity
 
 Software
 ========
@@ -72,6 +74,17 @@ Software
   toolkit in turn based on Grafana_, InfluxDB_ and Mosquitto_.
   Read :ref:`platform-setup` about how to setup an instance on your machine.
 
+.. note::
+
+    While the whole backend software stack (Grafana_, InfluxDB_, Mosquitto_
+    and Kotori_) can be installed on your own machine, we encourage using our
+    collaborative and open Hiveeyes :ref:`hiveeyes-platform` giving you an
+    instant-on experience for data collection and visualization. We always run
+    the most recent stable releases of each software component, while making
+    sure all parts fit together. Enjoy having all upstream changes and new
+    features available on the platform without thinking about backup,
+    maintenance and upgrade procedures, :ref:`read more <hiveeyes-platform>`.
+
 
 .. _hiveeyes-platform:
 
@@ -81,7 +94,7 @@ Platform
 
 Intro
 =====
-The `Hiveeyes platform`_ is operated on "swarm.hiveeyes.org" and has the primary role
+The `Hiveeyes platform`_ is operated on ``swarm.hiveeyes.org`` and has the primary role
 of a stable integration testbed for the offered :ref:`hiveeyes-platform-services`.
 
 Feel free to use the system to your own needs in beehive monitoring, no matter which sensor
@@ -101,10 +114,11 @@ Getting started
     aptitude install mosquitto-clients
 
     # publish measurements
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/1/message-json -m '{"temperature": 42.84, "humidity": 83}'
+    export DEVICE_TOPIC=hiveeyes/testdrive/area-42/1
+    mosquitto_pub -h swarm.hiveeyes.org -t $DEVICE_TOPIC/message-json -m '{"temperature": 42.84, "humidity": 83}'
 
-#. Navigate to the automatically populated `testdrive dashboard <https://swarm.hiveeyes.org/grafana/dashboard/db/testdrive>`_
-   to watch measurements floating into Grafana.
+#. Navigate to the automatically populated Grafana `testdrive dashboard <https://swarm.hiveeyes.org/grafana/dashboard/db/testdrive>`_
+   to watch measurement values floating in.
 
 
 
@@ -115,11 +129,10 @@ Development
 Contributions are welcome!
 ==========================
 
-- :ref:`hiveeyes-readme`
-- :ref:`hiveeyes-changes`
 - :ref:`hiveeyes-ideas`
 - :ref:`hiveeyes-todo`
 - :ref:`hiveeyes-research`
+- :ref:`hiveeyes-changes`
 
 
 *********

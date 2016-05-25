@@ -32,6 +32,9 @@ body, div.body {
 .align-center {
     text-align: center;
 }
+.align-right {
+    text-align: right;
+}
 
 
 /* clearfix after aligning left/right  */
@@ -44,9 +47,16 @@ body, div.body {
     text-align: center;
 }
 
+
 /* limit caption text width */
 .caption-narrow .caption {
     width: 320px;
+}
+.caption-regular .caption {
+    width: 400px;
+}
+.caption-large .caption {
+    width: 640px;
 }
 
 /* compensate against image rotation */

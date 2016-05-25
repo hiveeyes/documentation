@@ -8,12 +8,24 @@
 .. _Arduino: https://www.arduino.cc/
 .. _Moteino: http://lowpowerlab.com/moteino/
 .. _Moteino R3: http://lowpowerlab.com/wp-content/uploads/2013/06/Moteino_R3_banner.jpg
+.. _Moteino R4: https://lowpowerlab.com/shop/moteino-r4
+.. _LowPowerLab RFM69HW transceiver: https://lowpowerlab.com/shop/RFM69HW
+.. _HopeRF RFM69HW transceiver: http://www.hoperf.com/upload/rf/RFM69HW-V1.3.pdf
+.. _Semtech SX1231 transceiver chip: http://www.semtech.com/wireless-rf/rf-transceivers/sx1231/
 .. _LowPowerLab: http://lowpowerlab.com/
 .. _JeeLink: http://www.digitalsmarties.net/products/jeelink
 .. _RaspberryPi: https://www.raspberrypi.org/products/raspberry-pi-2-model-b/
+
+.. _Bosche H30A single point load cell: http://www.bosche.eu/en/products/load-cells/single-point-load-cell-h30a
 .. _Bosche Wägezelle H30A: http://www.bosche.eu/produkte/waegezellen/plattform-waegezellen-h30a
+.. _SparkFun HX711 Load Cell Amplifier: https://github.com/sparkfun/HX711-Load-Cell-Amplifier
+.. _Avia Semiconductor HX711 ADC: http://www.dfrobot.com/image/data/SEN0160/hx711_english.pdf
+
 .. _ESP8266: http://espressif.com/products/hardware/esp8266ex/overview
 
+
+.. Hardware Distributors
+.. _SEGOR: http://www.segor.de/
 
 .. Protocols
 .. _MQTT: http://mqtt.org/
@@ -22,31 +34,47 @@
 .. _XMPP: http://xmpp.org/
 
 .. Software Foundation
+.. _Linux: https://www.kernel.org/
 .. _InfluxDB: https://influxdb.com/
 .. _Grafana: http://grafana.org/
 .. _Mosquitto: http://mosquitto.org/
+.. _Python: https://www.python.org/
 
 .. Libraries
 .. _RFM12B: https://github.com/LowPowerLab/RFM12B
 .. _RFM69: https://github.com/LowPowerLab/RFM69
 .. _MQTT-SN-Arduino: https://github.com/boriz/MQTT-SN-Arduino
 .. _HX711 for Arduino: https://github.com/bogde/HX711
+.. _EmBencode: https://github.com/jcw/embencode
 
 
 .. Links to our own resources
 
-.. Mauergarten
-.. _mauergarten e.V.: http://www.mauergarten.net/
-.. _Workshop digitales Bienenmonitoring: http://www.mauergarten.net/2014/09/5226/
+.. People
+.. _Karsten Harazim: http://karstenharazim.de/
+.. _Clemens Gruber: http://open-hive.org/
+
+.. Open Bee Hive
+.. _RedFly-Shield: https://github.com/watterott/Arduino-Libs/tree/master/RedFly
+.. _Watterott: http://www.watterott.com/
 
 .. Open Hive
 .. _Open Hive: http://open-hive.org/
 .. _Open Hive Shields: https://www.facebook.com/media/set/?set=a.10204755929557810.1073741829.1224510416&type=1&l=0dd2f9ab84
 .. _CNC Machining Workshop: https://www.facebook.com/media/set/?set=a.10201453236152539.1073741827.1224510416&type=1&l=bca3f242ae
 .. _Open Hive Bee Scale: https://www.facebook.com/media/set/?set=a.10204255675971783.1073741828.1224510416&type=1&l=41802f0fee
+.. _Maker Faire Berlin 2015: http://makezine.com/2015/10/05/first-maker-faire-berlin-doesnt-miss-beat/
+.. _Adafruit HUZZAH ESP8266: https://www.adafruit.com/product/2471
+.. _node-wifi-mqtt.ino: https://github.com/hiveeyes/arduino/blob/master/node-wifi-mqtt/src/node-wifi-mqtt.ino
+
+.. Mauergarten
+.. _mauergarten e.V.: http://www.mauergarten.net/
+.. _Workshop digitales Bienenmonitoring: http://www.mauergarten.net/2014/09/5226/
 
 .. Hiveeyes
+.. _Hiveeyes: https://hiveeyes.org/
 .. _Hiveeyes project: https://hiveeyes.org/
+.. _Hiveeyes blog: https://hiveeyes.org/
 .. _Hiveeyes email: mailto:hiveeyes-devs [aet] ideensyndikat.org
 .. _Hiveeyes platform: https://swarm.hiveeyes.org/
 .. _Hiveeyes system documentation: https://swarm.hiveeyes.org/docs/
@@ -55,6 +83,8 @@
 .. _DIY antennas for RFM69: https://hiveeyes.org/blog/einsiedlerkrebs-2015/10/14/Antenna
 
 .. _Hiveeyes Arduino: https://github.com/hiveeyes/arduino
+.. _node-rfm69-beradio.ino: https://github.com/hiveeyes/arduino/blob/master/node-rfm69-beradio/src/node-rfm69-beradio.ino
+.. _gateway-rfm69-beradio.ino: https://github.com/hiveeyes/arduino/blob/master/gateway-rfm69-beradio/src/gateway-rfm69-beradio.ino
 .. _BERadio: https://hiveeyes.org/docs/beradio/
 .. _Kotori: https://getkotori.org/docs/
 
@@ -94,9 +124,10 @@
 
 .. Links to domain-related resources
 .. _Maker Faire Berlin: http://makerfaire.berlin/
+.. _Make magazine: http://makezine.com/
 .. _Chaos Communication Camp 2015: https://events.ccc.de/category/camp/camp2015/
 .. _FabLab Berlin: https://www.facebook.com/FablabBLN/
-
+.. _Elektrischer Reporter: http://www.elektrischer-reporter.de/
 
 
 .. Project and platform tools

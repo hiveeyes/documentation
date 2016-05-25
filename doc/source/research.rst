@@ -12,6 +12,22 @@ Research
 ****
 
 
+2016-05-20
+==========
+- Awesome research by `http://cpham.perso.univ-pau.fr/ <Congduc Pham>`_, University of Pau, France:
+
+    - `A DIY low-cost LoRa gateway <http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html>`_
+      based on Raspberry PI and `ThingSpeak <https://thingspeak.com/>`_ or `Freeboard.IO <https://freeboard.io>`_
+    - `A low-power, low-cost image sensor board <http://cpham.perso.univ-pau.fr/WSN-MODEL/tool-html/imagesensor.html>`_
+    - `Low-power, long-range WAN for IoT: a technology overview <http://cpham.perso.univ-pau.fr/LORA/WAZIUP/RESSACS16-LPWAN-review.pdf>`_,
+      Talk at RESSACS'2016, IRD Bondy, May 10th 2016.
+
+- http://kotahi.net/
+
+    - http://kotahi.net/sensor-data/
+    - http://kotahi.net/test-network-part-1/
+
+
 2016-04-12
 ==========
 - https://en.wikipedia.org/wiki/Akbil_%28smart_ticket%29

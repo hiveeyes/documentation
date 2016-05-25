@@ -13,6 +13,24 @@ History
 ****
 
 
+2016-05-24 Platform upgrade
+===========================
+Richard and Andreas upgraded the software releases on our platform server
+``swarm.hiveeyes.org`` to their most recent versions.
+The upgrade worked without any issues.
+
+Now we're running:
+
+- Mosquitto 1.4.8
+- InfluxDB 0.13.0 (from 0.10.0)
+- Grafana 3.0.2 (from 2.6)
+- Kotori 0.7.1 (from 0.5.1)
+
+When upgrading InfluxDB, some database migration steps were required:
+
+- https://docs.influxdata.com/influxdb/v0.13/administration/upgrading/#upgrading-from-0-10-or-0-11-to-0-13
+
+
 2016-05-23 Weight gain at night, it's raining
 =============================================
 .. raw:: html
@@ -64,7 +82,12 @@ History
     :alt: Elektrischer Reporter 149: Vernetzte Bienen, Fahrradlobbyisten und Spielausgrabungen
     :width: 800px
 
-    Elektrischer Reporter 149: Vernetzte Bienen, Fahrradlobbyisten und Spielausgrabungen
+.. container:: width-800
+
+    In »*Elektrischer Reporter 149: Vernetzte Bienen, Fahrradlobbyisten und Spielausgrabungen*«,
+    Richard Pobering talks about the Hiveeyes project.
+
+    Enjoy!
 
 |clearfix|
 
@@ -126,6 +149,101 @@ April/May 2016
 |clearfix|
 
 
+.. _history-2016-04-14:
+
+2016-04-14
+==========
+Tobias Lenartz and Markus Börner from `Elektrischer Reporter`_
+visit us to interview Richard about our project,
+the documentary will be aired on 2016-05-19.
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_ElRep%20-%2001%20-%20Interview.jpg
+    :alt: Elektrischer Reporter Interview "#149: Vernetzte Bienen"
+    :width: 400px
+    :align: center
+
+    Elektrischer Reporter Interview "#149: Vernetzte Bienen"
+
+|clearfix|
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_ElRep%20-%2002%20-%20Tobias%20Lenartz%2C%20Markus%20Boerner.jpg
+    :alt: Elektrischer Reporter "#149: Vernetzte Bienen": Tobias Lenartz, Markus Boerner
+    :width: 400px
+    :align: left
+    :figclass: caption-regular
+
+    Markus Boerner and Tobias Lenartz in »ElRep #149: Vernetzte Bienen«
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_ElRep%20-%2003%20-%20Richard%20Pobering.jpg
+    :alt: Elektrischer Reporter "#149: Vernetzte Bienen": Richard Pobering
+    :width: 400px
+    :align: right
+    :figclass: caption-regular
+
+    Richard Pobering in »ElRep #149: Vernetzte Bienen«
+
+|clearfix|
+
+
+2016-04-14
+==========
+Rigging up the scale frame "Beutenkarl" at the Hiveeyes Lab Beehive in Berlin Wedding.
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2001%20-%20Beutenkarl.jpg
+    :alt: Scale Frame "Beutenkarl"
+    :width: 400px
+    :figclass: caption-narrow
+    :align: left
+
+    Scale Frame "Beutenkarl" carrying a `Bosche H30A single point load cell`_
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2002%20-%20Rigging.jpg
+    :alt: Karsten at work
+    :width: 400px
+    :figclass: caption-narrow
+    :align: right
+
+    Karsten at work
+
+|clearfix|
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2003%20-%20Rigging.jpg
+    :alt: Richard is funneling the data
+    :width: 400px
+    :figclass: caption-narrow
+    :align: left
+
+    Richard is funneling the data
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2004%20-%20Data.jpg
+    :alt: Data arrives
+    :width: 400px
+    :figclass: caption-narrow
+    :align: right
+
+    Data arrives
+
+|clearfix|
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2005%20-%20Ready%2C%20Back.jpg
+    :alt: Scale frame is mounted. Back view.
+    :width: 400px
+    :figclass: caption-narrow
+    :align: left
+
+    Scale frame is mounted. Back view.
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2006%20-%20Ready%2C%20Front.jpg
+    :alt: Scale frame is mounted. Front view.
+    :width: 400px
+    :figclass: caption-narrow
+    :align: right
+
+    Scale frame is mounted. Front view.
+
+|clearfix|
+
+
 2016-02-16
 ==========
 :ref:`OpenHive` starts transmitting data. Cheers!
@@ -133,7 +251,7 @@ April/May 2016
 .. figure:: https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/12647035_10205861763442966_6589427078704744972_n.jpg?oh=ad00e82e9144d02b0a253905e4b739d5&oe=57E3B918
     :target: https://www.facebook.com/photo.php?fbid=10205861763442966&set=pb.1224510416.-2207520000.1454976667.&type=3&theater
     :alt: Open Hive ESP8266
-    :width: 440px
+    :width: 330px
     :figclass: caption-narrow
     :align: left
 
@@ -150,7 +268,7 @@ April/May 2016
 .. figure:: https://ptrace.hiveeyes.org/2016-02-16_grafana-ber-prototype-2.jpeg
     :target: https://swarm.hiveeyes.org/grafana/dashboard/snapshot/b87pjWd80DfENQXBa4JzTT5mSUt83Tsd
     :alt: Open Hive Grafana dashboard
-    :width: 320px
+    :width: 330px
     :align: right
 
     Grafana dashboard "BER prototype #2"
@@ -169,11 +287,13 @@ Start integrating with mqttwarn_: Add `feature "dynamic topic targets"`_ to `inc
 
 .. figure:: https://ptrace.hiveeyes.org/2016-02-12_hiveeyes-notification-xmpp.jpg
     :alt: xmpp messages from mqttwarn
-    :width: 320px
+    :width: 800px
 
     Receive messages from MQTT_ and republish to XMPP_
 
 
+
+.. _history-2016-02-04:
 
 2016-02-04
 ==========
@@ -194,7 +314,7 @@ beams required to transmit collected telemetry data.
     :target: `DIY antennas for RFM69`_
     :alt: hiveeyes-one receiver
     :figclass: caption-narrow rotated
-    :width: 320px
+    :width: 350px
     :class: rotate-right
     :align: left
 
@@ -219,7 +339,7 @@ beams required to transmit collected telemetry data.
     :target: `DIY antennas for RFM69`_
     :alt: hiveeyes-one sender
     :figclass: caption-narrow
-    :width: 320px
+    :width: 350px
     :align: right
 
     The first HEnode_ sensor node sits in a hive approx. 120 meters away
@@ -239,7 +359,7 @@ Also, we compile Arduino_ code on this machine and reprogram the devices.
 .. figure:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/Jeelink%2BSMA.jpg
     :target: `DIY antennas for RFM69`_
     :alt: hiveeyes-one receiver
-    :width: 320px
+    :width: 350px
     :figclass: caption-narrow
     :align: left
 
@@ -248,7 +368,7 @@ Also, we compile Arduino_ code on this machine and reprogram the devices.
 .. figure:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/GatewayRPI-Jeelink.jpg
     :target: `DIY antennas for RFM69`_
     :alt: Gateway with RaspberryPi and JeeLink
-    :width: 320px
+    :width: 350px
     :figclass: caption-narrow
     :align: right
 
@@ -285,7 +405,7 @@ Hiveeyes backend
 .. figure:: https://ptrace.hiveeyes.org/2016-02-04_grafana-ber-prototype-1.jpeg
     :target: https://swarm.hiveeyes.org/grafana/dashboard/snapshot/Z9QBKYitgiOq53lrySWkbOSyWUk9rc92
     :alt: hiveeyes-one dashboard
-    :width: 320px
+    :width: 400px
     :align: right
 
     Grafana dashboard "BER prototype #1"
@@ -304,7 +424,7 @@ Work on bringing :ref:`HiveeyesOne` into the field
 
 .. figure:: https://ptrace.hiveeyes.org/2016-01-25_first-measurements-in-grafana.jpg
     :alt: hiveeyes-one: first measurements in grafana
-    :width: 320px
+    :width: 600px
 
     The first measurements arrive in Grafana
 
@@ -334,13 +454,38 @@ payloads between the serial interface and the Mosquitto_ message broker.
 
 2015-10
 =======
-- `Open Hive`_ is at the `Maker Faire Berlin`_ from 2015-10-03 to 2015-10-05
+
+Open Hive
+---------
+- `Open Hive`_ is at the `Maker Faire Berlin`_ from 2015-10-03 to 2015-10-05.
+  Donald Bell covered Clemens' "Open Hive" project in his summary `Maker Faire Berlin 2015`_:
+
+    .. figure:: https://ptrace.hiveeyes.org/2016-05-25_openhive-maker-faire-berlin-2015-article.png
+        :alt: Open Hive at Maker Faire Berlin 2015
+        :target: `Maker Faire Berlin 2015`_
+        :figclass: caption-large
+        :width: 679px
+
+        Open Hive at Maker Faire Berlin 2015.
+        Excerpt from the article «The Very First Maker Faire Berlin Doesn’t Miss a Beat«
+        published in `Make magazine`_ by Donald Bell, October 5, 2015.
+
+- :ref:`Open Hive temperature array` prototype
+
+    .. figure:: https://ptrace.hiveeyes.org/2016-05-25_openhive-temperature-array.jpg
+        :alt: Open Hive temperature array prototype
+        :width: 800px
+
+        Open Hive temperature array, prototype left with PCB, right with ribbon cable
+
+Hiveeyes
+--------
 - Continue working on :ref:`HiveeyesOne`
+
 - Build upon `serial-to-mqtt`_ by `Andy Piper`_ and `Didier Donsez`_ and iterate into
 
-    - the :ref:`beradio-spec`, an efficient ether transport
-      protocol used for radio link communication. Throws Bencode_
-      into the mix of the constrained environment of RFM69_ with Moteino_.
+    - the :ref:`beradio-spec`, an efficient transport protocol for radio link communication.
+      Throws Bencode_ into the mix of the constrained environment of RFM69_ with Moteino_.
     - the BERadio_ Python library, for forwarding payloads between
       a JeeLink_ receiving data via RFM69_ on a serial interface
       of a RaspberryPi_ and the MQTT_ message broker Mosquitto_.
@@ -356,23 +501,23 @@ payloads between the serial interface and the Mosquitto_ message broker.
 
 2015-07
 =======
-`Open Hive Shields`_ prototypes for Seeeduino Stalker (3.3 V) and Arduino Yun / Uno (5 V)
+:ref:`openhive-seeeduino-stalker` prototype, see also `Open Hive Shields`_
 
 .. figure:: https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/11143664_10204755930037822_8992406508094252562_o.jpg
     :target: `Open Hive Shields`_
     :alt: Open Hive Seeeduino Stalker
-    :width: 320px
+    :width: 400px
     :align: left
 
     Open Hive Seeeduino Stalker
 
-.. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-0/q83/p206x206/11703029_10204755930917844_5574703060967955722_n.jpg?oh=86d2c0d42dade1deda0b90675de983a5&oe=57604B2B
-    :target: `Open Hive Shields`_
-    :alt: Open Hive Arduino Yun / Uno
-    :width: 320px
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_openhive-seeeduino-stalker-kit-top.jpg
+    :alt: Open Hive Seeeduino Stalker Kit
+    :width: 400px
     :align: right
+    :figclass: caption-narrow
 
-    Open Hive Arduino Yun / Uno
+    Open Hive Seeeduino Stalker Kit
 
 |clearfix|
 
@@ -388,7 +533,7 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 .. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-0/p206x206/11188491_10204255677331817_1170125921095812284_n.jpg?oh=e86eff2ce77a3dfc2659cf7c29b438a2&oe=5755CAF2
     :target: `Open Hive Bee Scale`_
     :alt: Open Hive Bee Scale
-    :width: 320px
+    :width: 400px
 
 
 2015-02
@@ -404,7 +549,7 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 .. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-0/p206x206/1558384_10201453236632551_648198296_n.jpg?oh=4efa966bf4c5d966bb627ba9d795e659&oe=5757B42C
     :target: `CNC Machining Workshop`_
     :alt: Open Hive CNC Machining Workshop
-    :width: 320px
+    :width: 400px
 
     `CNC Machining Workshop`_  at `FabLab Berlin`_
 
@@ -427,23 +572,22 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 - Start working on a sensor node network based on Felix Rusu's LowPowerLab_ RFM12B_/RFM69_ libraries.
 
 .. figure:: https://hiveeyes.org/raw-attachment/blog/rfm12b%20soldering/IMG_20141130_230212.jpg
-    :target: `Arduino with RFM12B`_
+    :target: `RFM Breakout-Board soldering`_
     :alt: Two nodes transmitting via RFM12B
-    :width: 320px
+    :width: 400px
     :align: left
 
     Two nodes transmitting via RFM12B_
 
 .. figure:: https://hiveeyes.org/raw-attachment/blog/rfm12b%20soldering/IMG_20141130_230359.jpg
-    :target: `Arduino with RFM12B`_
+    :target: `RFM Breakout-Board soldering`_
     :alt: The first characters transmitted
-    :width: 320px
+    :width: 400px
     :align: right
 
     The first characters transmitted
 
 |clearfix|
-
 
 - News from Markus:
   http://www.euse.de/wp/blog/2014/11/voltaic-solar-charger-in-action/
@@ -465,19 +609,40 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 
 2014-04
 =======
-Markus Euskirchen und Clemens Gruber bauen eine elektronische Bienenwaage:
+- Markus Euskirchen und Clemens Gruber bauen eine elektronische Bienenwaage:
 
-- http://www.euse.de/wp/blog/2014/04/durchbruch-bienenwaage/
-- http://www.euse.de/wp/blog/2014/06/bienenwaage-testbetrieb/
-- http://www.euse.de/wp/blog/2014/07/bienenstockwaage-wireless/
-- http://www.euse.de/wp/blog/2014/07/bienenwaage-todo-2/
-- Bienenstockwaage - Bee Hive Scale: http://www.euse.de/honig/beescale/graph.php
-- All articles: http://www.euse.de/wp/blog/tag/bienenwaage/
+    - http://www.euse.de/wp/blog/2014/04/durchbruch-bienenwaage/
+    - http://www.euse.de/wp/blog/2014/06/bienenwaage-testbetrieb/
+    - http://www.euse.de/wp/blog/2014/07/bienenstockwaage-wireless/
 
-More:
+        .. figure:: https://www.euse.de/wp/wp-content/uploads/2014/07/p1050109.jpg
+            :alt: Open Bee Hive Scale Wireless
+            :width: 400px
+            :figclass: caption-narrow
+
+            Open Bee Hive Scale Wireless based on the `RedFly-Shield`_ from `Watterott`_.
+
+    - http://www.euse.de/wp/blog/2014/07/bienenwaage-todo-2/
+    - Bee Hive Scale Graph: http://www.euse.de/honig/beescale/graph.php
+    - All articles: http://www.euse.de/wp/blog/tag/bienenwaage/
 
 - Clemens Gruber starts the `Open Hive`_ open source beehive monitoring project
+- Dazz starts collecting information about building an apidoctor: https://gist.github.com/dazz/11309904
 
+
+2014-01
+=======
+Open Hive :ref:`openhive-cnc-machining-workshop-2014`
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_openhive-beescale-2014-D.jpg
+    :width: 400px
+    :align: left
+
+.. figure:: https://ptrace.hiveeyes.org/2016-05-25_openhive-beescale-2014-E.jpg
+    :width: 400px
+    :align: right
+
+|clearfix|
 
 ****
 2013
@@ -491,32 +656,28 @@ More:
 
 .. container:: width-800
 
+    `Pre-Work Talk #7 -- Bees <https://vimeo.com/69973637>`_ from `IXDS <https://vimeo.com/user17912812>`_.
+
     In his talk "Bees Dance" Tim Landgraf reveals how robotics are involved with bees,
-    Yair Kira presents his project "Bees Armchair" and beekeeper Clemens Gruber (of
-    "Open Hive") shares how he gets insights from his beehive through computer based
-    monitoring. Clemens starts talking at 26:00.
+    Yair Kira presents his project "Bees Armchair" and beekeeper Clemens Gruber shares
+    how he gets insights from his beehive through computer based monitoring in the
+    "Open Hive" project. Clemens starts talking at 26:00.
 
     Enjoy!
-
-    .. raw:: html
-
-        <p><a href="https://vimeo.com/69973637">Pre-Work Talk #7 &mdash; Bees</a> from <a href="https://vimeo.com/user17912812">IXDS</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 |clearfix|
 
 
 2013-06
 =======
-.. raw:: html
 
-    <iframe src="http://open-hive.org/prototype-sound_2013-06/" width="1024" height="768" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-.. container:: width-800
+.. figure:: https://ptrace.hiveeyes.org/2016-05-24_openhive-prototype-sound_2013-06.png
+    :target: http://open-hive.org/prototype-sound_2013-06/
+    :alt: Open Hive Sound prototype
+    :width: 800px
 
     `Result Dataset 2013/06 Day 08-17 <http://open-hive.org/prototype-sound_2013-06/>`_ from Clemens
-    Gruber displaying different hive temperatures, humidity, brightness, pressure and audio fft.
-
-|clearfix|
+    Gruber of Open Hive displaying different hive temperatures, humidity, brightness, pressure and audio fft.
 
 
 ****
@@ -525,7 +686,7 @@ More:
 
 2012-07
 =======
-- Arduino Forum "Topic: `Measuring the weight of a beehive <http://forum.arduino.cc/index.php?topic=113534.0>`_".
+- The canonical Arduino Forum thread `Measuring the weight of a beehive <http://forum.arduino.cc/index.php?topic=113534.0>`_
 - News from Markus: http://www.euse.de/wp/blog/2012/07/ulengewicht/
 
 2012-05

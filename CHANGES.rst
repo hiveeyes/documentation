@@ -18,6 +18,7 @@ in-progress
 - Rename referenced Grafana dashboard to “hiveeyes-lab-wedding”,
   remove “fullscreen” query parameter for Grafana 3.0 compatibility
 - Improve “ptrace” make target: Proper filename shell- and url-escaping
+- Significant updates to main, hiveeyes-one and open-hive index pages and HISTORY
 
 2016-05-23 0.3.0
 ================
