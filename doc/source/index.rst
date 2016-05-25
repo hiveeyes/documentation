@@ -20,7 +20,6 @@ Welcome to the jungle.
     history
     vendor/hiveeyes-one/index
     vendor/open-hive/index
-    foundation
     changes
 
 
@@ -46,12 +45,12 @@ Feel welcome to `join us <Hiveeyes email_>`_.
 **********
 Components
 **********
+All hardware and software components are developed completely in the open,
+so you are always free to build and operate your own monitoring infrastructure
+based on these technologies.
 
-Read more about the hardware and software components used at :ref:`hiveeyes-foundation`.
-As everything is completely in the open, you are free to operate your own monitoring
-infrastructure based on these components.
-However, we also operate a hosted :ref:`hiveeyes-platform` giving you an instant-on
-experience for data collection and visualization.
+About technologies, standards, protocols and software components in use.
+We are standing on the shoulders of giants.
 
 Hardware
 ========
