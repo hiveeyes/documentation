@@ -1,25 +1,35 @@
-.. _hiveeyes-changes:
-
 #######
 CHANGES
 #######
 
+.. hint::
+
+    For getting the whole picture of development, please also have a look at
+    `Hiveeyes Arduino changelog`_, :ref:`BERadio changelog <beradio:changes>`
+    and :ref:`Kotori changelog <kotori:changes>`.
+
 in-progress
 ===========
-- Embed live Grafana dashboard into project history
-- Update Kotori link, Improve wording, Add GitHub link to Arduino MCU code
+- Embed live Grafana dashboard into :ref:`history`
+- Update link to Kotori_
+- Add link to `Hiveeyes Arduino`_ Atmel AVR MCU code on GitHub
 - Improve index page by using information from former splash screen
-  and by embedding live data from our lab hive in Berlin Wedding
-- Add liability disclaimer for offered public services
-- Add embedded Graphs to History displaying harvesting and temperature-drop events
-- Fix image links to Clemens' Open Hive Adafruit HUZZAH
-- Add information about “Bienenkisten-Monitoring” by Markus Euskirchen
-- Add history information about the "Open Hive" project by Clemens Gruber
-- Rename referenced Grafana dashboard to “hiveeyes-labs-wedding”,
+  and by embedding :ref:`live-data` from our labs beehive in Berlin Wedding
+- Add liability disclaimer for public services
+- Add embedded Graphs to :ref:`history` displaying
+  :ref:`harvesting <labs-event-20160522-harvesting>` and
+  :ref:`nightly weight gain <labs-event-20160523-nightly-weight-gain>` events
+- Fix image links to Clemens' Open Hive `Adafruit HUZZAH ESP8266`_
+- Add information about the `Open Bee Hive`_ “Bienenkisten-Monitoring”
+  project by Markus Euskirchen to :ref:`history`
+- Add more information about the `Open Hive`_
+  project by Clemens Gruber to :ref:`history`
+- Rename referenced Grafana dashboard to “`hiveeyes-labs-wedding <Hiveeyes Labs Wedding Dashboard_>`_”,
   remove “fullscreen” query parameter for Grafana 3.0 compatibility
 - Improve “ptrace” make target: Proper filename shell- and url-escaping
-- Significant updates to main, hiveeyes-one and open-hive index pages and HISTORY
-- Add :ref:`hiveeyes-people`
+- Significant updates to :ref:`hiveeyes-system`,
+  :ref:`hiveeyes-one`, :ref:`open-hive` and :ref:`history` pages
+- Add :ref:`people` page
 
 2016-05-23 0.3.0
 ================
