@@ -31,8 +31,9 @@ Flavours
 
 .. note::
 
-    For selecting a client library and communication style of your choice,
-    we recommend taking a look at :ref:`kotori-client-handbook`.
+    For selecting a client library and communication style
+    of your choice, we recommend taking a look at the
+    :ref:`Kotori client handbook <kotori:kotori-client-handbook>`.
 
 Getting started
 ===============

@@ -10,10 +10,11 @@ Labhive One
 ***********
 Environment
 ***********
-:ref:`hiveeyes-one` is online and transmitting data from the labs
-beehive in Berlin Wedding since February 2016. It is an urban
-environment having the receiver gateway approx. 120 meters away in
-line-of-sight distance.
+:ref:`hiveeyes-one` is online and transmitting data from the
+:ref:`labs beehive <labhive-one>` in Berlin Wedding since
+February 2016.
+It is an urban environment having the receiver gateway approx.
+120 meters away in line-of-sight distance.
 We receive :ref:`live-data` from the hive and already have been able to
 record and discuss some :ref:`labhive-one-events`.
 

@@ -63,8 +63,8 @@ Short term
 
 .. note::
 
-    The first beehive, :ref:`labhive-one` is online since February 2016
-    at the labs beehive in Berlin Wedding.
+    The first :ref:`labs beehive <labhive-one>` is online since February 2016
+    in Berlin Wedding.
     We receive :ref:`live-data` from the hive and already have been able to
     record and discuss some :ref:`labhive-one-events`.
 

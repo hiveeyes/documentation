@@ -28,8 +28,8 @@ Karsten Harazim and Robert Gummi welded the double-H formed Scale frame "Beutenk
 *******
 Results
 *******
-`Hiveeyes One`_ was installed in the field at the Hiveeyes Lab Beehive
-in Berlin Wedding in early Spring 2016.
+`Hiveeyes One`_ was installed in the field at the Hiveeyes
+:ref:`labs beehive <labhive-one>` in Berlin Wedding in early Spring 2016.
 
 
 HEnode
@@ -69,6 +69,8 @@ HEnode
 
 Scale frame "Beutenkarl"
 ========================
+Double-H formed Scale frame "Beutenkarl" enclosing a
+`Bosche H30A single point load cell`_ by Karsten Harazim and Robert Gummi.
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2001%20-%20Beutenkarl.jpg
     :alt: Scale frame "Beutenkarl"
@@ -76,7 +78,7 @@ Scale frame "Beutenkarl"
     :figclass: caption-narrow
     :align: left
 
-    Scale frame "Beutenkarl" enclosing a `Bosche H30A single point load cell`_
+    Scale frame "Beutenkarl"
 
 .. container:: align-right
 
@@ -106,6 +108,8 @@ Scale frame "Beutenkarl"
 
 Live data
 =========
+Last 7 days.
+
 .. raw:: html
 
     <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=now-7d&to=now" width="100%" height="425" frameborder="0"></iframe>
@@ -129,9 +133,7 @@ Presentations
 .. container:: width-800
 
     In »*Elektrischer Reporter 149: Vernetzte Bienen, Fahrradlobbyisten und Spielausgrabungen*«,
-    Richard Pobering talks about the Hiveeyes project.
-
-    Enjoy!
+    Richard Pobering talks about the Hiveeyes project. Enjoy!
 
 |clearfix|
 

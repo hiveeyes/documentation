@@ -17,6 +17,13 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 2016
 ****
 
+2016-05-26
+==========
+- [o] Improve liability disclaimer: Explicitly mention all "hardware"
+  having the notion of implicitly being part of an overall "system".
+- [o] Replace all "get in touch" or "please email us" links through
+  http links to community.hiveeyes.org
+
 2016-05-25
 ==========
 - [o] Is it clear how to download, setup, configure and run BERadio_ yet?
@@ -34,7 +41,7 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 2016-05-24
 ==========
 - [o] Publish at hiveeyes.org/docs, redirect from swarm.hiveeyes.org
-- [o] Add documentation license
+- [o] Add documentation license. https://creativecommons.org/licenses/by-sa/4.0/ ?
 - [o] Send measurement values from the website
 - [o] Provide a HTTP-based data sink
 - [o] Write tutorial about how to actually get started with own hardware.

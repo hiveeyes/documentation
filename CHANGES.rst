@@ -11,6 +11,10 @@ CHANGES
 
 in-progress
 ===========
+- Clarify event about nightly weight gain
+- Improve :ref:`do-it-yourself`
+- Improve landing page :ref:`hiveeyes-system`
+- This and that
 
 
 2016-05-26 0.4.0
@@ -19,7 +23,7 @@ in-progress
 - Update link to Kotori_
 - Add link to `Hiveeyes Arduino`_ Atmel AVR MCU code on GitHub
 - Improve index page by using information from former splash screen
-  and by embedding :ref:`live-data` from our labs beehive in Berlin Wedding
+  and by embedding :ref:`live-data` from our :ref:`labs beehive <labhive-one>` in Berlin Wedding
 - Add liability disclaimer for public services
 - Add embedded Graphs to :ref:`history` displaying
   :ref:`harvesting <labs-event-20160522-harvesting>` and

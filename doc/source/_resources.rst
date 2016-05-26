@@ -5,28 +5,43 @@
 .. Links to technologies we build upon
 
 .. Hardware Foundation
+
+.. MCU - Atmel AVR
 .. _Arduino: https://www.arduino.cc/
 .. _Moteino: http://lowpowerlab.com/moteino/
 .. _Moteino R3: http://lowpowerlab.com/wp-content/uploads/2013/06/Moteino_R3_banner.jpg
 .. _Moteino R4: https://lowpowerlab.com/shop/moteino-r4
+
+.. MCU - ESP8266
+.. _ESP8266: http://espressif.com/products/hardware/esp8266ex/overview
+
+.. Telemetry equipment
 .. _LowPowerLab RFM69HW transceiver: https://lowpowerlab.com/shop/RFM69HW
 .. _HopeRF RFM69HW transceiver: http://www.hoperf.com/upload/rf/RFM69HW-V1.3.pdf
 .. _Semtech SX1231 transceiver chip: http://www.semtech.com/wireless-rf/rf-transceivers/sx1231/
-.. _LowPowerLab: http://lowpowerlab.com/
-.. _JeeLink: http://www.digitalsmarties.net/products/jeelink
-.. _RaspberryPi: https://www.raspberrypi.org/products/raspberry-pi-2-model-b/
-.. _Intel NUC: https://www-ssl.intel.com/content/www/us/en/nuc/overview.html
 
+.. Sensor equipment
 .. _Bosche H30A single point load cell: http://www.bosche.eu/en/products/load-cells/single-point-load-cell-h30a
 .. _Bosche Wägezelle H30A: http://www.bosche.eu/produkte/waegezellen/plattform-waegezellen-h30a
 .. _SparkFun HX711 Load Cell Amplifier: https://github.com/sparkfun/HX711-Load-Cell-Amplifier
 .. _Avia Semiconductor HX711 ADC: http://www.dfrobot.com/image/data/SEN0160/hx711_english.pdf
+.. _Measuring the weight of a beehive: http://forum.arduino.cc/index.php?topic=113534.0
 
-.. _ESP8266: http://espressif.com/products/hardware/esp8266ex/overview
+
+.. SoC computer platforms
+.. _ARM: http://www.arm.com/products/processors/
+.. _RaspberryPi: https://www.raspberrypi.org/products/raspberry-pi-2-model-b/
+.. _ODROID: http://www.hardkernel.com/
+.. _Intel NUC: https://www-ssl.intel.com/content/www/us/en/nuc/overview.html
 
 
-.. Hardware Distributors
+.. Hardware distributors
+.. _LowPowerLab: http://lowpowerlab.com/
 .. _SEGOR: http://www.segor.de/
+
+.. COTS products
+.. _JeeLink: http://www.digitalsmarties.net/products/jeelink
+
 
 .. Protocols
 .. _MQTT: http://mqtt.org/
@@ -47,10 +62,6 @@
 .. _MQTT-SN-Arduino: https://github.com/boriz/MQTT-SN-Arduino
 .. _HX711 for Arduino: https://github.com/bogde/HX711
 .. _EmBencode: https://github.com/jcw/embencode
-
-
-.. Intercom
-.. _Measuring the weight of a beehive: http://forum.arduino.cc/index.php?topic=113534.0
 
 
 .. Links to our own resources
@@ -82,7 +93,7 @@
 .. _Hiveeyes project: https://hiveeyes.org/
 .. _Hiveeyes blog: https://hiveeyes.org/
 .. _Hiveeyes email: mailto:hiveeyes-devs [aet] ideensyndikat.org
-.. _Hiveeyes platform: https://swarm.hiveeyes.org/
+.. # _Hiveeyes platform: https://swarm.hiveeyes.org/
 .. _Hiveeyes system documentation: https://hiveeyes.org/docs/system/
 .. _Hiveeyes Debian package repository: https://packages.hiveeyes.org/hiveeyes/foss/debian/
 .. _Google translation of the "Hiveeyes system documentation" tasks: https://translate.google.com/translate?hl=en&sl=de&tl=en&u=https%3A%2F%2Fswarm.hiveeyes.org%2Fdocs%2Ftasks.html

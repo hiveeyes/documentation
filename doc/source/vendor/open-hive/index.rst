@@ -29,6 +29,8 @@ He is currently building the :ref:`openhive-temperature-array` for making
 Hardware
 ********
 
+.. _openhive-bee-scale:
+
 Open Hive Bee Scale
 ===================
 
@@ -172,9 +174,7 @@ Presentations
     In his talk "Bees Dance" Tim Landgraf reveals how robotics are involved with bees,
     Yair Kira presents his project "Bees Armchair" and beekeeper Clemens Gruber shares
     how he gets insights from his beehive through computer based monitoring in the
-    "Open Hive" project. Clemens starts talking at 26:00.
-
-    Enjoy!
+    "Open Hive" project. Clemens starts talking at 26:00. Enjoy!
 
 |clearfix|
 

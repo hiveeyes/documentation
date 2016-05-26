@@ -71,20 +71,21 @@ please read the :ref:`platform-services` and
 
 .. _platform:
 
+.. _Hiveeyes platform:
+
 ********
 Platform
 ********
-The open Hiveeyes platform ``swarm.hiveeyes.org`` provides an
-instant-on experience for data collection and visualization.
-It always runs the most recent stable releases of each software
-component while making sure all parts fit together well.
-The backend is currently composed of Grafana_, InfluxDB_,
-Mosquitto_ and Kotori_.
+The open Hiveeyes platform ``swarm.hiveeyes.org`` is composed of open source
+software components like Grafana_, InfluxDB_, Mosquitto_ and Kotori_,
+providing an instant-on experience for data collection and visualization.
+It always runs the most recent stable release of each software
+component while we are making sure all parts fit together well.
 
 All collaborative efforts integrated into the platform
 will be available to all of its users.
 Enjoy having all upstream changes and new features available
-without thinking about backup, maintenance and upgrade procedures.
+without thinking about backups, maintenance and upgrade procedures.
 
 
 
@@ -95,16 +96,9 @@ All hardware and software components are developed completely in the open,
 so you are always free to build and operate your own monitoring infrastructure
 based on these technologies.
 
-For getting into doing that, please read the :ref:`do-it-yourself`
-page or `get in touch with us <Hiveeyes email_>`_. We are still
-working on the documentation and happy to get any feedback.
+For getting into the details, please read the :ref:`do-it-yourself`
+page or `get in touch with us <Hiveeyes email_>`_.
 
-Feel free to use the system to your own needs in beehive monitoring, no
-matter which sensor hardware is in use at your site.
-Just `drop us an email <Hiveeyes email_>`_ about custom requirements for
-data adapters, we are closely working together with the developers of
-upstream software and happy to support any protocol or serialization
-format you are already using in the field.
 
 .. figure:: https://ptrace.hiveeyes.org/2016-02-18_HEnode-field-01.jpg
     :alt: HEnode version 0.2.2 in the field
@@ -128,18 +122,18 @@ format you are already using in the field.
 ***********
 Development
 ***********
-We are a small group of beekeepers doing this in their spare time,
-so we are always happy getting helping hands on this project in
-every area of development.
+We are always happy getting helping hands on this project in
+every area of development and encourage you to have a closer
+look at the internals.
 For getting a feeling about what is currently going on, please
 have a look at the :ref:`changelog <changes>`.
-For digging deeper, we encourage reading
-the :ref:`development` documents.
+For digging deeper, we may refer you to the :ref:`development`
+documents.
 
 .. todo:: There are other projects like ... We are loosely in touch with them using ...
 
 We aim at providing the beekeeper community with a universal infrastructure
-for data collection to make the raw data acquisition part a no-brainer when
+for data collection to streamline the process of raw data acquisition when
 developing individual solutions.
 Our hardware and software is available under free software or similar
 licenses to encourage the growth of an open ecosystem.
@@ -155,7 +149,8 @@ Live data
 Intro
 =====
 Data currently is measured and collected at intervals of
-about 15 minutes from our labs beehive located in Berlin Wedding.
+about 15 minutes from the :ref:`labs beehive <labhive-one>`
+located in Berlin Wedding.
 
 Legend for *Load cell* panel:
 

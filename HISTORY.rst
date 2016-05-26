@@ -17,7 +17,7 @@ History
 ===========================
 Richard and Andreas upgraded the software releases on our platform server
 ``swarm.hiveeyes.org`` to their most recent versions.
-The upgrade worked without any issues.
+The upgrade worked fine, we didn't have any issues.
 
 Now we're running:
 
@@ -37,12 +37,22 @@ When upgrading InfluxDB, some database migration steps were required:
 =============================================
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-lab-wedding?panelId=5&from=20160523T162500&to=20160524T014500" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160523T162500&to=20160524T014500" width="800" height="425" frameborder="0"></iframe>
 
 .. container:: width-800
 
-    It started raining at 23 hours, so the hive probably gained some weight through water
-    (48 kg to 49 kg between 23:00 and 23:30 hours, reaching 50 kg at 01:00 hours).
+    On May 23, 2016 it started raining at 23:00 hours (note the sudden drop
+    of temperature between 23:05 and 23:20), so the hive probably gained some
+    weight directly or indirectly through rain water (48 kg to 49 kg between
+    23:00 and 23:30 hours, reaching 50 kg at 01:00 hours, all times CEST).
+
+    Q: Does the water leak into the hive? Is it the electronics not behaving
+    due to temperature drop or humidity increase?
+
+    A: Richard revealed us that he'd put a bulky chipboard on top of the hive
+    in order to compensate on purpose for some weight-loss due to beehive work
+    the other day. This piece of chipboard most probably have soaked up some
+    rain water, thus responsible for the total weight increase. :-)
 
 |clearfix|
 
@@ -79,11 +89,14 @@ When upgrading InfluxDB, some database migration steps were required:
     Bam.
 
     This is a weight-loss event from :ref:`hiveeyes-scale-beutenkarl`
-    recorded on 2016-05-20 between 10:11 and 10:26 hours CEST after a
-    bee colony started swarming at the Hiveeyes Labs Beehive in Berlin Wedding.
+    recorded on May 20, 2016 between 10:11 and 10:26 hours CEST after a
+    bee colony started swarming at the Hiveeyes
+    :ref:`labs beehive <labhive-one>` in Berlin Wedding.
 
     There's another story about catching the colony from a
-    Robinia tree in our neighbourhood. More on that later.
+    Robinia tree in our neighbourhood.
+
+    .. todo:: More on that later from Richard.
 
 
 |clearfix|
@@ -100,9 +113,7 @@ When upgrading InfluxDB, some database migration steps were required:
 .. container:: width-800
 
     In »*Elektrischer Reporter 149: Vernetzte Bienen, Fahrradlobbyisten und Spielausgrabungen*«,
-    Richard Pobering talks about the Hiveeyes project.
-
-    Enjoy!
+    Richard Pobering talks about the Hiveeyes project. Enjoy!
 
 |clearfix|
 
@@ -206,21 +217,25 @@ the documentary will be aired on 2016-05-19.
 
 2016-04-14
 ==========
-Rigging up the scale frame "Beutenkarl" at the Hiveeyes Lab Beehive in Berlin Wedding.
+Rigging up the scale frame "Beutenkarl" at the Hiveeyes
+:ref:`labs beehive <labhive-one>` in Berlin Wedding and
+connecting it to the :ref:`Hiveeyes One` sensor hub.
+The setup was pretty quick, we were finished in approx.
+30 minutes.
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2001%20-%20Beutenkarl.jpg
     :alt: Scale Frame "Beutenkarl"
     :width: 400px
-    :figclass: caption-narrow
     :align: left
+    :figclass: caption-regular
 
-    Scale frame "Beutenkarl" carrying a `Bosche H30A single point load cell`_
+    Scale frame "Beutenkarl" with `Bosche H30A single point load cell`_
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2002%20-%20Rigging.jpg
     :alt: Karsten at work
     :width: 400px
-    :figclass: caption-narrow
     :align: right
+    :figclass: caption-regular
 
     Karsten at work
 
@@ -229,16 +244,16 @@ Rigging up the scale frame "Beutenkarl" at the Hiveeyes Lab Beehive in Berlin We
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2003%20-%20Rigging.jpg
     :alt: Richard is funneling the data
     :width: 400px
-    :figclass: caption-narrow
     :align: left
+    :figclass: caption-regular
 
     Richard is funneling the data
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2004%20-%20Data.jpg
     :alt: Data arrives
     :width: 400px
-    :figclass: caption-narrow
     :align: right
+    :figclass: caption-regular
 
     Data arrives
 
@@ -247,16 +262,16 @@ Rigging up the scale frame "Beutenkarl" at the Hiveeyes Lab Beehive in Berlin We
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2005%20-%20Ready%2C%20Back.jpg
     :alt: Scale frame is mounted. Back view.
     :width: 400px
-    :figclass: caption-narrow
     :align: left
+    :figclass: caption-regular
 
     Scale frame is mounted. Back view.
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2006%20-%20Ready%2C%20Front.jpg
     :alt: Scale frame is mounted. Front view.
     :width: 400px
-    :figclass: caption-narrow
     :align: right
+    :figclass: caption-regular
 
     Scale frame is mounted. Front view.
 
@@ -727,6 +742,6 @@ open source beehive monitoring project:
 - http://www.euse.de/wp/blog/2011/12/lauschen-statt-wiegen/
 - http://www.euse.de/wp/blog/2011/12/teileliste/
 
-He gets in touch with Clemens Gruber of `Open Hive`_ over the
+He gets in touch with Clemens Gruber of `Open Hive`_ through the
 Arduino Forum thread `Measuring the weight of a beehive`_.
 

@@ -89,7 +89,7 @@ Send sample telemetry packet
 ============================
 ::
 
-    mosquitto_pub -t hiveeyes/berlin/wedding/henode-one/message-json -m '{"temperature": 42.84, "humidity": 94}'
+    mosquitto_pub -t hiveeyes/berlin/wedding/henode-42/message-json -m '{"temperature": 42.84, "humidity": 94}'
 
 
 Watch telemetry data
