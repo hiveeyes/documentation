@@ -5,17 +5,29 @@ CHANGES
 .. hint::
 
     For getting the whole picture of development, please also have a look at
-    `Hiveeyes Arduino changelog`_, :ref:`BERadio changelog <beradio:changes>`
-    and :ref:`Kotori changelog <kotori:changes>`.
+    :ref:`Hiveeyes Arduino changelog <arduino:changes>`,
+    :ref:`BERadio changelog <beradio:changes>` and
+    :ref:`Kotori changelog <kotori:changes>`.
 
 
 in-progress
 ===========
+
+.. _version-0.4.x:
+
+2016-05-26 0.4.1
+================
 - Clarify event about nightly weight gain
 - Improve :ref:`do-it-yourself`
 - Improve landing page :ref:`hiveeyes-system`
 - This and that
+- Add reference to Arduino documentation
+- Reference Arduino documentation via intersphinx
+- Disable caching of remote intersphinx inventories
+- This and that
 
+
+.. _version-0.4.x:
 
 2016-05-26 0.4.0
 ================

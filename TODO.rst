@@ -23,6 +23,10 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
   having the notion of implicitly being part of an overall "system".
 - [o] Replace all "get in touch" or "please email us" links through
   http links to community.hiveeyes.org
+- [o] Backlink with history.html#mqttwarn-xmpp
+- [o] Add proper content attributions to media elements from 3rd-party authors
+- [o] Display license in documentation
+
 
 2016-05-25
 ==========

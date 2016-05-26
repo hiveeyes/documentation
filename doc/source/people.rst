@@ -9,7 +9,7 @@ People
 
 .. figure:: http://karstenharazim.de/wp-content/uploads/2015/06/dadant-1-150x150.jpg
     :alt: Karsten Harazim
-    :figclass: caption-narrow
+    :figclass: caption-regular
     :width: 250px
     :align: left
 
@@ -17,7 +17,7 @@ People
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2001%20-%20Beutenkarl.jpg
     :alt: Robert Gummi
-    :figclass: caption-narrow
+    :figclass: caption-regular
     :width: 400px
     :align: right
 
@@ -35,7 +35,7 @@ People
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_hiveeyes-richard-pobering.jpg
     :alt: Richard Pobering
-    :figclass: caption-narrow
+    :figclass: caption-regular
     :width: 400px
     :align: right
 
@@ -45,7 +45,7 @@ People
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_hiveeyes-andreas-motl.jpg
     :alt: Andreas Motl
-    :figclass: caption-narrow
+    :figclass: caption-regular
     :width: 250px
     :align: left
 
@@ -53,10 +53,11 @@ People
 
 .. figure:: https://avatars1.githubusercontent.com/u/182954?v=3&s=460
     :alt: Anne-Julia Scheuermann
-    :figclass: caption-narrow
+    :figclass: caption-regular
     :width: 250px
     :align: right
 
     Anne-Julia Scheuermann, `Hive Monitor`_
 
 |clearfix|
+

@@ -13,6 +13,17 @@ History
 ****
 
 
+2016-05-26 Publishing time
+==========================
+- Huge documentation improvements for release :ref:`version-0.4.x`
+- Publish :ref:`Hiveeyes Arduino documentation <arduino:hiveeyes-arduino>` for `Hiveeyes Arduino`_ source code
+- Add :ref:`handbook` about data acquisition and working with Grafana_
+- Add :ref:`do-it-yourself` about how to build your own monitoring system components
+- Embed and discuss some interesting events from :ref:`labhive-one`, see below
+- Release and package Kotori_ 0.7.1, the data universal data sink component
+- Update project history
+
+
 2016-05-24 Platform upgrade
 ===========================
 Richard and Andreas upgraded the software releases on our platform server
@@ -177,6 +188,11 @@ April/May 2016
 |clearfix|
 
 
+2016-05-18 Release time
+=======================
+Release `Hiveeyes Arduino`_ source code for Arduino_-compatible microprocessors.
+
+
 .. _history-2016-04-14:
 
 2016-04-14
@@ -314,6 +330,8 @@ The setup was pretty quick, we were finished in approx.
     Get some pictures from the ESP8266_ actually transmitting telemetry data here.
     Write some lines about the past and current setups at :ref:`OpenHive`.
 
+
+.. _mqttwarn-xmpp:
 
 2016-02-12
 ==========
