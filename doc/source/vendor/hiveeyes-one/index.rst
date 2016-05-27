@@ -34,6 +34,9 @@ Results
 
 HEnode
 ======
+.. seealso::
+
+    :ref:`hiveeyes-one` starts to :ref:`transmit data from the beehive <history-2016-02-04>` on February 2, 2016.
 
 .. figure:: https://ptrace.hiveeyes.org/2016-02-18_HEnode-field-01.jpg
     :alt: HEnode version 0.2.2 in the field
@@ -58,34 +61,14 @@ HEnode
 
     HEnode_ :ref:`hiveeyes-one` in the hive
 
-.. container:: align-right
-
-    .. seealso:: :ref:`Transmitting data from the beehive <history-2016-02-04>`, February 2016
-
 |clearfix|
 
-
-.. _hiveeyes-scale-beutenkarl:
 
 Scale frame "Beutenkarl"
 ========================
-Double-H formed Scale frame "Beutenkarl" enclosing a
-`Bosche H30A single point load cell`_ by Karsten Harazim and Robert Gummi.
+.. seealso::
 
-.. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2001%20-%20Beutenkarl.jpg
-    :alt: Scale frame "Beutenkarl"
-    :width: 400px
-    :figclass: caption-narrow
-    :align: left
-
-    Scale frame "Beutenkarl"
-
-.. container:: align-right
-
-    .. seealso:: :ref:`Rigging up the scale frame <history-2016-04-14>`, April 2016
-
-
-|clearfix|
+    On April 14, 2016, the :ref:`beutenkarl-scale` was :ref:`rigged up <beutenkarl-rigging-hiveeyes-one>` at :ref:`labhive-one`.
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2005%20-%20Ready%2C%20Back.jpg
     :alt: Scale frame is mounted. Rear view.
@@ -202,7 +185,7 @@ Node
 
         LowPowerLab RFM69HW transceiver
 
-- .. todo:: Ask Richard for more links to sensor hardware.
+- .. todo:: Ask Richard for more links to sensor hardware and about how to assemble all stuff.
 
 
 Software

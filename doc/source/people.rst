@@ -13,7 +13,7 @@ People
     :width: 250px
     :align: left
 
-    `Karsten Harazim`_, Beutenkarl
+    `Karsten Harazim`_, `Beutenkarl`_ (`facebook <Beutenkarl at Facebook_>`_)
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2001%20-%20Beutenkarl.jpg
     :alt: Robert Gummi

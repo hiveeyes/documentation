@@ -70,6 +70,17 @@
 .. _Karsten Harazim: http://karstenharazim.de/
 .. _Clemens Gruber: http://open-hive.org/
 
+.. Mauergarten
+.. _mauergarten e.V.: http://www.mauergarten.net/
+.. _Solidarische Imkerei im mauergarten: http://www.mauergarten.net/mitmachen/bienen/
+.. _Workshop digitales Bienenmonitoring: http://www.mauergarten.net/2014/09/5226/
+.. _bienenblog: http://www.mauergarten.net/thema/solidarische-imkerei/bienenblog/
+.. _Solidarische Imkerei at Facebook: https://www.facebook.com/solidarische.imkerei/
+
+.. Beutenkarl
+.. _Beutenkarl: http://beutenkarl.de/
+.. _Beutenkarl at Facebook: https://www.facebook.com/beutenkarl-777073669073198/
+
 .. Open Bee Hive
 .. _Open Bee Hive: http://www.euse.de/wp/blog/tag/bienenwaage/
 .. _RedFly-Shield: https://github.com/watterott/Arduino-Libs/tree/master/RedFly
@@ -83,10 +94,6 @@
 .. _Maker Faire Berlin 2015: http://makezine.com/2015/10/05/first-maker-faire-berlin-doesnt-miss-beat/
 .. _Adafruit HUZZAH ESP8266: https://www.adafruit.com/product/2471
 .. _node-wifi-mqtt.ino: https://github.com/hiveeyes/arduino/blob/master/node-wifi-mqtt/src/node-wifi-mqtt.ino
-
-.. Mauergarten
-.. _mauergarten e.V.: http://www.mauergarten.net/
-.. _Workshop digitales Bienenmonitoring: http://www.mauergarten.net/2014/09/5226/
 
 .. Hiveeyes
 .. _Hiveeyes: https://hiveeyes.org/

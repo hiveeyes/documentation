@@ -17,6 +17,12 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 2016
 ****
 
+
+2016-05-27
+==========
+- [o] https://github.com/search?q=hiveeyes&type=Issues
+
+
 2016-05-26
 ==========
 - [o] Improve liability disclaimer: Explicitly mention all "hardware"
@@ -26,6 +32,7 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 - [o] Backlink with history.html#mqttwarn-xmpp
 - [o] Add proper content attributions to media elements from 3rd-party authors
 - [o] Display license in documentation
+- [o] Add more "bills of material" (Teileliste)
 
 
 2016-05-25
@@ -231,7 +238,7 @@ MS 1
     - [x] Vollautomatisierung der Sphinx_ Doku Publikation als `Hiveeyes system documentation`_ auf ``swarm.hiveeyes.org``
     - [x] Erste Inhalte, Projekthistorie
     - [o] Ein paar einleitende Worte zum Gesamtprojekt in einer ``about.rst``
-    - [o] Verlagerung der technischen Details vom derzeitigen Splashscreen der `Hiveeyes platform`_
+    - [x] Verlagerung der technischen Details vom derzeitigen Splashscreen der :ref:`Hiveeyes platform <Hiveeyes platform>`
       in die Sphinx_ Doku der `Hiveeyes system documentation`_
     - [o] Übertragung von rpos Inhalten aus `grafana_about.md`_ sowie `sensor_setup.md`_
       in die Sphinx_ Doku als reStructuredText_, Konvertierung per Pandoc_

@@ -12,8 +12,17 @@ CHANGES
 
 in-progress
 ===========
+- Layout, Referencing, Wording, Fixes
+- Improve description of the :ref:`projects’ origin <project-origin>`
+- Add :doc:`vendor/beutenkarl/index` page
+- :ref:`handbook`:
 
-.. _version-0.4.x:
+    - Clarify the purpose and communication paths of the two different Open Hive sensor node flavours
+    - How to send a :ref:`kotori:sawtooth-signal` from the workbench for testing purposes
+    - Reference the two flavours of beehive scales :ref:`beutenkarl-scale` and :ref:`openhive-scale`
+
+
+.. _version-0.4.1:
 
 2016-05-26 0.4.1
 ================
@@ -26,8 +35,6 @@ in-progress
 - Disable caching of remote intersphinx inventories
 - This and that
 
-
-.. _version-0.4.x:
 
 2016-05-26 0.4.0
 ================

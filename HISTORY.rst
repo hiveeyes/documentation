@@ -15,13 +15,14 @@ History
 
 2016-05-26 Publishing time
 ==========================
-- Huge documentation improvements for release :ref:`version-0.4.x`
+- Huge documentation improvements for release :ref:`version-0.4.1`
 - Publish :ref:`Hiveeyes Arduino documentation <arduino:hiveeyes-arduino>` for `Hiveeyes Arduino`_ source code
 - Add :ref:`handbook` about data acquisition and working with Grafana_
 - Add :ref:`do-it-yourself` about how to build your own monitoring system components
 - Embed and discuss some interesting events from :ref:`labhive-one`, see below
-- Release and package Kotori_ 0.7.1, the data universal data sink component
-- Update project history
+- Release and package Kotori_ :ref:`0.7.1 <kotori-0.7.1>`, the universal data
+  sink component powering the Hiveeyes backend, amongst others
+- Update project :ref:`history`
 
 
 2016-05-24 Platform upgrade
@@ -48,24 +49,20 @@ When upgrading InfluxDB, some database migration steps were required:
 =============================================
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160523T162500&to=20160524T014500" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160523T162500&to=20160524T014500" width="100%" height="425" frameborder="0"></iframe>
 
-.. container:: width-800
+On May 23, 2016 it started raining at 23:00 hours (note the sudden drop
+of temperature between 23:05 and 23:20), so the hive probably gained some
+weight directly or indirectly through rain water (48 kg to 49 kg between
+23:00 and 23:30 hours, reaching 50 kg at 01:00 hours, all times CEST).
 
-    On May 23, 2016 it started raining at 23:00 hours (note the sudden drop
-    of temperature between 23:05 and 23:20), so the hive probably gained some
-    weight directly or indirectly through rain water (48 kg to 49 kg between
-    23:00 and 23:30 hours, reaching 50 kg at 01:00 hours, all times CEST).
+Q: Does the water leak into the hive? Is it the electronics not behaving
+due to temperature drop or humidity increase?
 
-    Q: Does the water leak into the hive? Is it the electronics not behaving
-    due to temperature drop or humidity increase?
-
-    A: Richard revealed us that he'd put a bulky chipboard on top of the hive
-    in order to compensate on purpose for some weight-loss due to beehive work
-    the other day. This piece of chipboard most probably have soaked up some
-    rain water, thus responsible for the total weight increase. :-)
-
-|clearfix|
+A: Richard revealed us that he'd put a bulky chipboard on top of the hive
+in order to compensate on purpose for some weight-loss due to beehive work
+the other day. This piece of chipboard most probably have soaked up some
+rain water, thus responsible for the total weight increase. :-)
 
 
 .. _labs-event-20160522-harvesting:
@@ -74,16 +71,11 @@ When upgrading InfluxDB, some database migration steps were required:
 =====================
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160522T090500&to=20160522T200500" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160522T090500&to=20160522T200500" width="100%" height="425" frameborder="0"></iframe>
 
-.. container:: width-800
-
-    Robinia blossom time ahead. Richard and Laura want to make genuine
-    Robinia honey, so they harvested the honey which is currently in the hive.
-
-    You can recognize the two spots at 14:00 hours and ~20:00 hours.
-
-|clearfix|
+Robinia blossom time ahead. Richard and Laura want to make genuine
+Robinia honey, so they harvested the honey which is currently in the hive.
+You can recognize the two spots at 14:00 hours and ~20:00 hours.
 
 
 .. _hiveeyes-schwarmalarm-2016-05-20:
@@ -93,24 +85,19 @@ When upgrading InfluxDB, some database migration steps were required:
 =======================
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160519T040000&to=20160519T170000" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160519T040000&to=20160519T170000" width="100%" height="425" frameborder="0"></iframe>
 
-.. container:: width-800
+Bam.
 
-    Bam.
+This is a weight-loss event from :ref:`hiveeyes-scale-beutenkarl`
+recorded on May 20, 2016 between 10:11 and 10:26 hours CEST after a
+bee colony started swarming at the Hiveeyes
+:ref:`labs beehive <labhive-one>` in Berlin Wedding.
 
-    This is a weight-loss event from :ref:`hiveeyes-scale-beutenkarl`
-    recorded on May 20, 2016 between 10:11 and 10:26 hours CEST after a
-    bee colony started swarming at the Hiveeyes
-    :ref:`labs beehive <labhive-one>` in Berlin Wedding.
+.. todo::
 
-    There's another story about catching the colony from a
-    Robinia tree in our neighbourhood.
-
-    .. todo:: More on that later from Richard.
-
-
-|clearfix|
+    There's a another story about catching the colony from a nearby Robinia tree.
+    More on that later from Richard.
 
 
 2016-05-19 Elektrischer Reporter
@@ -147,45 +134,37 @@ April/May 2016
 --------------
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160418T200000&to=20160518T160000" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160418T200000&to=20160518T160000" width="100%" height="425" frameborder="0"></iframe>
 
-.. container:: width-800
+Let's have a look at the data. During the cold period at the end of April the beehive loses absolute weight
+because the bees have to live off their reserves. In contrast, the following two weeks were amazingly warm in May,
+so the worker bees are getting extremely busy.
 
-    Let's have a look at the data. During the cold period at the end of April the beehive loses absolute weight
-    because the bees have to live off their reserves. In contrast, the following two weeks were amazingly warm in May,
-    so the worker bees are getting extremely busy.
+From April 29 until May 13, the weight has increased by almost 14 Kg.
+On some days the beehive gained 2 Kg weigth due to pollen and nectar collecting.
 
-    From April 29 until May 13, the weight has increased by almost 14 Kg.
-    On some days the beehive gained 2 Kg weigth due to pollen and nectar collecting.
-
-    It was the time of the fruit blossoms, so the cherry, pear and apple trees were in bloom in the nearby allotments.
-
-|clearfix|
+It was the time of the fruit blossoms, so the cherry, pear and apple trees were in bloom in the nearby allotments.
 
 
 2nd May
 -------
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160430T130000&to=20160503T040000" width="800" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160430T130000&to=20160503T040000" width="100%" height="425" frameborder="0"></iframe>
 
-.. container:: width-800
+The beehive gained a lot of weight on the 2nd of May. After six o'clock in the morning
+the temperature begins to rise, at 7:15 the first sun rays shine on the entrance hole.
+The first scouts leave the beehive at 7:45 and at 8:15 everyone is in the air.
+The beehive suddenly loses 120g since about 1200 bees are leaving to harvest.
 
-    The beehive gained a lot of weight on the 2nd of May. After six o'clock in the morning
-    the temperature begins to rise, at 7:15 the first sun rays shine on the entrance hole.
-    The first scouts leave the beehive at 7:45 and at 8:15 everyone is in the air.
-    The beehive suddenly loses 120g since about 1200 bees are leaving to harvest.
+At 9:20, the ratio between the arriving and departing bees reverses and the weight increases rapidly.
 
-    At 9:20, the ratio between the arriving and departing bees reverses and the weight increases rapidly.
+Throughout the day, bees are flying in and out, collecting nectar and pollen, explore and report.
+Even as the beehive is in the shadow from 16:00 and the temperature starts sinking,
+the bee colony continues to collect until 20:00.
 
-    Throughout the day, bees are flying in and out, collecting nectar and pollen, explore and report.
-    Even as the beehive is in the shadow from 16:00 and the temperature starts sinking,
-    the bee colony continues to collect until 20:00.
-
-    1800g have then carried home. It was a good warm and important day, after the long period of winter
-    and the cold snap end of April.
-
-|clearfix|
+1800g have then carried home. It was a good warm and important day, after the long period of winter
+and the cold snap end of April.
 
 
 2016-05-18 Release time
@@ -195,11 +174,11 @@ Release `Hiveeyes Arduino`_ source code for Arduino_-compatible microprocessors.
 
 .. _history-2016-04-14:
 
-2016-04-14
-==========
+2016-04-14 Elektrischer Reporter
+================================
 Tobias Lenartz and Markus Börner from `Elektrischer Reporter`_
 visit us to interview Richard about our project,
-the documentary will be aired on 2016-05-19.
+the documentary will be aired on May 19, 2016.
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_ElRep%20-%2001%20-%20Interview.jpg
     :alt: Elektrischer Reporter Interview "#149: Vernetzte Bienen"
@@ -229,10 +208,12 @@ the documentary will be aired on 2016-05-19.
 |clearfix|
 
 
+.. _beutenkarl-rigging-hiveeyes-one:
+
 .. _history-beutenkarl-mounted:
 
-2016-04-14
-==========
+2016-04-14 Scale frame "Beutenkarl"
+===================================
 Rigging up the scale frame "Beutenkarl" at the Hiveeyes
 :ref:`labs beehive <labhive-one>` in Berlin Wedding and
 connecting it to the :ref:`Hiveeyes One` sensor hub.
@@ -292,6 +273,13 @@ The setup was pretty quick, we were finished in approx.
     Scale frame is mounted. Front view.
 
 |clearfix|
+
+
+.. raw:: html
+
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=1460635978156&to=1460663593934" width="100%" height="425" frameborder="0"></iframe>
+
+Weight measurements start arriving in Grafana.
 
 
 2016-02-16
@@ -367,7 +355,7 @@ beams required to transmit collected telemetry data.
     :target: `DIY antennas for RFM69`_
     :alt: hiveeyes-one receiver
     :figclass: caption-narrow rotated
-    :width: 350px
+    :width: 400px
     :class: rotate-right
     :align: left
 
@@ -391,8 +379,8 @@ beams required to transmit collected telemetry data.
 .. figure:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/Distanz.jpg
     :target: `DIY antennas for RFM69`_
     :alt: hiveeyes-one sender
-    :figclass: caption-narrow
-    :width: 350px
+    :figclass: caption-regular
+    :width: 400px
     :align: right
 
     The first HEnode_ sensor node sits in a hive approx. 120 meters away
@@ -412,8 +400,8 @@ Also, we compile Arduino_ code on this machine and reprogram the devices.
 .. figure:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/Jeelink%2BSMA.jpg
     :target: `DIY antennas for RFM69`_
     :alt: hiveeyes-one receiver
-    :width: 350px
-    :figclass: caption-narrow
+    :width: 400px
+    :figclass: caption-regular
     :align: left
 
     The antenna is connected to the USB RFM69_ receiver JeeLink_ through a SMA connector
@@ -421,8 +409,8 @@ Also, we compile Arduino_ code on this machine and reprogram the devices.
 .. figure:: https://hiveeyes.org/raw-attachment/blog/einsiedlerkrebs-2015/10/14/Antenna/GatewayRPI-Jeelink.jpg
     :target: `DIY antennas for RFM69`_
     :alt: Gateway with RaspberryPi and JeeLink
-    :width: 350px
-    :figclass: caption-narrow
+    :width: 400px
+    :figclass: caption-regular
     :align: right
 
     Gateway with RaspberryPi_ and JeeLink_
@@ -468,7 +456,7 @@ Hiveeyes backend
 
 2016-01-29
 ==========
-- Announce beta version of the `Hiveeyes platform`_ hosted on ``swarm.hiveeyes.org``
+- Announce beta version of the :ref:`Hiveeyes platform <Hiveeyes platform>` hosted on ``swarm.hiveeyes.org``
 
 
 2016-01-25
@@ -549,7 +537,7 @@ Hiveeyes
 
 2015-08
 =======
-- Hacking on Hiveeyes at the `Chaos Communication Camp 2015`_ from 2015-08-13 to 2015-08-17 in Mildenberg
+- Hacking on Hiveeyes at the `Chaos Communication Camp 2015`_ from August 13-17, 2015 in Mildenberg
 - Baby steps for BERadio_, first steps with Bencode_ on Arduino_
 
 
@@ -658,7 +646,18 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 
 2014-09
 =======
-- `Workshop digitales Bienenmonitoring`_ at `mauergarten e.V.`_ on 2014-09-21
+- `Workshop digitales Bienenmonitoring`_ at `mauergarten e.V.`_ on September 21, 2014
+
+
+2014-24
+=======
+
+.. _apidictor:
+
+apidictor
+---------
+- Dazz starts collecting information about building an :ref:`apidictor`:
+  https://gist.github.com/dazz/11309904
 
 
 2014-04
@@ -680,7 +679,6 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
     - Bee Hive Scale Graph: http://www.euse.de/honig/beescale/graph.php
 
 - Clemens Gruber starts the `Open Hive`_ open source beehive monitoring project
-- Dazz starts collecting information about building an apidoctor: https://gist.github.com/dazz/11309904
 
 
 2014-01

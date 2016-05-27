@@ -4,7 +4,7 @@
 
 Platform services
 =================
-The `Hiveeyes platform`_ provides these services to the public:
+The :ref:`Hiveeyes platform <Hiveeyes platform>` provides these services to the public:
 
 
 MQTT

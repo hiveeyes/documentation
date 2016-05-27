@@ -14,7 +14,7 @@ Research
 
 2016-05-20
 ==========
-- Awesome research by `http://cpham.perso.univ-pau.fr/ <Congduc Pham>`_, University of Pau, France:
+- Awesome research by `Congduc Pham <http://cpham.perso.univ-pau.fr/>`_, University of Pau, France:
 
     - `A DIY low-cost LoRa gateway <http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html>`_
       based on Raspberry PI and `ThingSpeak <https://thingspeak.com/>`_ or `Freeboard.IO <https://freeboard.io>`_

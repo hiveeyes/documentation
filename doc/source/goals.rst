@@ -58,6 +58,8 @@ Short term
   The telemetry data is transmitted to the data collection backend for
   storage, postprocessing, redistribution, visualization and analysis.
 
+- .. todo:: The constraints are somewhat harsh in all terms of efficiency, flexibility and robustness.
+
 - Software running on the embedded sensor node devices and on the backend
   side are both available under libre software licenses like GPL and AGPL.
 
@@ -79,9 +81,9 @@ Mid term
 - Make it possible for everyone to rebuild and make use of the toolkit on her own
   by further improving the documentation, working through more iterations and
   streamlining the prototypes into one or two designated hardware models,
-  favorably support by own PCBs to reduce assembly time.
+  favorably supported by custom PCBs to reduce assembly time.
 
-- Get started with LoRa and integrate an apidictor into :ref:`labhive-one`.
+- Get started with LoRa and integrate an :ref:`apidictor` into :ref:`labhive-one`.
 
 
 Long term

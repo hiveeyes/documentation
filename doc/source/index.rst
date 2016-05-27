@@ -25,6 +25,7 @@ Welcome to the jungle.
 
     goals
     development
+    research
     changes
     people
     labhive-one
@@ -51,12 +52,19 @@ wednesdays to build a telemetry platform for beehive monitoring.
 We are Karsten, Robert, Clemens, Richard, Martin, Andreas and Dazz.
 Feel welcome to `join us <Hiveeyes email_>`_.
 
+.. _project-origin:
+
 History
 =======
-The roots of this project are in the independent `Open Bee Hive`_, `Open Hive`_,
-`Hiveeyes <Hiveeyes project_>`_ and `Hive Monitor`_ bee monitoring projects.
-It is one of many spin-offs of the popular Arduino Forum thread
-`Measuring the weight of a beehive`_.
+This community project originated from the independent `Open Bee Hive`_,
+`Open Hive`_, `Beutenkarl`_, `Hiveeyes <Hiveeyes project_>`_ and
+`Hive Monitor`_ beehive monitoring projects.
+The `solidary apiculture mauergarten <Solidarische Imkerei im mauergarten_>`_
+(`facebook <Solidarische Imkerei at Facebook_>`_, `bienenblog`_) was one of
+the major catalysts for bringing us together.
+On the tech side, the project is one of the many spin-offs of the
+popular Arduino Forum thread `Measuring the weight of a beehive`_.
+
 Please have a look at our detailed shared project :ref:`history`.
 
 
