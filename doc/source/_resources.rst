@@ -145,7 +145,10 @@
 .. _Didier Donsez: http://lig-membres.imag.fr/donsez/
 
 .. mqttwarn
-.. _mqttwarn: https://github.com/jpmens/mqttwarn/
+.. _mqttwarn: https://github.com/jpmens/mqttwarn
+.. _Ben Jones: https://github.com/sumnerboy12
+.. _Jan-Piet Mens: https://github.com/jpmens
+.. _Introducing mqttwarn, a pluggable MQTT notifier: http://jpmens.net/2014/02/17/introducing-mqttwarn-a-pluggable-mqtt-notifier/
 .. _incorporate topic names into topic targets: https://github.com/jpmens/mqttwarn/wiki/Incorporating-topic-names#incorporate-topic-names-into-topic-targets
 .. _feature "dynamic topic targets": https://github.com/jpmens/mqttwarn/pull/169
 

@@ -4,11 +4,6 @@
 Beutenkarl
 ##########
 
-.. contents::
-   :local:
-   :depth: 1
-
-
 .. _hiveeyes-scale-beutenkarl:
 
 .. _beutenkarl-scale:

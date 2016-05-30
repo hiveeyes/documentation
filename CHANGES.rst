@@ -21,6 +21,8 @@ in-progress
     - How to send a :ref:`kotori:sawtooth-signal` from the workbench for testing purposes
     - Reference the two flavours of beehive scales :ref:`beutenkarl-scale` and :ref:`openhive-scale`
 
+- Add page about :ref:`mqttwarn-alerts`
+
 
 .. _version-0.4.1:
 

@@ -70,6 +70,13 @@ For guidelines about how to link to or embed Grafana dashboards and panels
 and about how to specify datetime ranges, please read the :ref:`grafana-handbook`.
 
 
+***********
+Data alerts
+***********
+The first preliminary implementation of an automatic :ref:`mqttwarn-alerts`
+for detecting sudden weight-loss events and sending alert notifications to
+beekeepers is ready, cheers!
+
 
 *************
 Beehive Scale

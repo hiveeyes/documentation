@@ -13,6 +13,13 @@ History
 ****
 
 
+2016-05-30 Data alerts
+======================
+The first preliminary implementation of an automatic :ref:`mqttwarn-alerts`
+for detecting sudden weight-loss events and sending alert notifications to
+beekeepers is ready, cheers!
+
+
 2016-05-26 Publishing time
 ==========================
 - Huge documentation improvements for release :ref:`version-0.4.1`
@@ -758,6 +765,5 @@ open source beehive monitoring project:
 - http://www.euse.de/wp/blog/2011/12/lauschen-statt-wiegen/
 - http://www.euse.de/wp/blog/2011/12/teileliste/
 
-He gets in touch with Clemens Gruber of `Open Hive`_ through the
-Arduino Forum thread `Measuring the weight of a beehive`_.
+Clemens of `Open Hive`_ and Markus will get in touch later working on early prototypes of beehive scales.
 

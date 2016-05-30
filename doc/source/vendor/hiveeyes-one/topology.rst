@@ -43,18 +43,18 @@ Feature "content type signalling"
 ::
 
     # single measurement
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area42/hive3/temperature      -m 42.84
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area42/hive3/humidity         -m 83
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3/temperature      -m 42.84
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3/humidity         -m 83
 
     # multiple measurements of arbitrary family
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area42/hive3.json             -m '{"temperature": 42.84, "humidity": 83}'
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3.json             -m '{"temperature": 42.84, "humidity": 83}'
 
     # multiple measurements of same family
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area42/hive3/temperature.csv  -m '42.84,21.42'
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area42/hive3/humidity.csv     -m '83,41.5'
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3/temperature.csv  -m '42.84,21.42'
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3/humidity.csv     -m '83,41.5'
 
     # or even
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area42/hive3.xml              -m '<temperature>42.84</temperature><humidity>83<humidity>'
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3.xml              -m '<temperature>42.84</temperature><humidity>83<humidity>'
 
 
 Feature "network domains"
@@ -62,7 +62,7 @@ Feature "network domains"
 ::
 
     # single measurement
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/sensor/area42/hive3/temperature      -m 42.84
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/sensor/area-42/hive3/temperature      -m 42.84
 
 So we have::
 

@@ -267,7 +267,7 @@ MS 2
         - Implementierung der "Content Type" Signalisierung über pseudo-Dateiendungen wie geplant
           (Inspired by Nick O’Leary and Jan-Piet Mens; Acked by cgr and rpo)::
 
-                hiveeyes/testdrive/area42/hive3/temperature vs. hiveeyes/testdrive/area42/hive3.json
+                hiveeyes/testdrive/area-42/hive3/temperature vs. hiveeyes/testdrive/area-42/hive3.json
 
           Weitere Diskussion und Implementierung der "Direction" Signalisierung (Inspired by computourist, Pushed by rpo)
           Proposal::

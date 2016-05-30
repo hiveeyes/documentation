@@ -14,6 +14,9 @@ Research
 
 2016-05-20
 ==========
+
+LoRa
+----
 - Awesome research by `Congduc Pham <http://cpham.perso.univ-pau.fr/>`_, University of Pau, France:
 
     - `A DIY low-cost LoRa gateway <http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html>`_
@@ -22,6 +25,14 @@ Research
     - `Low-power, long-range WAN for IoT: a technology overview <http://cpham.perso.univ-pau.fr/LORA/WAZIUP/RESSACS16-LPWAN-review.pdf>`_,
       Talk at RESSACS'2016, IRD Bondy, May 10th 2016.
 
+- .. seealso::
+
+    - `Building a Raspberry Pi Powered LoRaWAN Gateway <http://www.rs-online.com/designspark/electronics/eng/blog/building-a-raspberry-pi-powered-lorawan-gateway>`_.
+    - `NAMote72 <https://developer.mbed.org/teams/Semtech/wiki/NAMote-72-wiki>`_,
+      Semtech's North America LoRaMote mbed Platform based on the SX1272 LoRa Transceiver.
+
+Misc
+----
 - http://kotahi.net/
 
     - http://kotahi.net/sensor-data/
