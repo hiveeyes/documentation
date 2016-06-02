@@ -14,7 +14,7 @@ Research
 2016-06-02
 ==========
 
-More LoRaWAN / LMiC
+More LoRaWAN / LMIC
 -------------------
 - http://forum.thethingsnetwork.org/t/anyone-used-the-im880b-l/1644/4
 - http://forum.thethingsnetwork.org/t/lmic-1-51-fitting-in-arduino-atmega-328/1239
@@ -45,6 +45,12 @@ LoRa with Arduino
 - https://github.com/allthingstalk/arduino-lora
 - https://github.com/allthingstalk/arduino-lora/blob/master/ATT_Lora_IOT/examples/demo/demo.ino
 
+LoRa with ESP8266
+-----------------
+- | Node with ESP8266 and RFM95W
+  | http://forum.thethingsnetwork.org/t/node-with-esp8266-and-rfm95w/1002
+
+
 Misc
 ----
 - http://sodaq.com/
@@ -61,11 +67,21 @@ LoRaWAN modules
 
 2016-06-01
 ==========
+
+Misc
+----
 - https://loriot.io/
 - https://www.pine64.com/
 - https://www.i-keys.de/de/Transponder/125-khz/EM4102-Uni/E675-1.58-Uni.html
 - | CircuitHub - Scalable Electronics Manufacturing
   | https://circuithub.com/
+
+UEXT
+----
+- https://en.wikipedia.org/wiki/UEXT
+- https://www.olimex.com/Products/Modules/UEXT/
+- https://www.olimex.com/Products/Modules/RF/
+- https://www.olimex.com/Products/Modules/RF/MOD-MRF89-868/
 
 
 2016-05-31
@@ -160,6 +176,9 @@ LoRa gateway DIY
       Talk at RESSACS'2016, IRD Bondy, May 10th 2016.
 
 - `Building a Raspberry Pi Powered LoRaWAN Gateway <http://www.rs-online.com/designspark/electronics/eng/blog/building-a-raspberry-pi-powered-lorawan-gateway>`_.
+
+- `Make your own 200€ LoRa gateway powered by a RaspberryPi and a Multitech mCard-LoRa module <https://github.com/mirakonta/lora_gateway/wiki>`_.
+
 
 LoRa gateway COTS
 -----------------

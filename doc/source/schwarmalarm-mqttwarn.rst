@@ -19,14 +19,14 @@ or `MQTTwarn, Ein Rundum-Sorglos-Notifier`_ (german).
 Kudos to Jan-Piet and Ben for conceiving this, it is an exceptional
 powerful and versatile swiss-army knife style tool.
 
-Weight-loss events
-==================
-We are aiming at using this as a preliminary alerting subsystem for Hiveeyes_,
+We are using mqttwarn as an alerting and notification subsystem,
 started adding foundation functionality a while ago (`incorporate topic names into topic targets`_)
 and finally managed to provide a simple yet complete implementation for delivering
 alert notifications to beekeepers based on measurement data arriving on the MQTT_ bus.
 Read on, my dear.
 
+Weight-loss events
+==================
 Beekeepers usually want to know their colony is swarming, to come catch it back
 to their own beehives. To get a feeling about what we are after, a picture is
 worth a thousand words:
@@ -39,6 +39,15 @@ This is a weight-loss event from :ref:`hiveeyes-scale-beutenkarl`
 recorded on May 20, 2016 between 10:11 and 10:26 hours CEST after a
 bee colony started swarming at the
 :ref:`Hiveeyes labs beehive <labhive-one>` in Berlin Wedding.
+
+.. _data-loss events:
+
+Data-loss events
+================
+As a matter of fact, batteries are always draining. If capacity is too low
+and sensor nodes stop transmitting due to shortage on power, a software
+watchdog with a configurable timeout will recognize and notify beekeepers
+about data-loss events.
 
 
 *****
