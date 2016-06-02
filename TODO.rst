@@ -18,6 +18,24 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 
 
+2016-06-02
+==========
+- Build a TTN/LoRaWAN Gateway with RaspberryPi and IMST iC880A
+
+    - http://www.rs-online.com/designspark/electronics/eng/blog/building-a-raspberry-pi-powered-lorawan-gateway
+    - https://github.com/ttn-zh/ic880a-gateway
+
+
+2016-06-01
+==========
+- | Beehive- and frame-tracking and inventory
+  | https://www.i-keys.de/de/Transponder/125-khz.html
+  | https://www.i-keys.de/de/Transponder/125-khz/EM4102-Uni/E675-1.58-Uni.html
+
+- Link to https://www.facebook.com/StadtbienenOrg/posts/1238354899523194
+- Integrate blossom times from DWD [msw]
+
+
 2016-05-27
 ==========
 - [o] https://github.com/search?q=hiveeyes&type=Issues

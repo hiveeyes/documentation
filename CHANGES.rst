@@ -22,6 +22,7 @@ in-progress
     - Reference the two flavours of beehive scales :ref:`beutenkarl-scale` and :ref:`openhive-scale`
 
 - Add page about :ref:`mqttwarn-alerts`
+- Add some information, mainly around LoRa and related technologies
 
 
 .. _version-0.4.1:

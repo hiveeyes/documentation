@@ -14,7 +14,8 @@ Introduction
 mqttwarn
 ========
 `mqttwarn`_ is a great tool by `Jan-Piet Mens`_ and `Ben Jones`_.
-For an intro, please have a look at `Introducing mqttwarn, a pluggable MQTT notifier`_.
+For an intro, please have a look at `Introducing mqttwarn, a pluggable MQTT notifier`_
+or `MQTTwarn, Ein Rundum-Sorglos-Notifier`_ (german).
 Kudos to Jan-Piet and Ben for conceiving this, it is an exceptional
 powerful and versatile swiss-army knife style tool.
 

@@ -62,6 +62,10 @@
 .. _MQTT-SN-Arduino: https://github.com/boriz/MQTT-SN-Arduino
 .. _HX711 for Arduino: https://github.com/bogde/HX711
 .. _EmBencode: https://github.com/jcw/embencode
+.. _RadioHead: http://www.airspayce.com/mikem/arduino/RadioHead/
+.. _RH_RF95 driver: http://www.airspayce.com/mikem/arduino/RadioHead/classRH__RF95.html#details
+
+.. _AirSpayce: http://www.airspayce.com/
 
 
 .. Links to our own resources
@@ -149,6 +153,7 @@
 .. _Ben Jones: https://github.com/sumnerboy12
 .. _Jan-Piet Mens: https://github.com/jpmens
 .. _Introducing mqttwarn, a pluggable MQTT notifier: http://jpmens.net/2014/02/17/introducing-mqttwarn-a-pluggable-mqtt-notifier/
+.. _MQTTwarn, Ein Rundum-Sorglos-Notifier: https://jaxenter.de/mqttwarn-ein-rundum-sorglos-notifier-1574
 .. _incorporate topic names into topic targets: https://github.com/jpmens/mqttwarn/wiki/Incorporating-topic-names#incorporate-topic-names-into-topic-targets
 .. _feature "dynamic topic targets": https://github.com/jpmens/mqttwarn/pull/169
 

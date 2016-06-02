@@ -12,12 +12,38 @@ History
 2016
 ****
 
+.. _lora-ahead:
+
+2016-05-30 LoRa ahead!
+======================
+Richard soldered a HopeRF RFM95 radio module onto a `JeeLink`_ USB adapter,
+and started transmitting "Hello World" using the `RH_RF95 driver`_ of the
+fine RadioHead_ library by Mike McCauley of AirSpayce_. Cheers!
+
+.. figure:: https://ptrace.hiveeyes.org/2016-06-02_Jeelink-Lora-Hardware.jpg
+    :alt: JeeLink carrying HopeRF RFM95 radio module
+    :width: 400px
+    :align: left
+    :figclass: caption-regular
+
+    JeeLink_ carrying HopeRF RFM95 radio module
+
+.. figure:: https://ptrace.hiveeyes.org/2016-06-02_Jeelink-Lora-Hello-World.png
+    :alt: Hello World over RFM95
+    :width: 400px
+    :align: right
+    :figclass: caption-regular
+
+    Hello World over RFM95, using RadioHead_
+
+|clearfix|
+
 
 2016-05-30 Data alerts
 ======================
 The first preliminary implementation of an automatic :ref:`mqttwarn-alerts`
-for detecting sudden weight-loss events and sending alert notifications to
-beekeepers is ready, cheers!
+for detecting sudden weight-loss and data-loss events is ready,
+it will send appropriate alert notifications to beekeepers, cheers!
 
 
 2016-05-26 Publishing time

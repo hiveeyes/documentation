@@ -11,12 +11,146 @@ Research
 2016
 ****
 
+2016-06-02
+==========
+
+More LoRaWAN / LMiC
+-------------------
+- http://forum.thethingsnetwork.org/t/anyone-used-the-im880b-l/1644/4
+- http://forum.thethingsnetwork.org/t/lmic-1-51-fitting-in-arduino-atmega-328/1239
+- http://forum.thethingsnetwork.org/t/the-things-uno-usb-problem/333/11
+- http://forum.thethingsnetwork.org/t/esp8266-rfm95w-node-how-long-should-a-send-take/1890/2
+- http://forum.thethingsnetwork.org/t/arduino-lmic-library-updated/1295/9
+- http://forum.thethingsnetwork.org/t/lora-featherwing-development-breakout/1406/2
+
+    - https://blog.adafruit.com/2016/03/03/lora-featherwing-development-breakout/
+    - http://syncchannel.blogspot.de/2016/02/lora-featherwing-development-breakout.html
+
+- http://www.wireless-solutions.de/products/radiomodules/im880b-l
+
+TheThingsNetwork
+----------------
+- http://staging.thethingsnetwork.org/wiki/Backend/Overview
+
+LoRa gateway
+------------
+- http://forum.thethingsnetwork.org/t/gateway-for-mexico-city/284/6
+
+    - http://www.multitech.com/models/94557202LF
+    - http://www.multitech.com/models/99999107LF
+    - http://www.link-labs.com/product/lora-enabled-m2m-gateways/
+
+LoRa with Arduino
+-----------------
+- https://github.com/allthingstalk/arduino-lora
+- https://github.com/allthingstalk/arduino-lora/blob/master/ATT_Lora_IOT/examples/demo/demo.ino
+
+Misc
+----
+- http://sodaq.com/
+- https://github.com/SodaqMoja
+- http://support.sodaq.com/
+
+LoRaWAN modules
+---------------
+- http://webshop.imst.de/im880b-l-long-range-radio-module.html
+- https://www.microchip.com/wwwproducts/en/RN2483
+- http://www.microchip.com/forums/m884258.aspx
+- http://www.embit.eu/products/wireless-modules/emb-lr1272/
+
+
+2016-06-01
+==========
+- https://loriot.io/
+- https://www.pine64.com/
+- https://www.i-keys.de/de/Transponder/125-khz/EM4102-Uni/E675-1.58-Uni.html
+- | CircuitHub - Scalable Electronics Manufacturing
+  | https://circuithub.com/
+
+
+2016-05-31
+==========
+- Grafana drawing performance
+
+    - http://dygraphs.com/
+    - https://github.com/danvk/dygraphs
+    - https://github.com/flot/flot/issues/1149
+    - https://github.com/grafana/grafana/issues/643
+    - http://blog.dygraphs.com/2012/08/html5-charting-tool-performance.html
+    - http://stackoverflow.com/questions/19871637/dygraph-renders-9-times-slower-with-3-series-compared-to-single-series
+    - http://stackoverflow.com/questions/22588831/javascript-big-data-visualisation
+    - https://github.com/sveinn-steinarsson/flot-downsample/
+
+
+2016-05-30
+==========
+
+LoRa COTS
+---------
+- https://developer.mbed.org/platforms/NAMote-72/
+- https://developer.mbed.org/teams/Semtech/wiki/NAMote-72-wiki
+- http://www.digikey.com/product-search/en?keywords=sx1272LM1CEP
+- https://developer.mbed.org/components/SX1276MB1xAS/
+- https://developer.mbed.org/teams/Semtech/code/
+- https://developer.mbed.org/questions/61789/How-does-the-NAMote72-interface-with-Ard/
+- https://developer.mbed.org/platforms/MTS-mDot-F411/
+- http://www.multitech.com/lz/mbed-mdot
+
+GPS
+---
+- https://github.com/mikalhart/TinyGPSPlus
+
+ESP8266
+-------
+- http://www.esp8266.nu/index.php/ESPEasy
+- https://github.com/someburner/esp-rfm69
+- https://github.com/someburner/esp-rfm69/wiki/MQTT
+- https://github.com/tuanpmt/esp_mqtt
+
+
+
+2016-05-25
+==========
+
+BERadio
+-------
+- http://johan.kanflo.com/the-aaduino/
+- https://github.com/kanflo/aaduino
+- http://johan.kanflo.com/meet-the-branly-iot-platform/
+- https://github.com/kanflo/branly-iot/blob/master/branly_node/branly_node.ino
+
+LoRaWAN
+-------
+- https://www.lora-alliance.org/What-Is-LoRa/Technology
+- https://en.wikipedia.org/wiki/LPWAN
+- https://www.cooking-hacks.com/documentation/tutorials/lorawan-for-arduino-raspberry-pi-waspmote-868-900-915-433-mhz/
+- https://www.cooking-hacks.com/lorawan-module-for-arduino-raspberry-pi-868-mhz-xbee-socket
+- https://github.com/matthijskooijman/arduino-lmic
+- http://blog.trifork.com/2016/03/04/from-the-trenches-lora-lorawan-with-the-lorabee/
+
+    - http://www.wireless-solutions.de/products/radiomodules/ic880a.html
+    - http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iC880A/iC880A_QuickStartGuide.pdf
+    - http://webshop.imst.de/ic880a-spi-lorawan-concentrator-868mhz.html
+    - https://www.thingiverse.com/thing:1531261
+    - https://github.com/ttn-zh/ic880a-gateway/wiki
+
+RadioHead
+---------
+- http://www.airspayce.com/mikem/arduino/RadioHead/
+- https://github.com/Yveaux/RadioHead
+- https://github.com/PaulStoffregen/RadioHead
+
+Misc
+----
+- http://www.decentlab.com/
+- http://johan.kanflo.com/a-versatile-esp8266-development-board/
+
 
 2016-05-20
 ==========
 
-LoRa
-----
+LoRa gateway DIY
+----------------
 - Awesome research by `Congduc Pham <http://cpham.perso.univ-pau.fr/>`_, University of Pau, France:
 
     - `A DIY low-cost LoRa gateway <http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html>`_
@@ -25,11 +159,13 @@ LoRa
     - `Low-power, long-range WAN for IoT: a technology overview <http://cpham.perso.univ-pau.fr/LORA/WAZIUP/RESSACS16-LPWAN-review.pdf>`_,
       Talk at RESSACS'2016, IRD Bondy, May 10th 2016.
 
-- .. seealso::
+- `Building a Raspberry Pi Powered LoRaWAN Gateway <http://www.rs-online.com/designspark/electronics/eng/blog/building-a-raspberry-pi-powered-lorawan-gateway>`_.
 
-    - `Building a Raspberry Pi Powered LoRaWAN Gateway <http://www.rs-online.com/designspark/electronics/eng/blog/building-a-raspberry-pi-powered-lorawan-gateway>`_.
-    - `NAMote72 <https://developer.mbed.org/teams/Semtech/wiki/NAMote-72-wiki>`_,
-      Semtech's North America LoRaMote mbed Platform based on the SX1272 LoRa Transceiver.
+LoRa gateway COTS
+-----------------
+- `NAMote72 <https://developer.mbed.org/teams/Semtech/wiki/NAMote-72-wiki>`_,
+  Semtech's North America LoRaMote mbed Platform based on the SX1272 LoRa Transceiver.
+
 
 Misc
 ----
