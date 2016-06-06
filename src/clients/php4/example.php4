@@ -11,9 +11,9 @@ Documentation
 
 Downloads
 ---------
-- https://hiveeyes.org/docs/system/_downloads/example.php
-- https://hiveeyes.org/docs/system/_downloads/hiveeyes.php
-- https://getkotori.org/docs/_downloads/terkin-http.php
+- https://hiveeyes.org/docs/system/_downloads/example.php4
+- https://hiveeyes.org/docs/system/_downloads/hiveeyes.php4
+- https://getkotori.org/docs/_downloads/terkin-http.php4
 
 
 Synopsis
@@ -21,10 +21,10 @@ Synopsis
 Run demonstration program from the command line::
 
     # Send fixed measurements "temperature" => 42.84, "humidity" => 83 for demonstration purposes
-    php4 -f src/clients/php4/example.php run demo
+    php4 -f src/clients/php4/example.php4 run demo
 
     # Send a periodic, slowly oscillating sawtooth signal
-    php4 -f src/clients/php4/example.php run sawtooth
+    php4 -f src/clients/php4/example.php4 run sawtooth
 
 */
 

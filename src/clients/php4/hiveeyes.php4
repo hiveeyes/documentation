@@ -11,15 +11,15 @@ Documentation
 
 Downloads
 ---------
-- https://hiveeyes.org/docs/system/_downloads/hiveeyes.php
-- https://getkotori.org/docs/_downloads/terkin-http.php
+- https://hiveeyes.org/docs/system/_downloads/hiveeyes.php4
+- https://getkotori.org/docs/_downloads/terkin-http.php4
 
 Synopsis
 --------
 Transmit telemetry data from PHP::
 
     // Put this file into the folder of your PHP program
-    include("hiveeyes.php");
+    include("hiveeyes.php4");
 
     // Create a "Node API" telemetry client object
     $telemetry = new HiveeyesNode(
@@ -39,7 +39,7 @@ Basic API
 ---------
 
     // Create a "Basic API" telemetry client object
-    include("terkin-http.php");
+    include("terkin-http.php4");
     $telemetry = new TelemetryClient("https://swarm.hiveeyes.org/api/hiveeyes/testdrive/area-42/node-1/data");
 
 */
