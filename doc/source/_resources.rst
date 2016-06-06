@@ -123,6 +123,7 @@
 .. _BERadio: https://hiveeyes.org/docs/beradio/
 .. _Kotori: https://getkotori.org/docs/
 .. _terkin-http.php: https://getkotori.org/docs/_downloads/terkin-http.php
+.. _terkin-http.php4: https://getkotori.org/docs/_downloads/terkin-http.php4
 
 .. _HEnode: https://hiveeyes.org/blog/category/HEnode
 .. _HEnode version 0.1: https://hiveeyes.org/blog/rfm12b%20soldering

@@ -21,10 +21,10 @@ Synopsis
 Run demonstration program from the command line::
 
     # Send fixed measurements "temperature" => 42.84, "humidity" => 83 for demonstration purposes
-    php -f src/clients/php/example.php run demo
+    php -f src/clients/php5/example.php run demo
 
     # Send a periodic, slowly oscillating sawtooth signal
-    php -f src/clients/php/example.php run sawtooth
+    php -f src/clients/php5/example.php run sawtooth
 
 */
 

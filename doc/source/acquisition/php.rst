@@ -19,18 +19,25 @@ Download
 ========
 Please download these files and put them alongside into the folder of your PHP program:
 
-- :download:`hiveeyes.php <../_static/content/clients/php/hiveeyes.php>`, the Hiveeyes API
+- :download:`hiveeyes.php <../_static/content/clients/php5/hiveeyes.php>`, the Hiveeyes API
 - `terkin-http.php`_, a telemetry data transmitter for PHP
 
+.. hint::
 
-.. todo:: Make distribution package ``hiveeyes-php.zip``.
+    If you're stuck with PHP4, use
+
+    - :download:`hiveeyes.php4 <../_static/content/clients/php4/hiveeyes.php4>`, the Hiveeyes API for PHP4
+    - `terkin-http.php4`_, a telemetry data transmitter for PHP4
+
+
+.. todo:: Make distribution packages ``hiveeyes-php.zip`` and ``hiveeyes-php4.zip``.
 
 
 Telemetry API
 =============
 Transmitting telemetry data using PHP is pretty easy, read on my dear:
 
-.. literalinclude:: ../_static/content/clients/php/hiveeyes.php
+.. literalinclude:: ../_static/content/clients/php5/hiveeyes.php
     :language: php
     :lines: 21-38
     :linenos:
@@ -49,11 +56,16 @@ Demo
 
 Command line
 ============
-There is a command line program :download:`example.php <../_static/content/clients/php/example.php>`
+There is a command line program :download:`example.php <../_static/content/clients/php5/example.php>`
 for demonstration purposes, it will send data to ``swarm.hiveeyes.org``::
 
-    php -f src/clients/php/example.php run demo
-    php -f src/clients/php/example.php run sawtooth
+    php -f src/clients/php5/example.php run demo
+    php -f src/clients/php5/example.php run sawtooth
+
+.. hint::
+
+    If you're stuck with PHP4, please use
+    :download:`example.php4 <../_static/content/clients/php4/example.php4>`.
 
 
 ****
