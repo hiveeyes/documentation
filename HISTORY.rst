@@ -12,6 +12,21 @@ History
 2016
 ****
 
+
+2016-06-06 HTTP data acquisition
+================================
+.. highlight:: bash
+
+We start accepting measurements through POST requests to
+our new HTTP API. Data acquisition is now just a matter of::
+
+    export DEVICE_TOPIC=testdrive/area-42/node-1
+    echo '{"temperature": 42.84, "humidity": 83, "weight": 33}' | http POST https://swarm.hiveeyes.org/api/hiveeyes/$DEVICE_TOPIC/data
+
+See :ref:`Data acquisition over HTTP <daq-http>` for more
+details and :ref:`daq-php` for an example application.
+
+
 .. _lora-ahead:
 
 2016-05-30 LoRa ahead!

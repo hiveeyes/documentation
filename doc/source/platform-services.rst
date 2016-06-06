@@ -7,6 +7,15 @@ Platform services
 The :ref:`Hiveeyes platform <Hiveeyes platform>` provides these services to the public:
 
 
+HTTP
+----
+There's a HTTP API for transmitting telemetry data and more::
+
+    https://swarm.hiveeyes.org/api
+
+.. note:: Accessing the HTTP endpoint is not secured and currently unrestricted during beta.
+
+
 MQTT
 ----
 Most data link communication paths are MQTT_-driven and completely

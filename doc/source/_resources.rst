@@ -122,6 +122,7 @@
 .. _gateway-rfm69-beradio.ino: https://github.com/hiveeyes/arduino/blob/master/gateway-rfm69-beradio/src/gateway-rfm69-beradio.ino
 .. _BERadio: https://hiveeyes.org/docs/beradio/
 .. _Kotori: https://getkotori.org/docs/
+.. _terkin-http.php: https://getkotori.org/docs/_downloads/terkin-http.php
 
 .. _HEnode: https://hiveeyes.org/blog/category/HEnode
 .. _HEnode version 0.1: https://hiveeyes.org/blog/rfm12b%20soldering
