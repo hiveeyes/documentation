@@ -154,6 +154,12 @@ licenses to encourage the growth of an open ecosystem.
 Live data
 *********
 
+.. admonition:: Attention
+    :class: danger
+
+    We currently experience data loss at :ref:`labhive-one` since June 3, 2016 ~11 hours CEST.
+
+
 Intro
 =====
 Data currently is measured and collected at intervals of

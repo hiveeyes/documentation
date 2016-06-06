@@ -70,11 +70,11 @@ Configure Kotori vendor
 
 - ::
 
-    cp /etc/kotori/examples/vendor-hiveeyes.ini /etc/kotori/apps-available/
+    cp /etc/kotori/examples/vendors/hiveeyes.ini /etc/kotori/apps-available/
 
 - Activate::
 
-    ln -s /etc/kotori/apps-available/vendor-hiveeyes.ini /etc/kotori/apps-enabled/
+    ln -s /etc/kotori/apps-available/hiveeyes.ini /etc/kotori/apps-enabled/
 
 - Watch Kotori logfile::
 

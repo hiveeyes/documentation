@@ -21,6 +21,15 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 2016-06-06
 ==========
 - https://de-de.facebook.com/photo.php?fbid=10206766041769359&set=a.1682013409900.2083192.1224510416&type=1&theater
+- Write documentation about Nginx configuration
+- Make :ref:`daq-php` PHP4-compatible
+- Investigate Software API of GPRSbee re. HTTP vs. FTP and
+  single measurement vs. bulk upload in memory-constrained environments
+
+    - http://gprsbee.com/
+    - http://support.sodaq.com/gprsbee-connection/
+    - https://github.com/SodaqMoja/GPRSbee
+
 
 
 2016-06-05
@@ -36,6 +45,8 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
         - ino
         - avrdude
         - Windows and Mac OSX GUI
+
+- Refactor docs re. Handbook vs. Data acquisition vs. X
 
 
 2016-06-04

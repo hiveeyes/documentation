@@ -197,6 +197,7 @@ Software
 - `HX711 for Arduino`_, an Arduino library to interface the `Avia Semiconductor HX711 ADC`_
   24-Bit Analog-to-Digital Converter for Weight Scales.
 
+- .. todo:: There is more software involved.
 
 
 .. _hiveeyes-gateway:

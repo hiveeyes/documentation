@@ -13,7 +13,7 @@ Do it yourself
     | and ARM_-based SoC computers like the RaspberryPi_ or ODROID_
     | as well as regular x86/amd64-based systems like the `Intel NUC`_.
     |
-    | Standing on the shoulders of giants.
+    | We are standing on the shoulders of giants.
 
 
 ************

@@ -44,10 +44,10 @@ By example
     aptitude install mosquitto-clients
 
     # publish multiple measurements
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/1/message-json -m '{"temperature": 42.84, "humidity": 83}'
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/node-1/message-json -m '{"temperature": 42.84, "humidity": 83}'
 
     # publish a single measurement
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/1/measure/temperature -m 42.84
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/node-1/measure/temperature -m 42.84
 
 
 .. _topology-spec-0.1-rationale:

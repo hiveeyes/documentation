@@ -16,7 +16,7 @@ History
 
 2016-05-30 LoRa ahead!
 ======================
-Richard soldered a HopeRF RFM95 radio module onto a `JeeLink`_ USB adapter,
+Richard soldered a HopeRF RFM95 radio module onto a `JeeLink`_ USB adapter
 and started transmitting "Hello World" using the `RH_RF95 driver`_ of the
 fine RadioHead_ library by Mike McCauley of AirSpayce_. Cheers!
 
