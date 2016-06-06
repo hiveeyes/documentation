@@ -18,12 +18,64 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 
 
+2016-06-06
+==========
+- https://de-de.facebook.com/photo.php?fbid=10206766041769359&set=a.1682013409900.2083192.1224510416&type=1&theater
+
+
+2016-06-05
+==========
+- | Rangefinder Beacon with a Smartphone
+  | Buzzer, Beeper and GPS feedback for https://github.com/ksksue/Android-USB-Serial-Monitor-Lite
+- Build distribution packages of artefacts in hiveeyes/arduino
+
+    - Source tarball and zip
+    - Binary firmware, debug and stripped
+    - Documentation about how to acquire and how to upload firmware from different operating systems
+
+        - ino
+        - avrdude
+        - Windows and Mac OSX GUI
+
+
+2016-06-04
+==========
+- Setup https://www.discourse.org/ on community.hiveeyes.org
+
+
+2016-06-03
+==========
+- Add MQTT authentication based on https://github.com/jpmens/mosquitto-auth-plug ?
+- "smskaufen.com" service plugin for mqttwarn
+- "Signal" service plugin for mqttwarn
+
+    - https://github.com/tgalal/python-axolotl
+    - https://pypi.python.org/pypi/python-axolotl/
+    - https://github.com/tgalal/yowsup
+
+- Move from ATmega328P_ to ATmega644P_
+- Build an apidictor with http://wiki.openmusiclabs.com/wiki/ArduinoFHT, see also:
+
+    - http://www.elektronika.kvalitne.cz/ATMEL/necoteorie/transformation/AVRFHT/AVRFHT.html
+    - http://wiki.openmusiclabs.com/wiki/ArduinoFFT
+
+
+.. _raspberry-imst-ic880a-howto:
+
 2016-06-02
 ==========
 - Build a TTN/LoRaWAN Gateway with RaspberryPi and IMST iC880A
 
     - http://www.rs-online.com/designspark/electronics/eng/blog/building-a-raspberry-pi-powered-lorawan-gateway
     - https://github.com/ttn-zh/ic880a-gateway
+
+- Link to OSCE
+
+    - https://oscedays.org/berlin-2016/
+    - http://community.oscedays.org/t/our-challenge-is-to-set-up-an-open-source-bee-monitoring-system-to-which-anyone-can-contribute-and-share-data-easily/4873
+
+- Redirect https://swarm.hiveeyes.org/grafana/dashboard-solo/db/1-prototype-wip-amo to https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-labs-wedding
+- Setup https://github.com/discourse/discourse on (community|forum.hiveeyes.org)
 
 
 2016-06-01

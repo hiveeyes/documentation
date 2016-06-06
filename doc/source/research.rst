@@ -11,6 +11,31 @@ Research
 2016
 ****
 
+
+2016-06-05
+==========
+
+Geophone
+--------
+- | Code and Arduino shield for a frequency analyzer for geometric sensors
+  | https://github.com/olewolf/geophone
+- | Sensor SM-24 from Mitcham Industries
+  | http://www.mitchamindustries.com/products-for-lease/land-seismic/sensors/sensor-sm-24/
+- | SM-24 Geophone Element Data Sheet
+  | http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Sensors/Accelerometers/DS_SEN_121007SM24.pdf
+- | Geophone - SM-24 @ Sparkfun
+  | https://www.sparkfun.com/products/11744
+- | Geophone - SM-24 @ Watterott
+  | http://www.watterott.com/de/Geophone-SM-24
+
+
+2016-06-03
+==========
+- `White Paper: Routing und Netzwerktopologien für 802.15.4 Low Power Geräte <https://www.dresden-elektronik.de/fileadmin/Downloads/Dokumente/white_paper/routing_and_network_topologies-WP-de.pdf>`_
+- `6LoWPAN Einführung <https://www.dresden-elektronik.de/funktechnik/products/software/sources/6lowpan/>`_
+- `White Paper: Grundlagen 6LoWPAN <https://www.dresden-elektronik.de/fileadmin/Downloads/Dokumente/white_paper/fundamentals_6lowpan-WP-de.pdf>`_
+
+
 2016-06-02
 ==========
 
@@ -56,6 +81,7 @@ Misc
 - http://sodaq.com/
 - https://github.com/SodaqMoja
 - http://support.sodaq.com/
+- https://lowpowerlab.com/moteino/#lora
 
 LoRaWAN modules
 ---------------
@@ -174,6 +200,11 @@ LoRa gateway DIY
     - `A low-power, low-cost image sensor board <http://cpham.perso.univ-pau.fr/WSN-MODEL/tool-html/imagesensor.html>`_
     - `Low-power, long-range WAN for IoT: a technology overview <http://cpham.perso.univ-pau.fr/LORA/WAZIUP/RESSACS16-LPWAN-review.pdf>`_,
       Talk at RESSACS'2016, IRD Bondy, May 10th 2016.
+    - https://github.com/CongducPham/LowCostLoRaGw
+    - https://github.com/CongducPham/LowCostLoRaGw/blob/master/Arduino/Arduino_LoRa_temp/Arduino_LoRa_temp.ino
+    - https://github.com/CongducPham/LowCostLoRaGw/blob/master/Arduino/Arduino_LoRa_Gateway/Arduino_LoRa_Gateway.ino
+    - https://github.com/CongducPham/LowCostLoRaGw/blob/master/Raspberry/lora_gateway.cpp
+    - https://github.com/CongducPham/LowCostLoRaGw/blob/master/Raspberry/post_processing_gw.py
 
 - `Building a Raspberry Pi Powered LoRaWAN Gateway <http://www.rs-online.com/designspark/electronics/eng/blog/building-a-raspberry-pi-powered-lorawan-gateway>`_.
 

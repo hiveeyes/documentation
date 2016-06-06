@@ -7,6 +7,8 @@
 .. Hardware Foundation
 
 .. MCU - Atmel AVR
+.. _ATmega328P: http://www.atmel.com/devices/atmega328p.aspx
+.. _ATmega644P: http://www.atmel.com/devices/atmega644p.aspx
 .. _Arduino: https://www.arduino.cc/
 .. _Moteino: http://lowpowerlab.com/moteino/
 .. _Moteino R3: http://lowpowerlab.com/wp-content/uploads/2013/06/Moteino_R3_banner.jpg

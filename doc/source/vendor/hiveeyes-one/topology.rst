@@ -24,59 +24,7 @@ Specification
 *************
 
 The *Hiveeyes One topology version 0.1* specfication currently is implemented,
-we are working on version 0.2.
-
-
-Version 0.2
-===========
-
-:status: draft
-
-.. _topology-spec-0.2-example:
-
-By example
-----------
-.. highlight:: bash
-
-Feature "content type signalling"
-.................................
-::
-
-    # single measurement
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3/temperature      -m 42.84
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3/humidity         -m 83
-
-    # multiple measurements of arbitrary family
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3.json             -m '{"temperature": 42.84, "humidity": 83}'
-
-    # multiple measurements of same family
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3/temperature.csv  -m '42.84,21.42'
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3/humidity.csv     -m '83,41.5'
-
-    # or even
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive3.xml              -m '<temperature>42.84</temperature><humidity>83<humidity>'
-
-
-Feature "network domains"
-.........................
-::
-
-    # single measurement
-    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/sensor/area-42/hive3/temperature      -m 42.84
-
-So we have::
-
-    realm / network / domain / gateway / node
-
-``domain`` should be used as the *network domain* by all subsystems as of 2016M04,
-it should be a list of fixed identifiers, like:
-
-    - sensor
-    - command
-    - data
-    - human
-
-.. todo:: Discuss wording and describe use cases of *network domain* identifiers
+we are working on :ref:`version 0.2 <topology-spec-0.2>`.
 
 
 Version 0.1
@@ -192,4 +140,70 @@ Find the routines implementing this strategy in ``kotori/vendor/hiveeyes/applica
 
         .. literalinclude:: kotori/vendor/hiveeyes/application.py
            :lines: 1,3,5-10,20-
+
+
+
+********
+Appendix
+********
+
+.. _topology-spec-0.2:
+
+Version 0.2
+===========
+
+:status: draft
+
+.. _topology-spec-0.2-example:
+
+By example
+----------
+.. highlight:: bash
+
+Feature "content type signalling"
+.................................
+::
+
+    # single measurement
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive-3/data/temperature      -m 42.84
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive-3/data/humidity         -m 83
+
+    # multiple measurements of arbitrary family
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive-3/data.json             -m '{"temperature": 42.84, "humidity": 83}'
+
+    # multiple measurements of same family
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive-3/data/temperature.csv  -m '42.84,21.42'
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive-3/data/humidity.csv     -m '83,41.5'
+
+    # or even
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive-3/data.xml              -m '<temperature>42.84</temperature><humidity>83<humidity>'
+
+
+Feature "network domains"
+.........................
+Proposal: Inject a *network domain identifier* after the network identifier.
+Here it is ``sensor`` for sending telemetry data to the *sensor bus segment*.
+::
+
+    # single measurement
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/sensor/area-42/hive-3/temperature      -m 42.84
+
+So we have::
+
+    realm / network / domain / gateway / node
+
+``domain`` should be used as the *network domain* by all subsystems as of 2016M04,
+it should be a list of fixed identifiers, like:
+
+    - sensor
+    - command
+    - data
+    - human
+
+Maybe also:
+
+    - device
+    - report
+
+.. todo:: Discuss wording and describe use cases of *network domain identifiers*.
 
