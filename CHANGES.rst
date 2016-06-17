@@ -12,6 +12,12 @@ CHANGES
 
 in-progress
 ===========
+
+
+.. _version-0.5.0:
+
+2016-06-17 0.5.0
+================
 - Layout, Referencing, Wording, Fixes
 - Improve description of the :ref:`projects’ origin <project-origin>`
 - Add :doc:`vendor/beutenkarl/index` page
