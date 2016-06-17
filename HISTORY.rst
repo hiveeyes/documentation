@@ -359,7 +359,7 @@ Weight measurements start arriving in Grafana.
 ==========
 :ref:`OpenHive` starts transmitting data. Cheers!
 
-.. figure:: https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/12647035_10205861763442966_6589427078704744972_n.jpg?oh=ad00e82e9144d02b0a253905e4b739d5&oe=57E3B918
+.. figure:: https://ptrace.hiveeyes.org/2016-06-17_openhive-huzzah.jpg
     :target: https://www.facebook.com/photo.php?fbid=10205861763442966&set=pb.1224510416.-2207520000.1454976667.&type=3&theater
     :alt: Open Hive ESP8266
     :width: 330px
@@ -618,7 +618,7 @@ Hiveeyes
 =======
 :ref:`openhive-seeeduino-stalker` prototype, see also `Open Hive Shields`_
 
-.. figure:: https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/11143664_10204755930037822_8992406508094252562_o.jpg
+.. figure:: https://ptrace.hiveeyes.org/2016-06-17_openhive-seeeduino-stalker-closeup.jpg
     :target: `Open Hive Shields`_
     :alt: Open Hive Seeeduino Stalker
     :width: 400px
@@ -645,7 +645,7 @@ Open Hive Bee Scale
 -------------------
 The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 
-.. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-0/p206x206/11188491_10204255677331817_1170125921095812284_n.jpg?oh=e86eff2ce77a3dfc2659cf7c29b438a2&oe=5755CAF2
+.. figure:: https://ptrace.hiveeyes.org/2016-06-17_openhive-beescale.jpg
     :target: `Open Hive Bee Scale`_
     :alt: Open Hive Bee Scale
     :width: 400px
@@ -667,7 +667,7 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 
 `Open Hive`_ load cell platform (prototype I)
 
-.. figure:: https://scontent-frt3-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-0/p206x206/1558384_10201453236632551_648198296_n.jpg?oh=4efa966bf4c5d966bb627ba9d795e659&oe=5757B42C
+.. figure:: https://ptrace.hiveeyes.org/2016-06-17_openhive-cnc-machining-workshop_2015-01.jpg
     :target: `CNC Machining Workshop`_
     :alt: Open Hive CNC Machining Workshop
     :width: 400px
