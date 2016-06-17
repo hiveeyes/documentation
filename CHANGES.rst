@@ -25,6 +25,7 @@ in-progress
 - Add some research information, mainly around LoRa and related technologies
 - Some words about software watchdog for :ref:`data-loss events`
 - Enable :ref:`Data acquisition over HTTP <daq-http>` and provide an example for :ref:`daq-php`
+- Enable automatic firmware building, see :ref:`arduino:firmware-builder`
 
 
 .. _version-0.4.1:

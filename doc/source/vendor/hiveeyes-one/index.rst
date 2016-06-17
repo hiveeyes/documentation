@@ -31,6 +31,7 @@ Results
 `Hiveeyes One`_ was installed in the field at the Hiveeyes
 :ref:`labs beehive <labhive-one>` in Berlin Wedding in early Spring 2016.
 
+.. _HEnode:
 
 HEnode
 ======

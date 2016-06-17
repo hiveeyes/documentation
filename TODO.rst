@@ -18,6 +18,22 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 
 
+2016-06-12
+==========
+- http://karstenharazim.de/bienenmonitoring-hiveeyes-ping/
+- https://www.facebook.com/photo.php?fbid=10206778412358616&set=pb.1224510416.-2207520000.1465756500.&type=3&theater
+
+
+2016-06-08
+==========
+- [o] Add Homepage. More blueprints:
+
+    - https://urbit.org/
+    - https://mozilla.github.io/tofino/
+
+- [o] Add more content from http://karstenharazim.de/bienenmonitoring-hiveeyes-ping/
+
+
 2016-06-06
 ==========
 - https://de-de.facebook.com/photo.php?fbid=10206766041769359&set=a.1682013409900.2083192.1224510416&type=1&theater
@@ -78,7 +94,10 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 - Build a TTN/LoRaWAN Gateway with RaspberryPi and IMST iC880A
 
     - http://www.rs-online.com/designspark/electronics/eng/blog/building-a-raspberry-pi-powered-lorawan-gateway
-    - https://github.com/ttn-zh/ic880a-gateway
+    - Gonzalo Casas wrote a nice tutorial about it
+
+        - https://github.com/ttn-zh/ic880a-gateway
+        - https://thethingsnetwork.org/labs/story/how-to-build-your-own-lorawan-gateway/
 
 - Link to OSCE
 

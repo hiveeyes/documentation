@@ -12,6 +12,20 @@ Research
 ****
 
 
+2016-06-11
+==========
+- http://urbanbeelab.okno.be/doku.php?id=bee_monitoring_technology
+
+
+2016-06-08
+==========
+- http://shop.sodaq.com/en/gprsbee-rev6.html
+- http://www.open-electronics.org/how-to-send-and-receive-sms-with-gsmgprs-gps-shield/
+- http://www.tamberg.org/mtc/2014/IoTConnectivity.txt
+- http://wireless.ictp.it/rwanda_2015/labs/Lab_3_manual.pdf
+- http://beesource.com/build-it-yourself/apidictor/
+
+
 2016-06-05
 ==========
 
@@ -167,7 +181,6 @@ LoRaWAN
 - https://en.wikipedia.org/wiki/LPWAN
 - https://www.cooking-hacks.com/documentation/tutorials/lorawan-for-arduino-raspberry-pi-waspmote-868-900-915-433-mhz/
 - https://www.cooking-hacks.com/lorawan-module-for-arduino-raspberry-pi-868-mhz-xbee-socket
-- https://github.com/matthijskooijman/arduino-lmic
 - http://blog.trifork.com/2016/03/04/from-the-trenches-lora-lorawan-with-the-lorabee/
 
     - http://www.wireless-solutions.de/products/radiomodules/ic880a.html
@@ -175,6 +188,21 @@ LoRaWAN
     - http://webshop.imst.de/ic880a-spi-lorawan-concentrator-868mhz.html
     - https://www.thingiverse.com/thing:1531261
     - https://github.com/ttn-zh/ic880a-gateway/wiki
+
+LMIC - IBM "LoRa WAN in C"
+--------------------------
+Original
+........
+- https://www.research.ibm.com/labs/zurich/ics/lrsc/
+- https://www.research.ibm.com/labs/zurich/ics/lrsc/lmic.html
+
+Ports
+.....
+- | LoraWAN-in-C library, adapted to run under the Arduino environment
+  | https://github.com/matthijskooijman/arduino-lmic
+- | This is a port of the original lmic HAL for STM32 microcontroller to EFM32.
+  | https://github.com/mirakonta/lmic
+  | https://de.wikipedia.org/wiki/EFM32
 
 RadioHead
 ---------

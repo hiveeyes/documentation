@@ -13,11 +13,29 @@ History
 ****
 
 
+
+2016-06-17 Firmware builder
+===========================
+.. highlight:: bash
+
+We start building firmwares automatically from our `Hiveeyes Arduino`_ repository at GitHub.
+Acquiring a firmware and programming it to your sensors node is now just a matter
+of sending a HTTP POST request to ``https://swarm.hiveeyes.org/api/hiveeyes/$DEVICE_TOPIC/firmware.hex``,
+see also :ref:`arduino:firmware-builder` documentation for more details.
+
+
+2016-06-08 Ping
+===============
+Karsten has a nice summary about our project from a different angle,
+enjoy reading http://karstenharazim.de/bienenmonitoring-hiveeyes-ping/.
+
+
 2016-06-06 HTTP data acquisition
 ================================
 .. highlight:: bash
 
-We start accepting measurements through POST requests to
+While already consuming measurement data via MQTT,
+we start accepting measurements through POST requests to
 our new HTTP API. Data acquisition is now just a matter of::
 
     export DEVICE_TOPIC=testdrive/area-42/node-1
@@ -25,6 +43,13 @@ our new HTTP API. Data acquisition is now just a matter of::
 
 See :ref:`Data acquisition over HTTP <daq-http>` for more
 details and :ref:`daq-php` for an example application.
+
+
+2016-06-03 Open Source Beehives starts harvesting data
+======================================================
+`Open Source Beehives`_ starts harvesting data, cheers!
+Enjoy some `impressions from rigging up the telemetry device <https://www.facebook.com/opensourcebeehives/posts/1189629687777000>`_
+and also have a look at `live data <https://fusiontables.googleusercontent.com/fusiontables/embedviz?containerId=googft-gviz-canvas&viz=GVIZ&t=LINE_AGGREGATE&isXyPlot=true&bsize=0.0&q=select+col10,+col9,+col8,+col0+from+1s6M0ooL3HAa1n4MupcT8WD_c4zwT7iP9eNL9F72N+where+col10+%3E%3D+%272000-01-15+00:00:00%27+and+col10+%3C%3D+%272000-01-31+00:00:00%27&qrs=+and+col10+%3E%3D+&qre=+and+col10+%3C%3D+&qe=+order+by+col10+asc&uiversion=2&gco_forceIFrame=true&gco_hasLabelsColumn=true&width=1100&height=400>`_.
 
 
 .. _lora-ahead:
@@ -624,6 +649,12 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
     :target: `Open Hive Bee Scale`_
     :alt: Open Hive Bee Scale
     :width: 400px
+
+
+2015-03
+=======
+- | Clemens is collaborating with others about best-of-breed GPRS components
+  | https://holadimake.wordpress.com/2014/12/30/building-a-cellular-tracker-part2-the-board-decision-adafruit-fona-vs-linkit-one-vs-archgprs/
 
 
 2015-02

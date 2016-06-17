@@ -180,6 +180,10 @@
 .. _Graphviz: http://www.graphviz.org/
 
 
+.. Open Source Beehives
+.. _Open Source Beehives: http://opensourcebeehives.net/
+
+
 .. Clearfix in reStructuredText
 .. https://stackoverflow.com/questions/23498174/clearfix-paragraph-in-restructured-text
 .. https://stackoverflow.com/questions/4550021/working-example-of-floating-image-in-restructured-text
