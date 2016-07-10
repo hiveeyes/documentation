@@ -6,36 +6,33 @@
 README
 ######
 
+.. tip::
+
+    You might want to `continue reading on our documentation space <https://hiveeyes.org/docs/system/>`_,
+    the rendering will work properly there.
+
+
 Change documentation
 ====================
 ::
 
-    git clone git@git.elmyra.de:hiveeyes/swarm-hiveeyes-org.git
-    cd swarm-hiveeyes-org
+    git clone git@github.com:hiveeyes/documentation.git
+    cd documentation
     <editor> *.rst
 
 Build local docs
 ----------------
 ::
-     
+
     <package-manager> install python2-virtualenv
-    make docs-html  
-    <browser> doc/build/html/index.html # navigate to this path and click index.html
+    make docs-html
+    <browser> doc/build/html/index.html
 
 Build global docs
 -----------------
 ::
 
-    git commit && git push # for global access
-
-
-Deploy splash screen
-====================
-To deploy the splash screen ``src/htdocs/index.html``::
-
-    ssh root@elbanco.hiveeyes.org
-    cd /opt/swarm-hiveeyes-org/
-    git pull
+    git commit && git push
 
 
 Write reStructuredText
@@ -43,6 +40,7 @@ Write reStructuredText
 
 How to link to BERadio_ and Kotori_ project documentation?::
 
-  :ref:`beradio-spec`
-  :ref:`beradio:beradio-spec`
-  :ref:`beradio spec <beradio:beradio-spec>`
+    :ref:`beradio-spec`
+    :ref:`beradio:beradio-spec`
+    :ref:`beradio spec <beradio:beradio-spec>`
+

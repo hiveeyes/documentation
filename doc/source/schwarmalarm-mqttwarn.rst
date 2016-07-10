@@ -59,6 +59,8 @@ you can always setup an instance on your own machine.
 
 Installation
 ============
+.. highlight:: bash
+
 Setup dependencies::
 
     pip install xmpppy==0.5.0rc1 jinja2==2.8
@@ -71,6 +73,8 @@ Setup mqttwarn::
 
 Configuration
 =============
+.. highlight:: ini
+
 Please configure ``examples/hiveeyes/hiveeyes.ini`` accordingly.
 
 MQTT
@@ -112,6 +116,8 @@ Setup XMPP notification delivery (you have to register an XMPP account first)::
 ***
 Run
 ***
+.. highlight:: bash
+
 Run mqttwarn::
 
     export MQTTWARNINI=examples/hiveeyes/hiveeyes.ini

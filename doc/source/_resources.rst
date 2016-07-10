@@ -66,8 +66,10 @@
 .. _EmBencode: https://github.com/jcw/embencode
 .. _RadioHead: http://www.airspayce.com/mikem/arduino/RadioHead/
 .. _RH_RF95 driver: http://www.airspayce.com/mikem/arduino/RadioHead/classRH__RF95.html#details
-
 .. _AirSpayce: http://www.airspayce.com/
+
+.. Tools
+.. _Arduino-Makefile: https://github.com/sudar/Arduino-Makefile
 
 
 .. Links to our own resources
@@ -125,7 +127,7 @@
 .. _terkin-http.php: https://getkotori.org/docs/_downloads/terkin-http.php
 .. _terkin-http.php4: https://getkotori.org/docs/_downloads/terkin-http.php4
 
-.. _HEnode: https://hiveeyes.org/blog/category/HEnode
+.. _HEnode Blog: https://hiveeyes.org/blog/category/HEnode
 .. _HEnode version 0.1: https://hiveeyes.org/blog/rfm12b%20soldering
 .. _HEnode version 0.2.2: https://hiveeyes.org/wiki/Hardware/Prototyping/node_v02
 

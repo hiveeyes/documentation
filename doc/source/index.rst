@@ -30,6 +30,7 @@ Welcome to the jungle.
     people
     labhive-one
     terms
+    LICENSE
 
 
 *****

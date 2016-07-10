@@ -13,6 +13,33 @@ History
 ****
 
 
+2016-07-10 Next-generation sensor- and telemetry-nodes
+======================================================
+- Introduce the :ref:`generic-firmware`, a flexible software breadboard for
+  sensor-, transceiver- and gateway-nodes.
+  This is now based on the RadioHead_ and :ref:`beradio-c++` libraries for
+  radio transmission. For building it, we switched to the fine `Arduino-Makefile`_.
+
+  Welcome LoRa! Cheers, Richard!
+
+- Publish source code of
+
+    - :ref:`open-hive-firmware` running on the :ref:`openhive-box` (`GitHub <https://github.com/hiveeyes/arduino>`_)
+    - :ref:`scale-adjust-firmware` (`GitHub <https://github.com/hiveeyes/arduino>`_)
+    - :ref:`BERadio`, our Radio-to-MQTT forwarder (`GitHub <https://github.com/hiveeyes/beradio>`_)
+    - :ref:`Kotori`, our backend system for data acquisition (`GitHub <https://github.com/hiveeyes/kotori>`_)
+    - :ref:`hiveeyes-system` (`GitHub <https://github.com/hiveeyes/documentation>`_)
+
+
+2016-06-27 Summary of June 2016
+===============================
+- June 27: `SODAQ Forum: Hive scale code <http://forum.sodaq.com/t/hive-scale-code/275/14>`_
+- June 19: Karsten asks for `Freifunk im mauergarten <http://comments.gmane.org/gmane.org.freifunk.berlin/24155>`_
+- June 18: `Summary from Clemens <http://forum.arduino.cc/index.php?topic=113534.msg2806320#msg2806320>`_
+  at `Measuring the weight of a beehive`_
+- June 13: `SODAQ Forum: Hive scale design <http://forum.sodaq.com/t/hive-scale-design/305/3>`_
+- May 28: `OSCE challenge: Set up an open source bee monitoring system to which anyone can contribute and share data easily <http://community.oscedays.org/t/our-challenge-is-to-set-up-an-open-source-bee-monitoring-system-to-which-anyone-can-contribute-and-share-data-easily/4873/4>`_
+
 
 2016-06-17 Firmware builder
 ===========================
@@ -176,7 +203,7 @@ bee colony started swarming at the Hiveeyes
 2016-05-19 Elektrischer Reporter
 ================================
 
-.. figure:: http://www.blinkenfilme.de/phase3/149/ER3_149-original.jpg
+.. figure:: https://ptrace.hiveeyes.org/2016-07-10_ElRep149-Splash-Richard.jpg
     :target: http://www.elektrischer-reporter.de/phase3/video/390/
     :alt: Elektrischer Reporter 149: Vernetzte Bienen, Fahrradlobbyisten und Spielausgrabungen
     :width: 800px
@@ -353,6 +380,13 @@ The setup was pretty quick, we were finished in approx.
     <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=1460635978156&to=1460663593934" width="100%" height="425" frameborder="0"></iframe>
 
 Weight measurements start arriving in Grafana.
+
+
+2016-04-06 Arduino Forum Updates
+================================
+Clemens gives a short overview about the progress on the Arduino Forum thread `Measuring the weight of a beehive`_:
+
+    - April 6: http://forum.arduino.cc/index.php?topic=113534.msg2698604#msg2698604
 
 
 2016-02-16
@@ -735,8 +769,9 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 
 apidictor
 ---------
-- Dazz starts collecting information about building an :ref:`apidictor`:
-  https://gist.github.com/dazz/11309904
+- Dazz starts collecting information about building an :ref:`apidictor`
+  at https://gist.github.com/dazz/11309904 and also prepared Python source
+  code performing FFT-analysis with SciPy/NumPy at https://github.com/c-base/apidictor.
 
 
 2014-04

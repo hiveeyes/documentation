@@ -25,6 +25,13 @@ He is currently building the :ref:`openhive-temperature-array` for making
 3d images of temperature values to see how the bees move in the hive.
 
 
+****
+News
+****
+- http://open-hive.org/pictures/prototypes/open-hive-system-1/open-hive_box-with-electronics.jpg
+
+
+
 ********
 Hardware
 ********
@@ -64,6 +71,8 @@ Open Hive temperature array
 
     Open Hive temperature array, prototype left with PCB, right with ribbon cable
 
+
+.. _openhive-box:
 
 .. _openhive-seeeduino-stalker:
 

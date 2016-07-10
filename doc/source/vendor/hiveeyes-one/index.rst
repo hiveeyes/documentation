@@ -17,7 +17,7 @@ Introduction
 ************
 Richard Pobering is writing the `Hiveeyes blog`_ while working on our
 open source / open hardware beehive monitoring system.
-He engineered the RFM69_-based sensor node HEnode_, as well as the radio
+He engineered the RFM69_-based sensor node HEnode (`HEnode Blog`_), as well as the radio
 message protocol in form of the :ref:`beradio-spec`, an efficient transport
 protocol for radio link communication.
 

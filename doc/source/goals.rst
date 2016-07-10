@@ -21,28 +21,27 @@ state that different efforts in the area of open source beehive monitoring
 would use different kinds of data sinks and backend systems, thus making
 it difficult for truly collaborative data collection efforts to interoperate.
 
-Vendor lock-in
-==============
-Further, the increased usage of commercial IoT cloud services in otherwise
-open source projects gave reason to worry. This, while looking attractive
-at first, wasn't a path we wanted to take.
-
-Abundance for all, this decision was promoted through recent stories from
-the industry about different kinds of vendor lock-in effects, costs spiraling
-out of control and - last but not least - cloud service backend systems
-actively supporting customer devices in the field going completely out of
-service, effectively bricking all the devices at once.
-
-This happened to a number of customers of such products in quick succession
-2016 and will probably continue to do so.
-
-
-*********
 Objective
-*********
+=========
 We take the challenge in the area of open source beehive monitoring to
 lower the bar for starting own beehive monitoring projects significantly
 by building upon a mature stack of proven hardware- and software components.
+
+Vendor lock-in
+==============
+The increasing use of commercial IoT cloud services in otherwise open source
+projects gave reason to worry. This, while looking attractive at first,
+wasn't a path we wanted to take.
+
+Abundance for all, the decision for building an open platform was promoted
+through recent stories from the industry about different kinds of vendor
+lock-in effects, costs spiraling out of control and - last but not least -
+cloud service backend systems actively supporting customer devices in the
+field going completely out of service, effectively bricking all the devices
+at once.
+
+This happened to a number of customers of such products in quick succession
+2016 and will probably continue to do so.
 
 
 ********
@@ -53,7 +52,7 @@ Progress
 Short term
 ==========
 - The primary goal is to gain insight into the environment inside the beehive
-  by collecting environmental data using cheap microcontroller and
+  by collecting environmental data using affordable microcontroller and
   sensor hardware.
   The telemetry data is transmitted to the data collection backend for
   storage, postprocessing, redistribution, visualization and analysis.
