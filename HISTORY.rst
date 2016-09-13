@@ -13,6 +13,28 @@ History
 ****
 
 
+2016-09-03 New website
+======================
+- We released our new website at https://www.hiveeyes.org/ and tried hard to
+  aggregate and link to the various bits of information in a different way.
+  Just in-time for the Stadthonigfest (see below).
+
+
+2016-09-03 Stadthonigfest Berlin 2016
+=====================================
+Karsten and Clemens are exhibitors at the yearly »Stadthonigfest Berlin 2016«.
+
+.. figure:: https://ptrace.hiveeyes.org/2016-09-13_stadthonigfest-berlin-2016-karsten-and-clemens.jpg
+    :alt: Karsten and Clemens at the Stadthonigfest 2016 in Berlin
+
+    Karsten and Clemens at the Stadthonigfest 2016 in Berlin
+
+.. seealso::
+
+    - http://prinzessinnengarten.net/event/stadthonigfest/
+    - https://www.imkerverein-berlin.de/wordpress/index.php/2016/08/18/stadthonig-fest-am-3-9-2016/
+
+
 2016-07-10 Next-generation sensor- and telemetry-nodes
 ======================================================
 - Introduce the :ref:`generic-firmware`, a flexible software breadboard for

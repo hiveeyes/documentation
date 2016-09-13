@@ -14,6 +14,11 @@ in-progress
 ===========
 
 
+2016-09-13 0.6.1
+================
+- Update a bit of documentation and history about August/September 2016
+
+
 .. _version-0.6.0:
 
 2016-07-10 0.6.0

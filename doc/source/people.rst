@@ -7,13 +7,13 @@ People
 ######
 
 
-.. figure:: http://karstenharazim.de/wp-content/uploads/2015/06/dadant-1-150x150.jpg
+.. figure:: https://ptrace.hiveeyes.org/2016-09-13_hiveeyes-karsten-harazim.jpg
     :alt: Karsten Harazim
     :figclass: caption-regular
-    :width: 250px
+    :width: 400px
     :align: left
 
-    `Karsten Harazim`_, `Beutenkarl`_ (`facebook <Beutenkarl at Facebook_>`_)
+    `Karsten Harazim`_ (`facebook <Karsten Harazim at Facebook_>`_), `Beutenkarl`_ (`facebook <Beutenkarl at Facebook_>`_)
 
 .. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2001%20-%20Beutenkarl.jpg
     :alt: Robert Gummi

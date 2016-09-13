@@ -8,7 +8,7 @@ The Hiveeyes system.
 *************
 Documentation
 *************
-The documentation is licensed under the Creative Commons `CC-BY-SA 4.0 license`_.
+The documentation, its source code and related things are licensed under the Creative Commons `CC-BY-SA 4.0 license`_.
 
 .. _CC-BY-SA 4.0 license: https://creativecommons.org/licenses/by-sa/4.0/
 

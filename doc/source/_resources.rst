@@ -87,6 +87,7 @@
 
 .. Beutenkarl
 .. _Beutenkarl: http://beutenkarl.de/
+.. _Karsten Harazim at Facebook: https://www.facebook.com/karsten.harazim
 .. _Beutenkarl at Facebook: https://www.facebook.com/beutenkarl-777073669073198/
 
 .. Open Bee Hive

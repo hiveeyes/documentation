@@ -18,6 +18,27 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 
 
+2016-09-05
+==========
+- Grafana export:
+
+    - https://blog.mattionline.de/grafana-api-export-graph-as-png/
+    - https://github.com/grafana/grafana/issues/2085
+
+- Florian Altermatt (Schweiz)
+- Add LICENSE badges to GitHub repositories
+
+
+2016-09-03
+==========
+- Get early pictures from founding/designing phase, e.g. http://www.mauergarten.net/wp-content/uploads/IMG_5676.jpg
+
+    - http://www.mauergarten.net/2014/09/5226/
+    - http://www.mauergarten.net/2014/11/workshop-digitales-bienenmonitoring-ii/
+    - https://imkerverein-kreuzberg.de/wordpress/?page_id=170&id=1
+
+
+
 2016-06-12
 ==========
 - http://karstenharazim.de/bienenmonitoring-hiveeyes-ping/

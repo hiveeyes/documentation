@@ -191,13 +191,14 @@ LoRaWAN
 
 LMIC - IBM "LoRa WAN in C"
 --------------------------
+
 Original
-........
+^^^^^^^^
 - https://www.research.ibm.com/labs/zurich/ics/lrsc/
 - https://www.research.ibm.com/labs/zurich/ics/lrsc/lmic.html
 
 Ports
-.....
+^^^^^
 - | LoraWAN-in-C library, adapted to run under the Arduino environment
   | https://github.com/matthijskooijman/arduino-lmic
 - | This is a port of the original lmic HAL for STM32 microcontroller to EFM32.
@@ -290,24 +291,24 @@ IEEE 802.15.4
 -------------
 
 Intro
-~~~~~
+^^^^^
 - https://en.wikipedia.org/wiki/IEEE_802.15.4
 - https://de.wikipedia.org/wiki/IEEE_802.15.4
 - https://www.kernel.org/doc/Documentation/networking/ieee802154.txt
 
 Overview
-~~~~~~~~
+^^^^^^^^
 - | The Sensor Network Museum
   | http://www.snm.ethz.ch/
 
 BTnodes
-~~~~~~~
+^^^^^^^
 A Distributed Environment for Prototyping Ad Hoc Networks
 
 - http://www.btnode.ethz.ch/
 
 TelosB
-~~~~~~
+^^^^^^
 Open-source TelosB / Tmote Sky platform design developed and published by the University of California, Berkeley.
 Usually compatible with TinyOS 2.x & ContikiOS.
 
@@ -318,7 +319,7 @@ Usually compatible with TinyOS 2.x & ContikiOS.
 - https://www.youtube.com/watch?v=3G5IyzN8kiE
 
 HopeRF RFM73
-~~~~~~~~~~~~
+^^^^^^^^^^^^
 - http://rf-store.com/index.php?view=2&pv=showart&prod_id=RFM73-S
 - http://rf-store.com/media/pdf/rfm73.pdf
 
@@ -328,13 +329,13 @@ HopeRF RFM73
 -------
 
 Intro
-~~~~~
+^^^^^
 - https://en.wikipedia.org/wiki/6LoWPAN
 - http://6lowpan.tzi.org/
 - https://de.wikipedia.org/wiki/Routing_Protocol_for_Low_power_and_Lossy_Networks
 
 Linux
-~~~~~
+^^^^^
 - Raspberry Pi 802.15.4 radio
 
     - http://openlabs.co/OSHW/Raspberry-Pi-802.15.4-radio
@@ -356,7 +357,7 @@ Linux
 
 
 Chips
-~~~~~
+^^^^^
 - Atmel AT86RF230, AT86RF233
 
     - http://www.atmel.com/devices/AT86RF233.aspx
@@ -392,7 +393,7 @@ Chips
 
 
 Devices / Modules
-~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^
 - http://wpan.cakelab.org/#_supported_hardware
 - | SAM R21 Xplained Pro Evaluation Kit
   | http://www.atmel.com/tools/ATSAMR21-XPRO.aspx
