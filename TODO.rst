@@ -18,6 +18,17 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 
 
+2016-09-14
+==========
+- http://forum.arduino.cc/index.php?topic=160450.0
+
+
+2016-09-13
+==========
+- https://github.com/Hiverize/Sensorbeuten/pull/1
+- https://github.com/hiveeyes/Hiverize-Sensorbeuten/blob/hiveeyes-backend/backend.rst
+
+
 2016-09-05
 ==========
 - Grafana export:
@@ -271,22 +282,6 @@ Improvements
 ------------
 - [o] Open Hive: Add Fritzing schema for ESP8266
 - [o] Add Stückliste (via Excel file)
-- [o] Add section about collaboration with other bee monitoring projects
-
-    - Germany
-
-        - https://www.imker-nettetal.de/tag/stockwaage/
-        - http://www.imker-stockwaage.de/
-        - http://beelogger.de/
-
-    - International
-
-        - http://opensourcebeehives.net/
-        - sensor platform
-          http://docs.opensourcebeehives.net/docs/alpha-sensor-kit
-        - discussion board
-          http://community.opensourcebeehives.net/
-
 - [o] Improve documentation of HiveeyesOne_
 
     - Foundation libraries

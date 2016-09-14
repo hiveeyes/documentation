@@ -14,6 +14,15 @@ in-progress
 ===========
 
 
+2016-09-14 0.7.0
+================
+- Improve contents of index page, remove defunct live-data display
+- Add page about other projects
+- Improve menu structure
+- Update email address
+- This and that
+
+
 2016-09-13 0.6.1
 ================
 - Update a bit of documentation and history about August/September 2016

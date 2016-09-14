@@ -719,8 +719,6 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 
 2015-01
 =======
-- Spin up Trac_ instance as a `Wiki of the Hiveeyes project <Hiveeyes project_>`_
-
 `Open Hive`_ load cell platform (prototype I)
 
 .. figure:: https://ptrace.hiveeyes.org/2016-06-17_openhive-cnc-machining-workshop_2015-01.jpg
@@ -738,10 +736,12 @@ The `Open Hive Bee Scale`_ is a low-cost load cell platform (prototype II)
 2014
 ****
 
+
 2014-12
 =======
-- Start the mailing list "hiveeyes-devs ät ideensyndikat.org"
 - Register domain "hiveeyes.org"
+- Start the email distribution list
+- Spin up Trac_ instance as a `Wiki of the Hiveeyes project <Hiveeyes project_>`_
 
 
 2014-11

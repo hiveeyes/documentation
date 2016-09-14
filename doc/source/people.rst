@@ -15,7 +15,7 @@ People
 
     `Karsten Harazim`_ (`facebook <Karsten Harazim at Facebook_>`_), `Beutenkarl`_ (`facebook <Beutenkarl at Facebook_>`_)
 
-.. figure:: https://ptrace.hiveeyes.org/2016-05-25_Scale%20Frame%20-%2001%20-%20Beutenkarl.jpg
+.. figure:: https://ptrace.hiveeyes.org/2016-09-14_hiveeyes-robert-gummi.jpg
     :alt: Robert Gummi
     :figclass: caption-regular
     :width: 400px
@@ -51,7 +51,7 @@ People
 
     Andreas Motl, Hiveeyes_
 
-.. figure:: https://avatars1.githubusercontent.com/u/182954?v=3&s=460
+.. figure:: https://ptrace.hiveeyes.org/2016-09-14_hivemonitor-anne-julia-scheuermann.jpg
     :alt: Anne-Julia Scheuermann
     :figclass: caption-regular
     :width: 250px

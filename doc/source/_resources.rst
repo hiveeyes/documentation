@@ -108,7 +108,7 @@
 .. _Hiveeyes: https://hiveeyes.org/
 .. _Hiveeyes project: https://hiveeyes.org/
 .. _Hiveeyes blog: https://hiveeyes.org/
-.. _Hiveeyes email: mailto:hiveeyes-devs [aet] ideensyndikat.org
+.. _Hiveeyes email: mailto:The%20Hiveeyes%20collective <hello[aet]hiveeyes.org>?subject=Hey%20there&body=Please%20change%20the%20obfuscated%20email%20address%20above,%20thanks!
 .. # _Hiveeyes platform: https://swarm.hiveeyes.org/
 .. _Hiveeyes system documentation: https://hiveeyes.org/docs/system/
 .. _Hiveeyes Debian package repository: https://packages.hiveeyes.org/hiveeyes/foss/debian/
@@ -185,7 +185,11 @@
 
 .. Open Source Beehives
 .. _Open Source Beehives: http://opensourcebeehives.net/
-
+.. _Smart Citizen Kit: https://smartcitizen.me/
+.. _Institute for Advanced Architecture of Catalonia: https://iaac.net/
+.. _Fab Lab Barcelona: http://fablabbcn.org/
+.. _Open Tech Forever: https://opentechforever.com/
+.. _check_mk: https://mathias-kettner.de/check_mk.html
 
 .. Clearfix in reStructuredText
 .. https://stackoverflow.com/questions/23498174/clearfix-paragraph-in-restructured-text
