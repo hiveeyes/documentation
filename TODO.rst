@@ -21,6 +21,7 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 2016-09-14
 ==========
 - http://forum.arduino.cc/index.php?topic=160450.0
+- http://scientificbeekeeping.com/
 
 
 2016-09-13

@@ -14,10 +14,15 @@ in-progress
 ===========
 
 
+2016-09-15 0.7.1
+================
+- Update page :ref:`other-projects`
+
+
 2016-09-14 0.7.0
 ================
 - Improve contents of index page, remove defunct live-data display
-- Add page about other projects
+- Add page about :ref:`other-projects`
 - Improve menu structure
 - Update email address
 - This and that

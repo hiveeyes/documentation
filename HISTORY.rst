@@ -24,15 +24,20 @@ History
 =====================================
 Karsten and Clemens are exhibitors at the yearly »Stadthonigfest Berlin 2016«.
 
+.. seealso::
+
+    - http://prinzessinnengarten.net/event/stadthonigfest/
+    - https://www.imkerverein-berlin.de/wordpress/index.php/2016/08/18/stadthonig-fest-am-3-9-2016/
+
 .. figure:: https://ptrace.hiveeyes.org/2016-09-13_stadthonigfest-berlin-2016-karsten-and-clemens.jpg
     :alt: Karsten and Clemens at the Stadthonigfest 2016 in Berlin
 
     Karsten and Clemens at the Stadthonigfest 2016 in Berlin
 
-.. seealso::
+.. figure:: https://ptrace.hiveeyes.org/2016-09-15_hiveeyes-business-card.jpg
+    :alt: Clemens made some business cards for us. Thanks!
 
-    - http://prinzessinnengarten.net/event/stadthonigfest/
-    - https://www.imkerverein-berlin.de/wordpress/index.php/2016/08/18/stadthonig-fest-am-3-9-2016/
+    Clemens made some business cards for us. Thanks!
 
 
 2016-07-10 Next-generation sensor- and telemetry-nodes

@@ -35,17 +35,15 @@ they are listed in order of appearance and categorized
 into scientific, educational, open source / do-it-yourself
 and commercial ones.
 
+The people at http://colonymonitoring.com/ do a similar job by
+aggregating pointers to both commercial and homemade monitoring
+solutions.
+
+----
 
 ***********************************
 Scientific and educational projects
 ***********************************
-
-
-Mellifera e.V.
-==============
-Mellifera e.V. is an association for Ecological Apiculture, founded 1985 in Baden-Württemberg, Germany.
-
-- https://www.mellifera.de/
 
 
 Umweltspäher
@@ -59,6 +57,21 @@ behavior at the Free University of Berlin. Around since 2000.
 - http://www.honeybee.neurobiologie.fu-berlin.de/
 
 
+HoneyBeeNet
+===========
+The famous HoneyBeeNet project of NASA inspired many of us with the idea
+of creating a national data collection network for gaining insights
+into environmental conditions, nectar flow and bee forage information.
+Around since 2006. Based/originated in Maryland and Delaware, U.S.
+
+- https://honeybeenet.gsfc.nasa.gov/
+
+.. note::
+
+    Wayne Esaias authored the very detailed and informative paper
+    `Protocol for Scale Hive Measurements of the Honey Bee Nectar Flow <https://honeybeenet.gsfc.nasa.gov/About/SHprotocol.htm>`_
+
+
 HOBOS - HOneyBee Online Studies
 ===============================
 The HOBOS (HOneyBee Online Studies) project is an interactive educational project
@@ -69,6 +82,7 @@ online and in the real world. It is totally worth having a look at it.
 
 - http://www.hobos.de/
 
+----
 
 ********************
 Open source projects
@@ -131,6 +145,8 @@ Details:
 Stockwaage from Imkerverein Nettetal e. V.
 ==========================================
 A project from Alexander Wilms, based in North Rhine-Westphalia, Germany. Around since 2015.
+It's a kind of a fork of the Projekt "Bienenwaage", as Alexander was in contact with Markus,
+so both projects share similar hardware components.
 
 - https://www.imker-nettetal.de/nsa-fuer-bienen-wir-bauen-uns-eine-stockwaage/
 - https://www.imker-nettetal.de/category/stockwaage/
@@ -168,10 +184,27 @@ Details:
 - The telemetry data transfer is based on an Itead 3G GSM modem.
 
 
+----
+
 
 *******************
 Commercial projects
 *******************
+
+
+CAPAZ GSM 200 Bienenwaage
+=========================
+Professional hive scale system from CAPAZ GmbH,
+based in Western Baden-Württemberg, Germany. Around since 2004.
+
+- http://www.bienenwaage.de/
+
+
+BeeWise
+=======
+A hive scale product and monitoring solution from a french manufacturer. Around since 2007.
+
+- http://www.beewise.eu/
 
 
 BeeWatch
@@ -180,6 +213,23 @@ Professional hive scale systems from Biene & Natur GmbH,
 based in Upper Franconia, northern Bavaria, Germany. Around since 2011.
 
 - http://beewatch.de/
+
+
+Hive Tracks
+===========
+Hive Tracks from Dr. James Wilkes of Blowing Rock Software LLC and his
+team builds innovative beekeeping software. Based in North Carolina, U.S. Around since 2011.
+
+- https://hivetracks.com/
+- https://www.facebook.com/HiveTracks/
+
+
+HiveSensors
+===========
+HiveSensors from Arizona, U.S. offers compact wireless environmental hive sensors for
+use in experimental bee research. Around since 2011.
+
+- http://www.hivesensors.com/
 
 
 Penso Bienenstock Wägesysteme
@@ -191,9 +241,28 @@ Around since 2012.
 - http://emsystech.de/
 
 
+Arnia
+=====
+Arnia builds state of the art remote hive monitoring systems.
+Based in Northumberland, England. Around since 2012.
+
+- http://www.arnia.co.uk/
+- https://twitter.com/ArniaBee
+
+
+Hivemind
+========
+Hivemind is an industry-leading product for keeping track of your hives in remote locations.
+The company builds remote hive weight measurement solutions for beekeepers with satellite
+uplinks for transmitting telemetry data.
+Based in Christchurch, New Zealand as a spin-off of Brush Technology. Around since 2013.
+
+- http://hivemind.co.nz/
+
+
 Wi-Fi Hive Scale
 ================
-From O'Keefe Electronics Inc. based in Wellington, Ohio, U.S. Around since 2016?
+From O'Keefe Electronics Inc. based in Ohio, U.S. Around since 2016?
 
 - http://wifihivescale.com/
 
