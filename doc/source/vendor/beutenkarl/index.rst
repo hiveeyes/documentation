@@ -14,9 +14,9 @@ About
 
 .. _beutenkarl-scale:
 
-************************
-Scale frame "Beutenkarl"
-************************
+**********************
+The "Beutenkarl" scale
+**********************
 A scale for measuring hive weight is probably the most important tool
 when looking for insights into bee colony behavior by beehive monitoring.
 

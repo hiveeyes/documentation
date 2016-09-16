@@ -14,6 +14,12 @@ in-progress
 ===========
 
 
+2016-09-16 0.8.0
+================
+- Improve :ref:`handbook`, :ref:`other-projects`, :ref:`goals` and index pages.
+- Add :ref:`contact` and preliminary :ref:`daq-python` page.
+
+
 2016-09-15 0.7.1
 ================
 - Update page :ref:`other-projects`

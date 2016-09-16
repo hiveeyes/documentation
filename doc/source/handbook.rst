@@ -6,20 +6,36 @@
 Handbook
 ########
 
+.. contents::
+   :local:
+   :depth: 1
+
+----
 
 .. _data-acquisition:
 
-****************
-Data acquisition
-****************
 
+************
 Introduction
-============
-Hiveeyes is flexible. It offers different communication paths for
-data acquisition from different kinds of sensor nodes aka. "flavours".
+************
+The system is flexible. It offers different sensor node setups and
+communication paths for different data acquisition requirements aka. "flavours".
 
-Flavours
-========
+
+***************
+Sensor hardware
+***************
+
+Beehive scales
+==============
+There are two different hive scale designs aka. "flavours":
+
+- :ref:`beutenkarl-scale` is for heavy lifting and currently rigged up at :ref:`labhive-one`.
+- :ref:`openhive-bee-scale` is an innovative, low-cost and low-effort variant which is about to be mounted.
+
+Sensor nodes
+============
+
 - :ref:`hiveeyes-one` sensor nodes transmit measurement values to a gateway
   using radio-link communication, the gateway receives and decodes telemetry
   data from Bencode_ format, then forwards it to the MQTT_ broker in JSON.
@@ -28,17 +44,20 @@ Flavours
 - :ref:`openhive-seeeduino-stalker` sensor nodes send
   telemetry data by issuing HTTP POST requests over GPRS.
 
-- :ref:`openhive-huzzah` sensor nodes directly send
+- :ref:`openhive-huzzah` sensor nodes are using WiFi to send
   telemetry data to the MQTT_ broker in JSON format.
 
-.. note::
 
-    For selecting a client library and communication style
-    of your choice, we recommend taking a look at the
-    :ref:`Kotori data acquisition handbook <kotori:data-acquisition>`.
+****************
+Data acquisition
+****************
 
 Getting started
 ===============
+We prepared some examples for transmitting measurement values to the "testdrive"
+channel of our community data collection platform. Feel free to try it on your own,
+the system currently offers the HTTP and MQTT transport protocols.
+The accepted payload formats are JSON and x-www-form-urlencoded.
 
 .. _daq-http:
 
@@ -46,53 +65,63 @@ HTTP
 ----
 .. highlight:: bash
 
-Send measurement values / telemetry data to the "testdrive" channel
-by sending a POST request to the appropriate HTTP endpoint::
+Use HTTP for submitting telemetry data using the HTTP client of your choice.
+This example uses HTTPie_, a command line http client that will make you smile.
+::
 
     # Get hold of a HTTP client of your choice
     aptitude install httpie
 
-    # Publish measurement samples
-    export HTTP_URI=https://swarm.hiveeyes.org
-    export DEVICE_TOPIC=testdrive/area-42/node-1
-    echo '{"temperature": 42.84, "humidity": 83}' | http POST $HTTP_URI/api/hiveeyes/$DEVICE_TOPIC/data
+    # Define the target address
+    export HTTPURI=https://swarm.hiveeyes.org
+    export CHANNEL=testdrive/area-42/node-1
+
+    # Publish a single measurement sample
+    echo '{"temperature": 42.84, "humidity": 83}' | http POST $HTTPURI/api/hiveeyes/$CHANNEL/data
 
 
 MQTT
 ----
 .. highlight:: bash
 
-Send measurement values / telemetry data to the "testdrive" channel
-by publishing it to the MQTT bus as JSON message::
+Publish telemetry data to the MQTT bus::
 
     # Get hold of a MQTT client of your choice
     aptitude install mosquitto-clients
 
-    # Publish measurement samples
-    export MQTT_BROKER=swarm.hiveeyes.org
-    export DEVICE_TOPIC=testdrive/area-42/node-1
-    echo '{"temperature": 42.84, "humidity": 83}' | mosquitto_pub -h $MQTT_BROKER -t hiveeyes/$DEVICE_TOPIC/message-json -l
+    # Define the target address
+    export BROKER=swarm.hiveeyes.org
+    export CHANNEL=testdrive/area-42/node-1
+
+    # Publish a single measurement sample
+    echo '{"temperature": 42.84, "humidity": 83}' | mosquitto_pub -h $BROKER -t hiveeyes/$CHANNEL/message-json -l
 
 ----
 
 .. todo::
 
-    - Describe ``DEVICE_TOPIC`` parameter
-    - Emphasize generation of custom "network", "gateway" and "node" identifiers.
-    - Add convenience by adding appropriate Javascript widgets.
+    - Describe "network", "gateway" and "node" components of the ``CHANNEL`` parameter,
+      emphasize and describe generation of custom values.
+    - Add more convenience by adding appropriate Javascript widgets.
+
+
+Client libraries and programs
+=============================
+- For a generic Python library, visit :ref:`daq-python`.
+- For a generic PHP library, visit :ref:`daq-php`.
+- There is also :ref:`beradio-python <beradio-python>`, a serial-to-mqtt
+  forwarder used as gateway for RF telemetry by :ref:`hiveeyes-one`.
 
 .. tip::
 
     For feeding a sawtooth signal right from your shell without having any
     hardware in place, take a look at the :ref:`kotori:sawtooth-signal` page.
 
+.. note::
 
-Client libraries and programs
-=============================
-- :ref:`beradio-python <beradio-python>` is a serial-to-mqtt
-  forwarder in Python used by :ref:`hiveeyes-one`.
-
-- For a convenient PHP library, visit :ref:`daq-php`.
+    For selecting a client library and communication style
+    of your choice, we recommend taking a look at the
+    :ref:`Kotori data acquisition handbook <kotori:data-acquisition>`.
 
 
 ******************
@@ -110,20 +139,10 @@ Data alerts
 ***********
 The first preliminary implementation of an automatic :ref:`mqttwarn-alerts`
 for detecting sudden weight-loss and data-loss events and sending alert
-notifications to beekeepers is ready, cheers!
+notifications to beekeepers is ready, enjoy.
 
+.. note::
 
-*************
-Beehive Scale
-*************
-
-Introduction
-============
-Hiveeyes is flexible. It offers different scale sockets
-for different requirements aka. "flavours".
-
-Flavours
-========
-- :ref:`beutenkarl-scale` is for heavy lifting and currently rigged up at :ref:`labhive-one`.
-- :ref:`openhive-bee-scale` is an innovative, low-cost and low-effort variant which is about to be mounted.
+    The registration for alerts is currently a manual process.
+    Please get back to us for getting support on that.
 

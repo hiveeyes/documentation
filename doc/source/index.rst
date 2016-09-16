@@ -20,7 +20,6 @@ Welcome to the jungle.
     :hidden:
 
     News <history>
-    people
     goals
     labhive-one
 
@@ -29,9 +28,12 @@ Welcome to the jungle.
 
     development
     research
+    Changelogs <changes>
+
+    people
+    contact
     LICENSE
     terms
-    Changelogs <changes>
 
 
 .. contents::
@@ -47,7 +49,7 @@ About
 
 In a nutshell
 =============
-The Hiveeyes project has developed a flexible toolkit for beehive monitoring.
+The Hiveeyes project is developing a flexible toolkit for beehive monitoring.
 
 We aim at making non-invasive beekeeping as affordable and comfortable as possible
 by supporting the beekeeper community with an universal, do-it-yourself infrastructure
@@ -55,36 +57,34 @@ for data collection to streamline the process of raw data acquisition when
 developing individual solutions.
 
 The toolkit uses low-cost, low-power hardware and contemporary software components.
-Our hardware and software is available under free software or similar
+All our hardware and software is available under free software and similar
 licenses to encourage the growth of an open ecosystem.
 
 For further details, please see the projects' :ref:`goals`.
 There are :ref:`other-projects` around the world sharing similar ambitions,
-we are loosely in touch with them.
+we are loosely in touch with them. Please also have a look under the hood
+at our detailed :ref:`project news <history>` page.
 
 
 .. _project-origin:
-
-Origin of the project
-=====================
-This community project originated from the independent `Open Bee Hive`_,
-`Open Hive`_, `Beutenkarl`_, `Hiveeyes <Hiveeyes project_>`_ and
-`Hive Monitor`_ beehive monitoring projects.
-The `solidary apiculture mauergarten <Solidarische Imkerei im mauergarten_>`_
-(`facebook <Solidarische Imkerei at Facebook_>`_, `bienenblog`_) was one of
-the major catalysts for bringing us together.
-On the tech side, the project is one of the many spin-offs of the
-popular Arduino Forum thread `Measuring the weight of a beehive`_.
-
-Please have a look at our detailed shared project :ref:`news <history>`.
-
 
 Who is behind Hiveeyes?
 =======================
 We are a group of beekeepers from Berlin regularly meeting on
 wednesdays to build a telemetry platform for beehive monitoring.
-We are Karsten, Robert, Clemens, Richard, Martin, Andreas and Dazz.
+We are Karsten, Robert, Clemens, Nik, Richard, Martin, Andreas and Dazz.
 Feel welcome to `join us <Hiveeyes email_>`_.
+
+The community project originated from the independent `Open Bee Hive`_,
+`Open Hive`_, `Hiveeyes <Hiveeyes project_>`_ and
+`Hive Monitor`_ beehive monitoring projects.
+`Karsten <Karsten Harazim_>`_ (`facebook <Karsten Harazim at Facebook_>`_)
+aka. `Beutenkarl`_ (`facebook <Beutenkarl at Facebook_>`_)
+and the `solidary apiculture mauergarten <Solidarische Imkerei im mauergarten_>`_
+(`facebook <Solidarische Imkerei at Facebook_>`_, `bienenblog`_) was one of
+the major catalysts for bringing us together.
+On the tech side, the project is one of the many spin-offs of the
+popular Arduino Forum thread `Measuring the weight of a beehive`_.
 
 
 ***********
@@ -132,10 +132,10 @@ Some pictures from the trenches.
 
 .. _Hiveeyes platform:
 
-********
-Platform
-********
-The open Hiveeyes platform ``swarm.hiveeyes.org`` is composed of open source
+****************
+Backend platform
+****************
+The Hiveeyes backend platform ``swarm.hiveeyes.org`` is composed of open source
 software components like Grafana_, InfluxDB_, Mosquitto_, Kotori_ and mqttwarn_,
 providing an instant-on experience for data collection, visualization and alerting.
 

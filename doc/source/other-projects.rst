@@ -18,7 +18,10 @@ research and beehive monitoring projects.
 Introduction
 ************
 As our project is not the first one in this field, we would
-like to share links to the other popular projects around.
+like to share links to other popular projects having similar
+goals in doing research about environmental
+issues leading to colony collapse disorder
+and to make the job of beekeepers easier.
 
 We want to encourage the growth of an open ecosystem based
 on collaborative best-of-breed efforts while always leaving
@@ -33,7 +36,8 @@ of each other.
 Have fun browsing this list of great projects,
 they are listed in order of appearance and categorized
 into scientific, educational, open source / do-it-yourself
-and commercial ones.
+and commercial ones. If you know others, don't hesitate to
+`ping us at <Hiveeyes email_>`_ about them.
 
 The people at http://colonymonitoring.com/ do a similar job by
 aggregating pointers to both commercial and homemade monitoring
@@ -84,9 +88,10 @@ online and in the real world. It is totally worth having a look at it.
 
 ----
 
-********************
-Open source projects
-********************
+**************************
+Open source / DIY projects
+**************************
+
 
 Hivetool
 ========
@@ -131,6 +136,9 @@ Spin-off from the `Institute for Advanced Architecture of Catalonia`_, `Fab Lab 
 and `Open Tech Forever`_. Barcelona and U.S. based, around since 2013.
 
 - http://opensourcebeehives.net/
+- https://facebook.com/opensourcebeehives
+- https://twitter.com/osbeehives
+- https://github.com/opensourcebeehives/
 - http://docs.opensourcebeehives.net/docs/alpha-sensor-kit
 - http://fablabbcn.org/0000/01/08/open-source-beehives.html
 - http://fablabbcn.org/0000/01/06/smart-citizen.html
@@ -158,9 +166,20 @@ Details:
 - The data acquisition backend is based on `check_mk`_.
 
 
+Hiverize
+========
+Hiverize is a network for cooperative beekeeping and saving the bees.
+Founded by Carolin Zschippig and her team, based in the Free and Hanseatic City of Bremen.
+Around since 2015.
+
+- https://www.facebook.com/hiverize/
+- https://www.facebook.com/hiverize/about/
+- https://wettbewerb.yooweedoo.org/entry/2016/hiverize/
+
+
 beelogger
 =========
-A father-and-son project from Raimund und Thorsten Gurzan, based in Lower Rhine region in Germany. Around since 2016.
+A project from Raimund und Thorsten Gurzan, based in Lower Rhine region in Germany. Around since 2015.
 They have great, detailed documentation for the whole system.
 
 - http://beelogger.de/
@@ -182,6 +201,16 @@ Details:
 
 - The sensor hardware is based on an ATmega168.
 - The telemetry data transfer is based on an Itead 3G GSM modem.
+
+
+Blazer
+======
+Blazer Technologies Ltd. is a company dedicated to using high tech hardware
+and software to save bees and digitize beekeeping.
+Based in Dublin, Ireland. Around since 2016.
+
+- http://www.blazer.buzz/
+- https://www.siliconrepublic.com/machines/bees-dying-iot
 
 
 ----
@@ -258,6 +287,34 @@ uplinks for transmitting telemetry data.
 Based in Christchurch, New Zealand as a spin-off of Brush Technology. Around since 2013.
 
 - http://hivemind.co.nz/
+- https://www.kickstarter.com/projects/hivemind/innovative-wireless-beehive-scales
+
+
+Bienenstockwaage from Wolf-Waagen
+=================================
+Professional hive scale system from Wolf-Waagen based in
+Upper Palatinate, Bavaria, Germany. Around since 2013.
+
+- http://wolf-waagen.de/neu/wp/stockwaage/
+
+
+optilog-b Bienenstockwaage / Beehive scale XLOG bee
+===================================================
+Professional hive scale system. A joint-venture project of Borntraeger GmbH
+based in Hesse, Germany and Micro El based in Zagreb, Croatia.
+Around since 2014/2015.
+
+- https://optilog-system.de/optilog-b-bienenstockwaage/
+- http://www.microel.hr/products/gprs-sms-beehive-scale-xlog-bee
+
+
+WE GRO Funk Bienenstockwaage
+============================
+Professional yet affordable hive scale system of WE GRO Engineering
+founded by Uwe Grotz based in Baden-Württemberg, Germany. Around since 2016.
+
+- http://www.we-gro.de/funk-bienenstockwaage/
+- https://www.facebook.com/funkbienenstockwaage/
 
 
 Wi-Fi Hive Scale
@@ -265,4 +322,14 @@ Wi-Fi Hive Scale
 From O'Keefe Electronics Inc. based in Ohio, U.S. Around since 2016?
 
 - http://wifihivescale.com/
+
+
+----
+
+.. tip::
+
+    There's a nice article `Was moderne Bienenstockwaagen heute alles können <http://media.repro-mayr.de/40/653440.pdf>`_
+    (German) about state-of-the-art professional hive scale systems from German manufacturers.
+    It was published in the March 2016 edition of the magazine *ADIZ/die biene/Imkerfreund*,
+    see also http://www.diebiene.de/bienenstockwaagen-im-vergleich.
 

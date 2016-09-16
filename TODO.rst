@@ -18,6 +18,35 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 
 
+2016-09-16
+==========
+- [o] Add "contact" page.
+
+
+Misc
+----
+- https://www.siliconrepublic.com/innovation/new-tracking-device-developed-to-better-understand-bee-bee-haviour
+- https://www.siliconrepublic.com/earth-science/ireland-saving-the-bees-plan-to-tackle-pollinator-decline
+- https://www.pinterest.com/pin/407294360029073155/
+- https://blog.adafruit.com/2016/05/24/open-source-beehives-incorporate-smart-citizen-platform-for-iot-hive-monitoring-iotuesday-citizenscience/
+
+
+OSBH
+----
+- http://www.talkshopbot.com/forum/showthread.php?19354-Open-Source-Bee-Hives
+- http://www.shareable.net/blog/will-open-source-beehives-solve-colony-collapse
+- http://www.wedemain.fr/Peut-on-sauver-les-abeilles-grace-a-l-open-source_a389.html
+- https://blog.arduino.cc/2014/03/19/support-open-source-beehives/
+- http://www.open-electronics.org/saving-bees-in-open-source-interview-to-tristan-copley-smith-and-open-source-beehives-project/
+- https://www.indiegogo.com/projects/open-source-beehives
+- https://github.com/opensourcebeehives/
+- http://www.heise.de/make/meldung/OSBH-Maker-retten-die-Bienen-2150227.html
+- https://permies.com/t/34647/bees/critters/Open-Source-Beehives-Indiegogo-project
+- https://boingboing.net/2014/03/10/crowdfunding-a-smart-open-sou.html
+- http://permaculturenews.org/2014/03/19/open-source-beehives/
+-
+
+
 2016-09-14
 ==========
 - http://forum.arduino.cc/index.php?topic=160450.0

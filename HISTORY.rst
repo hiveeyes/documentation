@@ -49,13 +49,14 @@ Karsten and Clemens are exhibitors at the yearly »Stadthonigfest Berlin 2016«.
 
   Welcome LoRa! Cheers, Richard!
 
-- Publish source code of
 
-    - :ref:`open-hive-firmware` running on the :ref:`openhive-box` (`GitHub <https://github.com/hiveeyes/arduino>`_)
-    - :ref:`scale-adjust-firmware` (`GitHub <https://github.com/hiveeyes/arduino>`_)
-    - :ref:`BERadio`, our Radio-to-MQTT forwarder (`GitHub <https://github.com/hiveeyes/beradio>`_)
-    - :ref:`Kotori`, our backend system for data acquisition (`GitHub <https://github.com/hiveeyes/kotori>`_)
-    - :ref:`hiveeyes-system` (`GitHub <https://github.com/hiveeyes/documentation>`_)
+2016-07-10 Publishing time: Everything is on GitHub, finally
+============================================================
+- :ref:`open-hive-firmware` running on the :ref:`openhive-box` (`GitHub <https://github.com/hiveeyes/arduino>`_)
+- :ref:`scale-adjust-firmware` (`GitHub <https://github.com/hiveeyes/arduino>`_)
+- :ref:`BERadio`, our Radio-to-MQTT forwarder (`GitHub <https://github.com/hiveeyes/beradio>`_)
+- :ref:`Kotori`, our backend system for data acquisition (`GitHub <https://github.com/hiveeyes/kotori>`_)
+- :ref:`hiveeyes-system` (`GitHub <https://github.com/hiveeyes/documentation>`_)
 
 
 2016-06-27 Summary of June 2016

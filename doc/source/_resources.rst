@@ -70,6 +70,7 @@
 
 .. Tools
 .. _Arduino-Makefile: https://github.com/sudar/Arduino-Makefile
+.. _HTTPie: https://httpie.org/
 
 
 .. Links to our own resources
@@ -108,7 +109,7 @@
 .. _Hiveeyes: https://hiveeyes.org/
 .. _Hiveeyes project: https://hiveeyes.org/
 .. _Hiveeyes blog: https://hiveeyes.org/
-.. _Hiveeyes email: mailto:The%20Hiveeyes%20collective <hello[aet]hiveeyes.org>?subject=Hey%20there&body=Please%20change%20the%20obfuscated%20email%20address%20above,%20thanks!
+.. _Hiveeyes email: mailto:The%20Hiveeyes%20collective <hello[aet]hiveeyes.org>?subject=Hello%20Hiveeyes%20team&body=Please%20change%20the%20obfuscated%20email%20address%20above,%20thanks!
 .. # _Hiveeyes platform: https://swarm.hiveeyes.org/
 .. _Hiveeyes system documentation: https://hiveeyes.org/docs/system/
 .. _Hiveeyes Debian package repository: https://packages.hiveeyes.org/hiveeyes/foss/debian/

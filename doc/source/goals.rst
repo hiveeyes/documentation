@@ -6,6 +6,11 @@
 Goals
 #####
 
+.. contents::
+   :local:
+   :depth: 1
+
+----
 
 **********
 Background
@@ -21,27 +26,31 @@ state that different efforts in the area of open source beehive monitoring
 would use different kinds of data sinks and backend systems, thus making
 it difficult for truly collaborative data collection efforts to interoperate.
 
-Objective
-=========
+Objectives
+==========
 We take the challenge in the area of open source beehive monitoring to
 lower the bar for starting own beehive monitoring projects significantly
 by building upon a mature stack of proven hardware- and software components.
 
-Vendor lock-in
-==============
+We have been inspired by :ref:`other-projects` sharing similar ambitions and
+would like to give some of our efforts back to the community.
+
+No vendor lock-in
+=================
 The increasing use of commercial IoT cloud services in otherwise open source
 projects gave reason to worry. This, while looking attractive at first,
 wasn't a path we wanted to take.
 
-Abundance for all, the decision for building an open platform was promoted
+Abundance for all, the decision for building a true open platform was promoted
 through recent stories from the industry about different kinds of vendor
 lock-in effects, costs spiraling out of control and - last but not least -
 cloud service backend systems actively supporting customer devices in the
 field going completely out of service, effectively bricking all the devices
-at once.
+at once. This happened to a number of customers of such products in quick
+succession 2016 and will probably continue to do so.
 
-This happened to a number of customers of such products in quick succession
-2016 and will probably continue to do so.
+In contrast to that, all of our system components are available under libre
+software licenses like GPL and AGPL and open hardware licenses like OHL.
 
 
 ********
@@ -64,10 +73,13 @@ Short term
 
 .. note::
 
-    The first :ref:`labs beehive <labhive-one>` is online since February 2016
-    in Berlin Wedding.
-    We receive :ref:`live-data` from the hive and already have been able to
-    record and discuss some :ref:`labhive-one-events`.
+    - The first :ref:`labs beehive <labhive-one>` is online since February 2016
+      in Berlin Wedding.
+    - We receive :ref:`live-data` from the hive and already have been able to
+      record and discuss some :ref:`labhive-one-events`.
+    - The source code of all software components - from embedded to backend -
+      is available on GitHub since July 2016. See also `Hiveeyes GitHub`_.
+
 
 
 Mid term
