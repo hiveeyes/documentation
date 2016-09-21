@@ -37,7 +37,7 @@ Have fun browsing this list of great projects,
 they are listed in order of appearance and categorized
 into scientific, educational, open source / do-it-yourself
 and commercial ones. If you know others, don't hesitate to
-`ping us at <Hiveeyes email_>`_ about them.
+`ping us <Hiveeyes email_>`_ about them.
 
 The people at http://colonymonitoring.com/ do a similar job by
 aggregating pointers to both commercial and homemade monitoring

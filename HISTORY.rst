@@ -13,6 +13,13 @@ History
 ****
 
 
+2016-09-17 Maker Faire Berlin 2016
+==================================
+Clemens will be at the Maker Faire Berlin again, cheers! It will take place from September 30 to October 02.
+
+See http://maker-faire.de/maker/berlin/2016/open-hive-und-hiveeyes/.
+
+
 2016-09-03 New website
 ======================
 - We released our new website at https://www.hiveeyes.org/ and tried hard to

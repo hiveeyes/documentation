@@ -14,6 +14,11 @@ in-progress
 ===========
 
 
+2016-09-21 0.8.1
+================
+- Improve page :ref:`backend-setup`.
+
+
 2016-09-16 0.8.0
 ================
 - Improve :ref:`handbook`, :ref:`other-projects`, :ref:`goals` and index pages.

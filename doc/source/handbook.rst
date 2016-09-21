@@ -59,26 +59,8 @@ channel of our community data collection platform. Feel free to try it on your o
 the system currently offers the HTTP and MQTT transport protocols.
 The accepted payload formats are JSON and x-www-form-urlencoded.
 
-.. _daq-http:
 
-HTTP
-----
-.. highlight:: bash
-
-Use HTTP for submitting telemetry data using the HTTP client of your choice.
-This example uses HTTPie_, a command line http client that will make you smile.
-::
-
-    # Get hold of a HTTP client of your choice
-    aptitude install httpie
-
-    # Define the target address
-    export HTTPURI=https://swarm.hiveeyes.org
-    export CHANNEL=testdrive/area-42/node-1
-
-    # Publish a single measurement sample
-    echo '{"temperature": 42.84, "humidity": 83}' | http POST $HTTPURI/api/hiveeyes/$CHANNEL/data
-
+.. _daq-mqtt:
 
 MQTT
 ----
@@ -95,6 +77,42 @@ Publish telemetry data to the MQTT bus::
 
     # Publish a single measurement sample
     echo '{"temperature": 42.84, "humidity": 83}' | mosquitto_pub -h $BROKER -t hiveeyes/$CHANNEL/message-json -l
+
+
+
+.. _daq-http:
+
+HTTP
+----
+.. highlight:: bash
+
+Use HTTP for submitting telemetry data using the HTTP client of your choice.
+This example uses HTTPie_, a command line http client that will make you smile.
+::
+
+    # A. Get hold of a HTTP client of your choice
+    aptitude install httpie
+
+    # B. Define the target address
+    export HTTPURI=https://swarm.hiveeyes.org/api
+    export CHANNEL=testdrive/area-42/node-1
+
+    # C. Publish a single measurement sample
+
+    # C.1 Post as application/json
+    http POST $HTTPURI/hiveeyes/$CHANNEL/data temperature:=42.84 humidity:=83
+
+    # C.2 Post as application/x-www-form-urlencoded
+    http --form POST $HTTPURI/api/hiveeyes/$CHANNEL/data temperature:=42.84 humidity:=83
+
+
+.. tip::
+
+    As sensor node hardware like the GPRSbee doesn't do TLS, there's an additional
+    endpoint for unencrypted communication. In this case, just use::
+
+        export HTTPURI=http://swarm.hiveeyes.org/api-notls
+
 
 ----
 

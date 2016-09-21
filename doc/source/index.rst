@@ -25,6 +25,7 @@ Welcome to the jungle.
 
     handbook
     do-it-yourself
+    setup-backend
 
     development
     research
