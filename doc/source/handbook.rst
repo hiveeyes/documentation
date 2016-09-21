@@ -12,8 +12,6 @@ Handbook
 
 ----
 
-.. _data-acquisition:
-
 
 ************
 Introduction
@@ -47,6 +45,8 @@ Sensor nodes
 - :ref:`openhive-huzzah` sensor nodes are using WiFi to send
   telemetry data to the MQTT_ broker in JSON format.
 
+
+.. _data-acquisition:
 
 ****************
 Data acquisition
