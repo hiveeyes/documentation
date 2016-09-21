@@ -153,8 +153,7 @@ without thinking about backups, maintenance and upgrade procedures.
 ***************
 Getting started
 ***************
-For sending data to a self-operated Hiveeyes backend or our
-open Hiveeyes platform ``swarm.hiveeyes.org``,
+For sending data to the Hiveeyes platform ``swarm.hiveeyes.org``,
 please read the :ref:`platform-services` and
 :ref:`data-acquisition` documentation pages.
 
@@ -163,14 +162,18 @@ please read the :ref:`platform-services` and
 **************
 Do it yourself
 **************
-All hardware and software components are developed completely in the open,
-so you are always free to build and operate your own monitoring infrastructure
+All hardware and software components are developed completely in the open
+to encourage building and operating custom monitoring infrastructure
 based on these technologies.
 
 For getting into the details, please read the :ref:`do-it-yourself`
 page or `get in touch with us <Hiveeyes email_>`_. We don't have a
-shiny tutorial yet, but there are many components you can build upon.
-Just let us know about your specific needs and requirements.
+shiny tutorial yet, but there are many components to build upon.
+For sending data to a self-operated backend,
+please have a look at the :ref:`backend-setup` page.
+
+If you feel there should be features X and most importantly Y,
+just let us know about your specific needs and requirements.
 
 
 ***********
@@ -183,4 +186,11 @@ For getting a feeling about what is currently going on, please
 have a look at the :ref:`changelog <changes>`.
 For digging deeper, we may refer you to the :ref:`development`
 documents.
+
+
+----
+
+Have fun!
+
+-- The Hiveeyes Developers.
 
