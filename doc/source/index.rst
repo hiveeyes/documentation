@@ -137,7 +137,7 @@ Some pictures from the trenches.
 Backend platform
 ****************
 The Hiveeyes backend platform ``swarm.hiveeyes.org`` is composed of open source
-software components like Grafana_, InfluxDB_, Mosquitto_, Kotori_ and mqttwarn_,
+software components like Grafana_, InfluxDB_, `Eclipse Mosquitto`_, Kotori_ and mqttwarn_,
 providing an instant-on experience for data collection, visualization and alerting.
 
 The data collection platform is voluntarily operated by the beekeeper community,
