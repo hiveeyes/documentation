@@ -55,7 +55,7 @@
 .. _Linux: https://www.kernel.org/
 .. _InfluxDB: https://influxdb.com/
 .. _Grafana: http://grafana.org/
-.. _Mosquitto: http://mosquitto.org/
+.. _Eclipse Mosquitto: http://mosquitto.org/
 .. _Python: https://www.python.org/
 
 .. Libraries

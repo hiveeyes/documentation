@@ -168,7 +168,7 @@ The upgrade worked fine, we didn't have any issues.
 
 Now we're running:
 
-- Mosquitto 1.4.8
+- Eclipse Mosquitto 1.4.8
 - InfluxDB 0.13.0 (up from 0.10.0)
 - Grafana 3.0.2 (up from 2.6)
 - Kotori 0.7.1 (up from 0.5.1)
@@ -616,7 +616,7 @@ Work on bringing :ref:`HiveeyesOne` into the field
 ==========
 Dazz starts the `Hive Monitor`_ project featuring the `Hive Monitor Vagrant VM`_
 and some `Hive Monitor Python scripts`_ for playing around with MQTT_ and forwarding
-payloads between the serial interface and the Mosquitto_ message broker.
+payloads between the serial interface and the `Eclipse Mosquitto`_ message broker.
 
 
 ****
@@ -626,7 +626,7 @@ payloads between the serial interface and the Mosquitto_ message broker.
 
 2015-11
 =======
-- Proof-of-concept telemetry platform based on Mosquitto_, InfluxDB_ and Grafana_
+- Proof-of-concept telemetry platform based on `Eclipse Mosquitto`_, InfluxDB_ and Grafana_
   with Kotori_ 0.3.2 and BERadio_ 0.4.4. See upstream changes:
 
     - `Kotori 0.3.2 changes`_ aka. :ref:`Kotori 0.3.2` for :ref:`vendor Hiveeyes <vendor-hiveeyes>`
@@ -672,7 +672,7 @@ Hiveeyes
       Throws Bencode_ into the mix of the constrained environment of RFM69_ with Moteino_.
     - the BERadio_ Python library, for forwarding payloads between
       a JeeLink_ receiving data via RFM69_ on a serial interface
-      of a RaspberryPi_ and the MQTT_ message broker Mosquitto_.
+      of a RaspberryPi_ and the MQTT_ message broker `Eclipse Mosquitto`_.
 
 - Investigate SPI-Flash & Dualoptiboot for over-the-air programming
 
