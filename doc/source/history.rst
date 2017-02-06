@@ -3,5 +3,6 @@
 .. default-role:: any
 
 .. _history:
+.. _news:
 
 .. include:: ../../HISTORY.rst

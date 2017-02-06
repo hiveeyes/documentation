@@ -9,15 +9,233 @@ History
 ----
 
 ****
+2017
+****
+
+
+2017-02-06 Historical data
+==========================
+We managed to publish some historical data from Clemens Gruber, Markus Hies, Markus Euskirchen, Frank Hartmann
+and Alexander Wilms using the new CSV data acquisition feature.
+Visualized in Grafana vs. raw data export:
+
+- CG Node 1
+  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-cg-node-001-automatic>`_
+  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-cg/berlin/node-001/data.txt?from=2016-01-01>`_
+- CG Node 2
+  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-cg-node-002-automatic>`_
+  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-cg/berlin/node-002/data.txt?from=2016-01-01>`_
+- SG Node 1
+  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-sg-node-001-automatic>`_
+  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-sg/dettelbach/node-001/data.txt?from=2016-01-01>`_
+- MH Node 1
+  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-mh-automatic>`_
+  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-mh/muenchen/node-001/data.txt?from=2016-01-01>`_
+- ME Node 1
+  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-me-automatic>`_
+  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-me/berlin/node-001/data.txt?from=2016-01-01>`_
+- FH Node 1
+  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-fh-automatic>`_
+  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-fh/rietberg/node-001/data.txt?from=2016-01-01>`_
+- AW Node 1
+  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-aw-automatic>`_
+  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-aw/Niederkruechten-Overhetfeld/node-001/data.txt?from=2016-01-01>`_
+
+Thank you all for collecting the data and have fun exploring it!
+
+
+2017-02-05 Beelogger Version 2 is ready
+=======================================
+Markus Hies finished :ref:`beelogger` version 2, his RaspberryPi_-based monitoring system.
+See also http://blog.hies.de/?p=281. Cheers!
+Markus is also aiming to use our backend infrastructure for measurement data collection.
+We are looking forward to that!
+
+
+2017-02-01 TerkinData C++
+=========================
+> TerkinData C++ is a convenient library for handling sensor readings. It helps to decouple the
+> sensor reading domain from the telemetry domain in a typical data logger application.
+> While providing a generic interface, it can serialize measurement values to CSV and JSON formats.
+
+- https://hiveeyes.org/docs/arduino/TerkinData/README.html
+
+
+2017-01-31 Platform upgrade
+===========================
+Richard and Andreas upgraded the software releases on our platform server
+``swarm.hiveeyes.org`` to their most recent versions.
+The upgrade worked fine, we didn't have any issues.
+
+Now we're running:
+
+- Mosquitto 1.4.10 (1.4.8 so far)
+- InfluxDB 1.2.0 (0.13.0 so far)
+- Grafana 3.0.4 (3.0.2 so far)
+- Kotori 0.11.0 (0.10.10 so far)
+
+We also added more capacity to the machine, it's now offering four CPU cores and
+2048 MB main memory. We will add more resources on demand.
+
+
+2017-01-28 Testing a ESP8266 WiFi MQTT node
+===========================================
+Karsten put a sensor node together with a beehive scale from Andreas Nickel on his balcony. Cheers!
+
+- https://hiveeyes.org/docs/arduino/firmware/node-wifi-mqtt/README.html
+- https://swarm.hiveeyes.org/grafana/dashboard/db/kh
+- https://swarm.hiveeyes.org/api/hiveeyes/kh/cfb/hive1/data.txt?from=2017-01-28
+
+
+2017-01-13 Community Forum
+==========================
+Welcome to https://community.hiveeyes.org/!
+
+
+2017-01-11 Welcome euse!
+========================
+Markus Euskirchen of :ref:`euse-bienenwaage` joins our regular meetings.
+It was a pleasure to meet you in person, finally!
+
+
+2017-01-09 ESP8266 support for Open Hive firmware
+=================================================
+The Open Hive firmware now also supports the ESP8266_. Cheers, Clemens!
+
+.. seealso:: https://hiveeyes.org/docs/arduino/firmware/node-gprs-http/README.html
+
+
+2017-01-01 Welcome Freifunk!
+============================
+For measuring fine dust particulates, the Berlin chapter of Freifunk is considering
+using our infrastructure, see also https://wiki.freifunk.net/Umweltstation.
+
+
+****
 2016
 ****
 
 
-2016-09-17 Maker Faire Berlin 2016
+2016-12-24 BEEP
+===============
+Marten Schoonman and Pim van Gennip of the :ref:`beep-platform` get in touch with us.
+
+
+2016-12-16 OSBH
+===============
+Karsten gets in touch with Aaron of the :ref:`OSBH` project, see also
+https://community.akerkits.com/t/introduce-yourself/18/34.
+
+
+2016-12-02 Adventslöten
+=======================
+Andreas Nickel visited us in Berlin and we talked about future plans
+regarding the beehive scale. It was a pleasure, thanks!
+
+
+2016-11-17 Tweet from JP
+========================
+Jan-Piet Mens sent a tweet about us, cheers!
+
+- https://twitter.com/jpmens/status/798890545657413632
+
+Some people answered:
+
+- https://twitter.com/sisomm/status/798893680979509248
+- https://twitter.com/thisDaveJ/status/798893894612070400
+- https://twitter.com/cfwhisperer/status/798905810680057860
+- https://twitter.com/johanjanssen42/status/798993934487724032
+
+Some people liked and/or retweeted it:
+
+- https://twitter.com/draskodraskovic
+- https://twitter.com/pierrecdn
+- https://twitter.com/dobermai
+- https://twitter.com/vernemq
+- https://twitter.com/thisDaveJ/status/798893894612070400
+- https://twitter.com/EomerilDunedael
+- https://twitter.com/philippadelt
+- https://twitter.com/kartben/status/798890788897832960
+- https://twitter.com/juzam
+
+- https://twitter.com/dr45k0
+- https://twitter.com/Mainflux
+
+
+2016-11-12 Valuable internet content restored
+=============================================
+We restored and republished contents of beedata.com and the OSBH Forum from the
+`Internet Archive <https://archive.org/web/>`_, see
+
+    - https://community.osbh.mirror.hiveeyes.org/
+    - https://beedata.com.mirror.hiveeyes.org/
+
+Often cited is `"Listen to the Bees" by Rex Boys <https://beedata.com.mirror.hiveeyes.org/data2/listen/listenbees.htm>`_,
+a writing dedicated to the work of the late Eddie Woods.
+Also, some OSBH forum threads share some interests, e.g.
+`Investigations into low-cost load cells <https://community.osbh.mirror.hiveeyes.org/t/investigations-into-low-cost-load-cells/133/index.html>`_
+and `Load Cell Integration <https://community.osbh.mirror.hiveeyes.org/t/load-cell-integration/171/index.html>`_.
+
+
+2016-11-09 Welcome, Uwe Greggers!
+=================================
+Uwe joins our regular meetings, we had some great times together.
+
+| He is a member of FU-Biologie/Neurobiologie since 1976 working mainly on Honeybees.
+| His website is https:///www.honeybee.neurobiologie.fu-berlin.de
+| Specials: electric field and sound of the waggle dance.
+|
+| http://www.honeybee.neurobiologie.fu-berlin.de/column/ESF.html
+| http://www.honeybee.neurobiologie.fu-berlin.de/column/pendulum%20theorem.html
+|
+
+
+2016-11-06 Welcome, Alexander Wilms!
+====================================
+Alexander Wilms of :ref:`stockwaage-nettetal` contributed the Homie-firmware based sketch for
+an ESP8266_-based sensor node to our firmware repository. Thanks a bunch!
+
+- https://github.com/hiveeyes/arduino/pull/1
+- https://github.com/hiveeyes/arduino/tree/master/node-wifi-mqtt-homie
+
+There's also some documentation with schematics and more at
+https://hiveeyes.org/docs/arduino/firmware/node-wifi-mqtt-homie/README.html.
+Alexander writes about his setup at https://www.imker-nettetal.de/esp8266-beescale-erste-eindruecke/.
+
+
+2016-10-23 Beehive monitoring with check_mk
+===========================================
+Alexander Wilms of :ref:`stockwaage-nettetal` asked us to check some details of
+his new ESP8266_-based setup using mqttwarn_ and `check_mk <https://mathias-kettner.de/check_mk.html>`_.
+
+It was a pleasure, voilà: https://github.com/jpmens/mqttwarn/pull/215
+
+
+2016-10-05 Hiverize
+===================
+Carolin Zschippig and Thorsten Kluß of the :ref:`hiverize` project visited us in Berlin.
+It was a pleasure for us.
+
+
+2016-10-01 Maker Faire Berlin 2016
 ==================================
+This was great for us. We talked to many people who were interested in our
+efforts and progress. Thanks for stepping by!
+
+
+2016-09-17 Maker Faire Berlin 2016: Announcement
+================================================
 Clemens will be at the Maker Faire Berlin again, cheers! It will take place from September 30 to October 02.
 
-See http://maker-faire.de/maker/berlin/2016/open-hive-und-hiveeyes/.
+See https://maker-faire.de/maker/berlin/2016/open-hive-und-hiveeyes/.
+
+
+2016-09-13 Hiverize pull request
+================================
+A minor contribution to the :ref:`hiverize` project to use the Hiveeyes backend:
+
+- https://github.com/Hiverize/Sensorbeuten/pull/1
+- https://github.com/hiveeyes/Hiverize-Sensorbeuten/blob/hiveeyes-backend/backend.rst
 
 
 2016-09-03 New website
@@ -852,11 +1070,11 @@ Open Hive :ref:`openhive-cnc-machining-workshop-2014`
 =======
 .. raw:: html
 
-    <iframe src="https://player.vimeo.com/video/69973637?color=c9ff23&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/IczDhpZtYfw" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 .. container:: width-800
 
-    `Pre-Work Talk #7 -- Bees <https://vimeo.com/69973637>`_ from `IXDS <https://vimeo.com/user17912812>`_.
+    `Pre-Work Talk #7 -- Bees <https://www.youtube.com/watch?v=IczDhpZtYfw>`_ from `IXDS <https://www.ixds.com/>`_.
 
     In his talk "Bees Dance" Tim Landgraf reveals how robotics are involved with bees,
     Yair Kira presents his project "Bees Armchair" and beekeeper Clemens Gruber shares
