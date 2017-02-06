@@ -6,13 +6,14 @@
 Development
 ###########
 
+- `Source code <Hiveeyes GitHub_>`_
+- :ref:`changes`
+
 Contributions are welcome!
 ==========================
 
 - :ref:`hiveeyes-architecture`
-- `Source code <Hiveeyes GitHub_>`_
 - :ref:`hiveeyes-ideas`
 - :ref:`hiveeyes-todo`
 - :ref:`hiveeyes-research`
-- :ref:`changes`
-
+- :ref:`foss-contributions`

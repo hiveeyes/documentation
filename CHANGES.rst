@@ -13,6 +13,7 @@ CHANGES
 in-progress
 ===========
 - Improve docs about :ref:`data-acquisition`
+- Add page about our :ref:`foss-contributions`
 
 
 2016-09-21 0.8.1
