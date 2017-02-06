@@ -14,6 +14,7 @@ in-progress
 ===========
 - Improve docs about :ref:`data-acquisition`
 - Add page about our :ref:`foss-contributions`
+- Announce the community forum on the :ref:`contact` page
 
 
 2016-09-21 0.8.1
