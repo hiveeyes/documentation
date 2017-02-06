@@ -50,44 +50,6 @@ By example
     mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/node-1/measure/temperature -m 42.84
 
 
-.. _topology-spec-0.1-rationale:
-
-Rationale
----------
-Decode MQTT topic segments implementing the »quadruple hierarchy strategy«.
-
-The topology hierarchy is directly specified by the MQTT topic and is
-made up of a minimum of four identifiers describing the core structure::
-
-    realm / network / gateway / node
-
-The topology identifiers are specified as:
-
-    - "realm" is the designated root realm. You should prefix the topic name
-      with this label when opting in for all features of the telemetry platform.
-      For other purposes, feel free to publish to any MQTT topic you like.
-
-    - "network" is your personal realm. Choose anything you like or use an
-      `Online GUID Generator <https://www.guidgenerator.com/>`_ to gain
-      maximum uniqueness.
-
-    - "gateway" is your gateway identifier. Choose anything you like.
-      This does not have to be very unique, so you might use labels
-      having the names of sites. While you are the owner of this
-      namespace hierarchy, remember these labels might be visible on
-      the collaborative ether, though.
-      So the best thing would be to give kind of nicknames to your
-      sites which don't identify their location.
-
-    - "1" is your node identifier. Choose anything you like. This usually
-      gets transmitted from an embedded device node. Remember one device node
-      might have multiple sensors attached, which is beyond the scope of the
-      collection platform: We just accept bunches of named measurement values,
-      no matter which sensors they might originate from.
-      In other words: We don't need nor favor numeric sensor identifiers,
-      let's give them names!
-
-
 .. _topology-spec-0.1-implementation:
 
 By implementation
@@ -170,6 +132,10 @@ Feature "content type signalling"
 
     # multiple measurements of arbitrary family
     mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive-3/data.json             -m '{"temperature": 42.84, "humidity": 83}'
+
+    # multiple measurements in CSV format
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive-3/data.csv              -m '## weight, temperature, humidity'
+    mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive-3/data.csv              -m '42.42, 34.02, 82.82'
 
     # multiple measurements of same family
     mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/hive-3/data/temperature.csv  -m '42.84,21.42'

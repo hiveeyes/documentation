@@ -12,6 +12,7 @@ CHANGES
 
 in-progress
 ===========
+- Improve docs about :ref:`data-acquisition`
 
 
 2016-09-21 0.8.1
