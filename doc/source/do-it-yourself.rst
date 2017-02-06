@@ -105,7 +105,7 @@ Software
 
 - Kotori_ Backend: The backend platform is completely open and driven by
   a multi-channel, multi-protocol data acquisition and graphing
-  toolkit in turn based on Grafana_, InfluxDB_ and Mosquitto_.
+  toolkit in turn based on Grafana_, InfluxDB_ and `Eclipse Mosquitto`_.
   Read :ref:`platform-setup` about how to setup an instance on your machine.
 
     .. todo:: Describe how to receive and display telemetry data from different sensor nodes in Grafana_.

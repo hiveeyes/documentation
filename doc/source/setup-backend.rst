@@ -14,7 +14,7 @@ The backend system is currently made of these free and open source software comp
 - :ref:`Kotori`, a data acquisition, graphing and telemetry toolkit
 - InfluxDB_, a time-series database
 - Grafana_, a graph and dashboard builder for visualizing time series metrics
-- Mosquitto_, a MQTT message broker
+- `Eclipse Mosquitto`_, a MQTT message broker
 
 It can be installed in various ways and will definitively work on
 Linux and other Unix-based systems, but maybe also on Windows.

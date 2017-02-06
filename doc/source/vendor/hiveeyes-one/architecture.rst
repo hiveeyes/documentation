@@ -16,7 +16,7 @@ Components
 
 Radio-to-MQTT gateway
 =====================
-The wide area communication is performed by BERadio_ and Mosquitto_,
+The wide area communication is performed by BERadio_ and `Eclipse Mosquitto`_,
 the former reads BEncode_ data payloads from the radio link adapter
 JeeLink_ and forwards it to the latter using MQTT_::
 
@@ -75,7 +75,7 @@ This is conceived as an open platform, we're ready to accept feature requests fr
 The "island" setup
 ==================
 Run the infrastructure on your own system.
-One goal might be to run all of BERadio_, Mosquitto_, Kotori_, InfluxDB_ and Grafana_
+One goal might be to run all of BERadio_, `Eclipse Mosquitto`_, Kotori_, InfluxDB_ and Grafana_
 on the same SoC machine, e.g. on a RaspberryPi_ or an `Intel NUC`_.
 
 - N Arduino sensor nodes

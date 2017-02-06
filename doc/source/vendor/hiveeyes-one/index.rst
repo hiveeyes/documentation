@@ -220,7 +220,7 @@ Software
 --------
 - Linux_, the famous free operating system for personal computers having
   the largest installed base of all general-purpose operating systems.
-- Mosquitto_, an open-source MQTT v3.1/v3.1.1 Broker.
+- `Eclipse Mosquitto`_, an open-source MQTT v3.1/v3.1.1 Broker.
 - Python_, a programming language that lets you work quickly and integrate systems more effectively.
 - BERadio_ serial-to-mqtt forwarder implementing a RFM69_ to MQTT_ gateway.
 - `gateway-rfm69-beradio.ino`_ is the radio receiver part of the gateway
@@ -233,7 +233,7 @@ Backend
 =======
 - Linux_, the famous free operating system for personal computers having
   the largest installed base of all general-purpose operating systems.
-- Mosquitto_, an open-source MQTT v3.1/v3.1.1 Broker.
+- `Eclipse Mosquitto`_, an open-source MQTT v3.1/v3.1.1 Broker.
 - InfluxDB_, an open-source distributed time series database.
 - Grafana_, the leading graph and dashboard builder for visualizing time series metrics.
 - Python_, a programming language that lets you work quickly and integrate systems more effectively.
