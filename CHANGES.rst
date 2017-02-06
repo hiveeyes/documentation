@@ -15,6 +15,7 @@ in-progress
 - Improve docs about :ref:`data-acquisition`
 - Add page about our :ref:`foss-contributions`
 - Announce the community forum on the :ref:`contact` page
+- Update the :ref:`other-projects` page. Thanks to everybody who contributed to it!
 
 
 2016-09-21 0.8.1
