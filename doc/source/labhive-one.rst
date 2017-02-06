@@ -36,6 +36,12 @@ record and discuss some :ref:`labhive-one-events`.
 |clearfix|
 
 
+***************
+Data collection
+***************
+https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-labs-wedding?from=20160328&to=20160603
+
+
 ******************
 Operational events
 ******************

@@ -129,8 +129,8 @@ Test
 ****
 Trigger an alarm by simulating a weight loss event::
 
-    echo '{"wght2": 43.0}' | mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/beehive-1/message-json -l
-    echo '{"wght2": 42.0}' | mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/beehive-1/message-json -l
+    echo '{"wght2": 43.0}' | mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/beehive-1/data.json -l
+    echo '{"wght2": 42.0}' | mosquitto_pub -h swarm.hiveeyes.org -t hiveeyes/testdrive/area-42/beehive-1/data.json -l
 
 You should be seeing and receiving an alert message like::
 

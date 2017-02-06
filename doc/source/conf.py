@@ -51,7 +51,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Hiveeyes system documentation'
-copyright = u'2014-2016, The Hiveeyes Developers'
+copyright = u'2014-2017, The Hiveeyes Developers'
 author = u'The Hiveeyes Developers'
 
 # The version info for the project you're documenting, acts as replacement for

@@ -179,11 +179,11 @@ Presentations
 
 .. raw:: html
 
-    <iframe src="https://player.vimeo.com/video/69973637?color=c9ff23&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/IczDhpZtYfw" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 .. container:: width-800
 
-    `Pre-Work Talk #7 -- Bees <https://vimeo.com/69973637>`_ from `IXDS <https://vimeo.com/user17912812>`_.
+    `Pre-Work Talk #7 -- Bees <https://www.youtube.com/watch?v=IczDhpZtYfw>`_ from `IXDS <https://www.youtube.com/channel/UCu93q7xyc-VaINaRoFVUnvg>`_.
 
     In his talk "Bees Dance" Tim Landgraf reveals how robotics are involved with bees,
     Yair Kira presents his project "Bees Armchair" and beekeeper Clemens Gruber shares

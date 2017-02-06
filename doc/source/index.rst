@@ -29,6 +29,7 @@ Welcome to the jungle.
 
     development
     research
+    other-projects
     Changelogs <changes>
 
     people
@@ -79,11 +80,15 @@ Feel welcome to `join us <Hiveeyes email_>`_.
 The community project originated from the independent `Open Bee Hive`_,
 `Open Hive`_, `Hiveeyes <Hiveeyes project_>`_ and
 `Hive Monitor`_ beehive monitoring projects.
-`Karsten <Karsten Harazim_>`_ (`facebook <Karsten Harazim at Facebook_>`_)
+
+`Clemens Gruber`_ of :ref:`open-hive` and Markus Euskirchen of `Open Bee Hive`_
+started their work on low-cost, low-power, DIY beehive monitoring solutions in 2011
+already and Clemens keeps being a driving force behind this project.
+`Karsten Harazim`_ (`facebook <Karsten Harazim at Facebook_>`_)
 aka. `Beutenkarl`_ (`facebook <Beutenkarl at Facebook_>`_)
 and the `solidary apiculture mauergarten <Solidarische Imkerei im mauergarten_>`_
 (`facebook <Solidarische Imkerei at Facebook_>`_, `bienenblog`_) was one of
-the major catalysts for bringing us together.
+the major catalysts for bringing us together as a community in 2014.
 On the tech side, the project is one of the many spin-offs of the
 popular Arduino Forum thread `Measuring the weight of a beehive`_.
 
@@ -148,6 +153,8 @@ All collaborative efforts integrated into the platform
 will be available to all of its users.
 Enjoy having all upstream changes and new features available
 without thinking about backups, maintenance and upgrade procedures.
+
+.. todo:: Move elsewhere.
 
 
 ***************

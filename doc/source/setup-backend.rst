@@ -130,7 +130,7 @@ and use the hostname the backend system is running on::
 
 HTTP
 ----
-To send telemetry data using HTTP, see :ref:`How to send telemetry data using HTTP <daq-http>` and use the hostname the
+To send telemetry data using HTTP, see :ref:`How to send telemetry data using HTTP <kotori:daq-http>` and use the hostname the
 backend system is running on::
 
     export HTTPURI=http://backend.example.org:24642/api
