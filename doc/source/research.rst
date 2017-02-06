@@ -92,22 +92,31 @@ Class A und Class B und dadurch auch zu TTN [8].
   | http://www.mdpi.com/1424-8220/17/1/55/pdf
 
 
+.. _monitoring-the-real-world:
+
 2016-11-30
 ==========
-Jan-Piet Mens attended the Open Source Monitoring Conference (OSMC) and stumbled across
-the talk "Monitoring the Real World" by Antony Stone, thanks!
+Jan-Piet Mens attended the Open Source Monitoring Conference (OSMC), where he stumbled across
+the talk "Monitoring the Real World" by Antony Stone and also spread the word about our project.
+Thanks for that!
 
-- https://twitter.com/jpmens/status/803973198173847552
-- https://www.netways.de/?id=3547
-- https://www.netways.de/?id=3659&L=1#c48147
-- https://www.netways.de/fileadmin/images/Events_Trainings/Events/OSMC/2016/Slides/Antony_Stone_-_Monitoring_the_Real_World.pdf
-- https://youtu.be/wcz7N_u0S7Y?list=PLeoxx10paaAlYhVAJIhugFNeZ1kGKmpl9
+- JP's tweet
 
-He uses UKHASnet
-> A simple wireless network aimed for use with low power licence exempt wireless modules.
-> Ideally to be used for a local ground network for example for remote temperature sensing however will
-> also be designed to allow for high altitude communications such as via meterological balloons.
-> Mesh topology, relaying data from node to node.
+    - https://twitter.com/jpmens/status/803973198173847552
+
+- Talk "Monitoring the real world" by Antony Stone
+
+    - `Abstract (DE) <https://www.netways.de/?id=3547>`_
+    - `Abstract (EN) <https://www.netways.de/?id=3659&L=1#c48147>`_
+    - `Presentation-Slides <https://www.netways.de/fileadmin/images/Events_Trainings/Events/OSMC/2016/Slides/Antony_Stone_-_Monitoring_the_Real_World.pdf>`_
+    - `Video <https://youtu.be/wcz7N_u0S7Y?list=PLeoxx10paaAlYhVAJIhugFNeZ1kGKmpl9>`_
+
+Antony uses UKHASnet, which describes itself as:
+
+A simple wireless network aimed for use with low power licence exempt wireless modules.
+Ideally to be used for a local ground network for example for remote temperature sensing however will
+also be designed to allow for high altitude communications such as via meterological balloons.
+It is a mesh topology, relaying data from node to node.
 
 - https://ukhas.net/
 - https://ukhas.net/wiki/

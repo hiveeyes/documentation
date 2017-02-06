@@ -54,9 +54,9 @@ We are looking forward to that!
 
 2017-02-01 TerkinData C++
 =========================
-> TerkinData C++ is a convenient library for handling sensor readings. It helps to decouple the
-> sensor reading domain from the telemetry domain in a typical data logger application.
-> While providing a generic interface, it can serialize measurement values to CSV and JSON formats.
+TerkinData C++ is a convenient library for handling sensor readings. It helps to decouple the
+sensor reading domain from the telemetry domain in a typical data logger application.
+While providing a generic interface, it can serialize measurement values to CSV and JSON formats.
 
 - https://hiveeyes.org/docs/arduino/TerkinData/README.html
 
