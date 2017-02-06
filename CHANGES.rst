@@ -12,6 +12,10 @@ CHANGES
 
 in-progress
 ===========
+
+
+2017-02-06 0.9.0
+================
 - Improve docs about :ref:`data-acquisition`
 - Add page about our :ref:`foss-contributions`
 - Announce the community forum on the :ref:`contact` page
