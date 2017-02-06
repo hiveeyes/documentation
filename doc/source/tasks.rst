@@ -2,4 +2,6 @@
 
 .. default-role:: any
 
+.. _todo:
+
 .. include:: ../../TODO.rst

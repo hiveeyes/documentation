@@ -4,59 +4,208 @@
 
 ----
 
+.. _hiveeyes-tasks:
 .. _hiveeyes-ideas:
 
-#####
-Ideas
-#####
+###############
+Tasks and ideas
+###############
 
 As this is our brainstorming area, lots of content is in german, sorry.
 You might want to try the `Google translation of the "Hiveeyes system documentation" tasks`_.
+
+
+****
+2017
+****
+
+
+2017-02-05
+==========
+- [o] Comment on https://github.com/hiveeyes/arduino/pull/1 re. Makefile based infrastructure
+- [o] Send around "How to Build a Low-tech Internet" (http://www.lowtechmagazine.com/2015/10/how-to-build-a-low-tech-internet.html#more)
+- | Hacking on lua bindings for LWM2M on the NodeMCU - I have device object configurable now - sensors to be added soon!
+  | https://twitter.com/JOAKlM/status/827522068480716800
+- Link to
+
+    - https://community.akerkits.com/t/hardware-firmware-package-updates/329
+    - https://community.akerkits.com/t/infrastructure-mobile-app-updates/330
+
+
+2017-02-02
+==========
+- https://www.facebook.com/opensourcebeehives/photos/a.566687303404578.1073741828.560921137314528/1357849694288331/?type=3&theater
+
+
+2017-01-16
+==========
+- Maybe Transfer some content juwels like "Investigations into low-cost load cells" to community.hiveeyes.org
+
+
+2017-01-12
+==========
+- Update History and write Email "Projektupdate/Rückblick"
+
+    - Firmware
+        - TerkinData C++
+          https://hiveeyes.org/docs/arduino/TerkinData/README.html
+        - Makefile support for ESP8266
+            - https://hiveeyes.org/docs/arduino/firmware/node-gprs-http/README.html
+            - https://hiveeyes.org/docs/arduino/firmware/node-wifi-mqtt/README.html
+            - https://hiveeyes.org/docs/arduino/firmware/node-wifi-mqtt-homie/README.html
+        - Things about "generic.ino"
+    - Backend
+        - CSV Datenkanal
+        - Neue InfluxDB und Grafana Versionen
+        - Annotations?
+    - This and that
+        - New project members
+        - Community Forum
+
+- Add more system resources to elbanco (swarm.hiveeyes.org)
+
+
+2017-01-10
+==========
+- Answer: https://community.akerkits.com/t/where-are-all-the-old-topics/323
+- https://github.com/opensourcebeehives/BuzzBoxInfrastructure
+
+
+2017-01-04
+==========
+- https://www.facebook.com/cgruber.de/posts/10208442618282724
+
 
 ****
 2016
 ****
 
 
+2016-12-30
+==========
+- archive.hiveeyes.org à la archive.luftdaten.info
+
+
+2016-12-29
+==========
+- https://community.akerkits.com/t/introduce-yourself/18/33
+- Add material from scale calibration
+
+
+2016-12-20
+==========
+- | Temperaturanstieg in der Wintertraube nach Oxalsäure-Behandlung?
+  | https://www.imkerforum.de/showthread.php?t=54253
+  | https://community.hiveeyes.org/t/oxalsaurebehandlung/103
+
+
+2016-11-22
+==========
+- https://www.youtube.com/watch?annotation_id=annotation_1824032931&feature=iv&src_vid=8PMshYiEICM&v=kpaGvG_fpg0
+- http://www.deutschebahn.com/bienen
+
+
+2016-11-12
+==========
+- [o] Add Theater (with texts): https://www.facebook.com/beutenkarl/posts/1090324331081462
+
+
+2016-11-12
+==========
+- mosquitto_sub -h swarm.hiveeyes.org -t '#' -v
+- [o] re. jo: https://twitter.com/jpmens/status/784057898334875648
+- https://www.gl-inet.com/mt300a/
+
+
+2016-11-08
+==========
+- [o] Add https://forum.arduino.cc/index.php?topic=265119.0
+- https://hivecity.wordpress.com/
+- http://www.beesource.com/build-it-yourself/apidictor/
+- http://apisuk.com/Bees/2011/05/research-%E2%80%93-a-new-apidictor/
+
+
+2016-11-07
+==========
+- [o] Add
+
+    - https://github.com/opensourcebeehives/OSBHLogger
+    - https://github.com/opensourcebeehives/Node-audio-server
+    - https://github.com/opensourcebeehives/OSBH-MachineLearning
+
+- [o] Collect all links from https://community.osbh.mirror.hiveeyes.org
+
+
+2016-11-06
+==========
+- [o] Add https://www.facebook.com/media/set/?set=a.10207277434753864.1073741832.1224510416&type=1&l=a2520d4b06
+    - http://www.open-hive.org/apiary/clemens/node002.html
+- [o] Add more from https://www.facebook.com/media/set/?set=a.10207788637453612.1073741834.1224510416&type=1&l=2fce61f90b
+
+
+2016-11-05
+==========
+- [o] Add https://github.com/marvinroger/homie-esp8266/issues/199
+
+
+2016-11-01
+==========
+- [o] Move PHP clients out of this repository. Put into Terkin.
+
+
+2016-10-30
+==========
+- [o] Contribute to https://github.com/beelogger/RPi-Beelogger like https://github.com/Hiverize/Sensorbeuten/pull/1
+- [o] Contribute to http://www.we-gro.de/funk-bienenstockwaage/
+      => https://cdn.website-start.de/proxy/apps/cei7th/uploads/gleichzwei/instances/CAC7B535-BF5D-4F54-890C-5DA360BF75FF/wcinstances/epaper/d5405bed-0dd5-4ad8-912f-07adc8e0d5ff/pdf/F%C3%BCr-Imker-mit-PC-Kenntnissen-k%C3%B6nnen-die-Daten-auch-in-Excel-dargestellt-werden.pdf
+- [x] Contribute https://github.com/hiveeyes/mqttwarn/compare/master...homie-dynamic-targets
+      => https://github.com/jpmens/mqttwarn/pull/215
+
+
+2016-10-23
+==========
+- [o] Adapt Homie MQTT topic to Hiveeyes semantics
+
+
+2016-10-19
+==========
+- [o] https://www.hackster.io/contests/HomeandOfficeFuture/ideas/4680
+
+
+2016-10-11
+==========
+- [o] http://www.forbes.com/sites/sap/2016/07/07/saving-bees-with-the-internet-of-things/
+- [o] Watch Grafana issue "Add annotation/event from graph panel"
+  | https://github.com/grafana/grafana/issues/1286
+
+
+2016-10-07
+==========
+- [o] Add https://www.facebook.com/raspberrypi/posts/572631982920276
+- [o] Add https://github.com/opensourcebeehives/BuzzBox
+- [o] Write to Sarah Tappon (https://github.com/stappon) and Scott Piette (https://github.com/mtnscott),
+  both contributed to the OSBH Firmware code (https://github.com/opensourcebeehives/OSBH).
+
+
+2016-10-06
+==========
+- [o] Add http://www.beecontroller.com/
+- [o] Add https://swarm.hiveeyes.org/grafana/dashboard/snapshot/3BUu1GPRfbdmuffCAoRHjNqMHfviKu5Z
+      Blueprint: http://file1.npage.de/009563/21/bilder/wagejuli2016.jpg
+- [o] Add http://monitor.earthship-tempelhof.de/dashboard/db/earthship-tempelhof
+- [o] Firmware builder frontend like https://freifunk-berlin.github.io/firmware-wizard-frontend/
+
+
 2016-09-16
 ==========
 - [o] Add "contact" page.
-
-
-Misc
-----
-- https://www.siliconrepublic.com/innovation/new-tracking-device-developed-to-better-understand-bee-bee-haviour
-- https://www.siliconrepublic.com/earth-science/ireland-saving-the-bees-plan-to-tackle-pollinator-decline
-- https://www.pinterest.com/pin/407294360029073155/
-- https://blog.adafruit.com/2016/05/24/open-source-beehives-incorporate-smart-citizen-platform-for-iot-hive-monitoring-iotuesday-citizenscience/
-
-
-OSBH
-----
-- http://www.talkshopbot.com/forum/showthread.php?19354-Open-Source-Bee-Hives
-- http://www.shareable.net/blog/will-open-source-beehives-solve-colony-collapse
-- http://www.wedemain.fr/Peut-on-sauver-les-abeilles-grace-a-l-open-source_a389.html
-- https://blog.arduino.cc/2014/03/19/support-open-source-beehives/
-- http://www.open-electronics.org/saving-bees-in-open-source-interview-to-tristan-copley-smith-and-open-source-beehives-project/
-- https://www.indiegogo.com/projects/open-source-beehives
-- https://github.com/opensourcebeehives/
-- http://www.heise.de/make/meldung/OSBH-Maker-retten-die-Bienen-2150227.html
-- https://permies.com/t/34647/bees/critters/Open-Source-Beehives-Indiegogo-project
-- https://boingboing.net/2014/03/10/crowdfunding-a-smart-open-sou.html
-- http://permaculturenews.org/2014/03/19/open-source-beehives/
--
+- [o] Add qr code: https://zxing.org/w/chart?cht=qr&chs=1024x1024&chld=H&choe=UTF-8&chl=https%3A%2F%2Fwww.hiveeyes.org
 
 
 2016-09-14
 ==========
 - http://forum.arduino.cc/index.php?topic=160450.0
 - http://scientificbeekeeping.com/
-
-
-2016-09-13
-==========
-- https://github.com/Hiverize/Sensorbeuten/pull/1
-- https://github.com/hiveeyes/Hiverize-Sensorbeuten/blob/hiveeyes-backend/backend.rst
 
 
 2016-09-05
@@ -88,7 +237,7 @@ OSBH
 
 2016-06-08
 ==========
-- [o] Add Homepage. More blueprints:
+- [x] Add Homepage. More blueprints:
 
     - https://urbit.org/
     - https://mozilla.github.io/tofino/

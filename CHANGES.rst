@@ -17,6 +17,7 @@ in-progress
 - Announce the community forum on the :ref:`contact` page
 - Update the :ref:`other-projects` page. Thanks to everybody who contributed to it!
 - Retroactively update the :ref:`news` page
+- Update the :ref:`hiveeyes-research` and :ref:`hiveeyes-tasks` pages
 
 
 2016-09-21 0.8.1
