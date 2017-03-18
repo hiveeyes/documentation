@@ -154,8 +154,6 @@ will be available to all of its users.
 Enjoy having all upstream changes and new features available
 without thinking about backups, maintenance and upgrade procedures.
 
-.. todo:: Move elsewhere.
-
 
 ***************
 Getting started

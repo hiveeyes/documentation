@@ -13,35 +13,25 @@ History
 ****
 
 
+2017-03-18 Community Forum
+==========================
+We have transitioned to the community forum https://community.hiveeyes.org/,
+feel welcome to join and read about further announcements.
+
+
+2017-02-11 Platform upgrade
+===========================
+
+.. seealso:: https://community.hiveeyes.org/t/package-upgrades/130
+
+
 2017-02-06 Historical data
 ==========================
-We managed to publish some historical data from Clemens Gruber, Markus Hies, Markus Euskirchen, Frank Hartmann
-and Alexander Wilms using the new CSV data acquisition feature.
-Visualized in Grafana vs. raw data export:
-
-- CG Node 1
-  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-cg-node-001-automatic>`_
-  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-cg/berlin/node-001/data.txt?from=2016-01-01>`_
-- CG Node 2
-  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-cg-node-002-automatic>`_
-  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-cg/berlin/node-002/data.txt?from=2016-01-01>`_
-- SG Node 1
-  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-sg-node-001-automatic>`_
-  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-sg/dettelbach/node-001/data.txt?from=2016-01-01>`_
-- MH Node 1
-  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-mh-automatic>`_
-  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-mh/muenchen/node-001/data.txt?from=2016-01-01>`_
-- ME Node 1
-  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-me-automatic>`_
-  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-me/berlin/node-001/data.txt?from=2016-01-01>`_
-- FH Node 1
-  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-fh-automatic>`_
-  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-fh/rietberg/node-001/data.txt?from=2016-01-01>`_
-- AW Node 1
-  `[Graph] <https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-testdrive-aw-automatic>`_
-  `[Raw CSV] <https://swarm.hiveeyes.org/api/hiveeyes/testdrive-aw/Niederkruechten-Overhetfeld/node-001/data.txt?from=2016-01-01>`_
-
+We managed to publish some historical data from Markus Euskirchen, Clemens and Sepp Gruber,
+Markus Hies, Alexander Wilms and Frank Hartmann using the new CSV data acquisition feature.
 Thank you all for collecting the data and have fun exploring it!
+
+.. seealso:: https://community.hiveeyes.org/t/publishing-historical-data/126
 
 
 2017-02-05 Beelogger Version 2 is ready
@@ -69,9 +59,10 @@ The upgrade worked fine, we didn't have any issues.
 
 Now we're running:
 
-- Mosquitto 1.4.10 (1.4.8 so far)
 - InfluxDB 1.2.0 (0.13.0 so far)
+- MongoDB 2.4.10 (no change)
 - Grafana 3.0.4 (3.0.2 so far)
+- Mosquitto 1.4.10 (1.4.8 so far)
 - Kotori 0.11.0 (0.10.10 so far)
 
 We also added more capacity to the machine, it's now offering four CPU cores and
@@ -405,7 +396,7 @@ When upgrading InfluxDB, some database migration steps were required:
 =============================================
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160523T162500&to=20160524T014500" width="100%" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/berlin-wedding-1-official?theme=light&panelId=5&from=20160523T162500&to=20160524T014500" width="100%" height="425" frameborder="0"></iframe>
 
 On May 23, 2016 it started raining at 23:00 hours (note the sudden drop
 of temperature between 23:05 and 23:20), so the hive probably gained some
@@ -427,7 +418,7 @@ rain water, thus responsible for the total weight increase. :-)
 =====================
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160522T090500&to=20160522T200500" width="100%" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/berlin-wedding-1-official?theme=light&panelId=5&from=20160522T090500&to=20160522T200500" width="100%" height="425" frameborder="0"></iframe>
 
 Robinia blossom time ahead. Richard and Laura want to make genuine
 Robinia honey, so they harvested the honey which is currently in the hive.
@@ -441,7 +432,7 @@ You can recognize the two spots at 14:00 hours and ~20:00 hours.
 =======================
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160519T040000&to=20160519T170000" width="100%" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/berlin-wedding-1-official?theme=light&panelId=5&from=20160519T040000&to=20160519T170000" width="100%" height="425" frameborder="0"></iframe>
 
 Bam.
 
@@ -460,7 +451,7 @@ bee colony started swarming at the Hiveeyes
 ================================
 
 .. figure:: https://ptrace.hiveeyes.org/2016-07-10_ElRep149-Splash-Richard.jpg
-    :target: http://www.elektrischer-reporter.de/phase3/video/390/
+    :target: https://www.youtube.com/watch?v=GN6yCSbEcwg
     :alt: Elektrischer Reporter 149: Vernetzte Bienen, Fahrradlobbyisten und Spielausgrabungen
     :width: 800px
 
@@ -490,7 +481,7 @@ April/May 2016
 --------------
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160418T200000&to=20160518T160000" width="100%" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/berlin-wedding-1-official?theme=light&panelId=5&from=20160418T200000&to=20160518T160000" width="100%" height="425" frameborder="0"></iframe>
 
 Let's have a look at the data. During the cold period at the end of April the beehive loses absolute weight
 because the bees have to live off their reserves. In contrast, the following two weeks were amazingly warm in May,
@@ -506,7 +497,7 @@ It was the time of the fruit blossoms, so the cherry, pear and apple trees were 
 -------
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=20160430T130000&to=20160503T040000" width="100%" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/berlin-wedding-1-official?theme=light&panelId=5&from=20160430T130000&to=20160503T040000" width="100%" height="425" frameborder="0"></iframe>
 
 The beehive gained a lot of weight on the 2nd of May. After six o'clock in the morning
 the temperature begins to rise, at 7:15 the first sun rays shine on the entrance hole.
@@ -633,7 +624,7 @@ The setup was pretty quick, we were finished in approx.
 
 .. raw:: html
 
-    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/hiveeyes-labs-wedding?panelId=5&from=1460635978156&to=1460663593934" width="100%" height="425" frameborder="0"></iframe>
+    <iframe src="https://swarm.hiveeyes.org/grafana/dashboard-solo/db/berlin-wedding-1-official?theme=light&panelId=5&from=1460635978156&to=1460663593934" width="100%" height="425" frameborder="0"></iframe>
 
 Weight measurements start arriving in Grafana.
 
