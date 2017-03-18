@@ -20,6 +20,68 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 
 
+2017-03-17
+==========
+- [o] Forum: Add Topic "Receiving live data"
+- [o] Forum: Add "LoPy" to hardware bazaar and https://community.hiveeyes.org/t/wemos-d1-bosch-bme280-chinese-load-cells/147/8
+- [o] BERadio MicroPython implementation
+- [o] More meta tags for website: <meta name='description' content='Beehive monitoring'>
+
+
+2017-03-16
+==========
+- [o] Strange things happen at @ https://swarm.hiveeyes.org/grafana/dashboard/db/mois?refresh=1m&orgId=2&from=1489645745653&to=1489682129145
+- [o] Edit annotations
+- [o] Does not work: https://swarm.hiveeyes.org/api/hiveeyes/27041c2a_8afd_4a1e_b3ae_44233fa1f06b/mois/yun/data.txt?from=2017-03-16T08:15:00%200100&to=2017-03-16T09:15:00%200100
+- [o] Describe the telemetry for node-wifi-mqtt-homie
+
+
+2017-03-15
+==========
+- [o] Write "Welcome, Karsten!" to Forum: https://swarm.hiveeyes.org/grafana/dashboard/db/kh
+- [o] Write "Welcome, Markus (mois, euse)!" to Forum: https://swarm.hiveeyes.org/grafana/dashboard/db/mois
+- [o] Add historic data from Markus Hies: https://swarm.hiveeyes.org/grafana/dashboard/db/muc-mh-b99-1
+- [o] Link to https://forum.pycom.io/topic/693/lopy-communication-with-rfm95-modules
+- [o] Link to https://talk2.wisen.com.au/2016/05/24/influxdb-grafana/
+- [o] Write topic about "Notifications for MUC-MH-B99" to Forum
+- [o] Upstream changes to mqttwarn on elbanco
+
+
+2017-03-06
+==========
+- [o] Add http://melixa.eu/en/ (https://community.hiveeyes.org/t/apisfero-and-melixa-system-projects/165)
+
+
+2017-02-21
+==========
+- [o] Add link to https://www.facebook.com/pg/hiveeyes.community/
+- [o] Add "SensaTo - sensing the bees": https://www.facebook.com/sensatoproject/
+- [o] Add "Apivox Auditor - B": https://www.facebook.com/beekeepers.acoustic.assistant/
+
+
+2017-02-12
+==========
+- [o] How to export data?
+
+    - CSV raw data export
+
+        - https://swarm.hiveeyes.org/api/hiveeyes/testdrive-sg/dettelbach/node-001/data.txt?from=2016-01-01&exclude=Gewicht
+        - https://swarm.hiveeyes.org/api/hiveeyes/testdrive-sg/dettelbach/node-001/data.txt?from=2016-01-01&include=Brut-Temperatur,Aussen-Temperatur
+
+    - PNG rendering: https://swarm.hiveeyes.org/grafana/render/dashboard/db/demo-with-annotations
+
+- State of the Hive per OSBH::
+
+    test(0), active(1), dormant(2), pre_swarm(3), swarm(4), sick_v(5), sick_w(6), sick_n(7), theft(8), collapsed(9), missing_queen(10), queen_hatching(11);
+
+  https://github.com/opensourcebeehives/BzBoxServer/blob/master/src/analysis/State.java
+
+
+2017-02-07
+==========
+- [o] Move content from "Agenda - finally!" to Forum
+
+
 2017-02-05
 ==========
 - [o] Comment on https://github.com/hiveeyes/arduino/pull/1 re. Makefile based infrastructure

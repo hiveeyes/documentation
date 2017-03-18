@@ -141,21 +141,22 @@ It is a mesh topology, relaying data from node to node.
 Audio transmission
 ------------------
 
-Richard
-19:12 http://hackaday.com/2015/06/06/esp8266-as-a-networked-mp3-decoder/
-19:12 https://www.hackster.io/middleca/sending-sound-over-the-internet-f097b4
-
-amo
-19:13 https://github.com/esp8266/Arduino/issues/1183
-19:13 http://w3.impa.br/~diego/software/luasocket/ftp.html
-
-amo
-19:26 https://nodemcu.readthedocs.io/en/master/en/modules/net/#netcreateserver
-19:27 https://github.com/nodemcu/nodemcu-firmware/issues/1085
-
-Richard
-19:44 http://nodemcu.readthedocs.io/en/dev/en/modules/pcm/
-19:44 https://github.com/nodemcu/nodemcu-firmware/blob/dev/lua_examples/pcm/play_file.lua
+| Richard
+| 19:12 http://hackaday.com/2015/06/06/esp8266-as-a-networked-mp3-decoder/
+| 19:12 https://www.hackster.io/middleca/sending-sound-over-the-internet-f097b4
+|
+| Andreas
+| 19:13 https://github.com/esp8266/Arduino/issues/1183
+| 19:13 http://w3.impa.br/~diego/software/luasocket/ftp.html
+|
+| Andreas
+| 19:26 https://nodemcu.readthedocs.io/en/master/en/modules/net/#netcreateserver
+| 19:27 https://github.com/nodemcu/nodemcu-firmware/issues/1085
+|
+| Richard
+| 19:44 http://nodemcu.readthedocs.io/en/dev/en/modules/pcm/
+| 19:44 https://github.com/nodemcu/nodemcu-firmware/blob/dev/lua_examples/pcm/play_file.lua
+|
 
 
 TCP
@@ -224,10 +225,11 @@ Gateways with ESP8266 / NodeMCU
 
 2016-11-12
 ==========
-- Example BOM for http://spellfoundry.com/products/sleepy-pi-2/:
-  https://docs.google.com/spreadsheets/d/1nI3witlPTMcbUZzZZHIfNlv-dO-o5Rbs2B_zqUWT8EA/edit#gid=0
+- | Example BOM for http://spellfoundry.com/products/sleepy-pi-2/:
+  | https://docs.google.com/spreadsheets/d/1nI3witlPTMcbUZzZZHIfNlv-dO-o5Rbs2B_zqUWT8EA/edit#gid=0
 
 Do we have audio recordings?
+
 - https://github.com/opensourcebeehives/BeehiveAudio
 - https://community.osbh.mirror.hiveeyes.org/t/beehive-audio/49/6
 - https://drive.google.com/file/d/0Bz7WbjRT9mlmWXNqbVNqWEI4QzA/view
@@ -238,11 +240,14 @@ Do we have audio recordings?
 - https://mega.nz/#F!ZBNxhRTR!OCjEdBzodkbMWmW0chFcyg
 
 Audio recording and analysis
+
 - https://sound.stackexchange.com/questions/14540/how-to-make-very-long-recordings-of-bees
 - http://www.beehacker.com/wp/?page_id=103
 - http://www.beehacker.com/wp/?p=240
 - http://www.beehacker.com/wp/?page_id=189
 - https://web.archive.org/web/20110709095007/http://www.beesource.com/build-it-yourself/apidictor/
+
+|
 
 - | Bee-Hives and Bee-Habits
   | https://archive.org/details/jstor-1761967
@@ -481,7 +486,6 @@ Homie MQTT topics ...
 - http://www.elv.de/elektronikwissen/franklin-lightning-sensor-as3935.html
 - https://www.youtube.com/watch?v=hpKbZC1DEp4
 - https://www.tindie.com/products/TAUTIC/as3935-lightning-sensor-board/
--
 
 
 .. _trachtnet:

@@ -488,6 +488,9 @@ for beekeeping (aka. Elektronische Stockkarte) and a monitoring system. Around s
 - http://martenschoonman.blogspot.de/2016/03/digital-beehive-monitoring.html
 - https://www.facebook.com/bijenstalbreukelen/
 
+They have started a crowdfunding campaign under the umbrella of Stichting Beelease in February 2017:
+http://www.beelease.nl/wp/beep-2/
+
 
 Save the Bees
 =============

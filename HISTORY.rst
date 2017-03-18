@@ -222,6 +222,9 @@ It was a pleasure for us.
 This was great for us. We talked to many people who were interested in our
 efforts and progress. Thanks for stepping by!
 
+We have been mentioned by Dave Darko, who enjoyed having a chat with us:
+https://hackaday.io/page/2347-maker-faire-berlin-2016
+
 
 2016-09-17 Maker Faire Berlin 2016: Announcement
 ================================================
