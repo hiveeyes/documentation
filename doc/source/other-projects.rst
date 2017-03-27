@@ -541,6 +541,16 @@ A hive scale product and monitoring solution from a french manufacturer. Around 
 - http://www.beewise.eu/
 
 
+Penso Bienenstock Wägesysteme
+=============================
+Professional hive scale systems from Martin Steppuhn and his team
+of Emsystech Engineering, based in Baden-Württemberg, Germany.
+Around since 2009.
+
+- http://emsystech.de/
+- http://emsystech.de/wp-content/uploads/2015/02/Penso-Info-2016-10-Web.pdf
+
+
 BeeWatch
 ========
 Professional hive scale systems from Biene & Natur GmbH,
@@ -564,16 +574,6 @@ HiveSensors from Arizona, U.S. offers compact wireless environmental hive sensor
 use in experimental bee research. Around since 2011.
 
 - http://www.hivesensors.com/
-
-
-Penso Bienenstock Wägesysteme
-=============================
-Professional hive scale systems from Martin Steppuhn and his team
-of Emsystech Engineering, based in Baden-Württemberg, Germany.
-Around since 2009.
-
-- http://emsystech.de/
-- http://emsystech.de/wp-content/uploads/2015/02/Penso-Info-2016-10-Web.pdf
 
 
 Arnia
