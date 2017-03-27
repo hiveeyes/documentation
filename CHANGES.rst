@@ -12,6 +12,7 @@ CHANGES
 
 in-progress
 ===========
+- Update “other projects” page
 
 
 2017-02-06 0.9.0

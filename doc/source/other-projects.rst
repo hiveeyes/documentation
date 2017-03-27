@@ -441,6 +441,22 @@ By Dr. David Atauri, Jose A. J, Vadillo and Dr. Esther Mz Pastor. Around since 2
 - http://51.255.47.101/canalApilink/canalApilink.html
 
 
+4Bees
+=====
+4Bees is an open platform for innovative beekeepers and developers to
+develop products that improve the quality of life of bees and beekeepers.
+Based in Austria. Around since 2015.
+
+- http://www.4bees.at/
+
+
+beam-it / Frank Hartmann
+========================
+Frank is developing beehive monitoring tools and is using hardware from Clemens. Around since 2015.
+
+- http://www.beam-it.de/apiary/
+
+
 Geek4Bee
 ========
 A great autonomous beehive monitoring project by Tomas Ivansky of Zoongo Ltd.
@@ -554,7 +570,7 @@ Penso Bienenstock Wägesysteme
 =============================
 Professional hive scale systems from Martin Steppuhn and his team
 of Emsystech Engineering, based in Baden-Württemberg, Germany.
-Around since 2012.
+Around since 2009.
 
 - http://emsystech.de/
 - http://emsystech.de/wp-content/uploads/2015/02/Penso-Info-2016-10-Web.pdf

@@ -20,6 +20,14 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 
 
+2017-03-19
+==========
+- [o] Add https://hackaday.io/search?term=bee+hive
+- [o] Add https://bienenmonitoring.uni-hohenheim.de/
+- [o] Add https://www.wdc.com/blog/wd-innovation-electric-bee-hive-project.html
+- [o] Add https://blog.arduino.cc/2016/02/23/monitoring-solitary-bees-using-open-technology/
+
+
 2017-03-17
 ==========
 - [o] Forum: Add Topic "Receiving live data"
