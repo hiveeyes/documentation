@@ -20,3 +20,4 @@ without this endeavor would not have come so far. Cheers!
 - https://github.com/grafana/grafana/issues/7267
 - https://github.com/grafana/grafana/issues/7268
 
+- https://github.com/SodaqMoja/SodaqCore-samd/pull/7

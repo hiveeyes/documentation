@@ -54,9 +54,9 @@ In a nutshell
 The Hiveeyes project is developing a flexible toolkit for beehive monitoring.
 
 We aim at making non-invasive beekeeping as affordable and comfortable as possible
-by supporting the beekeeper community with an universal, do-it-yourself infrastructure
-for data collection to streamline the process of raw data acquisition when
-developing individual solutions.
+by supporting the beekeeper community with an open, universal, do-it-yourself
+telemetry infrastructure platform for data collection to streamline the process
+of raw data acquisition when developing individual beehive monitoring solutions.
 
 The toolkit uses low-cost, low-power hardware and contemporary software components.
 All our hardware and software is available under free software and similar
@@ -73,7 +73,7 @@ at our detailed :ref:`project news <history>` page.
 Who is behind Hiveeyes?
 =======================
 We are a group of beekeepers from Berlin regularly meeting on
-wednesdays to build a telemetry platform for beehive monitoring.
+wednesdays.
 We are Karsten, Robert, Clemens, Nik, Richard, Martin, Andreas and Dazz.
 Feel welcome to `join us <Hiveeyes email_>`_.
 

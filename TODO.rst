@@ -20,6 +20,172 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ****
 
 
+2017-08-08
+==========
+- Make the OSBH firmware connect to the Hiveeyes backend:
+
+    - https://github.com/opensourcebeehives/BzBox_BETA/blob/master/main_beta.cpp
+    - https://community.akerkits.com/t/buzzbox-verifying-product-ownership/485
+
+
+2017-08-05
+==========
+- Grok data from http://cloud.4bees.at/channels/2/feed.json?start=2015-09-30
+- Grok data from
+
+    - http://www.hawaubee.com/hive-stats.html
+    - http://hivetool.org/db/hive_stats3wDownload.pl?chart=Humidity&new_hive_id=60&start_time=2016-07-17+23%3A59%3A59&end_time=2016-07-24+23%3A59%3A59&hive_id=43&number_of_days=7&last_max_dwdt_lbs_per_hour=60&weight_filter=NASA&max_dwdt_lbs_per_hour=&days=&begin=&end=&download_file_format=html
+    - http://hivetool.org/db/hive_graph3wDownload.pl?hive_id=60&begin=2015-01-01%2000:00:00&weight_filter=NASA&nasa_weight_dwdt=60&midnight=0&download=Download&download_file_format=csv
+    - http://hivetool.org/db/hive_graph5m.pl?hive_id=113&units=Metric&begin=2017-07-28%2023:59:59&end=2017-08-04%2023:59:59&chart=Temperature&weight_filter=Raw&nasa_weight_dwdt=60&midnight=0&width=1150&height=500&download=Download&download_file_format=csv
+    - http://hivetool.org/db/hive_graph5m.pl?hive_id=113&units=Metric&begin=2017-07-28%2023:59:59&end=2017-08-04%2023:59:59&weight_filter=Raw&nasa_weight_dwdt=60&midnight=0&download=Download&download_file_format=csv
+    - Index page: http://hivetool.net/node/69
+    - Examples
+
+        - http://hivetool.net/BEE-SIDE01
+        - http://hivetool.net/Anastasia
+
+    - Did not import completely:
+
+        - https://swarm.hiveeyes.org/grafana/dashboard/db/hivetool-org-landhaushains
+        - https://swarm.hiveeyes.org/grafana/dashboard/db/hivetool-org-hawaubee02
+        - https://swarm.hiveeyes.org/grafana/dashboard/db/hivetool-org-waypoint01
+
+- Answer:
+
+    - http://hivetool.net/node/136
+    - http://hivetool.org/w/index.php?title=Hardware:_Hive_Interface_Board_3
+      http://hivetool.org/dev_kit_order.pl
+    - http://hivetool.org/d/node/115
+    - http://hivetool.org/d/node/127
+    - http://hivetool.org/d/node/113
+    - http://hivetool.org/d/node/119
+    - http://hivetool.org/d/node/107
+    - http://hivetool.org/d/node/93
+    -
+
+
+2017-08-03
+==========
+- Add https://www.nectar.buzz/
+
+
+2017-07-13
+==========
+- Add Jobee
+
+    - http://jodaille.org/index.php/Project/Jobee
+    - http://jodaille.org/snapshots/
+    - http://emoncms.jodaille.org/vis/multigraph?embed=1&mid=5
+    - http://emoncms.jodaille.org/vis/multigraph/get.json?id=5
+
+
+2017-06-28
+==========
+- Add beehacker.com
+
+
+2017-06-01
+==========
+- http://hostabee.com/
+- https://eth0maz.wordpress.com/2017/05/18/the-beemonitor-project/
+- http://beespi.mybluemix.net/
+
+
+2017-05-05
+==========
+- Promote using the https://opendatacommons.org/licenses/pddl/ for all collected data.
+
+
+2017-05-03
+==========
+- [o] Add:
+
+    - www.sensato.eu
+    | https://www.facebook.com/sensatoproject/
+
+
+2017-04-20
+==========
+- [o] Tune https://swarm.hiveeyes.org/grafana/dashboard/db/weather-leoni
+
+
+2017-04-18
+==========
+- [o] Add https://store.arduino.cc/arduino-mkrfox1200
+
+
+2017-04-04
+==========
+- [o] Channel discussion about "Wägegestell" to Forum?
+- [o] Add https://www.bee-my.world/. Thanks, Alex!
+- [o] https://community.hiveeyes.org/t/wie-geht-ein-schwarmalarm-zu-programmieren/234
+- [o] What about TLS @ https://community.hiveeyes.org/t/daten-per-mqtt-bridge-ans-backend-auf-swarm-hiveeyes-org-weiterleiten/237?
+- [o] Forum: Write article about the Backend system and how to run a sawtooth signal for test driving
+- [o] Forum: Write article about the firmware builder wrt. https://github.com/hiveeyes/arduino/tree/node-gprs-http-firmware-builder
+- [o] Forum: https://community.hiveeyes.org/t/annotations-in-grafana-und-kotori/111
+
+    - Refactor parts to "troubleshooting"
+    - Show annotations of https://community.hiveeyes.org/t/welcome-markus/127
+
+
+2017-04-03
+==========
+- [o] https://community.akerkits.com/t/access-to-bee-data/416
+- [o] Write about LoPy/MicroPython, see also https://forum.pycom.io/topic/693/lopy-communication-with-rfm95-modules
+- [o] Anbandelung mit Trachtnet
+- Hardware bazaar:
+
+    - https://www.pycom.io/product/lopy/
+    - https://getchip.com/pages/chip
+    - https://github.com/hallard/LoraCHIP
+
+2017-04-02
+==========
+- [o] Add http://www.genstr.com/raspberry-pi-imkerei-server.html
+- [o] Let all devices send a "system boot" annotation
+- [o] Let the Schwarmalarm also set an annotation
+
+
+2017-03-31
+==========
+- [o] open() "/usr/share/nginx/html/grafana/dashboard/db/hiveeyes-testdrive-cg-node-002-automatic" failed
+
+
+2017-03-29
+==========
+- [o] Update https://community.hiveeyes.org/t/daten-per-mqtt-ans-backend-auf-swarm-hiveeyes-org-ubertragen/94::
+
+    Das widerspricht natürlich obenstehender Information:
+
+    mhies:
+    Spricht da was dagegen? Ist die Platform offen?
+
+    Wie oben geschrieben: Im Gegenteil, wir freuen uns! Die Plattform ist derzeit komplett offen, das heißt es gibt bislang keinerlei Authentifizierungsmechanismen.
+
+- [o] Introduce "Hum" as known prefix for "humidity": https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-pw-automatic
+- [o] https://community.hiveeyes.org/t/quelltexte-der-firmware-herunterladen-und-kompilieren/206
+- [o] Fill https://github.com/hiveeyes/arduino/tree/master/node-yun-http
+
+
+2017-03-28
+==========
+- [o] Finally, publish the firmwares as Zip File and/or Tarball, see
+  https://community.hiveeyes.org/t/package-and-release-firmware-repository/155
+
+
+2017-03-27
+==========
+- [o] Announce that the platform is now MQTT-authenticated. Describe how to get authentication credentials.
+- [o] Add http://www.instructables.com/id/Avoid-Hard-Coding-WiFi-Credentials-on-Your-ESP8266/ / https://github.com/tzapu/WiFiManager
+- [o] Cool URIs never change: https://hiveeyes.org/docs/system/vendor/hiveeyes-one/topology.html#feature-content-type-signalling
+
+
+2017-03-20
+==========
+- https://www.heise.de/newsticker/meldung/Telekom-Internet-der-Dinge-soll-Bienen-retten-3659298.html. Thanks, Andreas!
+- https://www.telekom.com/de/medien/medieninformationen/detail/schmalband-funk-sagt-bienensterben-den-kampf-an-488626
+
+
 2017-03-19
 ==========
 - [o] Add https://hackaday.io/search?term=bee+hive
@@ -276,6 +442,8 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ==========
 - http://forum.arduino.cc/index.php?topic=160450.0
 - http://scientificbeekeeping.com/
+- https://www.heise.de/newsticker/meldung/Ideen-gegen-das-Bienensterben-3317982.html
+- https://www.heise.de/tr/artikel/Bedrohte-Bienen-3317984.html
 
 
 2016-09-05
@@ -841,6 +1009,12 @@ Wishlist
     - https://twitter.github.io/labella.js/
 
 - Timeseries anomaly detection using machine learning
+
+
+2015-03-22
+==========
+- https://www.heise.de/tp/features/Die-Symbolische-Kommunikation-der-Bienen-3370588.html
+
 
 
 ----

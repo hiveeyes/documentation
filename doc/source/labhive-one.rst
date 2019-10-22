@@ -39,7 +39,7 @@ record and discuss some :ref:`labhive-one-events`.
 ***************
 Data collection
 ***************
-https://swarm.hiveeyes.org/grafana/dashboard/db/hiveeyes-labs-wedding?from=20160328&to=20160603
+https://swarm.hiveeyes.org/grafana/dashboard/db/berlin-wedding-1-official?from=20160328&to=20160603
 
 
 ******************

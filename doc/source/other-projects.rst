@@ -314,6 +314,8 @@ By Ken Meyer. Around since 2014.
 .. seealso::
 
     - http://www.apitronics.com/
+    - https://www.kickstarter.com/projects/lthiery/apitronics-wireless-platform
+    - https://github.com/apitronics/Bee
     - https://github.com/apitronics/Hive
 
 
@@ -393,7 +395,7 @@ the Munkres algorithm for CV crunching. Around since 2015.
 .. seealso::
 
     https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=109316&p=822342,
-    which shares some audio recordings of 2015: https://www.raspberrypi.org/files/bees/
+    which shares some video recordings of 2015: https://www.raspberrypi.org/files/bees/
 
 
 BienenBoxWaage
@@ -443,9 +445,9 @@ By Dr. David Atauri, Jose A. J, Vadillo and Dr. Esther Mz Pastor. Around since 2
 
 4Bees
 =====
-4Bees is an open platform for innovative beekeepers and developers to
+4Bees is an open platform founded by Mag. Dieter Metzler for innovative beekeepers and developers to
 develop products that improve the quality of life of bees and beekeepers.
-Based in Austria. Around since 2015.
+Based in Alberschwende, Austria. Around since 2015.
 
 - http://www.4bees.at/
 
@@ -501,6 +503,10 @@ The BEEP platform
 A collaborative project by Marten Schoonman and Pim van Gennip building an ergonomic data entry app
 for beekeeping (aka. Elektronische Stockkarte) and a monitoring system. Around since 2016.
 
+- https://beep.nl/
+
+Other resources
+---------------
 - http://martenschoonman.blogspot.de/2016/03/digital-beehive-monitoring.html
 - https://www.facebook.com/bijenstalbreukelen/
 
