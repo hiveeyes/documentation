@@ -16,8 +16,11 @@ History
 
 2017-03-18 Community Forum
 ==========================
-We have transitioned future announcements to the community forum at https://community.hiveeyes.org/c/announcements.
-Feel welcome to join us!
+
+.. note::
+
+    We have transitioned this section to the community forum at https://community.hiveeyes.org/c/announcements.
+    Feel welcome to join us!
 
 
 2017-02-11 Platform upgrade

@@ -14,6 +14,12 @@ research and beehive monitoring projects.
 
 ----
 
+.. note::
+
+    We have transitioned this section to the community forum at https://community.hiveeyes.org/c/community/other-projects/32.
+    Feel welcome to join us!
+
+
 ************
 Introduction
 ************
