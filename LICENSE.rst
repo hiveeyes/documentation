@@ -46,6 +46,3 @@ Copyright
 Documentation, source code and hardware designs are
 
 | Copyright (C) 2013-2017  The Hiveeyes Developers
-
-----
-

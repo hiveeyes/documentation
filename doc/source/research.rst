@@ -6,6 +6,12 @@
 Research
 ########
 
+.. contents::
+   :local:
+   :depth: 1
+
+----
+
 
 ****
 2017
@@ -499,13 +505,13 @@ Stockwaagen
 - http://www.bienenkunde.rlp.de/Internet/Bienenkunde/BiWa.nsf/Web_Bundesland/9f88ea300daf57e4c125772000415b89?OpenDocument
 
 Graphen
-.......
+^^^^^^^
 - http://dlr45.aspdienste.de/cgi-bin/tdaa/chart_client.pl?id=1034&period=730&outformat=30&parameters_bien=11,15&parameters_am=001,011&w=600&h=900
 - Stunde: http://dlr45.aspdienste.de/cgi-bin/tdaa/chart_client.pl?type=load_chart&refid=BIEN&id=1034&period=144&outformat=20&parameters_bien=3,6&parameters_am=001,011
 - Tag: http://dlr45.aspdienste.de/cgi-bin/tdaa/chart_client.pl?type=load_chart&refid=BIEN&id=1034&period=365&outformat=30&parameters_bien=11,15&parameters_am=001,011
 
 Tabellen
-........
+^^^^^^^^
 - http://www.bienenkunde.rlp.de/Internet/Bienenkunde/BiWa.nsf/web_stationen/bc7b53372a07c446c1257fd80026c31c?OpenDocument
 - 5 min.: http://217.5.174.45/cgi-bin/bntracht.single.gen.tbl.m5.pl?w=1034
 - Stündlich: http://217.5.174.45/cgi-bin/bntracht.single.gen.tbl.hh.pl?w=1034

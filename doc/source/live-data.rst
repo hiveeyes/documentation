@@ -1,3 +1,7 @@
+:orphan:
+
+.. include:: _resources.rst
+
 .. _live-data:
 
 *********

@@ -192,10 +192,23 @@
 .. _Open Tech Forever: https://opentechforever.com/
 .. _check_mk: https://mathias-kettner.de/check_mk.html
 
+
+.. More
+.. _datatables: https://datatables.net/
+.. _CoAP: https://en.wikipedia.org/wiki/Constrained_Application_Protocol
+.. _Webhook: https://en.wikipedia.org/wiki/Webhook
+.. _Sphinx: https://www.sphinx-doc.org/
+.. _reStructuredText: https://docutils.sourceforge.io/rst.html
+.. _Markdown: https://daringfireball.net/projects/markdown/
+.. _Smile: https://en.wikipedia.org/wiki/Smile_%28data_interchange_format%29
+.. _UBJSON: https://en.wikipedia.org/wiki/UBJSON
+.. _SenML: https://tools.ietf.org/html/rfc8428
+
+
 .. Clearfix in reStructuredText
 .. https://stackoverflow.com/questions/23498174/clearfix-paragraph-in-restructured-text
 .. https://stackoverflow.com/questions/4550021/working-example-of-floating-image-in-restructured-text
+
 .. |clearfix| raw:: html
 
     <div class="clearfix"></div>
-

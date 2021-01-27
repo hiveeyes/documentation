@@ -100,8 +100,8 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 ==========
 - [o] Add:
 
-    - www.sensato.eu
-    | https://www.facebook.com/sensatoproject/
+    - | www.sensato.eu
+      | https://www.facebook.com/sensatoproject/
 
 
 2017-04-20
@@ -688,7 +688,7 @@ You might want to try the `Google translation of the "Hiveeyes system documentat
 2016-02-22 rpo, amo
 ===================
 - [o] Datenimport und -export über CSV
-- [o] Tabellarische Daten über datatable_
+- [o] Tabellarische Daten über datatables_
 - Naming things: Will *HiveFive* be a proper name for the convenience kit?
 
 
@@ -699,7 +699,7 @@ Improvements
 ------------
 - [o] Open Hive: Add Fritzing schema for ESP8266
 - [o] Add Stückliste (via Excel file)
-- [o] Improve documentation of HiveeyesOne_
+- [o] Improve documentation of :ref:`HiveeyesOne`
 
     - Foundation libraries
     - Text from Grafana reference dashboard
@@ -979,7 +979,7 @@ Prio 2
 Software
 ========
 - [o] Send measurements via Javascript from https://swarm.hiveeyes.org/
-- [o] Extract essential boilerplate code from BERadio_ and publish as mqttkit_
+- [o] Extract essential boilerplate code from BERadio_ and publish as :ref:`application-mqttkit`
 - [o] Publish Kotori_ repository
 
 

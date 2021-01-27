@@ -1,3 +1,4 @@
-Sphinx==1.5.5
-sphinx_rtd_theme==0.2.4
+Sphinx==1.8.5
+sphinx_rtd_theme==0.5.1
+docutils==0.16
 bumpversion==0.5.3

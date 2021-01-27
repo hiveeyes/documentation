@@ -334,3 +334,5 @@ intersphinx_mapping = {
 # http://www.sphinx-doc.org/en/stable/ext/intersphinx.html#confval-intersphinx_cache_limit
 intersphinx_cache_limit = 0
 
+# A list of warning types to suppress arbitrary warning messages.
+suppress_warnings = ['image.nonlocal_uri']
